@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GBK"?>
+<images>
+    <category name="蜗牛君" parent="" />
+    <category name="" parent="" />
+    <EditorImageSet id="3" name="和谐之曙光" category="" type="Graphic" path="bin" suffix="_Joy_22" colorPalette="true" readOnly="true" />
+    <EditorImageSet id="7" name="_SEC2_1" category="" type="Graphic" path="bin/sec" suffix="_SEC2_1" colorPalette="true" readOnly="true" />
+    <EditorImageSet id="10" name="蜗牛君2" category="蜗牛君" type="Graphic" path="newBin" suffix="_Snail_2" colorPalette="false" readOnly="false" />
+    <EditorImageSet id="9" name="蜗牛君1" category="" type="Graphic" path="newBin" suffix="_Snail_1" colorPalette="false" readOnly="false" />
+    <EditorImageSet id="8" name="蜗牛君0" category="" type="Graphic" path="newBin" suffix="_Snail_0" colorPalette="false" readOnly="false" />
+    <EditorImageSet id="6" name="_SEC_1" category="" type="Graphic" path="bin/sec" suffix="_SEC_1" colorPalette="true" readOnly="true" />
+    <EditorImageSet id="2" name="V3_18" category="" type="Graphic" path="bin" suffix="V3_18" colorPalette="false" readOnly="true" />
+    <EditorImageSet id="5" name="骑士与歌姬" category="" type="Graphic" path="bin/Puk3" suffix="_PUK3_1" colorPalette="true" readOnly="true" />
+    <EditorImageSet id="1" name="龙之沙时计" category="" type="Graphic" path="bin" suffix="Ex_4" colorPalette="false" readOnly="true" />
+    <EditorImageSet id="4" name="_PUK2_2" category="" type="Graphic" path="bin/Puk2" suffix="_PUK2_2" colorPalette="true" readOnly="true" />
+    <EditorImageSet id="0" name="命运的开启者" category="" type="Graphic" path="bin" suffix="_20" colorPalette="false" readOnly="true" />
+</images>

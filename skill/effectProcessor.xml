@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<processors>
+    <processor name="TECH_ContinuationAttack" class="cg.logic.battle.skill.processor.TECH_ContinuationAttack" />
+    <processor name="TECH_Parameter" class="cg.logic.battle.skill.processor.TECH_Parameter" />
+    <processor name="TECH_SpiracleShot" class="cg.logic.battle.skill.processor.TECH_SpiracleShot" />
+    <processor name="TECH_GuardBreak" class="cg.logic.battle.skill.processor.TECH_GuardBreak" />
+    <processor name="TECH_Forcecut" class="cg.logic.battle.skill.processor.TECH_Forcecut" />
+    <processor name="TECH_BodyGuard" class="cg.logic.battle.skill.processor.TECH_BodyGuard" />
+    <processor name="TECH_SpecialGuard" class="cg.logic.battle.skill.processor.TechNoAction" />
+    <processor name="TECH_Mikawashi" class="cg.logic.battle.skill.processor.TECH_Parameter" />
+    <processor name="TECH_MagicGuard" class="cg.logic.battle.skill.processor.TechNoAction" />
+    <processor name="TECH_CrossCounter" class="cg.logic.battle.skill.processor.TechNoAction" />
+    <processor name="TECH_Consentration" class="cg.logic.battle.skill.processor.TECH_Consentration" />
+    <processor name="TECH_StatusResistance" class="cg.logic.battle.skill.processor.TechPassive" />
+    <processor name="TECH_Attack_Magic" class="cg.logic.battle.skill.processor.TECH_Attack_Magic" />
+    <processor name="TECH_Dorain" class="cg.logic.battle.skill.processor.TECH_Dorain" />
+    <processor name="TECH_StatusChange" class="cg.logic.battle.skill.processor.TECH_StatusChange" />
+    <processor name="TECH_Treat_Type" class="cg.logic.battle.skill.processor.TECH_Treat_Type" />
+    <processor name="TECH_Reverse_Type" class="cg.logic.battle.skill.processor.TechSingleBuff" />
+    <processor name="TECH_Reflection_Physics" class="cg.logic.battle.skill.processor.TechSingleBuff" />
+    <processor name="TECH_Reflection_Magic" class="cg.logic.battle.skill.processor.TechSingleBuff" />
+    <processor name="TECH_Absorb_Physics" class="cg.logic.battle.skill.processor.TechSingleBuff" />
+    <processor name="TECH_Absorb_Magic" class="cg.logic.battle.skill.processor.TechSingleBuff" />
+    <processor name="TECH_Ineffective_Physics" class="cg.logic.battle.skill.processor.TechSingleBuff" />
+    <processor name="TECH_Ineffective_Magic" class="cg.logic.battle.skill.processor.TechSingleBuff" />
+    <processor name="TECH_Heal_Magic" class="cg.logic.battle.skill.processor.TECH_Heal_Magic" />
+    <processor name="TECH_LpRecovery" class="cg.logic.battle.skill.processor.TechAreaBuff" />
+    <processor name="TECH_StatusRecover" class="cg.logic.battle.skill.processor.TECH_StatusRecover" />
+    <processor name="TECH_Revive" class="cg.logic.battle.skill.processor.TECH_Revive" />
+    <processor name="TECH_NormalAttack" class="cg.logic.battle.skill.processor.TECH_NormalAttack" />
+    <processor name="TECH_NormalGuard" class="cg.logic.battle.skill.processor.TechNoAction" />
+    <processor name="TECH_StatusAttack" class="cg.logic.battle.skill.processor.TECH_StatusAttack" />
+    <processor name="TECH_BloodAttack" class="cg.logic.battle.skill.processor.TECH_BloodAttack" />
+    <processor name="TECH_Bomb" class="cg.logic.battle.skill.processor.TECH_Bomb" />
+    <processor name="TECH_Sacrifice" class="cg.logic.battle.skill.processor.TECH_Sacrifice" />
+    <processor name="TECH_EnergyDrain" class="cg.logic.battle.skill.processor.TechSingleBuff" />
+    <processor name="TECH_EquipBreakAttack" class="cg.logic.battle.skill.processor.TECH_EquipBreakAttack" />
+    <processor name="TECH_Death" class="cg.logic.battle.skill.processor.TECH_Death" />
+    <processor name="TECH_GoldAttack" class="cg.logic.battle.skill.processor.TECH_GoldAttack" />
+    <processor name="TECH_Summon" class="cg.logic.battle.skill.processor.TECH_Summon" />
+    <processor name="TECH_PanicAttack" class="cg.logic.battle.skill.processor.TECH_StatusAttack" />
+    <processor name="TECH_RandomShot" class="cg.logic.battle.skill.processor.TECH_RandomShot" />
+    <processor name="TECH_EarthQuake" class="cg.logic.battle.skill.processor.TECH_EarthQuake" />
+    <processor name="TECH_Dance" class="cg.logic.battle.skill.processor.TECH_Dance" />
+    <processor name="TECH_DefUp" class="cg.logic.battle.skill.processor.TechAreaBuff" />
+    <processor name="TECH_DefDown" class="cg.logic.battle.skill.processor.TechAreaBuff" />
+    <processor name="TECH_AtkUp" class="cg.logic.battle.skill.processor.TechAreaBuff" />
+    <processor name="TECH_AtkDown" class="cg.logic.battle.skill.processor.TechAreaBuff" />
+    <processor name="TECH_AglUp" class="cg.logic.battle.skill.processor.TechAreaBuff" />
+    <processor name="TECH_AglDown" class="cg.logic.battle.skill.processor.TechAreaBuff" />
+    <!-- <processor name="TECH_Ranbu" class="cg.logic.battle.skill.processor.TECH_Ranbu" /> -->
+    <processor name="TECH_AttackAll" class="cg.logic.battle.skill.processor.TECH_AttackAll" />
+    <!-- <processor name="TECH_DetectEnemy" class="cg.logic.battle.skill.processor.TECH_DetectEnemy" /> -->
+    <!-- <processor name="TECH_UltimateAttack" class="cg.logic.battle.skill.processor.TECH_UltimateAttack" /> -->
+    <processor name="TECH_ThrowItem" class="cg.logic.battle.skill.processor.TECH_ThrowItem" />
+    <processor name="TECH_Position" class="cg.logic.battle.skill.processor.TECH_Position" />
+    <processor name="TECH_DelayAttack" class="cg.logic.battle.skill.processor.TECH_Parameter" />
+    <processor name="TECH_Wattack" class="cg.logic.battle.skill.processor.TECH_Wattack" />
+    <processor name="TECH_FullBodyGuard" class="cg.logic.battle.skill.processor.TECH_FullBodyGuard" />
+    <processor name="TECH_FirstAttack" class="cg.logic.battle.skill.processor.TECH_Parameter" />
+    <processor name="TECH_Copy" class="cg.logic.battle.skill.processor.TechSingleBuff" />
+    <processor name="TECH_Rider" class="cg.logic.battle.skill.processor.TECH_Rider" />
+    <processor name="TECH_Madmax" class="cg.logic.battle.skill.processor.TECH_Parameter" />
+    <processor name="TECH_MagicMissile" class="cg.logic.battle.skill.processor.TECH_MagicMissile" />
+    <!-- <processor name="TECH_MonWind" class="cg.logic.battle.skill.processor.TECH_MonWind" /> -->
+    <!-- <processor name="TECH_Acid" class="cg.logic.battle.skill.processor.TECH_Acid" /> -->
+    <!-- <processor name="TECH_Barrier" class="cg.logic.battle.skill.processor.TECH_Barrier" /> -->
+    <processor name="TECH_RiderBreak" class="cg.logic.battle.skill.processor.TECH_RiderBreak" />
+    <!-- <processor name="TECH_LvSet" class="cg.logic.battle.skill.processor.TECH_LvSet" /> -->
+    
+    <passiveType type="TECH_StatusResistance" />
+    <passiveType type="TECH_Seal" />
+    <passiveType type="TECH_Breed" />
+    <passiveType type="TECH_Train" />
+    <passiveType type="TECH_Assassin" />
+    <passiveType type="TECH_DeadRun" />
+    <passiveType type="TECH_RiderPet" />
+</processors>

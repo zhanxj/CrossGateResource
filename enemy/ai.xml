@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiInfo>
+    <ai id="0" class="cg.logic.battle.ai.condition.AI_CONDITION_RATE" param="100" descript="100%随机触发 如果设置0 则100%ai会选择这个" />
+    <ai id="1" class="cg.logic.battle.ai.condition.AI_CONDITION_RATE" param="75" descript="75%随机触发 75%则表示取一个0-99的随机数，如果随机数小于等于75则触发 之后同理" />
+    <ai id="2" class="cg.logic.battle.ai.condition.AI_CONDITION_RATE" param="50" descript="50%随机触发" />
+    <ai id="3" class="cg.logic.battle.ai.condition.AI_CONDITION_RATE" param="25" descript="25%随机触发" />
+    <ai id="4" class="cg.logic.battle.ai.condition.AI_CONDITION_HP" param="100,0,0" descript="怪物自身HP 等于 100%" />
+    <ai id="5" class="cg.logic.battle.ai.condition.AI_CONDITION_HP" param="75,1,0" descript="怪物自身HP 大于 75%" />
+    <ai id="6" class="cg.logic.battle.ai.condition.AI_CONDITION_HP" param="50,1,0" descript="怪物自身HP 大于 50%" />
+    <ai id="7" class="cg.logic.battle.ai.condition.AI_CONDITION_HP" param="50,3,0" descript="怪物自身HP 小于 50%" />
+    <ai id="8" class="cg.logic.battle.ai.condition.AI_CONDITION_HP" param="25,3,0" descript="怪物自身HP 小于 25%" />
+    <ai id="9" class="cg.logic.battle.ai.condition.AI_CONDITION_MP" param="50,2,0" descript="怪物自身MP 大于等于 50%" />
+    <ai id="10" class="cg.logic.battle.ai.condition.AI_CONDITION_MP" param="50,3,0" descript="怪物自身MP 小于 50%" />
+    <ai id="11" class="cg.logic.battle.ai.condition.AI_CONDITION_HP" param="50,3,0" descript="怪物阵营HP 小于 50%" />
+    <ai id="12" class="cg.logic.battle.ai.condition.AI_CONDITION_HP" param="25,3,1" descript="怪物阵营HP 小于 25%" />
+    <ai id="13" class="cg.logic.battle.ai.condition.AI_CONDITION_EFFECT" param="PO,1,true" descript="怪物阵营有中毒单位" />
+    <ai id="14" class="cg.logic.battle.ai.condition.AI_CONDITION_EFFECT" param="CN,1,true" descript="怪物阵营有混乱单位" />
+    <ai id="15" class="cg.logic.battle.ai.condition.AI_CONDITION_EFFECT" param="ST,1,true" descript="怪物阵营有石化单位" />
+    <ai id="16" class="cg.logic.battle.ai.condition.AI_CONDITION_EFFECT" param="SL,1,true" descript="怪物阵营有睡眠单位" />
+    <ai id="17" class="cg.logic.battle.ai.condition.AI_CONDITION_EFFECT" param="YO,1,true" descript="怪物阵营有醉酒单位" />
+    <ai id="18" class="cg.logic.battle.ai.condition.AI_CONDITION_EFFECT" param="AA,1,true" descript="怪物阵营有遗忘单位" />
+    <ai id="19" class="cg.logic.battle.ai.condition.AI_CONDITION_ALIVE" param="0,0,2" descript="我方存活单位数量 等于 0" />
+    <ai id="20" class="cg.logic.battle.ai.condition.AI_CONDITION_ALIVE" param="1,0,2" descript="我方存活单位数量 等于 1" />
+    <ai id="21" class="cg.logic.battle.ai.condition.AI_CONDITION_ALIVE" param="2,0,2" descript="我方存活单位数量 等于 2" />
+    <ai id="22" class="cg.logic.battle.ai.condition.AI_CONDITION_ALIVE" param="10,0,2" descript="敌方怪物数量 等于 10" />
+    <ai id="23" class="cg.logic.battle.ai.condition.AI_CONDITION_ALIVE" param="8,2,2" descript="敌方怪物数量 大于等于 8" />
+    <ai id="24" class="cg.logic.battle.ai.condition.AI_CONDITION_ALIVE" param="5,2,2" descript="敌方怪物数量 大于等于 5" />
+    <ai id="25" class="cg.logic.battle.ai.condition.AI_CONDITION_ALIVE" param="5,3,2" descript="敌方怪物数量 小于 5" />
+    <ai id="26" class="cg.logic.battle.ai.condition.AI_CONDITION_ALIVE" param="4,3,2" descript="敌方怪物数量 小于 4" />
+    <ai id="27" class="cg.logic.battle.ai.condition.AI_CONDITION_ALIVE" param="1,4,2" descript="敌方怪物数量 小于等于 1" />
+    <ai id="28" class="cg.logic.battle.ai.condition.AI_CONDITION_NONE" param="" descript="无效设置" />
+    <ai id="29" class="cg.logic.battle.ai.condition.AI_CONDITION_LEVEL" param="3" descript="敌方平均等级小于我方平均等级" />
+    <ai id="30" class="cg.logic.battle.ai.condition.AI_CONDITION_LEVEL" param="2" descript="敌方平均等级大于等于我方平均等级" />
+    <ai id="31" class="cg.logic.battle.ai.condition.AI_CONDITION_HP" param="100,0,2" descript="我方某一单位HP 等于 100%" />
+    <ai id="32" class="cg.logic.battle.ai.condition.AI_CONDITION_HP" param="75,1,2" descript="我方某一单位HP 大于 75%" />
+    <ai id="33" class="cg.logic.battle.ai.condition.AI_CONDITION_HP" param="50,1,2" descript="我方某一单位HP 大于 50%" />
+    <ai id="34" class="cg.logic.battle.ai.condition.AI_CONDITION_HP" param="50,3,2" descript="我方某一单位HP 小于 50%" />
+    <ai id="35" class="cg.logic.battle.ai.condition.AI_CONDITION_HP" param="25,3,2" descript="我方某一单位HP 小于 25%" />
+    <ai id="36" class="cg.logic.battle.ai.condition.AI_CONDITION_WEAPON" param="true" descript="我方阵营有装备远程攻击武器的单位" />
+    <ai id="37" class="cg.logic.battle.ai.condition.AI_CONDITION_WEAPON" param="false" descript="我方阵营没有装备远程攻击武器的单位" />
+    <ai id="38" class="cg.logic.battle.ai.condition.AI_CONDITION_EFFECT" param="PO,2,true" descript="我方阵营存在中毒的单位" />
+    <ai id="39" class="cg.logic.battle.ai.condition.AI_CONDITION_EFFECT" param="PO,2,false" descript="我方阵营存在没有毒的单位" />
+    <ai id="40" class="cg.logic.battle.ai.condition.AI_CONDITION_EFFECT" param="CN,2,true" descript="我方阵营存在混乱的单位" />
+    <ai id="41" class="cg.logic.battle.ai.condition.AI_CONDITION_EFFECT" param="CN,2,false" descript="我方阵营存在没有混乱的单位" />
+    <ai id="42" class="cg.logic.battle.ai.condition.AI_CONDITION_EFFECT" param="ST,2,true" descript="我方阵营存在石化的单位" />
+    <ai id="43" class="cg.logic.battle.ai.condition.AI_CONDITION_EFFECT" param="ST,2,false" descript="我方阵营存在没有石化的单位" />
+    <ai id="44" class="cg.logic.battle.ai.condition.AI_CONDITION_EFFECT" param="SL,2,true" descript="我方阵营存在睡眠的单位" />
+    <ai id="45" class="cg.logic.battle.ai.condition.AI_CONDITION_EFFECT" param="SL,2,false" descript="我方阵营存在没有睡眠的单位" />
+    <ai id="46" class="cg.logic.battle.ai.condition.AI_CONDITION_EFFECT" param="YO,2,true" descript="我方阵营存在酒醉的单位" />
+    <ai id="47" class="cg.logic.battle.ai.condition.AI_CONDITION_EFFECT" param="YO,2,false" descript="我方阵营存在没有酒醉的单位" />
+    <ai id="48" class="cg.logic.battle.ai.condition.AI_CONDITION_EFFECT" param="AA,2,true" descript="我方阵营存在遗忘的单位" />
+    <ai id="49" class="cg.logic.battle.ai.condition.AI_CONDITION_EFFECT" param="AA,2,false" descript="我方阵营存在没有遗忘的单位" />
+    <ai id="50" class="cg.logic.battle.ai.condition.AI_CONDITION_TECH" param="TECH_LpRecovery,2,true" descript="我方使用恢复魔法" />
+    <ai id="51" class="cg.logic.battle.ai.condition.AI_CONDITION_TECH" param="TECH_Reflection_Magic;TECH_Absorb_Magic;TECH_Ineffective_Magic,2,true" descript="我方有存在魔无/魔吸/魔反状态的单位时" />
+    <ai id="52" class="cg.logic.battle.ai.condition.AI_CONDITION_TECH" param="TECH_Reflection_Magic;TECH_Absorb_Magic;TECH_Ineffective_Magic,2,false" descript="我方有存在没有魔无/魔吸/魔反状态的单位时" />
+    <ai id="53" class="cg.logic.battle.ai.condition.AI_CONDITION_TECH" param="TECH_Reflection_Physics;TECH_Absorb_Physics;TECH_Ineffective_Physics,2,true" descript="我方有存在攻无/攻吸/攻反状态的单位时" />
+    <ai id="54" class="cg.logic.battle.ai.condition.AI_CONDITION_TECH" param="TECH_Reflection_Physics;TECH_Absorb_Physics;TECH_Ineffective_Physics,2,false" descript="我方有存在没有攻无/攻吸/攻反状态的单位时" />
+    <ai id="55" class="cg.logic.battle.ai.condition.AI_CONDITION_ODD_ROUND" param="" descript="奇数回合时" />
+    <ai id="56" class="cg.logic.battle.ai.condition.AI_CONDITION_ROUND_DIV" param="2" descript="偶数回合时" />
+    <ai id="57" class="cg.logic.battle.ai.condition.AI_CONDITION_ROUND_DIV" param="3" descript="间隔2回合" />
+    <ai id="58" class="cg.logic.battle.ai.condition.AI_CONDITION_TIME" param="2" descript="当前游戏中时间为白天时" />
+    <ai id="59" class="cg.logic.battle.ai.condition.AI_CONDITION_TIME" param="8" descript="当前游戏中时间为夜晚时" />
+    <ai id="60" class="cg.logic.battle.ai.condition.AI_CONDITION_PET" param="true" descript="我方带宠物" />
+    <ai id="61" class="cg.logic.battle.ai.condition.AI_CONDITION_PET" param="false" descript="我方不带宠物" />
+    <ai id="62" class="cg.logic.battle.ai.condition.AI_CONDITION_PLAYER_TARGET" param="0" descript="我方有对象目标敌方0号位单位时 #位置 后排 4 2 0 1 3" />
+    <ai id="63" class="cg.logic.battle.ai.condition.AI_CONDITION_PLAYER_TARGET" param="1" descript="我方有对象目标敌方1号位单位时 #位置 前排 9 7 5 6 8" />
+    <ai id="64" class="cg.logic.battle.ai.condition.AI_CONDITION_PLAYER_TARGET" param="2" descript="我方有对象目标敌方2号位单位时" />
+    <ai id="65" class="cg.logic.battle.ai.condition.AI_CONDITION_PLAYER_TARGET" param="3" descript="我方有对象目标敌方3号位单位时" />
+    <ai id="66" class="cg.logic.battle.ai.condition.AI_CONDITION_PLAYER_TARGET" param="4" descript="我方有对象目标敌方4号位单位时" />
+    <ai id="67" class="cg.logic.battle.ai.condition.AI_CONDITION_PLAYER_TARGET" param="5" descript="我方有对象目标敌方5号位单位时" />
+    <ai id="68" class="cg.logic.battle.ai.condition.AI_CONDITION_PLAYER_TARGET" param="6" descript="我方有对象目标敌方6号位单位时" />
+    <ai id="69" class="cg.logic.battle.ai.condition.AI_CONDITION_PLAYER_TARGET" param="7" descript="我方有对象目标敌方7号位单位时" />
+    <ai id="70" class="cg.logic.battle.ai.condition.AI_CONDITION_PLAYER_TARGET" param="8" descript="我方有对象目标敌方8号位单位时" />
+    <ai id="71" class="cg.logic.battle.ai.condition.AI_CONDITION_PLAYER_TARGET" param="9" descript="我方有对象目标敌方9号位单位时" />
+    <ai id="72" class="cg.logic.battle.ai.condition.AI_CONDITION_PLAYER_NOTARGET" param="0" descript="我方没有对象目标敌方0号位单位时" />
+    <ai id="73" class="cg.logic.battle.ai.condition.AI_CONDITION_PLAYER_NOTARGET" param="1" descript="我方没有对象目标敌方1号位单位时" />
+    <ai id="74" class="cg.logic.battle.ai.condition.AI_CONDITION_PLAYER_NOTARGET" param="2" descript="我方没有对象目标敌方2号位单位时" />
+    <ai id="75" class="cg.logic.battle.ai.condition.AI_CONDITION_PLAYER_NOTARGET" param="3" descript="我方没有对象目标敌方3号位单位时" />
+    <ai id="76" class="cg.logic.battle.ai.condition.AI_CONDITION_PLAYER_NOTARGET" param="4" descript="我方没有对象目标敌方4号位单位时" />
+    <ai id="77" class="cg.logic.battle.ai.condition.AI_CONDITION_PLAYER_NOTARGET" param="5" descript="我方没有对象目标敌方5号位单位时" />
+    <ai id="78" class="cg.logic.battle.ai.condition.AI_CONDITION_PLAYER_NOTARGET" param="6" descript="我方没有对象目标敌方6号位单位时" />
+    <ai id="79" class="cg.logic.battle.ai.condition.AI_CONDITION_PLAYER_NOTARGET" param="7" descript="我方没有对象目标敌方7号位单位时" />
+    <ai id="80" class="cg.logic.battle.ai.condition.AI_CONDITION_PLAYER_NOTARGET" param="8" descript="我方没有对象目标敌方8号位单位时" />
+    <ai id="81" class="cg.logic.battle.ai.condition.AI_CONDITION_PLAYER_NOTARGET" param="9" descript="我方没有对象目标敌方9号位单位时" />
+    <ai id="82" class="cg.logic.battle.ai.condition.AI_CONDITION_ALIVE" param="1,0,2" descript="我方只有1个存活的玩家" />
+    <ai id="83" class="cg.logic.battle.ai.condition.AI_CONDITION_ALIVE" param="1,1,2" descript="我方超过1个存活的玩家" />
+    <ai id="84" class="cg.logic.battle.ai.condition.AI_CONDITION_ALIVE" param="2,1,2" descript="我方超过2个存活的玩家" />
+    <ai id="85" class="cg.logic.battle.ai.condition.AI_CONDITION_ALIVE" param="3,1,2" descript="我方超过3个存活的玩家" />
+    <ai id="86" class="cg.logic.battle.ai.condition.AI_CONDITION_ALIVE" param="5,0,2" descript="我方有5个存活的玩家" />
+    <ai id="87" class="cg.logic.battle.ai.condition.AI_CONDITION_ROUND_DIV" param="4" descript="回合数是4的倍数" />
+    <ai id="88" class="cg.logic.battle.ai.condition.AI_CONDITION_ROUND_DIV" param="5" descript="回合数是5的倍数" />
+    <ai id="89" class="cg.logic.battle.ai.condition.AI_CONDITION_ROUND_FIRST" param="" descript="第一回合" />
+    <ai id="90" class="cg.logic.battle.ai.condition.AI_CONDITION_MP" param="25,3,0" descript="怪物自身MP 小于 25%" />
+    <ai id="91" class="cg.logic.battle.ai.condition.AI_CONDITION_MP" param="15,3,0" descript="怪物自身MP 小于 15%" />
+    <ai id="92" class="cg.logic.battle.ai.condition.AI_CONDITION_MP" param="5,3,0" descript="怪物自身MP 小于 5%" />
+    
+    <target id="0" class="cg.logic.battle.ai.target.AI_TARGET_SELF" param="" descript="怪物自身" />
+    <target id="1" class="cg.logic.battle.ai.target.AI_TARGET_RANDOM" param="false" descript="敌方随机" />
+    <target id="2" class="cg.logic.battle.ai.target.AI_TARGET_RANDOM" param="true" descript="我方随机" />
+    <target id="3" class="cg.logic.battle.ai.target.AI_TARGET_HP" param="false,true" descript="敌方血多者 如果多余一个则随机取其中一个" />
+    <target id="4" class="cg.logic.battle.ai.target.AI_TARGET_HP" param="true,true" descript="我方血多者 如果多余一个则随机取其中一个" />
+    <target id="5" class="cg.logic.battle.ai.target.AI_TARGET_HP" param="false,false" descript="敌方血少者 如果多余一个则随机取其中一个" />
+    <target id="6" class="cg.logic.battle.ai.target.AI_TARGET_HP" param="true,false" descript="我方血少者 如果多余一个则随机取其中一个" />
+    <target id="7" class="cg.logic.battle.ai.target.AI_TARGET_RANDOM" param="false" descript="敌方随机" />
+    <target id="8" class="cg.logic.battle.ai.target.AI_TARGET_RANDOM" param="true" descript="我方随机" />
+    <target id="9" class="cg.logic.battle.ai.target.AI_TARGET_EFFECT" param="false,PO,true" descript="敌方阵营中毒的单位" />
+    <target id="10" class="cg.logic.battle.ai.target.AI_TARGET_EFFECT" param="true,PO,true" descript="我方阵营中毒的单位" />
+    <target id="11" class="cg.logic.battle.ai.target.AI_TARGET_EFFECT" param="false,CN,true" descript="敌方阵营混乱的单位" />
+    <target id="12" class="cg.logic.battle.ai.target.AI_TARGET_EFFECT" param="true,CN,true" descript="我方阵营混乱的单位" />
+    <target id="13" class="cg.logic.battle.ai.target.AI_TARGET_EFFECT" param="false,ST,true" descript="敌方阵营石化的单位" />
+    <target id="14" class="cg.logic.battle.ai.target.AI_TARGET_EFFECT" param="true,ST,true" descript="我方阵营石化的单位" />
+    <target id="15" class="cg.logic.battle.ai.target.AI_TARGET_EFFECT" param="false,SL,true" descript="敌方阵营睡眠的单位" />
+    <target id="16" class="cg.logic.battle.ai.target.AI_TARGET_EFFECT" param="true,SL,true" descript="我方阵营睡眠的单位" />
+    <target id="17" class="cg.logic.battle.ai.target.AI_TARGET_EFFECT" param="false,YO,true" descript="敌方阵营酒醉的单位" />
+    <target id="18" class="cg.logic.battle.ai.target.AI_TARGET_EFFECT" param="true,YO,true" descript="我方阵营酒醉的单位" />
+    <target id="19" class="cg.logic.battle.ai.target.AI_TARGET_EFFECT" param="false,AA,true" descript="敌方阵营遗忘的单位" />
+    <target id="20" class="cg.logic.battle.ai.target.AI_TARGET_EFFECT" param="true,AA,true" descript="我方阵营遗忘的单位" />
+    <target id="21" class="cg.logic.battle.ai.target.AI_TARGET_PLAYER_WEAPON" param="true" descript="我方阵营使用远程武器的单位" />
+    <target id="22" class="cg.logic.battle.ai.target.AI_TARGET_PLAYER_WEAPON" param="false" descript="我方阵营使用近战武器的单位" />
+    <target id="23" class="cg.logic.battle.ai.target.AI_TARGET_EFFECT" param="false,TECH_Reflection_Magic;TECH_Absorb_Magic;TECH_Ineffective_Magic,true" descript="敌方阵营魔无/魔吸/魔反状态的单位" />
+    <target id="24" class="cg.logic.battle.ai.target.AI_TARGET_EFFECT" param="true,TECH_Reflection_Magic;TECH_Absorb_Magic;TECH_Ineffective_Magic,true" descript="我方阵营魔无/魔吸/魔反状态的单位" />
+    <target id="25" class="cg.logic.battle.ai.target.AI_TARGET_EFFECT" param="false,TECH_Reflection_Physics;TECH_Absorb_Physics;TECH_Ineffective_Physics,true" descript="敌方阵营攻无/攻吸/攻反状态的单位" />
+    <target id="26" class="cg.logic.battle.ai.target.AI_TARGET_EFFECT" param="true,TECH_Reflection_Physics;TECH_Absorb_Physics;TECH_Ineffective_Physics,true" descript="我方阵营攻无/攻吸/攻反状态的单位" />
+    <target id="27" class="cg.logic.battle.ai.target.AI_TARGET_EFFECT" param="false,TECH_LpRecovery,true" descript="敌方阵营恢复魔法效果的单位" />
+    <target id="28" class="cg.logic.battle.ai.target.AI_TARGET_EFFECT" param="true,TECH_LpRecovery,true" descript="我方阵营恢复魔法效果的单位" />
+    <target id="29" class="cg.logic.battle.ai.target.AI_TARGET_PLAYER_SEX" param="true" descript="我方阵营男性单位" />
+    <target id="30" class="cg.logic.battle.ai.target.AI_TARGET_PLAYER_SEX" param="false" descript="我方阵营女性单位" />
+    <target id="31" class="cg.logic.battle.ai.target.AI_TARGET_PLAYER_UNIT_TYPE" param="true,5" descript="我方阵营随机玩家单位" />
+    <target id="32" class="cg.logic.battle.ai.target.AI_TARGET_PLAYER_UNIT_TYPE" param="true,4" descript="我方阵营随机宠物单位" />
+    <target id="33" class="cg.logic.battle.ai.target.AI_TARGET_EFFECT" param="true,TECH_Reflection_Magic;TECH_Absorb_Magic;TECH_Ineffective_Magic,false" descript="我方阵营没有魔无/魔吸/魔反状态的单位" />
+    <target id="34" class="cg.logic.battle.ai.target.AI_TARGET_EFFECT" param="true,TECH_Reflection_Physics;TECH_Absorb_Physics;TECH_Ineffective_Physics,false" descript="我方阵营没有攻无/攻吸/攻反状态的单位" />
+    <target id="35" class="cg.logic.battle.ai.target.AI_TARGET_EFFECT" param="true,PO,false" descript="未中异常状态单位,中毒" />
+    <target id="36" class="cg.logic.battle.ai.target.AI_TARGET_EFFECT" param="true,CN,false" descript="未中异常状态单位,混乱" />
+    <target id="37" class="cg.logic.battle.ai.target.AI_TARGET_EFFECT" param="true,ST,false" descript="未中异常状态单位,石化" />
+    <target id="38" class="cg.logic.battle.ai.target.AI_TARGET_EFFECT" param="true,SL,false" descript="未中异常状态单位,昏睡" />
+    <target id="39" class="cg.logic.battle.ai.target.AI_TARGET_EFFECT" param="true,YO,false" descript="未中异常状态单位,酒醉" />
+    <target id="40" class="cg.logic.battle.ai.target.AI_TARGET_EFFECT" param="true,AA,false" descript="未中异常状态单位,遗忘" />
+    <target id="41" class="cg.logic.battle.ai.target.AI_TARGET_EFFECT" param="false,TECH_LpRecovery,false" descript="敌方阵营没有恢复魔法效果的单位" />
+    <target id="42" class="cg.logic.battle.ai.target.AI_TARGET_EFFECT" param="false,TECH_Reflection_Magic;TECH_Absorb_Magic;TECH_Ineffective_Magic,false" descript="敌方阵营没有魔无/魔吸/魔反状态的单位" />
+    <target id="43" class="cg.logic.battle.ai.target.AI_TARGET_EFFECT" param="false,TECH_Reflection_Physics;TECH_Absorb_Physics;TECH_Ineffective_Physics,false" descript="敌方阵营没有攻无/攻吸/攻反状态的单位" />
+</aiInfo>

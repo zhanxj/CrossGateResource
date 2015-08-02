@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<time>
+    <dayState startTime="00:00:00" >
+        <state id="1" name="morning" lastTime="1800" />
+        <state id="2" name="day" lastTime="1800" />
+        <state id="4" name="dusk" lastTime="1800" />
+        <state id="8" name="night" lastTime="1800" />
+    </dayState>
+</time>

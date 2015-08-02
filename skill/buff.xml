@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buffs>
+    <buff class="cg.logic.battle.buff.NoEffectBuff">
+    	<tech type="TECH_Absorb_Magic" />
+    	<tech type="TECH_Absorb_Physics" />
+    	<tech type="TECH_Ineffective_Magic" />
+    	<tech type="TECH_Ineffective_Physics" />
+    	<tech type="TECH_Reflection_Magic" />
+    	<tech type="TECH_Reflection_Physics" />
+    	<tech type="TECH_Reverse_Type" />
+    	<tech type="TECH_DelayAttack" />
+   	</buff>
+    <buff class="cg.logic.battle.buff.NormalBuff">
+    	<tech type="TECH_CrossCounter" />
+    	<tech type="TECH_Mikawashi" />
+    	<tech type="TECH_SpecialGuard" />
+    	<tech type="TECH_LpRecovery" />
+    	<tech type="TECH_Train" />
+    	<tech type="TECH_StatusChange" />
+   	</buff>
+    <buff class="cg.logic.battle.buff.AdvancedBuff">
+    	<tech type="TECH_NormalGuard" />
+    	<tech type="TECH_Parameter" />
+    	<tech type="TECH_FullBodyGuard" />
+    	<tech type="TECH_BodyGuard" />
+    	<tech type="TECH_MagicGuard" />
+   	</buff>
+    <buff class="cg.logic.battle.buff.PassiveBuff">
+    	<tech type="TECH_StatusResistance" />
+    	<tech type="TECH_Parameter" />
+    	<tech type="TECH_Seal" />
+    	<tech type="TECH_Breed" />
+    	<tech type="TECH_Assassin" />
+    	<tech type="TECH_AttackAll" />
+    	<tech type="TECH_DeadRun" />
+    	<tech type="TECH_RiderPet" />
+   	</buff>
+    <buff class="cg.logic.battle.buff.GroundBuff">
+    	<tech type="TECH_Treat_Type" />
+   	</buff>
+    <buff class="cg.logic.battle.buff.DanceBuff">
+    	<tech type="TECH_Dance" />
+   	</buff>
+    <buff class="cg.logic.battle.buff.AttributeCopyBuff">
+    	<tech type="TECH_Copy" />
+   	</buff>
+    <buff class="cg.logic.battle.buff.RiderBuff">
+    	<tech type="TECH_Rider" />
+   	</buff>
+</buffs>
