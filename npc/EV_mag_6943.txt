@@ -1,0 +1,26 @@
+#风厚狼 规狼 风厚（傈捧铰府饶）
+
+##############  ##############
+block EndEvent 27 == 1
+#\n\n　窍牢捞 碍秦瘤搁 肚 愁酒临霸!
+	EndWindow 15454,OK
+##############  ##############
+block EndEvent 27 == 0
+#\n\n　快, 快, 快酒~居!!!
+	Window 15455,NEXT
+#\n\n　窍牢 林力俊 逞 扒规廉!
+	Window 15456,NEXT
+#\n\n　扁撅秦 滴扼备!!
+	Window 15457,NEXT
+#\n\n　酒, 扁撅且 荐 乐档废 捞芭 临霸.
+	Window 15458,OK
+	Window_OK EndEvent 27 == 0
+	EndEvent 27 = 1
+	GiveItem 18674,1
+#\n\n　弊烦 肚 毫~!
+	EndWindow 15459,OK
+
+
+
+
+

@@ -1,0 +1,18 @@
+#
+#力海促捞
+#
+
+############## 鞘荐 胶懦阑 啊瘤绊 乐促 ##############
+############## 拱府傍拜拌R8 ##############
+block Skilllevel 0>= 8 || Skilllevel 1 >= 8 || Skilllevel 3 >= 8 || Skilllevel 4 >= 8 || Skilllevel 5 >= 8 || Skilllevel 6 >= 8 || Skilllevel 7 >= 8 || Skilllevel 8 >= 8 || Skilllevel 9 >= 8 || Skilllevel 11 >= 8 || Skilllevel 12 >= 8 || Skilllevel 94 >= 8 || Skilllevel 95 >= 8 || Skilllevel 96 >= 8
+#\n\n　快府 悼器俊霸 版狼甫 钎且瘤绢促
+	Window 14792,OK
+	Window_OK
+	Warp 0,24039,16,19
+
+############## 鞘荐 胶懦阑 啊瘤绊 乐瘤 臼促 ##############
+block
+	encount 3|0,24071,20,20||0|||||0|12005|||||||||
+
+
+

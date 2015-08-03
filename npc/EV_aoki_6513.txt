@@ -1,0 +1,44 @@
+#困炼唱 焊磐·农府扼绊 捞抚嘿捞绊 酵菌促···.
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###################饭骇捞 ２５甫 逞篮 版快###################
+block Level >= 25
+	Window 14059,YES,NO
+	Window_YES
+	EndWindow 14074
+	Window_NO
+	EndWindow 14063
+###################柳楼 刘辑甫 啊瘤绊 乐绰 版快 ###################
+block Item 18383 >= 1
+	Window 14059,YES,NO
+	Window_YES
+	EndWindow 14073
+	Window_NO
+	EndWindow 14063
+###################啊楼 刘辑甫 啊瘤绊 乐绰 版快 ###################
+block Leak0Item 18382 >= 1 || Leak1Item 18382 >= 1 || Leak0Item 18381 >= 1 || Leak1Item 18381 >= 1
+	EndWindow 14066
+
+###################烹惑 ###################
+block
+	Window 14059,YES,NO
+##酒捞袍捞 啊垫 瞒 乐阑 锭
+	Window_YES ItemSpace == 0
+	Endwindow 14079
+
+##捣捞 乐阑 锭##################
+	Window_YES Gold >=2000 && ItemSpace >= 1
+	AddGold -2000
+	GiveLeak0Item (18381%5,18382%5),1
+	EndWindow 14062
+
+##捣捞 绝阑 锭##################
+	Window_YES Gold < 2000
+	EndWindow 14061
+#NO甫 急琶######
+	Window_NO
+	EndWindow 14063
+##################
+
+

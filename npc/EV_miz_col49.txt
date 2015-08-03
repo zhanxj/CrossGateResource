@@ -1,0 +1,74 @@
+#瘤窍捧扁厘 涅胶飘　爸简（快铰扁充前刘沥）
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+
+######## ##########
+block ItemSpace == 0
+
+#惑前阑 靛府摆嚼聪促. 窍瘤父 家瘤前捞 啊垫 瞒乐焙夸. 购啊 鞘夸 绝绰 巴阑 滚妨林绞矫坷. 何殴 靛赋聪促.
+
+	EndWindow 20592,OK	
+block Item 18277 >= 1 && Item 18256 >= 1 && Item 18288 >= 1
+#
+	KillItem 18256
+	KillItem 18277
+	KillItem 18288
+	GiveItem 18281
+	Window 20366,NEXT
+	Window 20596,YES,NO	
+
+	Window_YES Item 18279 >= 1 && Item 18280 >= 1 && Item 18281 >= 1
+	KillItem 18279
+	KillItem 18280
+	KillItem 18281
+	GiveItem 18282
+	Window 20583,OK
+
+	Window_YES 
+	Window 20597,OK
+
+	Window_NO
+	Window 20595,OK
+	
+	Window_OK
+	Warp 0,1455,16,13
+
+block Item 18256 == 0 || Item 18277 == 0
+#\n\n　了价钦聪促父, 措傈惑措狼 捧荤狼 刘钎绰 绢痘霸 窍继嚼聪鳖? 弊霸 绝栏搁 惑前苞 背券且 荐 绝#嚼聪促. 了价钦聪促父, 捞锅俊绰 倒酒啊林绞矫坷.
+
+	Window 20593,OK
+	Window_OK
+	Warp 0,1455,16,13
+
+block Item 18277 >= 1 && Item 18256 >= 1
+#
+	KillItem 18256
+	KillItem 18277
+	GiveItem 18281
+	Window 20366,NEXT
+	Window 20596,YES,NO	
+
+	Window_YES Item 18279 >= 1 && Item 18280 >= 1 && Item 18281 >= 1
+	KillItem 18279
+	KillItem 18280
+	KillItem 18281
+	GiveItem 18282
+	Window 20583,OK
+
+	Window_YES 
+	Window 20597,OK
+
+	Window_NO
+	Window 20595,OK
+	
+	Window_OK
+	Warp 0,1455,16,13
+
+block Item 18256 == 0 || Item 18277 == 0
+#\n\n　了价钦聪促父, 措傈惑措狼 捧荤狼 刘钎绰 绢痘霸 窍继嚼聪鳖? 弊霸 绝栏搁 惑前苞 背券且 荐 绝#嚼聪促. 了价钦聪促父, 捞锅俊绰 倒酒啊林绞矫坷.
+
+	Window 20593,OK
+	Window_OK
+	Warp 0,1455,16,13
+

@@ -1,0 +1,20 @@
+#
+#脚包 弊饭捞郊
+#
+
+########## ##########
+block Item 18446 == 0
+#\n\n　咯扁鳖瘤狼 矫访阑 必汗秦 柯 刘芭甫 焊捞绞矫坷.
+	EndWindow 14650,OK
+########## ##########
+block
+#\n\n　肋档 咯扁鳖瘤 坷继家. 付瘤阜栏肺 弊 碍窃阑, 捞 沥利狼 规俊辑 焊捞矫坷.
+	Window 14651,YES,NO
+	Window_NO
+	Window_YES
+	KillItem 18446
+	leavegroup
+	warp 0,16511,26,65
+
+
+

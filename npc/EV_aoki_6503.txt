@@ -1,0 +1,69 @@
+#母凭 匡橇
+
+
+
+##########拱扒捞 啊垫 蛮 版快#######
+block ItemSpace == 0 && StrCmpChat == 14041 || ItemSpace == 0 && StrCmpChat == 14040 || ItemSpace == 0 && StrCmpChat == 14039
+        EndWindow 10000
+
+#---唱公槽狼 迫骂唱, 堡何狼 迫骂唱, 荤成槽狼 迫骂甫 啊瘤绊 林巩阑 3辆幅 吝 窍唱 寇模 版快---#
+#荤成窍绰 磊
+block Item 18359 == 1 && StrCmpChat == 14039
+	#呈绰 捞固 刘钎甫 啊瘤绊 乐阑 巴捞促···.
+	EndWindow 14042
+block Item 18358 == 1 && StrCmpChat == 14039
+	EndWindow 14042
+block Item 18360 == 1 && StrCmpChat == 14039
+	EndWindow 14042
+
+#颇绰 磊
+block Item 18359 == 1 && StrCmpChat == 14040
+	#呈绰 捞固 刘钎甫 啊瘤绊 乐阑 巴捞促···.
+	EndWindow 14042
+block Item 18358 == 1 && StrCmpChat == 14040
+	EndWindow 14042
+block Item 18360 == 1 && StrCmpChat == 14040
+	EndWindow 14042
+
+#海绰 磊
+block Item 18359 == 1 && StrCmpChat == 14041
+	#呈绰 捞固 刘钎甫 啊瘤绊 乐阑 巴捞促···.
+	EndWindow 14042
+block Item 18358 == 1 && StrCmpChat == 14041
+	EndWindow 14042
+block Item 18360 == 1 && StrCmpChat == 14041
+	EndWindow 14042
+
+#--「荤成窍绰 磊」扼绊 寇模 版快---#
+block StrCmpChat == 14039
+	GiveItem 18359,1
+
+#--「颇绰 磊」扼绊 寇模 版快---#
+block StrCmpChat == 14040
+	GiveItem 18358,1
+
+#--「海绰 磊」扼绊 寇模 版快---#
+block StrCmpChat == 14041
+	GiveItem 18360,1
+
+#############迫骂甫 罐篮 饶###########
+block Item 18358 == 1 || Item 18359 == 1 || Item 18360 ==1
+
+	EndWindow 14032
+
+#############髯呷#######################
+block 
+
+	#肋档 咯扁鳖瘤 吭焙··呈绰 急琶罐疽促····
+        #弊 厘家俊狼 免涝阑 倾啊窍绰 刘钎甫 林付····.
+        #「荤成窍绰 磊」「颇绰 磊」「海绰 磊
+        #匙啊 瘤陛 咯扁辑 捞 吝 窍唱甫 寇模促搁
+        #弊巴篮 匙 颊俊 胶胶肺 唱鸥朝 巴捞促.
+
+	Window 14033,NEXT
+       #快府甸狼 犁焊··弊巴篮 浅何茄 家犁甫 颊俊 持阑 荐 乐绰 厘家促···
+       #快府绰 芭扁辑 某辰 倒捞唱 啊磷栏肺 公扁唱 规绢备甫 父甸绊 侥樊阑 焊面沁促···.
+       #魄何福农狼 合率 坷瘤俊 弊 厘家俊 烹窍绰 辨捞 乐促」
+	EndWindow 14034
+
+

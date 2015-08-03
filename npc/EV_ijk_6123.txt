@@ -1,0 +1,12 @@
+#巩
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+
+########## 快 努腐栏肺 况橇茄促 ##########
+block StrCmpChat == r
+	Window 11683,YES,NO
+	Window_YES
+	Warp 0,15004,7,39
+	Window_NO
+

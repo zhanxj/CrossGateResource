@@ -1,0 +1,378 @@
+#堡何 魄藕	（777 47 48：啊汲摹）
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+
+########## 弊缝阑 捞风绊 乐绰 版快 ##########
+block Group > 1
+	#\n\n　咯扁绰 茄 荤恩究捞 酒聪搁 瘤唱啊霸 秦临 荐 绝绢, 固救窍焙. 颇萍甫 秦魂窍摆唱?
+	Window 11499,YES,NO
+
+	Window_YES Group > 1
+	LeaveGroup
+
+	Window_YES
+	Window_NO
+
+
+########## 流牢阑 烹苞矫懦 版快 ##########
+########## 八流牢 捞惑·距力荤 固父 ##########
+block Level < 20 && Job >= 200 && Job < 370 && Group == 1
+	#\n\n　咯扁绰 饭骇捞 ２０捞惑捞 酒聪搁 瘤唱哎 荐 绝绢.ˇ绢褥!构, 坷绰 霸 乐栏搁 啊绰 霸 乐瘤. 弥辟 唱绰 珐农３狼 啊傍前俊 狐廉 乐绢辑 富捞具. 构, 弊繁 芭瘤. 舅摆瘤?
+	Window 11448,YES,NO
+
+Window_YES Job >= 200 && Job < 210 && Item 22 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 公扁啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11450,OK,CANCEL
+	Window_OK Job >= 200 && Job < 210 && Item 22 >= 1 && Group == 1
+	KillItem 22,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 200 && Job < 210 && Item 28 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 公扁啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11450,OK,CANCEL
+	Window_OK Job >= 200 && Job < 210 && Item 28 >= 1 && Group == 1
+	KillItem 28,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 210 && Job < 220 && Item 826 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 公扁啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11450,OK,CANCEL
+	Window_OK Job >= 210 && Job < 220 && Item 826 >= 1 && Group == 1
+	KillItem 826,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 210 && Job < 220 && Item 820 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 公扁啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11450,OK,CANCEL
+	Window_OK Job >= 210 && Job < 220 && Item 820 >= 1 && Group == 1
+	KillItem 820,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 220 && Job < 230 && Item 1629 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 公扁啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11450,OK,CANCEL
+	Window_OK Job >= 220 && Job < 230 && Item 1629 >= 1 && Group == 1
+	KillItem 1629,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 220 && Job < 230 && Item 1625 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 公扁啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11450,OK,CANCEL
+	Window_OK Job >= 220 && Job < 230 && Item 1625 >= 1 && Group == 1
+	KillItem 1625,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 230 && Job < 240 && Item 2022 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 公扁啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11450,OK,CANCEL
+	Window_OK Job >= 230 && Job < 240 && Item 2022 >= 1 && Group == 1
+	KillItem 2022,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 230 && Job < 240 && Item 2023 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 公扁啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11450,OK,CANCEL
+	Window_OK Job >= 230 && Job < 240 && Item 2023 >= 1 && Group == 1
+	KillItem 2023,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 240 && Job < 250 && Item 2435 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 公扁啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11450,OK,CANCEL
+	Window_OK Job >= 240 && Job < 250 && Item 2435 >= 1 && Group == 1
+	KillItem 2435,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 240 && Job < 250 && Item 2434 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 公扁啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11450,OK,CANCEL
+	Window_OK Job >= 240 && Job < 250 && Item 2434 >= 1 && Group == 1
+	KillItem 2434,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 250 && Job < 260 && Item 2820 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 公扁啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11450,OK,CANCEL
+	Window_OK Job >= 250 && Job < 260 && Item 2820 >= 1 && Group == 1
+	KillItem 2820,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 250 && Job < 260 && Item 2823 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 公扁啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11450,OK,CANCEL
+	Window_OK Job >= 250 && Job < 260 && Item 2823 >= 1 && Group == 1
+	KillItem 2823,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 260 && Job < 270 && Item 3222 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 公扁啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11450,OK,CANCEL
+	Window_OK Job >= 260 && Job < 270 && Item 3222 >= 1 && Group == 1
+	KillItem 3222,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 260 && Job < 270 && Item 3229 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 公扁啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11450,OK,CANCEL
+	Window_OK Job >= 260 && Job < 270 && Item 3229 >= 1 && Group == 1
+	KillItem 3229,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 270 && Job < 280 && Item 3622 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 规绢备啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11451,OK,CANCEL
+	Window_OK Job >= 270 && Job < 280 && Item 3622 >= 1 && Group == 1
+	KillItem 3622,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 270 && Job < 280 && Item 3620 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 规绢备啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11451,OK,CANCEL
+	Window_OK Job >= 270 && Job < 280 && Item 3620 >= 1 && Group == 1
+	KillItem 3620,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 280 && Job < 290 && Item 4022 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 规绢备啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11451,OK,CANCEL
+	Window_OK Job >= 280 && Job < 290 && Item 4022 >= 1 && Group == 1
+	KillItem 4022,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 280 && Job < 290 && Item 4020 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 规绢备啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11451,OK,CANCEL
+	Window_OK Job >= 280 && Job < 290 && Item 4020 >= 1 && Group == 1
+	KillItem 4020,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 290 && Job < 300 && Item 4420 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 规绢备啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11451,OK,CANCEL
+	Window_OK Job >= 290 && Job < 300 && Item 4420 >= 1 && Group == 1
+	KillItem 4420,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 290 && Job < 300 && Item 4421 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 规绢备啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11451,OK,CANCEL
+	Window_OK Job >= 290 && Job < 300 && Item 4421 >= 1 && Group == 1
+	KillItem 4421,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 300 && Job < 310 && Item 4823 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 规绢备啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11451,OK,CANCEL
+	Window_OK Job >= 300 && Job < 310 && Item 4823 >= 1 && Group == 1
+	KillItem 4823,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 300 && Job < 310 && Item 4821 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 规绢备啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11451,OK,CANCEL
+	Window_OK Job >= 300 && Job < 310 && Item 4821 >= 1 && Group == 1
+	KillItem 4821,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 310 && Job < 320 && Item 5224 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 规绢备啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11451,OK,CANCEL
+	Window_OK Job >= 310 && Job < 320 && Item 5224 >= 1 && Group == 1
+	KillItem 5224,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 310 && Job < 320 && Item 5223 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 规绢备啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11451,OK,CANCEL
+	Window_OK Job >= 310 && Job < 320 && Item 5223 >= 1 && Group == 1
+	KillItem 5223,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 320 && Job < 330 && Item 5620 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 规绢备啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11451,OK,CANCEL
+	Window_OK Job >= 320 && Job < 330 && Item 5620 >= 1 && Group == 1
+	KillItem 5620,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 320 && Job < 330 && Item 5621 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 规绢备啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11451,OK,CANCEL
+	Window_OK Job >= 320 && Job < 330 && Item 5621 >= 1 && Group == 1
+	KillItem 5621,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 330 && Job < 340 && Item 6022 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 规绢备啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11451,OK,CANCEL
+	Window_OK Job >= 330 && Job < 340 && Item 6022 >= 1 && Group == 1
+	KillItem 6022,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 330 && Job < 340 && Item 6025 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 规绢备啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11451,OK,CANCEL
+	Window_OK Job >= 330 && Job < 340 && Item 6025 >= 1 && Group == 1
+	KillItem 6025,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 340 && Job < 350 && Item 6427 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 规绢备啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11451,OK,CANCEL
+	Window_OK Job >= 340 && Job < 350 && Item 6427 >= 1 && Group == 1
+	KillItem 6427,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 340 && Job < 350 && Item 6425 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 规绢备啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11451,OK,CANCEL
+	Window_OK Job >= 340 && Job < 350 && Item 6425 >= 1 && Group == 1
+	KillItem 6425,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 350 && Job < 360 && Item 15204 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 夸府啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11452,OK,CANCEL
+	Window_OK Job >= 350 && Job < 360 && Item 15204 >= 1 && Group == 1
+	KillItem 15204,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 350 && Job < 360 && Item 15206 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 夸府啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11452,OK,CANCEL
+	Window_OK Job >= 350 && Job < 360 && Item 15206 >= 1 && Group == 1
+	KillItem 15206,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 360 && Job < 370 && Item 15608 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 珐农３狼 LP雀汗距捞 酒囱啊!览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11453,OK,CANCEL
+	Window_OK Job >= 360 && Job < 370 && Item 15608 >= 1 && Group == 1
+	KillItem 15608,1
+	Warp 0,11000,20,14
+
+#--- 流牢捞 傈巩 捞寇狼 酒捞袍阑 啊瘤绊 乐绰 版快 ---#
+Window_YES 
+	#\n\n　夯流狼 流牢捞 啊廉坷绰 酒捞袍 观俊 脚侩且 荐 绝绢.\n　咯扁绰 给 瘤唱啊.
+	EndWindow 11454
+
+Window_NO
+
+
+########## 荐府流牢 捞惑 急牢 固父 ##########
+block Level < 20 && Job >= 370 && Job < 430 && Group == 1
+	#\n\n　咯扁绰 饭骇捞 ２０捞惑捞 酒聪搁 瘤唱哎 荐 绝绢.\n　ˇ绢褥!构, 坷绰 霸 乐栏搁 啊绰 霸 乐瘤.\n　磊匙 饭骇３狼 胶懦阑 啊瘤绊 乐唱? 啊瘤绊 乐促搁 瘤唱啊霸 秦林瘤.
+	Window 11505,YES,NO
+
+Window_YES Job >= 370 && Job < 380 && SkillLevel 217 >= 3 && Group == 1
+	#\n\n　寸脚篮 磊脚狼 塞阑 饭骇３鳖瘤 篡篮 巴 鞍焙. 弊烦 咯扁甫 瘤唱啊霸 秦林瘤.
+	Window 11506,OK,CANCEL
+	Window_OK Job >= 370 && Job < 380 && SkillLevel 217 >= 3 && Group == 1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 380 && Job < 390 && SkillLevel 218 >= 3 && Group == 1
+	#\n\n　寸脚篮 磊脚狼 塞阑 饭骇３鳖瘤 篡篮 巴 鞍焙. 弊烦 咯扁甫 瘤唱啊霸 秦林瘤.
+	Window 11506,OK,CANCEL
+	Window_OK Job >= 380 && Job < 390 && SkillLevel 218 >= 3 && Group == 1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 390 && Job < 400 && SkillLevel 219 >= 3 && Group == 1
+	#\n\n　寸脚篮 磊脚狼 塞阑 饭骇３鳖瘤 篡篮 巴 鞍焙. 弊烦 咯扁甫 瘤唱啊霸 秦林瘤.
+	Window 11506,OK,CANCEL
+	Window_OK Job >= 390 && Job < 400 && SkillLevel 219 >= 3 && Group == 1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 400 && Job < 410 && SkillLevel 220 >= 3 && Group == 1
+	#\n\n　寸脚篮 磊脚狼 塞阑 饭骇３鳖瘤 篡篮 巴 鞍焙. 弊烦 咯扁甫 瘤唱啊霸 秦林瘤.
+	Window 11506,OK,CANCEL
+	Window_OK Job >= 400 && Job < 410 && SkillLevel 220 >= 3 && Group == 1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 410 && Job < 420 && SkillLevel 221 >= 3 && Group == 1
+	#\n\n　寸脚篮 磊脚狼 塞阑 饭骇３鳖瘤 篡篮 巴 鞍焙. 弊烦 咯扁甫 瘤唱啊霸 秦林瘤.
+	Window 11506,OK,CANCEL
+	Window_OK Job >= 410 && Job < 420 && SkillLevel 221 >= 3 && Group == 1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 420 && Job < 430 && SkillLevel 222 >= 3 && Group == 1
+	#\n\n　寸脚篮 磊脚狼 塞阑 饭骇３鳖瘤 篡篮 巴 鞍焙. 弊烦 咯扁甫 瘤唱啊霸 秦林瘤.
+	Window 11506,OK,CANCEL
+	Window_OK Job >= 420 && Job < 430 && SkillLevel 222 >= 3 && Group == 1
+	Warp 0,11000,20,14
+
+Window_YES
+	#\n\n　栏~澜, 弊贰急 瘤唱啊霸 秦临 荐 绝焙.
+	EndWindow 11507
+
+Window_NO
+
+
+########## 唱公槽 捞惑 ##########
+block Level < 20 && Job >= 450 && Group == 1
+	#\n\n　咯扁绰 饭骇捞 ２０捞惑捞 酒聪搁 瘤唱哎 荐 绝绢.ˇ绢褥!构, 坷绰 霸 乐栏搁 啊绰 霸 乐瘤. 弥辟 唱绰 珐农３狼 啊傍前俊 狐廉 乐绢辑 富捞具. 构, 弊繁 芭瘤. 舅摆瘤?
+	Window 11448,YES,NO
+
+Window_YES Job >= 450 && Job < 460 && Item 10002 >= 20 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 炕肺快 皋鄂摹啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11455,OK,CANCEL
+	Window_OK Job >= 450 && Job < 460 && Item 10002 >= 20 && Group == 1
+	KillItem 10002,20
+	Warp 0,11000,20,14
+
+Window_YES Job >= 450 && Job < 460 && Item 12802 >= 20 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 酒捞府胶啊 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11456,OK,CANCEL
+	Window_OK Job >= 450 && Job < 460 && Item 12802 >= 20 && Group == 1
+	KillItem 12802,20
+	Warp 0,11000,20,14
+
+Window_YES Job >= 460 && Job < 470 && Item 12402 >= 20 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 家陛捞 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11457,OK,CANCEL
+	Window_OK Job >= 460 && Job < 470 && Item 12402 >= 20 && Group == 1
+	KillItem 12402,20
+	Warp 0,11000,20,14
+
+Window_YES Job >= 460 && Job < 470 && Item 12409 >= 20 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 埃厘捞 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11458,OK,CANCEL
+	Window_OK Job >= 460 && Job < 470 && Item 12409 >= 20 && Group == 1
+	KillItem 12409,20
+	Warp 0,11000,20,14
+
+Window_YES Job >= 470 && Job < 480 && Item 9613 >= 1 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 篮狼 楷豪捞 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11459,OK,CANCEL
+	Window_OK Job >= 470 && Job < 480 && Item 9613 >= 1 && Group == 1
+	KillItem 9613,1
+	Warp 0,11000,20,14
+
+Window_YES Job >= 470 && Job < 480 && Item 9602 >= 20 && Group == 1
+	#\n\n　坷龋! 弊扒 郴啊 酒林 亮酒窍绰 篮捞 酒囱啊! 览? 绢锭? 弊 酒捞袍阑 霖促绊 窍搁, 隔贰 瘤唱啊霸 秦临 荐档 乐绰单?
+	Window 11460,OK,CANCEL
+	Window_OK Job >= 470 && Job < 480 && Item 9602 >= 20 && Group == 1
+	KillItem 9602,20
+	Warp 0,11000,20,14
+
+#--- 流牢捞 傈巩 捞寇狼 酒捞袍阑 啊瘤绊 乐绰 版快 ---#
+Window_YES
+	#\n\n　夯流狼 流牢捞 父电 珐农３酒捞袍 观俊 蕊固啊 绝绢.\n　固救窍瘤父 咯扁绰 瘤唱哎 荐 绝绢. Ｌｖ２０捞惑捞 登搁 促矫 客.
+	EndWindow 11454
+
+Window_NO
+
+
+########## 饭骇捞 20捞惑捞绊 弊缝捞 酒囱 版快 ##########
+block Level >= 20 && Group == 1
+	#\n\n　龋坷. 磊匙绰 咯扁俊 甸绢啊扁俊 面盒茄 饭骇牢 巴 鞍焙. 弊烦 霖厚绰 灯唱?
+	Window 11449,YES,NO
+	Window_YES Level >= 20 && Group == 1
+	Warp 0,11000,20,14
+	Window_NO
+
+########## 利钦窍瘤 臼篮 版快 ##########
+block
+	#\n\n　咯扁绰 饭骇捞 ２０捞惑捞 酒聪搁 瘤唱哎 荐 绝绢.\n　ˇ绢褥!构, 坷绰 霸 乐栏搁 啊绰 霸 乐瘤.\n　弥辟 唱绰 珐农３狼 啊傍前俊 狐廉 乐绢辑 富捞具. 构, 弊~, 构具. 舅摆瘤?\n　窜, 夯流牢 荤恩捞 啊廉 柯 酒捞袍 观俊 脚侩窍瘤 臼酒.
+	EndWindow 11448
+

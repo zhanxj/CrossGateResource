@@ -1,0 +1,26 @@
+#
+#窍骇狼 霸捞飘
+#
+
+##############  ##############
+block
+#block EndEvent 17 == 0
+#\n\n　捞规牢篮 绢辑 栋唱档废 秦.
+	Window 14891,YES,NO
+	Window_YES
+#	EndEvent 17 = 1
+#	CheckTitle
+	LeaveGroup
+	Warp 0,300,523,333
+	Window_NO
+
+##############  ##############
+#block EndEvent 17 == 1
+#\n\n　捞规牢篮 绢辑 栋唱档废 秦.
+#	Window 14891,YES,NO
+#	Window_YES
+#	LeaveGroup
+#	Warp 0,300,523,333
+#	Window_NO
+
+

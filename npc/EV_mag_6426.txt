@@ -1,0 +1,156 @@
+#
+#囱磊 涅胶飘
+#夸府牢 舅内棵
+
+######### 柳裹牢 浚爹 ########
+block NowEvent 16 == 1
+#\n\n　ˇˇˇ酒令固啊ˇˇ寸脚, 档客霖促绊 沁垒酒! 绢掳辑 档客林瘤 臼篮 芭具!　力扁饿! 唱啊!!
+	EndWindow 14925,OK
+
+######### 酒令固 裹牢 浚爹 ########
+block EndEvent 16 == 1
+#\n\n　ˇˇˇ唱啊林霸. 寸脚苞 且 娟扁绰 酒公巴档 绝绢.
+	EndWindow 14926,OK
+
+######### 刀 ########
+block NowEvent 12 == 1 && StrCmpChat == 14912
+#\n\n　刀? 弊矾绊 焊聪 酒令固啊 鄂狼 刀捞 绢录绊 沁菌瘤. 唱绰 公郊 家赴瘤 肋 葛福佡瘤父.
+	EndWindow 14927,OK
+
+######### 酒令固＆苞磊 绝澜 ########
+#block NowEvent 12 == 1 && Item 18550 == 0 && StrCmpChat == 14916
+#\n\n　酒令固啊 埃 镑狼 咙累捞扼ˇˇ栏~澜, 蜡皑捞瘤父 葛福摆焙.
+#	Window 14928,NEXT
+#\n\n　酒, 弊犯瘤. 捞吧 沤沥揪啊 该酒玲栏搁 亮摆焙.
+#	Window 14929,OK
+#	Window_OK ItemSpace != 0 && Item 18550 == 0
+#	GiveItem 18550
+#\n\n　捞扒 富捞瘤, 酒令固啊 快府 啊霸俊辑 老阑 档客玲阑 锭 焊翠栏肺 鞍捞 霖 苞磊具. 父距 酒令固甫 茫栏搁 捞吧 傈秦拎. 盒疙 硅 绊敲 抛聪鳖ˇ
+#	EndWindow 14931,OK
+#	Window_OK
+#\n\n\n\n　（∝）荐荤俊 鞘夸茄 酒捞袍阑 林妨绊 窍绊 乐嚼聪促. 家瘤前阑 沥府秦林绞矫坷.
+#	EndWindow 14930,OK
+
+######### 酒令固＆苞磊 乐澜 ########
+block NowEvent 12 == 1 && Item 18550 == 1 && StrCmpChat == 14916
+#\n\n　酒令固, 绢叼俊 乐绰 吧鳖.
+	EndWindow 14932,OK
+
+######### 酒令固 ########
+block EndEvent 10 == 1 && Item 18551 == 1 && Item 18550 == 0
+#block EndEvent 11 == 1 && StrCmpChat == 14916
+#\n\n　坷坷, 荐绊沁绢!! 寸脚 惑成窍备父. 俊?　寸脚 沤沥 青农揪狼 炼荐看唱!?　捞芭 寸沁焙ˇ弊繁 临 舅疽促搁 捞繁 何殴 救 沁阑刨单ˇˇ
+	Window 14940,NEXT
+#\n\n　ˇ弊 荤扒 锭巩俊 酒令固甫 唱悔霸 富窍绰 荤恩甸捞 腹酒辑 富捞瘤, 寸脚档 弊繁 荤恩甸 吝狼 茄 疙牢啊 窍绊 积阿沁绢. 捍荤窜狼 荤恩甸付历 弊 局甫 裹牢 秒鞭茄促备.
+	Window 14933,NEXT
+#\n\n　亮酒, 宝满摆瘤. 酒令固俊 措秦辑 啊福媚林瘤. 弊矾聪鳖 弧府 弊 酒捞甫 茫酒郴辑 档客林扼备.
+	Window 14934,NEXT
+#\n\n　酒令固客 墨唱捞 且酒滚瘤绰 馆斥 沥档 傈何磐 鸥坷 侥丰前痢狼 喊盲俊辑 混绊 乐菌绢. 笛篮 荤捞啊 亮疽绊, 酒令固档 沥富 馒茄 酒捞看绢. 鸥坷揪匙 啊霸扼电瘤 快府 啊霸俊辑 梆肋 老阑 档客林菌瘤.
+	Window 14935,NEXT
+#\n\n　荤扒 寸牢, 郴啊 老阑 场郴绊 沥府甫 窍绊 乐栏聪鳖 酒令固啊 吭绢.
+	Window 14936,NEXT
+#\n\n　酒令固绰 「例措肺 裹牢阑 茫摆绢」扼哥 辈厘茄 混扁甫 剁绊 乐菌绢. 弊府绊ˇˇ构, 郴啊 泪瘪传阑 毒 拼俊 炼府侩 唱捞橇甫 啊瘤绊 啊滚啡瘤ˇ
+	Window 14937,NEXT
+#\n\n　唱绰 弊 酒捞啊 混牢父怒篮 历瘤福瘤 臼辨 官贰. 沤沥揪, 酒令固啊 肋给登瘤 臼档废 弊 酒捞甫茫酒郴林霸. 何殴秦.
+	Window 14938,NEXT
+#\n\n　酒, 弊犯瘤. 捞吧 沤沥揪啊 该酒玲栏搁 亮摆焙.
+	Window 14929,OK
+	Window_OK Item 18551 == 1 && Item 18550 == 0
+	KillItem 18551
+	GiveItem 18550
+	EndEvent 11 = 1
+	NowEvent 11 = 1
+	NowEvent 12 = 1
+#\n\n　捞扒 富捞瘤, 酒令固啊 快府 啊霸俊辑 老阑 档客玲阑 锭 焊翠栏肺 鞍捞 霖 苞磊具. 父距 酒令固甫 茫栏搁 捞吧 傈秦拎. 盒疙 硅 绊敲 抛聪鳖ˇ
+	EndWindow 14931,OK
+
+#########  ########
+block EndEvent 11 == 1
+#\n\n　寸脚捞 沤沥 青农揪狼 炼荐牢临篮 隔耳绢.
+	EndWindow 14939,OK
+
+######### 户 乐澜 ########
+#block EndEvent 10 == 1 && Item 18551 == 1
+#	KillItem 18551
+#	EndEvent 11 = 1
+#	NowEvent 11 = 1
+#\n\n　坷坷, 荐绊沁绢!! 寸脚 惑成窍备父. 俊?　寸脚 沤沥 青农揪狼 炼荐看唱!?　捞芭 寸沁焙ˇ弊繁 临 舅疽促搁 捞繁 何殴 救 沁阑刨单ˇˇ
+#	EndWindow 14940,OK
+
+#########  ########
+block NowEvent 10 == 1
+#\n\n　鸥坷揪啊 青规阂疙捞扼绊!? 捞 公郊ˇ
+	EndWindow 14941,OK
+
+######### 皋葛 乐澜 ########
+block EndEvent 9 == 1 && Item 18552 == 1
+#\n\n　鸥坷 侥丰前痢捞具. 弧府 秦林霸.
+	EndWindow 14942,OK
+
+######### 皋葛 绝澜 ########
+block EndEvent 9 == 1 && Item 18552 == 0
+	NowEvent 7 = 0
+	EndEvent 7 = 0
+	NowEvent 8 = 0
+	EndEvent 8 = 0
+	NowEvent 9 = 0
+	EndEvent 9 = 0
+	NowEvent 10 = 0
+	EndEvent 10 = 0
+	NowEvent 11 = 0
+	EndEvent 11 = 0
+	NowEvent 12 = 0
+	EndEvent 12 = 0
+	NowEvent 13 = 0
+	EndEvent 13 = 0
+	NowEvent 14 = 0
+	EndEvent 14 = 0
+	NowEvent 15 = 0
+	EndEvent 15 = 0
+	NowEvent 16 = 0
+	EndEvent 16 = 0
+#\n\n　绢捞绢捞! 郴 荤牢捞 甸绢埃 吝夸茄 皋葛扼备! 寸脚俊霸绰 该辨 荐啊 绝备父.
+	Window 14943,NEXT
+#\n\n　　（∝）荐荤俊 吝措茄 厘局啊 惯积沁嚼聪促.\n\n　　　　　　　　　荐荤角菩涝聪促.\n\n　　　　贸澜何磐 促矫 炼荤秦林绞矫坷.
+	EndWindow 14944,OK
+
+######### 酒令固 ########
+block EndEvent 7 == 1 && StrCmpChat == 14916
+#\n\n　酒令固?ˇˇˇ酒令固狼 青规阑 舅绊 酵栏搁 炼扒何肺 背券窍磊备. 角篮 吵前诀磊啊 侥户阑 啊廉棵 抗沥捞菌绰单 傈囚 坷龙 臼绊 乐绢. 沥富 够 窍绊 乐绰 扒瘤.
+	Window 14945,NEXT
+#\n\n　弊贰辑 寸脚捞 弊 诀磊茄抛 啊辑 户阑 罐酒客 临 荐 绝摆唱? 弊烦 酒令固俊 措秦辑 啊福媚林瘤.
+	Window 14946,YES,NO
+	Window_NO
+#\n\n　寐, 构具.
+	EndWindow 14947,OK
+	Window_YES ItemSpace == 0
+#\n\n\n\n　（∝）荐荤俊 吝夸茄 酒捞袍阑 林妨绊 窍绊 乐嚼聪促. 家瘤前阑 沥府秦林绞矫坷.
+	EndWindow 14930,OK
+	Window_YES
+	GiveItem 18552
+	EndEvent 9 = 1
+#\n\n　弊繁啊 弊繁啊! 寸脚捞扼搁 弊犯霸 富且 临 舅疽绢. 郴 荤牢捞 甸绢埃 皋葛甫 临 抛聪鳖, 犬角洒 罐栏扼备. 吵前诀磊狼 捞抚篮 魄何福农狼 鸥坷 侥丰前痢捞具. 肋 何殴秦.
+	EndWindow 14948,OK
+
+######### 墨唱捞 ########
+block EndEvent 7 == 1 && StrCmpChat == 14917
+#\n\n　酒酒, 墨唱捞 且酒滚瘤绰 阂街沁瘤. 档措眉 穿啊 弊繁 窿阑 茄 芭具.
+	EndWindow 14949,OK
+
+######### 固匙荤墨 ########
+block EndEvent 7 == 1 && StrCmpChat == 14950
+#\n\n　酒酒, 贱 模备牢单?
+	EndWindow 14951,OK
+
+######### 舅内棵 ########
+block EndEvent 7 == 1 && StrCmpChat == 14905
+#\n\n　构具, 唱茄抛 公郊 杭老牢啊?
+	EndWindow 14952,OK
+
+#########  ########
+block
+#\n\n　吵前诀磊啊 棵 抗沥牢单ˇ捞霸 沥府啊 救登搁 贱档 付矫矾 给 啊.
+	EndWindow 14953,OK
+
+
+

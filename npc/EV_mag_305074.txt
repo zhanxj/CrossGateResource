@@ -1,0 +1,41 @@
+#305074
+block endevent143 == 1 && endevent139 == 0
+	endevent85 = 1
+	EndEvent 125 = 1
+	EndWindow 120197,OK
+
+block endevent143 == 1 && endevent133 == 0
+	endevent85 = 1
+	EndEvent 125 = 1
+	EndWindow 120197,OK
+
+block endevent143 == 1 && endevent131 == 0
+	endevent85 = 1
+	EndEvent 125 = 1
+	EndWindow 120197,OK
+
+block endevent139 == 1 && endevent133 == 0
+	endevent85 = 1
+	EndEvent 125 = 1
+	EndWindow 120197,OK
+
+block endevent139 == 1 && endevent131 == 0
+	endevent85 = 1
+	EndEvent 125 = 1
+	EndWindow 120197,OK
+
+block endevent133 == 1 && endevent131 == 0
+	endevent85 = 1
+	EndEvent 125 = 1
+	EndWindow 120197,OK
+
+block EndEvent 125 == 1
+	EndWindow 120197,OK
+
+block
+	Window 15667,YES,NO
+	Window_YES
+	LeaveGroup
+	Warp 0,33220,28,31
+	Window_NO
+

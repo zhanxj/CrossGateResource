@@ -1,0 +1,30 @@
+#
+#聪鸥纳
+#
+##############  ##############
+block Item 18630 >= 1
+#\n\n　弊 枚荤肺 犬角洒 烙公甫 促窍绞碱.
+	EndWindow 15405,OK
+
+##############  ##############
+block
+#\n\n　囱磊绰 扁刮窃捞 积疙烙促. 捞 鄂狼 枚荤肺 歹宽 扁刮秦瘤绰 芭烈.
+	Window 15399,NEXT
+#\n\n　7500Gold烙促.
+	Window 15400,YES,NO
+	Window_NO
+#\n\n　弊犯娇鳖~.
+	EndWindow 15401,OK
+	Window_YES ItemSpace == 0
+#\n\n　歹 捞惑 给 啊瘤缴促.
+	EndWindow 15402,OK
+	Window_YES Gold < 7500
+#\n\n　何练茄氮碱.
+	EndWindow 15403,OK
+	Window_YES ItemSpace != 0 && Gold >= 7500
+	AddGold -7500
+	GiveItem 18630
+#\n\n　肚 坷绞碱~.
+	EndWindow 15404,OK
+
+

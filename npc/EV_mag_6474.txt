@@ -1,0 +1,24 @@
+#
+#惑贸涝篮 靛贰帮
+#
+##############  ##############
+block
+#\n\n\n\n@cˇˇ穿备衬ˇˇ
+	Window 15295,NEXT
+#\n\n\n\n@cˇˇ酒聪, 捞哩 穿备扼档 亮促ˇˇ\n@cˇ牢埃捞咯ˇ\n@cˇˇ唱俊霸 颊阑 呼妨林瘤 臼摆唱ˇˇ
+	Window 15296,YES,NO
+	Window_NO
+#\n\n\n\n@cˇ弊繁啊ˇ\n@cˇ绢驴 荐 绝瘤ˇ
+	EndWindow 15297,OK
+	Window_YES
+#\n\n　ˇ弊措甫 瓜瘤, 葛氰磊咯ˇ何叼 捞 啪 救狼「崔狼 硅傈」俊 拌矫绰 墨坊丛狼 塞捞 登绢林菌栏搁茄促. 瘤陛狼 墨坊丛栏肺绰 官肺胶狼 塞阑 肯傈洒 撅力且 荐 绝绢ˇˇ炼陛捞扼档 弊 盒狼 塞捞 瞪 粮犁啊 鞘夸窍促ˇˇ捞力何磐 郴 去阑 弊措俊霸 该扁瘤ˇ
+	Window 15298,OK
+	Window_OK ItemSpace == 0
+#\n\n\n\n@cˇ捞力何磐 郴 去阑 弊措俊霸 该扁瘤ˇ
+	EndWindow 15299,OK
+	Window_OK ItemSpace != 0
+	GiveItem 18589
+	LeaveGroup
+	Warp 0,20101,12,37
+
+

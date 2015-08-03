@@ -1,0 +1,16 @@
+block EndEvent 125 == 1
+	EndWindow 120246,OK
+
+block Floor != 1000
+	EndWindow 120245,OK
+
+block
+	Window 300004,yes,no
+	Window_yes
+	killitem 39542
+	LeaveGroup
+	Warp 0,43100,120,107
+	Window_no
+	EndWindow 300005
+block
+	EndWindow 300005

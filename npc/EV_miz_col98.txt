@@ -1,0 +1,31 @@
+#瘤窍捧扁厘 涅胶飘 　（夯傈B配呈刚飘 霖搬铰）坷令聪农
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+########　酒捞袍 啊垫 曼　#########
+block ItemSpace <= 1
+	EndWindow 20598,OK
+
+#########　捧荤狼 刘钎啊 绝促　##########
+block Item 18256 == 0
+#
+	EndWindow 20451,OK
+
+#######　颇萍甫 捞风绊 乐促　##########
+
+block Group >= 2
+	EndWindow 20625,OK
+
+#######　捧荤狼 刘钎甫 啊瘤绊 乐促　#####
+block Item 18256 >= 1
+#
+	Window 20450,OK
+	Window_OK ItemSpace <= 1
+	EndWindow 20598,OK
+	Window_OK Group >= 2
+	EndWindow 20625,OK
+	Window_OK
+	KillItem 18256
+	Encount 3|0,1467,23,25||0|||||0|9045|||||||||
+	
+

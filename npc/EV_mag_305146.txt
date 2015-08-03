@@ -1,0 +1,21 @@
+
+
+block EndEvent 0 == 1
+#15934·\n\n　肺弊牢 器牢飘甫 魄何福农肺 汲沥窍绊 酵篮 芭瘤?
+	Window 15934,YES,NO
+	Window_NO
+	Window_YES
+		SetLoginPoint 0
+	#15931·肺弊牢 器牢飘啊 魄何福农肺 汲沥登菌嚼聪促
+		Message 15931
+
+block EndEvent 0 == 0
+#15934·\n\n　肺弊牢 器牢飘甫 魄何福农肺 汲沥窍绊 酵篮 芭瘤?
+	Window 15934,YES,NO
+	Window_NO
+	Window_YES
+		EndEvent 0 = 1
+		SetLoginPoint 0
+	#15931·肺弊牢 器牢飘啊 魄何福农肺 汲沥登菌嚼聪促
+		Message 15931
+

@@ -1,0 +1,23 @@
+
+block Item 18988 >= 1
+#15943·\n\n　肋 何殴靛妨夸.
+	EndWindow 15943,OK
+
+block
+#15939·\n\n　何殴捞 乐嚼聪促父, 宝满阑鳖夸?
+	Window 15939,YES,NO
+	Window_NO
+#15940·\n\n　蜡皑捞匙夸.
+	EndWindow 15940,OK
+	Window_YES ItemSpace == 0
+#15941·\n\n　靛府绊 酵篮 巴捞 乐嚼聪促父ˇ
+	EndWindow 15941,OK
+	Window_YES
+#15942·\n\n　绊付况夸. 角篮 历锐甸焊促 刚历 魄何福农肺 埃 公侩荐啊 割 疙 乐嚼聪促父, 公荤洒 档馒沁绰瘤 犬牢秦 林继栏搁 秦夸. 肋 何殴靛赋聪促.
+	Window 15942,OK
+	Window_OK ItemSpace != 0 && Item 18988 == 0
+	GiveItem 18988
+
+
+
+

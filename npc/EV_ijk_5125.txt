@@ -1,0 +1,28 @@
+#咯青 惑牢 丽 圈府　14015,4:1154狼 绢凋啊
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+########## 皋矫瘤 扩档快甫 楷促 ##########
+block StrCmpChat == R
+
+	#\n\n　绢辑 坷捞家. 坷疵档 亮篮 拱扒 甸咯吭缴歹.\n　坷疵 惑前篮 『ぁ磊 荐府八』捞扼抗. 瘤陛捞扼搁 漂喊啊拜 『１２５Ｇ』牢单 绢恫背? 救混而聪波?
+	Window 12098,YES,NO
+
+	Window_YES Gold >= 125 && ItemSpace >= 1
+	Addgold -125
+	GiveLeak1Item 2900,1
+	#\n\n　肋 静捞家~\n　弊扼谷 肚 焊涝矫歹.
+	EndWindow 12099
+
+	Window_YES Gold < 125
+	#\n\n　捣捞 葛龙扼匙抗.\n　捣 葛酒辑 肚 坷捞家~
+	EndWindow 12100
+
+	Window_YES ItemSpace == 0
+	#\n\n　拱扒捞 菜 瞒 乐匙抗.\n　咙阑 代绢初绊 肚 坷捞家~
+	EndWindow 12117
+
+	Window_NO
+	#\n\n　肚 亮篮 拱扒 甸咯棵 抛聪鳖, 扁措秦 林捞家
+	EndWindow 12101
+

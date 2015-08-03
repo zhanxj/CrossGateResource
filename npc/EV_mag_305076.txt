@@ -1,0 +1,47 @@
+#305076
+
+block endevent143 == 1 && endevent139 == 0
+	endevent85 = 1
+	EndEvent 125 = 1
+	EndWindow 120197,OK
+
+block endevent143 == 1 && endevent133 == 0
+	endevent85 = 1
+	EndEvent 125 = 1
+	EndWindow 120197,OK
+
+block endevent143 == 1 && endevent131 == 0
+	endevent85 = 1
+	EndEvent 125 = 1
+	EndWindow 120197,OK
+
+block endevent139 == 1 && endevent133 == 0
+	endevent85 = 1
+	EndEvent 125 = 1
+	EndWindow 120197,OK
+
+block endevent139 == 1 && endevent131 == 0
+	endevent85 = 1
+	EndEvent 125 = 1
+	EndWindow 120197,OK
+
+block endevent133 == 1 && endevent131 == 0
+	endevent85 = 1
+	EndEvent 125 = 1
+	EndWindow 120197,OK
+
+block EndEvent 125 == 1
+	EndWindow 120197,OK
+
+block
+	Window 15669,NEXT
+	Window 15670,YES,NO
+	Window_NO
+	Window_YES TrialFlg != 4 && TrialFlg != 6 && TrialFlg != 7 && TrialFlg != 8
+	EndWindow 15671,OK
+	Window_YES Gold < 500
+	EndWindow 15672,OK
+	Window_YES
+	AddGold -500
+	LeaveGroup
+	Warp 0,40003,18,55

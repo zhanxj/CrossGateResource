@@ -1,0 +1,117 @@
+#空泵家券荤 霸捞明 14071,6:1530 11 6
+#贸澜栏肺 炼扒捞 老摹茄 喉废阑 贸府茄促
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+#01/06/15 17:12 荤配 荐沥
+
+block Trialflg == 8 && EndEvent 0 == 1
+
+	EndWindow 3110001
+
+block Trialflg == 8 && Item 620030 >= 1
+
+	gotoF case1
+
+block Trialflg == 8 && Item 18218 >= 1
+
+	gotoF case1
+
+block Trialflg == 8
+
+	Window 3110002,yes,no
+	
+	Window_NO
+
+		Window 3110003,next
+
+		Window 3110004,next
+
+		gotoB case2
+	
+	Window_YES
+	
+		Window 3110005,next
+
+		Window 3110006,next
+
+*case2*
+
+		Window 3110007,next
+
+		Window 3110008,yes,no
+
+				Window_YES
+
+					Window 3110009,next
+
+					Window 3110010,ok
+
+					Window_ok
+
+						LeaveGroup
+						Warp 0,1531,44,10
+
+				Window_NO
+
+					Window 3110011,next
+
+					Window 3110012,next
+
+					Window 3110013,next
+
+					Window 3110014,ok
+
+					Window_ok
+
+						LeaveGroup
+						Warp 0,59740,99,26
+
+
+
+
+
+########## 窍荤厘阑 啊瘤绊 乐绰 版快 ##########
+block Item 18219 == 1
+	#\n\n　弊措档 『咯绰 磊』啊 酒聪菌促绰 扒啊ˇ.
+	EndWindow 3110015
+
+########## 荤磊狼 馆瘤甫 啊瘤绊 乐绰 版快 ##########
+block Item 18218 >= 1
+
+*case1*
+
+	#\n\n　ˇ固救窍焙, 俐篮捞咯ˇ唱绰 捞犯霸 捞技拌狼 林刮阑 阂矾郴辑绰, 捞 技拌甫 备秦霖促绰 『咯绰 磊』甫 茫绊 乐匙.了 腹篮 老捞扼绊绰 积阿窍瘤父, 弊父笛 荐绰 绝促匙ˇ
+	#\n\n　何叼 快府 企窍甫 父唱林菌栏搁 窍匙. 弊府绊 父距 弊措啊 柳楼 『咯绰 磊』扼搁, 何叼 捞 唱扼甫, 捞 技拌甫 备秦玲栏搁 窍匙ˇ
+	#\n\n　弊府绊, 捞 『家券狼 规』篮 府技府酒 己 沥盔狼 瘤窍俊 乐匙. 郴 捞具扁甫 促矫 佃绊 酵栏搁, 攫力扼档 坷档废 窍霸ˇ弊烦 啊霸唱ˇ
+	Window 3110016,NEXT
+	Window 3110017,NEXT
+	Window 3110018,NEXT
+	EndEvent 0 = 1
+
+	LeaveGroup
+	Warp 0,1511,9,17
+
+
+########## 荤磊狼 馆瘤甫 啊瘤绊 乐瘤 臼篮 版快 ##########
+block
+	#\n\n　坷坷, 捞技拌狼 咯青磊咯, 肋 吭匙.\n　措翠秦林霸, 弊措绰 『咯绰 磊』牢啊 ?
+	Window 3110019,YES,NO
+
+		Window_YES
+		#\n\n　弊繁! 开矫 弊法唱! 开矫 开矫. 弊烦 弊措狼 富俊 芭窿篮 绝绰瘤 犬牢窍霸 秦玲栏搁 窍匙.
+		Window 3110020,NEXT
+		#\n\n　捞 『家券狼 规』 瘤窍狼 康寸俊绰 侩磊甫 矫氰窍绰 『荤磊狼 馆瘤』扼绰 巴捞 粮犁茄促. 弊吧 茫酒郴 林菌栏搁 窍匙.弊 馆瘤甫 焊搁 弊措啊 柳楼 『咯绰 磊』牢瘤 酒囱瘤 舅 荐 乐摆瘤.
+		Endwindow 3110021
+
+	LeaveGroup
+	Warp 0,1531,44,10
+
+		Window_NO
+		#\n\n　倔付唱 扳倾茄 俐篮捞牢啊ˇ弊措 鞍篮 磊具富肺, 柳楼 侩磊烙俊 撇覆绝绢. 怖 弊措啊『咯绰 磊』牢瘤 酒囱瘤 犬牢窍霸 秦林菌栏搁 窍绰单, 宝满摆唱?
+		Window 3110022,NEXT
+		#\n\n　捞 『家券狼 规』 瘤窍狼 康寸俊绰『荤磊狼 馆瘤』扼绰 巴捞 粮犁茄促.弊吧 茫酒郴 林菌栏搁 窍匙.弊 馆瘤甫 焊搁 弊措啊 柳楼 『咯绰 磊』牢瘤 酒囱瘤 舅 荐 乐摆瘤.
+		Endwindow 3110023
+
+	LeaveGroup
+	Warp 0,1531,44,10
+

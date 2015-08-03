@@ -1,0 +1,12 @@
+#风厚狼 规栏肺狼 埃魄
+
+##############  ##############
+block
+#\n\n\n\n@c「厚剐狼 规」\n\n@c包拌磊 捞寇 免涝陛瘤牢 淀
+	Window 15432,OK
+	Window_OK Item 18663 >= 1
+	LeaveGroup
+	Warp 0,23500,9,7
+	Window_OK
+
+

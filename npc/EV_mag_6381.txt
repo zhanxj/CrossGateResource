@@ -1,0 +1,28 @@
+#叼坷皋酒
+
+############## 捞固 林菌促（茄锅 林搁 促矫 窍瘤 臼栏搁 救凳） ##############
+block NowEvent 4 == 1
+#\n\n　磊, 啊扼ˇˇ
+	EndWindow 14737,OK
+
+############## 酒流 救 玲促＆后 镑 乐澜 ##############
+block ItemSpace >= 1 && NowEvent 4 == 0
+#\n\n　款疙俊 亲芭窍绰 磊咯, 捞 眯措俊 磊扁 狼瘤甫 灌洒档废 窍扼.
+	Window 14736,OK
+	Window_OK ItemSpace >= 1 && NowEvent 4 == 0
+	NowEvent 4 = 1
+	GiveItem 18492
+	Window_OK
+
+############## 酒流 救 玲促＆家瘤前 啊垫 曼 ##############
+block ItemSpace == 0 && NowEvent 4 == 0
+#\n\n　竿技狼 眯措甫 啊廉扼.
+	EndWindow 14760,OK
+
+############## 橇贰弊 救 脊澜 ##############
+#block NowEvent 4 == 0
+#\n\n　ˇˇˇ棵官弗 眯措甫 啊廉扼.
+#	EndWindow 14761,OK
+
+
+

@@ -1,0 +1,6 @@
+
+block
+	playse
+	systemmessage 300034
+
+

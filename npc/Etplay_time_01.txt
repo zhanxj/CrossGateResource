@@ -1,0 +1,15 @@
+#addfeversec
+block
+	Window 300010,yes,no
+
+	Window_yes
+	Killitem 39545
+	Addfeversec +3600
+	systemmessage 300012
+	#addfeversec 3600	
+
+	Window_no
+	EndWindow 300011
+
+block
+	EndWindow 300011

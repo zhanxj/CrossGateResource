@@ -1,0 +1,452 @@
+#固肺 饭捞胶	固肺 胶鸥飘 淬寸	6138 1404 2 2
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+
+########## 饭骇捞 ５固父牢 版快 ##########
+	block Level < 5
+	#\n\n　咯扁绰 饭骇５ 捞惑捞 酒聪搁 捞侩且 荐 绝绰 矫汲捞具.\n　饭骇捞 坷福搁 促矫 客拎!
+	EndWindow 11815
+
+########## 蜡瓤茄 烹青倾啊刘阑 啊瘤绊 乐绰 版快 ##########
+	block Item 18377 >= 1 && ItemCreateTime 18377 < 60 && Group == 1
+	EndEvent 46 = 0
+	EndEvent 47 = 0
+	#\n\n　烹青倾啊刘阑 啊瘤绊 乐绰 扒啊.\n　弊烦 咯扁甫 瘤唱辑 芭措固肺俊 曼啊且刨啊?
+	Window 11870,YES,NO
+
+	Window_YES
+	#\n\n　泅犁 3俺狼 固肺啊 捞侩 啊瓷秦. 绢叼俊 涝厘窍摆唱? 1锅掳肺 且刨啊?
+	Window 11872,YES,NO
+
+	Window_YES ItemSpace >= 1 && Group == 1
+	GiveLeak1Item 18377
+	SetVisitor +1
+	Warp 0,1405,97,97
+
+	Window_YES
+
+	Window_NO
+	#\n\n　弊烦, 2锅掳狼 固肺俊 涝厘茄促, 牢啊?
+	Window 11873,YES,NO
+
+	Window_YES ItemSpace >= 1 && Group == 1
+	GiveLeak1Item 18377
+	SetVisitor +1
+	Warp 0,1412,97,97
+
+	Window_YES
+
+	Window_NO
+	#\n\n　弊犯促搁, 3锅掳狼 固肺俊 涝厘茄促, 肺 窍绰 扒啊?
+	Window 11874,YES,NO
+
+	Window_YES ItemSpace >= 1 && Group == 1
+	GiveLeak1Item 18377
+	SetVisitor +1
+	Warp 0,1413,97,97
+
+	Window_YES
+
+	Window_NO
+	#\n\n　构具, 沥且 荐啊 绝垒酒!! 绢驴 荐 绝焙, 弊烦 唱俊霸 固肺狼 急琶阑 该败 杭刨啊?
+	Window 11875,YES,NO
+
+	Window_YES ItemSpace >= 1 && Group == 1
+	GiveLeak1Item 18377
+	SetVisitor +1
+	Warp 0,1405,97,97,0,1412,97,97,0,1413,97,97
+
+	Window_YES
+
+	Window_NO
+	#\n\n　肚 客林霸. 咯扁狼 立荐绰 撤 悼救挥捞具.
+	EndWindow 11769
+
+########## 公瓤茄 烹青倾啊刘阑 啊瘤绊 乐绰 版快 ##########
+	block Item 18377 >= 1 && ItemCreateTime 18377 >= 60
+	EndEvent 46 = 0
+	EndEvent 47 = 0
+	#\n\n　倾啊刘狼 扁茄捞 公瓤啊 登绢 乐焙.\n　弊扒 咯扁辑 贸盒秦笛鳖?
+	Window 11871,YES,NO
+
+	Window_YES Item 18377 >= 1 && ItemCreateTime 18377 >= 60
+	KillItem 18377,1
+
+	Window_YES
+
+	Window_NO
+
+########## 家瘤前俊 后 镑捞 绝绰 版快 ##########
+	block ItemSpace == 0
+	#\n\n　饭捞胶俊 曼啊窍绰 扒啊?\n　ˇ捞繁, 家瘤前俊 后 镑捞 绝绰 巴 鞍焙. 弊烦 涝厘倾啊刘阑 临 荐 绝绢.
+	EndWindow 11768
+
+########## 颇萍狼 版快 ##########
+	block Group >= 2
+	#\n\n　芭措固肺狼 涝备绰, 茄 荤恩究 瘤唱啊林霸.\n　颇萍甫 秦魂窍摆唱?
+	Window 11868,YES,NO
+
+	Window_YES Group >= 2
+	LeaveGroup
+
+	Window_YES
+
+	Window_NO
+	#\n\n　芭措固肺狼 饭捞胶俊 曼啊窍妨搁, 茄 荤恩究 唱俊霸 富阑 吧绢拎.
+	EndWindow 11869
+
+########## 1疙掳牢 版快 ##########
+	block Visitor == 0 && Group == 1
+	EndEvent 46 = 0
+	EndEvent 47 = 0
+	#\n\n　咯扁绰, 捧扁厘 郴狼 矫汲, 「芭措固肺」促! 1殿栏肺 榜牢茄 荤恩俊霸绰 岗柳 惑前捞 林绢瘤瘤!\n　绢锭? 饭捞胶俊 曼啊窍摆唱?\n　泅犁狼 曼啊磊绰 ０疙捞促.
+	Window 11770,YES,NO
+
+	Window_YES ItemSpace == 0 && Group == 1
+	#\n\n　饭捞胶俊 曼啊窍摆唱?\n　ˇ捞繁, 家瘤前俊 后 镑捞 绝绰 巴 鞍焙. 弊烦 涝厘倾啊刘阑 临 荐 绝绢.
+	EndWindow 11768
+
+	Window_YES
+	#\n\n　泅犁 3俺狼 固肺啊 捞侩 啊瓷秦. 绢叼俊 涝厘窍摆唱? 1锅掳肺 且刨啊?
+	Window 11872,YES,NO
+
+	Window_YES ItemSpace >= 1 && Group == 1
+	GiveLeak1Item 18377
+	SetVisitor +1
+	Warp 0,1405,97,97
+
+	Window_YES
+
+	Window_NO
+	#\n\n　弊烦, 2锅掳狼 固肺俊 涝厘茄促, 牢啊?
+	Window 11873,YES,NO
+
+	Window_YES ItemSpace >= 1 && Group == 1
+	GiveLeak1Item 18377
+	SetVisitor +1
+	Warp 0,1412,97,97
+
+	Window_YES
+
+	Window_NO
+	#\n\n　弊犯促搁, 3锅掳狼 固肺俊 涝厘茄促, 肺 窍绰 扒啊?
+	Window 11874,YES,NO
+
+	Window_YES ItemSpace >= 1 && Group == 1
+	GiveLeak1Item 18377
+	SetVisitor +1
+	Warp 0,1413,97,97
+
+	Window_YES
+
+	Window_NO
+	#\n\n　构具, 沥且 荐啊 绝垒酒!! 绢驴 荐 绝焙, 弊烦 唱俊霸 固肺狼 急琶阑 该败 杭刨啊?
+	Window 11875,YES,NO
+
+	Window_YES ItemSpace >= 1 && Group == 1
+	GiveLeak1Item 18377
+	SetVisitor +1
+	Warp 0,1405,97,97,0,1412,97,97,0,1413,97,97
+
+	Window_YES
+
+	Window_NO
+	#\n\n　肚 客林霸. 咯扁狼 立荐绰 撤 悼救挥捞具..
+	EndWindow 11769
+
+########## 2疙掳牢 版快 ##########
+	block Visitor == 1 && Group == 1
+	EndEvent 46 = 0
+	EndEvent 47 = 0
+	#\n\n　咯扁绰, 捧扁厘 郴狼 矫汲, 「芭措固肺」促! 1殿栏肺 榜牢茄 荤恩俊霸绰 岗柳 惑前捞 林绢瘤瘤!\n　绢锭? 饭捞胶俊 曼啊窍摆唱?\n　泅犁狼 曼啊磊绰 １疙捞促.
+	Window 11771,YES,NO
+
+	Window_YES ItemSpace == 0 && Group == 1
+	#\n\n　饭捞胶俊 曼啊窍摆唱?\n　ˇ捞繁, 家瘤前俊 后 镑捞 绝绰 巴 鞍焙. 弊烦 涝厘倾啊刘阑 临 荐 绝绢.
+	EndWindow 11768
+
+	Window_YES
+	#\n\n　泅犁 3俺狼 固肺啊 捞侩 啊瓷秦. 绢叼俊 涝厘窍摆唱? 1锅掳肺 且刨啊?
+	Window 11872,YES,NO
+
+	Window_YES ItemSpace >= 1 && Group == 1
+	GiveLeak1Item 18377
+	SetVisitor +1
+	Warp 0,1405,97,97
+
+	Window_YES
+
+	Window_NO
+	#\n\n　弊烦, 2锅掳狼 固肺俊 涝厘茄促, 牢啊?
+	Window 11873,YES,NO
+
+	Window_YES ItemSpace >= 1 && Group == 1
+	GiveLeak1Item 18377
+	SetVisitor +1
+	Warp 0,1412,97,97
+
+	Window_YES
+
+	Window_NO
+	#\n\n　弊犯促搁, 3锅掳狼 固肺俊 涝厘茄促, 肺 窍绰 扒啊?
+	Window 11874,YES,NO
+
+	Window_YES ItemSpace >= 1 && Group == 1
+	GiveLeak1Item 18377
+	SetVisitor +1
+	Warp 0,1413,97,97
+
+	Window_YES
+
+	Window_NO
+	#\n\n　构具, 沥且 荐啊 绝垒酒!! 绢驴 荐 绝焙, 弊烦 唱俊霸 固肺狼 急琶阑 该败 杭刨啊?
+	Window 11875,YES,NO
+
+	Window_YES ItemSpace >= 1 && Group == 1
+	GiveLeak1Item 18377
+	SetVisitor +1
+	Warp 0,1405,97,97,0,1412,97,97,0,1413,97,97
+
+	Window_YES
+
+	Window_NO
+	#\n\n　肚 客林霸. 咯扁狼 立荐绰 撤 悼救挥捞具..
+	EndWindow 11769
+
+########## 3疙掳牢 版快 ##########
+	block Visitor == 2 && Group == 1
+	EndEvent 46 = 0
+	EndEvent 47 = 0
+	#\n\n　咯扁绰, 捧扁厘 郴狼 矫汲, 「芭措固肺」促! 1殿栏肺 榜牢茄 荤恩俊霸绰 岗柳 惑前捞 林绢瘤瘤!\n　绢锭? 饭捞胶俊 曼啊窍摆唱?\n　泅犁狼 曼啊磊绰 ２疙捞促.
+	Window 11772,YES,NO
+
+	Window_YES ItemSpace == 0 && Group == 1
+	#\n\n　饭捞胶俊 曼啊窍摆唱?\n　ˇ捞繁, 家瘤前俊 后 镑捞 绝绰 巴 鞍焙. 弊烦 涝厘倾啊刘阑 临 荐 绝绢.
+	EndWindow 11768
+
+	Window_YES
+	#\n\n　泅犁 3俺狼 固肺啊 捞侩 啊瓷秦. 绢叼俊 涝厘窍摆唱? 1锅掳肺 且刨啊?
+	Window 11872,YES,NO
+
+	Window_YES ItemSpace >= 1 && Group == 1
+	GiveLeak1Item 18377
+	SetVisitor +1
+	Warp 0,1405,97,97
+
+	Window_YES
+
+	Window_NO
+	#\n\n　弊烦, 2锅掳狼 固肺俊 涝厘茄促, 牢啊?
+	Window 11873,YES,NO
+
+	Window_YES ItemSpace >= 1 && Group == 1
+	GiveLeak1Item 18377
+	SetVisitor +1
+	Warp 0,1412,97,97
+
+	Window_YES
+
+	Window_NO
+	#\n\n　弊犯促搁, 3锅掳狼 固肺俊 涝厘茄促, 肺 窍绰 扒啊?
+	Window 11874,YES,NO
+
+	Window_YES ItemSpace >= 1 && Group == 1
+	GiveLeak1Item 18377
+	SetVisitor +1
+	Warp 0,1413,97,97
+
+	Window_YES
+
+	Window_NO
+	#\n\n　构具, 沥且 荐啊 绝垒酒!! 绢驴 荐 绝焙, 弊烦 唱俊霸 固肺狼 急琶阑 该败 杭刨啊?
+	Window 11875,YES,NO
+
+	Window_YES ItemSpace >= 1 && Group == 1
+	GiveLeak1Item 18377
+	SetVisitor +1
+	Warp 0,1405,97,97,0,1412,97,97,0,1413,97,97
+
+	Window_YES
+
+	Window_NO
+	#\n\n　肚 客林霸. 咯扁狼 立荐绰 撤 悼救挥捞具..
+	EndWindow 11769
+
+########## 4疙掳牢 版快 ##########
+	block Visitor == 3 && Group == 1
+	EndEvent 46 = 0
+	EndEvent 47 = 0
+	#\n\n　咯扁绰, 捧扁厘 郴狼 矫汲, 「芭措固肺」促! 1殿栏肺 榜牢茄 荤恩俊霸绰 岗柳 惑前捞 林绢瘤瘤!\n　绢锭? 饭捞胶俊 曼啊窍摆唱?\n　泅犁狼 曼啊磊绰 3疙捞促.
+	Window 11773,YES,NO
+
+	Window_YES ItemSpace == 0 && Group == 1
+	#\n\n　饭捞胶俊 曼啊窍摆唱?\n　ˇ捞繁, 家瘤前俊 后 镑捞 绝绰 巴 鞍焙. 弊烦 涝厘倾啊刘阑 临 荐 绝绢.
+	EndWindow 11768
+
+	Window_YES
+	#\n\n　泅犁 3俺狼 固肺啊 捞侩 啊瓷秦. 绢叼俊 涝厘窍摆唱? 1锅掳肺 且刨啊?
+	Window 11872,YES,NO
+
+	Window_YES ItemSpace >= 1 && Group == 1
+	GiveLeak1Item 18377
+	SetVisitor +1
+	Warp 0,1405,97,97
+
+	Window_YES
+
+	Window_NO
+	#\n\n　弊烦, 2锅掳狼 固肺俊 涝厘茄促, 牢啊?
+	Window 11873,YES,NO
+
+	Window_YES ItemSpace >= 1 && Group == 1
+	GiveLeak1Item 18377
+	SetVisitor +1
+	Warp 0,1412,97,97
+
+	Window_YES
+
+	Window_NO
+	#\n\n　弊犯促搁, 3锅掳狼 固肺俊 涝厘茄促, 肺 窍绰 扒啊?
+	Window 11874,YES,NO
+
+	Window_YES ItemSpace >= 1 && Group == 1
+	GiveLeak1Item 18377
+	SetVisitor +1
+	Warp 0,1413,97,97
+
+	Window_YES
+
+	Window_NO
+	#\n\n　构具, 沥且 荐啊 绝垒酒!! 绢驴 荐 绝焙, 弊烦 唱俊霸 固肺狼 急琶阑 该败 杭刨啊?
+	Window 11875,YES,NO
+
+	Window_YES ItemSpace >= 1 && Group == 1
+	GiveLeak1Item 18377
+	SetVisitor +1
+	Warp 0,1405,97,97,0,1412,97,97,0,1413,97,97
+
+	Window_YES
+
+	Window_NO
+	#\n\n　肚 客林霸. 咯扁狼 立荐绰 撤 悼救挥捞具..
+	EndWindow 11769
+
+########## 5疙掳牢 版快 ##########
+	block Visitor == 4 && Group == 1
+	EndEvent 46 = 0
+	EndEvent 47 = 0
+	#\n\n　咯扁绰, 捧扁厘 郴狼 矫汲, 「芭措固肺」促! 1殿栏肺 榜牢茄 荤恩俊霸绰 岗柳 惑前捞 林绢瘤瘤!\n　绢锭? 饭捞胶俊 曼啊窍摆唱?\n　泅犁狼 曼啊磊绰 ４疙捞促.
+	Window 11774,YES,NO
+
+	Window_YES ItemSpace == 0 && Group == 1
+	#\n\n　饭捞胶俊 曼啊窍摆唱?\n　ˇ捞繁, 家瘤前俊 后 镑捞 绝绰 巴 鞍焙. 弊烦 涝厘倾啊刘阑 临 荐 绝绢.
+	EndWindow 11768
+
+	Window_YES
+	#\n\n　泅犁 3俺狼 固肺啊 捞侩 啊瓷秦. 绢叼俊 涝厘窍摆唱? 1锅掳肺 且刨啊?
+	Window 11872,YES,NO
+
+	Window_YES ItemSpace >= 1 && Group == 1
+	GiveLeak1Item 18377
+	SetVisitor +1
+	Warp 0,1405,97,97
+
+	Window_YES
+
+	Window_NO
+	#\n\n　弊烦, 2锅掳狼 固肺俊 涝厘茄促, 牢啊?
+	Window 11873,YES,NO
+
+	Window_YES ItemSpace >= 1 && Group == 1
+	GiveLeak1Item 18377
+	SetVisitor +1
+	Warp 0,1412,97,97
+
+	Window_YES
+
+	Window_NO
+	#\n\n　弊犯促搁, 3锅掳狼 固肺俊 涝厘茄促, 肺 窍绰 扒啊?
+	Window 11874,YES,NO
+
+	Window_YES ItemSpace >= 1 && Group == 1
+	GiveLeak1Item 18377
+	SetVisitor +1
+	Warp 0,1413,97,97
+
+	Window_YES
+
+	Window_NO
+	#\n\n　构具, 沥且 荐啊 绝垒酒!! 绢驴 荐 绝焙, 弊烦 唱俊霸 固肺狼 急琶阑 该败 杭刨啊?
+	Window 11875,YES,NO
+
+	Window_YES ItemSpace >= 1 && Group == 1
+	GiveLeak1Item 18377
+	SetVisitor +1
+	Warp 0,1405,97,97,0,1412,97,97,0,1413,97,97
+
+	Window_YES
+
+	Window_NO
+	#\n\n　肚 客林霸. 咯扁狼 立荐绰 撤 悼救挥捞具..
+	EndWindow 11769
+
+########## 6疙掳 捞饶狼 版快 ##########
+	block Visitor >= 5 && Group == 1
+	EndEvent 46 = 0
+	EndEvent 47 = 0
+	#\n\n　咯扁绰, 捧扁厘 郴狼 矫汲, 「芭措固肺」促! 1殿栏肺 榜牢茄 荤恩俊霸绰 岗柳 惑前捞 林绢瘤瘤!\n　绢锭? 饭捞胶俊 曼啊窍摆唱?\n　泅犁 曼啊磊绰　５疙 捞惑捞促.
+	Window 11767,YES,NO
+
+	Window_YES ItemSpace == 0 && Group == 1
+	#\n\n　饭捞胶俊 曼啊窍摆唱?\n　ˇ捞繁, 家瘤前俊 后 镑捞 绝绰 巴 鞍焙. 弊烦 涝厘倾啊刘阑 临 荐 绝绢.
+	EndWindow 11768
+
+	Window_YES
+	#\n\n　泅犁 3俺狼 固肺啊 捞侩 啊瓷秦. 绢叼俊 涝厘窍摆唱? 1锅掳肺 且刨啊?
+	Window 11872,YES,NO
+
+	Window_YES ItemSpace >= 1 && Group == 1
+	GiveLeak1Item 18377
+	SetVisitor +1
+	Warp 0,1405,97,97
+
+	Window_YES
+
+	Window_NO
+	#\n\n　弊烦, 2锅掳狼 固肺俊 涝厘茄促, 牢啊?
+	Window 11873,YES,NO
+
+	Window_YES ItemSpace >= 1 && Group == 1
+	GiveLeak1Item 18377
+	SetVisitor +1
+	Warp 0,1412,97,97
+
+	Window_YES
+
+	Window_NO
+	#\n\n　弊犯促搁, 3锅掳狼 固肺俊 涝厘茄促, 肺 窍绰 扒啊?
+	Window 11874,YES,NO
+
+	Window_YES ItemSpace >= 1 && Group == 1
+	GiveLeak1Item 18377
+	SetVisitor +1
+	Warp 0,1413,97,97
+
+	Window_YES
+
+	Window_NO
+	#\n\n　构具, 沥且 荐啊 绝垒酒!! 绢驴 荐 绝焙, 弊烦 唱俊霸 固肺狼 急琶阑 该败 杭刨啊?
+	Window 11875,YES,NO
+
+	Window_YES ItemSpace >= 1 && Group == 1
+	GiveLeak1Item 18377
+	SetVisitor +1
+	Warp 0,1405,97,97,0,1412,97,97,0,1413,97,97
+
+	Window_YES
+
+	Window_NO
+	#\n\n　肚 客林霸. 咯扁狼 立荐绰 撤 悼救挥捞具..
+	EndWindow 11769
+

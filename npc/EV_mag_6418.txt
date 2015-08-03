@@ -1,0 +1,282 @@
+#
+#其捞农阀 力厚 背券
+#
+
+############## A1阑 啊瘤绊 乐促 ##############
+block Item 19583 >= 1
+#\n\n　寸梅 绵窍钦聪促!\n　版前篮 荤扼父歹LV1 涝聪促.\n　背券窍矫摆嚼聪鳖?
+	Window 14806,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 14807,OK
+	Window_YES PetSpace == 0
+#\n\n　歹 捞惑 啊龙 荐 绝嚼聪促.
+	EndWindow 14808,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 14809,OK
+	Window_OK Item 19583 >= 1
+	KillItem 19583
+	GivePet 511
+
+############## A2甫 啊瘤绊 乐促 ##############
+block Item 19584 >= 1
+#\n\n　寸梅 绵窍钦聪促!\n　版前篮 角橇LV1 涝聪促.\n　背券窍矫摆嚼聪鳖?
+	Window 14810,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 14807,OK
+	Window_YES PetSpace == 0
+#\n\n　歹 捞惑 啊龙 荐 绝嚼聪促.
+	EndWindow 14808,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 14809,OK
+	Window_OK Item 19584 >= 1
+	KillItem 19584
+	GivePet 512
+
+############## A3阑 啊瘤绊 乐促 ##############
+block Item 19585 >= 1
+#\n\n　寸梅 绵窍钦聪促!\n　版前篮 款叼匙LV1 涝聪促.\n　背券窍矫摆嚼聪鳖?
+	Window 14811,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 14807,OK
+	Window_YES PetSpace == 0
+#\n\n　歹 捞惑 啊龙 荐 绝嚼聪促.
+	EndWindow 14808,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 14809,OK
+	Window_OK Item 19585 >= 1
+	KillItem 19585
+	GivePet 513
+
+############## A4甫 啊瘤绊 乐促 ##############
+block Item 19586 >= 1
+#\n\n　寸梅 绵窍钦聪促!\n　版前篮 仇LV1 涝聪促.\n　背券窍矫摆嚼聪鳖?
+	Window 14812,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 14807,OK
+	Window_YES PetSpace == 0
+#\n\n　歹 捞惑 啊龙 荐 绝嚼聪促.
+	EndWindow 14808,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 14809,OK
+	Window_OK Item 19586 >= 1
+	KillItem 19586
+	GivePet 514
+
+############## B1阑 啊瘤绊 乐促 ##############
+block Item 19587 >= 1
+#\n\n　寸梅 绵窍钦聪促!\n　版前篮 埔歹LV1 涝聪促.\n　背券窍矫摆嚼聪鳖?
+	Window 14813,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 14807,OK
+	Window_YES PetSpace == 0
+#\n\n　歹 捞惑 啊龙 荐 绝嚼聪促.
+	EndWindow 14808,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 14809,OK
+	Window_OK Item 19587 >= 1
+	KillItem 19587
+	GivePet 15
+
+############## B2甫 啊瘤绊 乐促 ##############
+block Item 19588 >= 1
+#\n\n　寸梅 绵窍钦聪促!\n　版前篮 钮LV1 涝聪促.\n　背券窍矫摆嚼聪鳖?
+	Window 14814,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 14807,OK
+	Window_YES PetSpace == 0
+#\n\n　歹 捞惑 啊龙 荐 绝嚼聪促.
+	EndWindow 14808,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 14809,OK
+	Window_OK Item 19588 >= 1
+	KillItem 19588
+	GivePet 25
+
+############## B3阑 啊瘤绊 乐促 ##############
+block Item 19589 >= 1
+#\n\n　寸梅 绵窍钦聪促!\n　版前篮 钮乔飘LV1 涝聪促.\n　背券窍矫摆嚼聪鳖?
+	Window 14815,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 14807,OK
+	Window_YES PetSpace == 0
+#\n\n　歹 捞惑 啊龙 荐 绝嚼聪促.
+	EndWindow 14808,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 14809,OK
+	Window_OK Item 19589 >= 1
+	KillItem 19589
+	GivePet 206
+
+############## B4甫 啊瘤绊 乐促 ##############
+block Item 19590 >= 1
+#\n\n　寸梅 绵窍钦聪促!\n　版前篮 待敲傅LV1 涝聪促.\n　背券窍矫摆嚼聪鳖?
+	Window 14816,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 14807,OK
+	Window_YES PetSpace == 0
+#\n\n　歹 捞惑 啊龙 荐 绝嚼聪促.
+	EndWindow 14808,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 14809,OK
+	Window_OK Item 19590 >= 1
+	KillItem 19590
+	GivePet 525
+
+############## C1阑 啊瘤绊 乐促 ##############
+block Item 19591 >= 1
+#\n\n　寸梅 绵窍钦聪促!\n　版前篮 荤扼父歹狼 墨靛涝聪促.\n　背券窍矫摆嚼聪鳖?
+	Window 14817,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 14807,OK
+	Window_YES ItemSpace == 0
+#\n\n　歹 捞惑 啊龙 荐 绝嚼聪促.
+	EndWindow 14808,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 14809,OK
+	Window_OK Item 19591 >= 1
+	KillItem 19591
+	GiveLeak1Item 14898
+
+############## C2甫 啊瘤绊 乐促 ##############
+block Item 19592 >= 1
+#\n\n　寸梅 绵窍钦聪促!\n　版前篮 角橇狼 墨靛涝聪促.\n　背券窍矫摆嚼聪鳖?
+	Window 14818,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 14807,OK
+	Window_YES ItemSpace == 0
+#\n\n　歹 捞惑 啊龙 荐 绝嚼聪促.
+	EndWindow 14808,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 14809,OK
+	Window_OK Item 19592 >= 1
+	KillItem 19592
+	GiveLeak1Item 14899
+
+############## C3阑 啊瘤绊 乐促 ##############
+block Item 19593 >= 1
+#\n\n　寸梅 绵窍钦聪促!\n　版前篮 款叼匙狼 墨靛涝聪促.\n　背券窍矫摆嚼聪鳖?
+	Window 14819,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 14807,OK
+	Window_YES ItemSpace == 0
+#\n\n　歹 捞惑 啊龙 荐 绝嚼聪促.
+	EndWindow 14808,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 14809,OK
+	Window_OK Item 19593 >= 1
+	KillItem 19593
+	GiveLeak1Item 14900
+
+############## C4甫 啊瘤绊 乐促 ##############
+block Item 19594 >= 1
+#\n\n　寸梅 绵窍钦聪促!\n　版前篮 仇狼 墨靛涝聪促.\n　背券窍矫摆嚼聪鳖?
+	Window 14820,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 14807,OK
+	Window_YES ItemSpace == 0
+#\n\n　歹 捞惑 啊龙 荐 绝嚼聪促.
+	EndWindow 14808,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 14809,OK
+	Window_OK Item 19594 >= 1
+	KillItem 19594
+	GiveLeak1Item 14901
+
+############## D1阑 啊瘤绊 乐促 ##############
+block Item 19595 >= 1
+#\n\n　寸梅 绵窍钦聪促!\n　版前篮 埔歹狼 墨靛涝聪促.\n　背券窍矫摆嚼聪鳖?
+	Window 14821,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 14807,OK
+	Window_YES ItemSpace == 0
+#\n\n　歹 捞惑 啊龙 荐 绝嚼聪促.
+	EndWindow 14808,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 14809,OK
+	Window_OK Item 19595 >= 1
+	KillItem 19595
+	GiveLeak1Item 14811
+
+############## D2甫 啊瘤绊 乐促 ##############
+block Item 19596 >= 1
+#\n\n　寸梅 绵窍钦聪促!\n　版前篮 钮狼 墨靛涝聪促.\n　背券窍矫摆嚼聪鳖?
+	Window 14822,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 14807,OK
+	Window_YES ItemSpace == 0
+#\n\n　歹 捞惑 啊龙 荐 绝嚼聪促.
+	EndWindow 14808,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 14809,OK
+	Window_OK Item 19596 >= 1
+	KillItem 19596
+	GiveLeak1Item 14816
+
+############## D3阑 啊瘤绊 乐促 ##############
+block Item 19597 >= 1
+#\n\n　寸梅 绵窍钦聪促!\n　版前篮 钮乔飘狼 墨靛涝聪促.\n　背券窍矫摆嚼聪鳖?
+	Window 14823,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 14807,OK
+	Window_YES ItemSpace == 0
+#\n\n　歹 捞惑 啊龙 荐 绝嚼聪促.
+	EndWindow 14808,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 14809,OK
+	Window_OK Item 19597 >= 1
+	KillItem 19597
+	GiveLeak1Item 14841
+
+############## D4甫 啊瘤绊 乐促 ##############
+block Item 19598 >= 1
+#\n\n　寸梅 绵窍钦聪促!\n　版前篮 待敲傅狼 墨靛涝聪促.\n　背券窍矫摆嚼聪鳖?
+	Window 14824,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 14807,OK
+	Window_YES ItemSpace == 0
+#\n\n　歹 捞惑 啊龙 荐 绝嚼聪促.
+	EndWindow 14808,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 14809,OK
+	Window_OK Item 19598 >= 1
+	KillItem 19598
+	GiveLeak1Item 14906
+
+############## 绢蠢 巴档 啊瘤绊 乐瘤 臼促 ##############
+block
+#\n\n　咯扁绰 寸梅 其捞农阀 力厚狼 背券家涝聪促.
+	EndWindow 14825,OK
+
+

@@ -1,0 +1,30 @@
+#倔澜狼 带怜 榷阂 初绰 厘家
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+#block StrCmpChat == R
+
+#烹惑
+#榷阂阑 啊瘤绊 乐绰 版快
+block StrCmpChat == R && Item 18573 == 1
+###########################################
+#\n\n葛蹿阂阑 乔款 如利捞 乐促
+	EndWindow 14168
+
+#阂阑 嘿牢 榷阂阑 啊瘤绊 乐绰 版快
+block StrCmpChat == R && Item 18574 ==1
+###########################################
+#\n\n葛蹿阂阑 乔款 如利捞 乐促
+	EndWindow 14168
+
+
+block StrCmpChat == R
+############################################
+#\n\n葛蹿阂阑 乔款 如利捞 乐促. 糠俊绰 酒流 镜 荐 乐阑 巴 鞍篮 榷阂捞 初咯乐促. 榷阂阑 啊瘤摆嚼聪鳖?
+	Window 14161,YES,NO
+	Window_YES ItemSpace == 0
+	EndWindow 10000
+	Window_YES ItemSpace >= 1
+	Giveitem 18573
+
+	Window_NO
+

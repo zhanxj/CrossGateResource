@@ -1,0 +1,60 @@
+#困荤 官虐 固胶令
+
+
+########## 馆瘤甫 啊瘤绊 乐绰 版快 ##########
+block Item 18404 >= 1
+	Window 11676,OK
+	Window_OK Item 18404 >= 1
+	Window 11679,YES,NO
+	Window_YES Item 18404 >= 1
+	Warp 0,300,240,265
+	Window_NO Item 18404 >= 1
+	EndWindow 11681
+	Window_NO
+	EndWindow 11682
+
+
+########## 傈捧拌流诀篮 烹苞矫虐瘤 臼绰促 ##########
+block Job >= 10 && Job < 200
+	Window 11676,OK
+	Window_OK Item 18404 >= 1
+	Window 11679,YES,NO
+	Window_OK
+	EndWindow 11677
+	Window_YES Item 18404 >= 1
+	Warp 0,300,240,265
+	Window_NO Item 18404 >= 1
+	EndWindow 11681
+	Window_NO
+	EndWindow 11682
+
+
+########## 傈捧拌流诀篮 烹苞矫虐瘤 臼绰促 ##########
+block Job >= 430 && Job < 450
+	Window 11676,OK
+	Window_OK Item 18404 >= 1
+	Window 11679,YES,NO
+	Window_OK
+	EndWindow 11677
+	Window_YES Item 18404 >= 1
+	Warp 0,300,240,265
+	Window_NO Item 18404 >= 1
+	EndWindow 11681
+	Window_NO
+	EndWindow 11682
+
+
+########## 积魂拌绰 烹苞矫挪促 ##########
+block
+	Window 11676,OK
+	Window_OK
+	Window 11678,YES,NO
+	Window_YES Group > 1
+	EndWindow 11680
+	Window_YES Group == 1
+	Warp 0,300,240,265
+	Window_NO Item 18404 >= 1
+	EndWindow 11681
+	Window_NO
+	EndWindow 11682
+

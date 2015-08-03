@@ -1,0 +1,12 @@
+#
+#拌距阑 ０老肺 窍绰 抛胶飘 ＮＰＣ
+#
+##############  ##############
+block
+#\n\n　拌距老荐甫 ０老肺 汲沥钦聪促
+	Window 15369,OK
+	Window_OK
+	SetHouse 1,0
+#	SetHouse 2,0
+#	SetHouse 3,0
+

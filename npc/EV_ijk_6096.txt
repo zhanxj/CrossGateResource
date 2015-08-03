@@ -1,0 +1,57 @@
+#堡何 蜡鸥迄	11004,33,3
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+
+########## 傈捧拌 流诀篮 烹苞 给窃·积魂拌绰 烹苞 ##########
+block Group == 1
+	#\n\n　咯扁绰 惑牢苞 流牢父 快急利栏肺 瘤唱哎 荐 乐绰 烹肺促.\n　绢路电 酒流 傍荤吝牢 镑档 腹绊 良栏聪鳖, 瘤唱啊绰 牢盔阑 力茄窍瘤 臼栏搁 救蹬.
+	Window 11439,OK
+
+	Window_OK Job >= 10 && Job < 200 && Group == 1
+	#\n\n　固救窍瘤父 寸脚篮 捞 烹肺甫 捞侩且 荐 绝绢.\n　咯扁绰 惑牢苞 流牢父 甸绢哎 荐 乐绢辑 富捞瘤.
+	EndWindow 11440
+
+	Window_OK Job >= 200 && Job < 430 && Group == 1
+	#\n\n　惑牢苞 流牢篮 捞 辨阑 捞侩且 荐 乐绢.\n　捞侩且刨啊?\n\n　烹青丰肺　５００Ｇ　郴具 秦.
+	Window 11441,YES,NO
+
+	Window_OK Job == 1 && Group == 1
+	#\n\n　惑牢苞 流牢篮 捞 辨阑 捞侩且 荐 乐绢.\n　捞侩且刨啊?\n\n　烹青丰肺　５００Ｇ　郴具 秦.
+	Window 11441,YES,NO
+
+	Window_OK Job >= 430 && Job < 450 && Group == 1
+	#\n\n　狼荤客 埃龋荤丛档 捞 辨阑 捞侩且 荐 绝绢.\n　固救窍焙.
+	EndWindow 11442
+
+	Window_OK Job >= 450 && Job < 480 && Group == 1
+	#\n\n　惑牢苞 流牢篮 捞 辨阑 捞侩且 荐 乐绢.\n　捞侩且刨啊?\n\n　烹青丰肺　５００Ｇ　郴具 秦.
+	Window 11443,YES,NO
+
+	Window_OK
+	#\n\n　咯扁辑何磐绰 茄 荤恩究 瘤唱啊林霸.
+	EndWindow 11562
+
+
+	Window_YES Gold >= 500 && Group == 1
+	AddGold -500
+	Warp 0,11004,24,7
+
+	Window_YES Gold < 500
+	#\n\n　捣捞 何练窍焙.\n　阂街窍瘤父 瘤唱啊霸 秦临 荐绰 绝绢.
+	EndWindow 11445
+
+	Window_YES Group > 1
+	#\n\n　咯扁辑何磐绰 茄 荤恩究 瘤唱啊林霸.
+	EndWindow 11562
+
+	Window_NO
+	#\n\n　捞 辨篮 厚背利 救傈窍霸 咯青阑 且 荐 乐档废 绊救等 烹肺促.\n　付澜捞 函窍搁 怖 捞侩秦林霸.\n　扁促府瘤.
+	EndWindow 11444
+
+
+########## 颇萍 阂啊 ##########
+block Group > 1
+	#\n\n　咯扁辑何磐绰 茄 荤恩究 瘤唱啊林霸.
+	EndWindow 11562
+

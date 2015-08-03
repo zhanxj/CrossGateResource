@@ -1,0 +1,244 @@
+#急牢秒流 涅胶飘：具扼捞
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###########　急牢涝聪促　##############
+block job >= 421 && job <= 427
+
+#\n\n　历绰 泅犁 1林老俊 ３锅 烹切窍哥 急牢狼 贱阑 硅快矾 啊绊 乐嚼聪促. 寸脚狼 傣盒涝聪促.  皑荤钦聪促.
+
+	EndWindow 20724,OK
+
+###########　Endflg 31　##############
+block endevent31 == 1
+
+	EndWindow 20760
+
+
+
+###########　急牢俊霸辑 柯 祈瘤 乐澜　##############
+block Item 18765 >= 1 && Item 18760 >= 1
+
+	KillItem 18765
+	leavegroup
+	KillItem 18760
+	endevent31 = 1
+	EndWindow 20723,OK
+
+block Item 18765 >= 1
+
+	KillItem 18765
+	leavegroup
+	endevent31 = 1
+	EndWindow 20723,OK
+
+###########　急牢俊霸 焊郴绰 祈瘤 乐澜　##############
+block Item 18764 >= 1
+
+#\n\n　喊肺 力啊 寸脚 荐青俊 规秦啊 等促搁 林瘤 臼酒档 邓聪促. 窍瘤父 啊瓷窍促搁 扒匙林技夸.
+
+	EndWindow 20722,OK
+
+###########　缴何抚 皋葛 乐澜　##############
+block Item 18761 >= 1 && Item 18762 >= 1 && Item 18763 >= 1
+
+#\n\n　寸脚, 急牢丛 关俊辑 荐青窍绊 乐嚼聪鳖? 了价钦聪促, 历绰 捞傈俊 去磊 塞栏肺 荐青窍摆促绊 沁嚼聪促父, 趣矫 宝
+#满促搁, 历档 急牢丛 关俊辑 荐青且 荐 绝阑鳖夸. 寸脚苞 急牢丛捞 宝满栏矫促搁 历档 窃膊 荐青窍霸 秦林绞矫坷.
+#急牢丛膊 焊郴绰 祈瘤甫 靛副抛聪, 急牢丛膊 傈秦林绞矫坷. 抗傈何磐 厕捞菌嚼聪促. 何殴 靛赋聪促.
+
+	Window 20721,OK
+	Window_OK
+	leavegroup
+	KillItemall 18761
+	KillItemall 18762
+	KillItemall 18763
+	GiveItem 18764
+
+###########　缴何抚 皋葛 乐澜　##############
+block Item 18763 >= 1 && Item 18762 >= 1
+
+#\n\n　寸脚, 急牢丛 关俊辑 荐青窍绊 乐嚼聪鳖? 了价钦聪促, 历绰 捞傈俊 去磊 塞栏肺 荐青窍摆促绊 沁嚼聪促父, 趣矫 宝
+#满促搁, 历档 急牢丛 关俊辑 荐青且 荐 绝阑鳖夸. 寸脚苞 急牢丛捞 宝满栏矫促搁 历档 窃膊 荐青窍霸 秦林绞矫坷.
+#急牢丛膊 焊郴绰 祈瘤甫 靛副抛聪, 急牢丛膊 傈秦林绞矫坷. 抗傈何磐 厕捞菌嚼聪促. 何殴 靛赋聪促.
+
+	Window 20721,OK
+	Window_OK
+	leavegroup
+	KillItemall 18763
+	KillItemall 18762
+	GiveItem 18764
+
+###########　缴何抚 皋葛 乐澜　##############
+block Item 18761 >= 1 && Item 18763 >= 1
+
+#\n\n　寸脚, 急牢丛 关俊辑 荐青窍绊 乐嚼聪鳖? 了价钦聪促, 历绰 捞傈俊 去磊 塞栏肺 荐青窍摆促绊 沁嚼聪促父, 趣矫 宝
+#满促搁, 历档 急牢丛 关俊辑 荐青且 荐 绝阑鳖夸. 寸脚苞 急牢丛捞 宝满栏矫促搁 历档 窃膊 荐青窍霸 秦林绞矫坷.
+#急牢丛膊 焊郴绰 祈瘤甫 靛副抛聪, 急牢丛膊 傈秦林绞矫坷. 抗傈何磐 厕捞菌嚼聪促. 何殴 靛赋聪促.
+
+	Window 20721,OK
+	Window_OK
+	leavegroup
+	KillItemall 18761
+	KillItemall 18763
+	GiveItem 18764
+
+###########　缴何抚 皋葛 乐澜　##############
+block Item 18761 >= 1 && Item 18762 >= 1
+
+	Window 20721,OK
+	Window_OK
+	leavegroup
+	KillItemall 18761
+	KillItemall 18762
+	GiveItem 18764
+
+###########　缴何抚 皋葛 乐澜　##############
+block Item 18763 >=1
+
+	Window 20721,OK
+	Window_OK
+	leavegroup
+	KillItemall 18763
+	GiveItem 18764
+
+###########　缴何抚 皋葛 乐澜　##############
+block Item 18762 >= 1
+
+	Window 20721,OK
+	Window_OK
+	leavegroup
+	KillItemall 18762
+	GiveItem 18764
+
+
+###########　缴何抚 皋葛 乐澜　##############
+block Item 18761 >= 1
+
+	Window 20721,OK
+	Window_OK
+	leavegroup
+	KillItemall 18761
+	GiveItem 18764
+
+###########　迹扼扼 茄蛤 老扁　趣篮　农府胶呕 呈明 乐澜　##############
+block Item 18760 >=1 || Item 18759 >= 1
+
+#\n\n　捞吧肺 茄 扒 倡馒灯焙夸. 咯矾 啊瘤肺 皑荤沁嚼聪促. 历绰 拌加 急牢丛阑 狼瘤窍绊 乐菌嚼聪促父, 搬惫
+#寸脚捞 秦搬秦林脚 霸 灯焙夸. 急牢丛 关俊辑 荐青窍瘤 臼酒档, 寸脚贸烦 碍秦龙 荐 乐促搁 历档
+#去磊 塞栏肺 荐青阑 窍妨绊 钦聪促. 沥富肺 皑荤钦聪促.
+
+	EndWindow 20720,OK
+
+###########　缴荤版 乐澜　捧捧 急牢俊霸 捞具扁沁促　##############
+block Item 18758 >= 1 && endevent33 == 1
+
+	Window 20719,NEXT
+	Window 20883,OK
+	Window_OK
+	leavegroup
+	endevent33 = 0
+	nowevent34 = 1
+
+###########　缴荤版 乐澜　##############
+
+block Item 18758 >= 1
+
+#\n\n　捞霸 缴荤版涝聪鳖. 苞楷 康仿捞 蠢哺瘤绰 芭匡捞焙夸.
+
+	EndWindow 20718,OK
+
+###########　盲泼俊 缴荤版　##############
+block strcmpchat == 20835 && endevent32 == 1
+
+#\n\n　急牢狼 贱阑 厩侩茄 磊俊霸 磊脚狼 眠窃阑 焊捞扁 困秦 父甸绢柳 芭匡捞焙夸.\n急牢丛篮 肋 酒绞聪促.
+#\n绢叼俊 乐绰瘤绰 葛福摆嚼聪促. 了价钦聪促.
+
+	EndWindow 20717,OK
+
+###########　end32 乐澜　##############
+block endevent32 == 1
+
+	EndWindow 20997
+
+###########　nowflg87　##############
+block nowevent87 == 1
+
+	EndWindow 20893
+
+###########　档盔氢狼 汗件酒 揪 乐澜　##############
+block Item 18753 >= 1
+
+#\n\n　弊霸 档盔氢俊 啊扁 困茄, 吝夸茄 拱扒涝聪鳖? 焊烹狼 揪狙栏肺观俊 焊捞瘤 臼嚼聪促父. 捞率篮
+#了价钦聪促父, 迹扼扼狼 厩青狼 刘芭绰 棱瘤 给沁嚼聪促. 历绰 拌加秦辑 迹扼扼甫 炼荤窍摆嚼聪促. 寸脚篮 急牢丛阑 茫酒林绞矫坷. 何殴 靛赋聪促.
+
+	EndWindow 20716,OK
+
+###########　歹宽 磊技茄 檬惑拳 乐澜　##############
+block Item 18752 >= 1
+
+#\n\n　蜡皑捞瘤父, 捞 档矫俊绰 急牢丛阑 父车促绰 葛氰磊啊 绝嚼聪促. 促弗 奴 档矫扼搁 急牢丛阑 父抄
+#利捞 乐绰 葛氰磊啊 乐阑瘤档 葛辅聪促.
+
+	EndWindow 20715,OK
+
+###########　呈代呈代茄 檬惑拳 乐澜　村幂&官墨扼狼 捞具扁甫 甸菌促　##############
+block Item 18751 >= 1 && nowevent32 == 1
+
+#\n\n　构! 构扼绊夸! 弥辟狼 付荐家悼篮 迹扼扼 档荤甸狼 磊累必捞菌嚼聪鳖!! 开矫 迹扼扼
+#档荤绰 荤扁槽捞菌唱ˇ\n历绰 迹扼扼 档荤狼 厩青狼 刘芭甫 棱阑 抛聪, 寸脚篮 宝满促搁 拌加秦辑
+#急牢丛阑 茫酒林绞矫坷. 捞 歹宽 磊技茄 檬惑拳甫 靛府摆嚼聪促. 何殴 靛赋聪促.
+
+	Window 20714,NEXT
+	Window 20881,OK
+	Window_OK
+	leavegroup
+	nowevent88 = 1
+	nowevent32 = 0
+	KillItem 18751
+	GiveItem 18752
+
+###########　呈代呈代茄 檬惑拳 乐澜　##############
+block Item 18751 >= 1
+
+#\n\n　蜡皑捞瘤父, 捞 档矫俊绰 急牢丛阑 父车促绰 葛氰磊啊 绝嚼聪促. 促弗 奴 档矫扼搁 急牢丛阑 父抄
+
+	EndWindow 20713,OK
+
+###########　急牢狼 檬惑拳 乐澜　##############
+block Item 18750 >= 1
+
+#\n\n　急牢丛狼 沥焊甫 澄府 葛笼窍绊 乐嚼聪促.
+
+	EndWindow 20712,OK
+
+###########　酒公巴档 绝澜　##############
+block endevent87 == 1
+
+	Window 20709,NEXT
+	Window 20710,NEXT
+	Window 20711,OK
+	Window_OK ItemSpace >= 1
+	leavegroup
+	endevent87 = 0
+	nowevent31 = 1
+	GiveItem 18750
+	Window_OK ItemSpace == 0
+	EndWindow 20837,OK
+
+block nowevent31 == 1
+
+	Window 20709,NEXT
+	Window 20710,NEXT
+	Window 20711,OK
+	Window_OK ItemSpace >= 1
+	leavegroup
+	GiveItem 18750
+	Window_OK ItemSpace == 0
+	EndWindow 20837,OK
+
+block
+
+	Window 20709,NEXT
+	EndWindow 20710
+
+

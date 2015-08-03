@@ -1,0 +1,9 @@
+
+block
+#15854·\n\n　酒奶颇 芭府俊 甸绢啊矫摆嚼聪鳖?
+	Window 15854,YES,NO
+	Window_NO
+	Window_YES
+	LeaveGroup
+	Warp 0,33200,56,177
+

@@ -1,0 +1,43 @@
+#绊绊切磊	6190	999  9 1	傈汲阑 啊福媚 霖促, 巩清阑 扒匙林搁 皑沥·焊荐甫 霖促
+
+
+###### 荤阜狼 河篮 喊阑 啊瘤绊 乐绰 版快 ######
+	block Item 18464 >= 1
+	EndWindow 11893
+
+###### 绊措狼 巩清·焊籍·乔甫 啊瘤绊 乐绰 版快 ######
+	block Item 18462 >= 1 && Item 18463 >= 1 && Item 18460 >= 1
+	Window 11894,YES,NO
+	Window_YES Item 18462 >= 1 && Item 18463 >= 1 && Item 18460 >= 1
+	KillItem 18460,1
+	KillItem 18462,1
+	KillItem 18463,1
+	Giveitem 18464
+	Giveleak1Item (18449%2,18450%1,18451%3,18452%5,18453%5,18454%5,18455%5,18456%5)
+	EndWindow 11895
+	Window_NO
+	EndWindow 11896
+
+###### 绊措狼 巩清·焊籍阑 啊瘤绊 乐绰 版快 ######
+	block Item 18462 >= 1 && Item 18463 >= 1
+	Window 11894,YES,NO
+	Window_YES Item 18462 >= 1 && Item 18463 >= 1
+	KillItem 18462,1
+	KillItem 18463,1
+	Giveitem 18464
+	Giveleak1Item (18449%2,18450%1,18451%3,18452%5,18453%5,18454%5,18455%5,18456%5)
+	EndWindow 11895
+	Window_NO
+	EndWindow 11896
+
+###### 绊措狼 巩清·乔阑 啊瘤绊 乐绰 版快 ######
+	block Item 18463 >= 1 && Item 18460 >= 1
+	Window 11894,YES,NO
+	Window_YES Item 18463 >= 1 && Item 18460 >= 1
+	KillItem 18460,1
+	KillItem 18463,1
+	EndWindow 11897
+	Window_NO
+	EndWindow 11896
+
+###### 绊措狼 巩清

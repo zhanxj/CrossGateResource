@@ -1,0 +1,29 @@
+#巩		21017 51 4	6245
+
+##### 凯艰甫 啊瘤绊 乐绊, 辑率 规俊辑 快 努腐茄 版快 #####
+block Item 18549 >= 1 && StrCmpChat == r && xpos < 51
+	#\n\n　历琶狼 凯艰啊 迭 甸绢嘎绰 巴 鞍促.\n　凯艰甫 荤侩窍摆嚼聪鳖?
+	Window 11993,YES,NO
+
+	Window_YES Item 18549 >= 1
+	KillItem 18549,1,(11741)
+	Warp 0,21017,52,4
+
+	Window_NO
+
+##### 凯艰甫 啊瘤绊 乐绊, 悼率 规俊辑 快 努腐茄 版快 #####
+block Item 18549 >= 1 && StrCmpChat == r && xpos > 51
+	#\n\n　历琶狼 凯艰啊 迭 甸绢嘎绰 巴 鞍促.\n　凯艰甫 荤侩窍摆嚼聪鳖?
+	Window 11993,YES,NO
+
+	Window_YES Item 18549 >= 1
+	KillItem 18549,1,(11741)
+	Warp 0,21017,50,4
+
+	Window_NO
+
+##### 凯艰甫 啊瘤绊 乐瘤 臼绊, 快 努腐茄 版快 #####
+block StrCmpChat == r
+	#\n\n　捞 巩篮 泪败 乐绢辑 凯府瘤 臼绰促.
+	EndWindow 11994
+

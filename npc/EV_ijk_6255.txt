@@ -1,0 +1,18 @@
+#6255	况橇	20309 51 35	>> 20309 51 42
+
+
+##### 快 努腐茄 版快 #####
+block StrCmpChat == R
+	#\n\n　酒贰摸俊辑 碍茄 官恩捞 阂绢 棵扼坷绊 乐促.\n　扒呈祈栏肺 顿绢逞扁俊 档傈窍摆嚼聪鳖?
+	Window 17024,YES,NO
+
+	Window_YES Item 18566 >= 1
+	Window 17025,NEXT
+	Warp 0,20309,51,42
+
+	Window_YES
+	Window 17026,NEXT
+	Warp 0,20308,51,35
+
+	Window_NO
+

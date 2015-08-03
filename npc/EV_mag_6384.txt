@@ -1,0 +1,19 @@
+#迫墨飘
+
+############## 河篮 眯措 2俺甫 啊瘤绊 乐促 ##############
+block Item 18498 == 1
+#\n\n　弊措狼 瘤驱甫 竿技窍咯 官媚扼.
+	Window 14745,OK
+	Window_OK
+	KillItem 18498
+	GiveItem 18499
+	LeaveGroup
+	Warp 0,24002,26,21
+
+############## 弊 寇 ##############
+block
+#\n\n　ˇˇˇ
+	EndWindow 14739,OK
+
+
+

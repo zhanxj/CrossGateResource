@@ -1,0 +1,22 @@
+#内胶纳(坷翠 敲肺绢侩）
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+#block Job >= 151 && Job <=157
+#block StrCmpChat == R
+
+
+block
+############################################
+#\n\蜡皑捞瘤父 坷翠捞促. 巩力俊 甸绢啊扁 傈狼 规俊 倒酒啊摆唱?
+	Window 14089,YES,NO
+	Window_YES
+	leavegroup
+	Warp 0,2225,7,6
+
+	Window_NO
+#澜. 弊巴档 亮摆瘤
+	Window 14082,OK
+	Window_OK
+	leavegroup
+	Warp 0,2200,46,22
+

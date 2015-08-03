@@ -1,0 +1,79 @@
+#级栏肺 啊绰 唱讽硅 荤傍
+
+##########拱扒捞 啊垫 蛮 版快#######
+block ItemSpace == 0
+	Window 14036,YES,NO
+	Window_YES
+	EndWindow 10000
+	Window_NO
+
+##########颇萍甫 捞风绊 乐绰 版快 ##########
+block Group >= 2
+   #功狼 酒贰 免备俊辑 观栏肺 唱哎 荐 乐绰 巴 鞍促. 唱啊摆嚼聪鳖?
+   
+	Window 14036,YES,NO
+	Window_YES
+	Window 14046,OK
+	Window_No
+
+##########荤成槽狼 迫骂甫 啊瘤绊 乐绰 版快 ##########
+block Item 18359 >= 1 && Group == 1 && ItemSpace >= 1
+   #呈绰 急琶等 磊牢啊?
+   
+	Window 14036,YES,NO
+
+	Window_YES ItemSpace == 0
+	EndWindow 10000
+	Window_YES ItemSpace >= 1
+	Window 14037,OK
+	Window_OK ItemSpace == 0
+	EndWindow 10000
+	Window_OK ItemSpace >= 1
+	KillItem 18359,1
+	GiveItem 18366,1
+	Warp 0,15203,45,31
+	Window_No
+
+##########荤成槽狼 迫骂(惑寸洒 颊惑等）阑 啊瘤绊 乐绰 版快 ##########
+block Item 18366 >= 1 && Group == 1 && ItemSpace >= 1
+   #呈绰 急琶等 磊牢啊?
+   
+	Window 14036,YES,NO
+
+	Window_YES ItemSpace == 0
+	EndWindow 10000
+	Window_YES ItemSpace >= 1
+	Window 14037,OK
+	Window_OK ItemSpace == 0
+	EndWindow 10000
+	Window_OK ItemSpace >= 1
+	KillItem 18366,1
+	GiveItem 18367,1
+	Warp 0,15203,45,31
+	Window_No
+
+##########荤成槽狼 迫骂(惑寸洒 颊惑等）阑 啊瘤绊 乐绰 版快 ##########
+block Item 18367 >= 1 && Group == 1 && ItemSpace >= 1
+   #呈绰 急琶等 磊牢啊?
+   
+	Window 14036,YES,NO
+
+	Window_YES ItemSpace == 0
+	EndWindow 10000
+	Window_YES ItemSpace >= 1
+	Window 14037,OK
+	Window_OK ItemSpace == 0
+	EndWindow 10000
+	Window_OK ItemSpace >= 1
+	KillItem 18367,1
+	GiveItem 18371,1
+	Warp 0,15203,45,31
+	Window_No
+
+#########荤成槽狼 迫骂甫 啊瘤绊 乐瘤 臼篮 版快###################################
+block
+	Window 14036,YES,NO
+	Window_YES
+	EndWindow 14038,OK
+	Window_NO
+

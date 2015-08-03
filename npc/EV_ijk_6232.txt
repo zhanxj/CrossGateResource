@@ -1,0 +1,23 @@
+#雀傈厘摹	21015 49 12	6232
+
+
+##### 酒贰 烹肺俊辑 快 努腐茄 版快 #####
+block StrCmpChat == r && ypos > 12
+	#\n\n　寒俊辑 雀傈厘摹甫 惯斑沁促.\n　厘摹甫 累悼矫虐摆嚼聪鳖?
+	Window 11984,YES,NO
+
+	Window_YES
+	Warp 0,21016,49,11
+
+	Window_NO
+
+##### 困 烹肺俊辑 快 努腐茄 版快 #####
+block StrCmpChat == r && ypos < 12
+	#\n\n　寒俊辑 雀傈厘摹甫 惯斑沁促.\n　厘摹甫 累悼矫虐摆嚼聪鳖?
+	Window 11984,YES,NO
+
+	Window_YES
+	Warp 0,21015,49,13
+
+	Window_NO
+

@@ -1,0 +1,19 @@
+#　痢橇且 荐 乐促	4457,38,53	6250
+
+
+##### Ｙ谅钎 53固父 #####
+block StrCmpChat == R && Ypos > 53
+	#\n\n　瘤历龋荐狼 累篮 级俊 顿绢辑 扒澄 荐 乐阑 巴 窍促. 扒呈顿摆嚼聪鳖?
+	Window 17003,YES,NO
+
+	Window_YES
+	Warp 0,4457,38,52
+
+##### Ｙ谅钎 53捞惑 #####
+block StrCmpChat == R && Ypos < 53
+	#\n\n　累篮 级俊辑 瘤历龋荐狼 扁骄栏肺 顿绢辑 扒澄 荐 乐阑 巴 鞍促. 扒呈顿摆嚼聪鳖?
+	Window 17004,YES,NO
+
+	Window_YES
+	Warp 0,4457,38,54
+

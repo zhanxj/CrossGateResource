@@ -1,0 +1,19 @@
+#橇饭酒飘
+
+############## 河篮 眯措 0俺甫 啊瘤绊 乐促 ##############
+block Item 18496 == 1
+#\n\n　弊措狼 牢局甫 竿技窍咯 官媚扼.
+	Window 14743,OK
+	Window_OK
+	KillItem 18496
+	GiveItem 18497
+	LeaveGroup
+	Warp 0,24004,9,16
+
+############## 弊 寇 ##############
+block
+#\n\n　ˇˇˇ
+	EndWindow 14739,OK
+
+
+

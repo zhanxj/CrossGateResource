@@ -1,0 +1,100 @@
+#
+#囱磊 涅胶飘
+#胆窍飘 冠荤
+
+######### 柳裹牢 浚爹 ########
+block NowEvent 16 == 1
+#\n\n　ˇˇ弊繁啊, 开矫 颊赤啊 裹牢捞 酒聪菌促绰 芭肺焙. 弊凡 芭扼绊 积阿沁绢. 览览, 寸脚 开矫 青农狼 炼荐肺焙.
+	EndWindow 14954,OK
+
+######### 酒令固 裹牢 浚爹 ########
+block EndEvent 16 == 1
+#\n\n　构扼绊!? 颊赤叠捞 裹牢捞菌促绰 扒啊, 磊匙? 唱绰 给 瓜摆瘤父 富捞具, 寸脚 鞍篮 荤恩篮 付练焊促档 龙捞 唱狐.
+	EndWindow 14955,OK
+
+######### 刀 ########
+block NowEvent 9 == 1 && StrCmpChat == 14912
+#\n\n　刀狼 力炼过阑 舅 荐 乐促搁 窜辑啊 瞪 芭扼绊 积阿窍瘤父ˇˇ汲付 弊 鞠混笼窜捞 瘤陛档 绢凋啊俊 混酒乐促绰 扒 酒聪摆瘤.
+	EndWindow 14956,OK
+
+######### 鄂 ########
+block NowEvent 9 == 1 && StrCmpChat == 14910
+#\n\n　傈鄂矫措狼 鞠混笼窜牢啊ˇ唱绰 弊率篮 肋 隔扼辑 富捞具. 捞抚 沥档绰 甸篮 利捞 乐瘤父ˇ
+	EndWindow 14957,OK
+
+#########  ########
+block NowEvent 9 == 1
+#\n\n　弊繁啊ˇ捞霸 海扼捣唱狼 刀牢啊ˇˇ　窍瘤父, 弊巴 父栏沸 荤扒狼 窜辑绰 登瘤 臼酒.
+	EndWindow 14958,OK
+
+######### 刀 绝澜 ########
+block EndEvent 8 == 1 && Item 18553 == 0
+	NowEvent 7 = 0
+	EndEvent 7 = 0
+	NowEvent 8 = 0
+	EndEvent 8 = 0
+	NowEvent 9 = 0
+	EndEvent 9 = 0
+	NowEvent 10 = 0
+	EndEvent 10 = 0
+	NowEvent 11 = 0
+	EndEvent 11 = 0
+	NowEvent 12 = 0
+	EndEvent 12 = 0
+	NowEvent 13 = 0
+	EndEvent 13 = 0
+	NowEvent 14 = 0
+	EndEvent 14 = 0
+	NowEvent 15 = 0
+	EndEvent 15 = 0
+	NowEvent 16 = 0
+	EndEvent 16 = 0
+#\n\n　蓖吝茄 基敲阑 酪绢滚府促聪 公郊 窿捞具!　促弗 荤恩俊霸 何殴窍扁肺 且鳖ˇ
+	Window 14959,NEXT
+#\n\n　　（∝）炼荤俊 吝措茄 厘局啊 惯积沁嚼聪促.\n\n　　　　　　　　　炼荤角菩涝聪促.\n\n　　　　贸澜何磐 促矫 炼荤秦林绞矫坷.
+	EndWindow 14944,OK
+
+######### 刀 乐澜 ########
+block EndEvent 8 == 1 && Item 18553 == 1
+#\n\n　脚靛 且赣聪俊霸 傈秦拎.
+	EndWindow 14960,OK
+
+######### 墨唱捞 ########
+block NowEvent 8 == 1 && StrCmpChat == 14917
+#\n\n　酒酒, 瘤刀茄 捞具扁具. 弊犯霸 磷菌栏聪 巢败柳 颊赤档 阂街窍焙. 拱沸, 唱绰 颊赤叠捞 裹牢捞扼绊 瓜瘤 臼酒.
+	EndWindow 14961,OK
+
+######### 酒令固 ########
+block NowEvent 8 == 1 && StrCmpChat == 14916
+#\n\n　磷篮 且酒滚瘤狼 颊赤肺焙. 青规阂疙捞扼绰 捞具扁瘤父, 唱绰 弊 酒捞啊 裹牢捞扼绊绰 档历洒 积阿捞 救 登绰焙.
+	EndWindow 14962,OK
+
+######### 刀 ########
+block NowEvent 8 == 1 && StrCmpChat == 14912
+#\n\n　酒酒, 沥富 积阿窍扁 饺篮 荤扒捞具. 弊贰, 刀捞具. 绢恫 刀牢瘤 犬角洒 舅 荐 绝绢.
+	Window 14963,NEXT
+#\n\n　弊犯瘤! 距切捞 惯崔茄 技扼福墨俊 啊搁, 购啊 舅 荐 乐阑瘤档 葛福摆焙! 磊匙, 宝满促搁 何殴且 荐 乐阑鳖.
+	Window 14964,YES,NO
+	Window_NO
+#\n\n　儒澜, 绢驴 荐 绝焙. 促弗 荤恩俊霸 何殴窍扁肺 且鳖.
+	EndWindow 14965,OK
+	Window_YES ItemSpace == 0
+#\n\n\n\n　（∝）炼荤俊 鞘夸茄 酒捞袍阑 林妨绊 窍绊 乐嚼聪促. 家瘤前阑 沥府秦林绞矫坷.
+	EndWindow 14930,OK
+	Window_YES ItemSpace != 0
+	GiveItem 18553
+	EndEvent 8 = 1
+#\n\n　坷坷, 秦林摆唱!\n　弊烦 捞 巩力狼 刀阑 啊瘤绊 技扼福墨狼 距力荤 脚靛 且赣聪俊霸 傈秦林霸.脚靛 且赣聪绰 剧距捞电 必距捞电 促 酒绰, 捞 唱扼狼 混酒乐绰 荤傈捞匙. 盒疙 购啊 惯斑秦 临 芭具.
+	EndWindow 14966,OK
+
+#########  ########
+block NowEvent 8 == 1
+#\n\n　沥富! 捞父怒 磊丰甫 茫酒档 刀狼 辆幅甫 漂沥且 荐 绝绢! 漂荐茄 己盒捞 荤侩登绢 乐绰 扒 撇覆绝绰单ˇˇ
+	EndWindow 14967,OK
+
+#########  ########
+block
+#\n\n　官狐, 富 吧瘤 富酒林霸.
+	EndWindow 14968,OK
+
+

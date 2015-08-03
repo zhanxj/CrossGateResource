@@ -1,0 +1,66 @@
+#酒胶抛府酒 脚包
+#己蛮狼 规俊 乐促
+
+############## 眯措 家芭 ##############
+block Item 18492 != 0
+	KillItem 18492
+#\n\n　弊 眯措绰 倒妨林绞矫坷.
+	EndWindow 14764,OK
+
+############## 眯措 家芭 ##############
+block Item 18493 != 0
+	KillItem 18493
+#\n\n　弊 眯措绰 倒妨林绞矫坷.
+	EndWindow 14764,OK
+
+############## 眯措 家芭 ##############
+block Item 18494 != 0
+	KillItem 18494
+#\n\n　弊 眯措绰 倒妨林绞矫坷.
+	EndWindow 14764,OK
+
+############## 眯措 家芭 ##############
+block Item 18495 != 0
+	KillItem 18495
+#\n\n　弊 眯措绰 倒妨林绞矫坷.
+	EndWindow 14764,OK
+
+############## 眯措 家芭 ##############
+block Item 18496 != 0
+	KillItem 18496
+#\n\n　弊 眯措绰 倒妨林绞矫坷.
+	EndWindow 14764,OK
+
+############## 眯措 家芭 ##############
+block Item 18497 != 0
+	KillItem 18497
+#\n\n　弊 眯措绰 倒妨林绞矫坷.
+	EndWindow 14764,OK
+
+############## 眯措 家芭 ##############
+block Item 18498 != 0
+	KillItem 18498
+#\n\n　弊 眯措绰 倒妨林绞矫坷.
+	EndWindow 14764,OK
+
+############## 眯措 家芭 ##############
+block Item 18499 != 0
+	KillItem 18499
+#\n\n　弊 眯措绰 倒妨林绞矫坷.
+	EndWindow 14764,OK
+
+############## 选是传诵到男性路线，选否传诵到女性路线 ##############
+block ItemSpace >= 0
+	Window 120024,YES,NO
+	Window_YES
+	Window 120025,OK
+	Window_OK
+	NowEvent 4 = 0
+        LeaveGroup
+	Warp 0,24003,9,24
+	Window_NO
+	Window 120025,OK
+	Window_OK
+	NowEvent 4 = 0
+        LeaveGroup
+	Warp 0,24003,10,75

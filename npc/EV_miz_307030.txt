@@ -1,0 +1,57 @@
+#鸥匙付葛扼 涅胶飘：楷备悼 涝备
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###########　蜡前狼 揪狙 乐澜　##############
+block Item 18794 >= 1
+
+	EndWindow 206102,OK
+
+###########　endflg36　##############
+block endevent36 == 1 && nowtime == 3
+	Window 206081,YES,NO
+	Window_YES
+	leavegroup
+	endevent36 = 0
+	Warp 0,33243,16,29
+	Window_NO
+
+
+###########　endflg36　##############
+block endevent36 == 1
+
+	EndWindow 206102,OK
+
+###########　nowevent37　##############
+block nowevent37 == 1 && nowtime == 3
+	WIndow 206075,OK
+	Window_OK
+	leavegroup
+	nowevent37 = 0
+	endevent37 = 1
+
+###########　endevent37　##############
+block endevent37 == 1 && nowtime == 3
+	EndWIndow 206103,OK
+
+###########　矫虐固狼 狼汾辑 乐澜　广　##############
+block Item 18793 >= 1 && nowtime == 3
+	EndWindow 206102,OK
+
+###########　广　##############
+block nowtime == 3
+	Window 206081,YES,NO
+	Window_YES
+	leavegroup
+	Warp 0,33242,16,29
+	Window_NO
+
+###########　广 捞寇　##############
+block nowtime != 3
+	Window 206082,OK
+	Window_OK
+	leavegroup
+	Warp 0,33242,16,29
+
+
+

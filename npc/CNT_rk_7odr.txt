@@ -1,0 +1,48 @@
+#堡何 酒福穿焊
+
+#夸备窍绰 墨款飘荐
+Total=	200,	200
+#啊廉客 林菌栏搁 窍绰 酒捞袍
+#炕肺快 皋鄂摹（墨款飘ID：0）＆篮堡籍（墨款飘ID：1）
+Item= 10002,	 9602
+#NPC狼 鸥涝　"PC肺何磐 NPC肺"
+Type=0
+#NPC肺何磐 PC俊霸 扒匙绰 版快狼 荐荐丰　"捞锅篮 包拌绝澜"
+Gold=0
+
+#墨款飘啊 配呕焊促 利篮 版快绰 酒捞袍 墨款飘傈侩 扩档快甫 坷锹茄促
+block CountItemNum < $Total
+	OpenItemCountWindow 4139,4140,4141,4142,4143
+	GlobalTimerA = 0
+	Message 4143
+
+#墨款飘啊 配呕阑 逞菌瘤父 墨款飘ID啊 付瘤阜狼 巴捞 酒匆 版快
+#墨款飘 酒捞袍阑 函版茄促
+block CountItemNum >= $Total && CountItemID < $maxcountitemid
+	SetNextCountItemID
+#	Message "墨款飘且 酒捞袍狼 函版"
+	OpenItemCountWindow 4139,4140,4141,4142,4143
+	GlobalTimerA = 0
+	Message 4143
+
+#墨款飘啊 配呕阑 逞菌瘤父 付瘤阜 墨款飘ID啊 瘤沥登绢 乐绊
+#臂肺国 鸥捞赣啊 14400檬 捞郴老 锭
+block CountItemNum >= $Total && CountItemID >= $maxcountitemid && GlobalTimerA <= 14400
+	Message 4138
+	SetObject 0,34014,44,43,0
+	SetObject 0,34014,45,43,0
+	SetObject 0,34014,46,43,0
+	SetObject 0,34014,47,43,0
+
+#墨款飘啊 配呕阑 逞菌瘤父 付瘤阜 墨款飘ID啊 瘤沥登绢 乐绊
+#臂肺国 鸥捞赣啊 14400檬甫 逞菌阑 锭
+#墨款飘ID甫 ０栏肺 登倒赴促
+blockLoop CountItemNum >= $Total && CountItemID >= $maxcountitemid && GlobalTimerA > 14400
+	SetNextCountItemID
+#	Message "墨款飘 府悸"
+	SetObject 0,34014,44,43,10482
+	SetObject 0,34014,45,43,10475
+	SetObject 0,34014,46,43,10475
+	SetObject 0,34014,47,43,10483
+	GlobalTimerA = 0
+

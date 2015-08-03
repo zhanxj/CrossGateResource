@@ -1,0 +1,103 @@
+#苞切磊 坷坷明虐	6082	1000 108 32
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+
+########## 龋炮 槛冠鼻阑 啊瘤绊 乐绰 版快 ##########
+block Item 18325 >= 1
+	#\n\n　弊巴篮 康利泅惑捞 老绢抄促绰 巴栏肺 瘤陛 家巩 唱 乐绰. 弊 龋炮狼 槛冠鼻!\n　怖 茄锅 炼荤秦焊绊 酵促绊 积阿窍绊 乐菌嚼聪促. 弊 槛冠鼻, 匙啊 啊瘤绊 乐绰 堡籍苞 背券秦林矫瘤 臼摆嚼聪鳖?
+	Window 11487,YES,NO
+
+	Window_NO
+	#\n\n　栏~澜, 弊繁 富靖 付矫绊 何殴 靛妨夸.\n　力 楷备狼 己苞甫 犬牢且 例龋狼 蛮胶涝聪促.
+	EndWindow 11488
+
+	Window_YES Job >= 200 && Job < 230 && Item 18325 >= 1
+	KillItem 18325,1
+	GiveStackItem 9601,20
+	#\n\n　皑荤钦聪促!\n　捞吧肺 康利泅惑捞扼 阂府绰 巴阑, 傈何 敲扼令付肺 汲疙且 荐 乐促绰 吧 刘疙秦 焊捞摆绢夸!
+	EndWindow 11489
+
+	Window_YES Job >= 230 && Job < 260 && Item 18325 >= 1
+	KillItem 18325,1
+	GiveStackItem 10001,20
+	#\n\n　皑荤钦聪促!\n　捞吧肺 康利泅惑捞扼 阂府绰 巴阑, 傈何 敲扼令付肺 汲疙且 荐 乐促绰 吧 刘疙秦 焊捞摆绢夸!
+	EndWindow 11489
+
+	Window_YES Job >= 260 && Job < 280 && Item 18325 >= 1
+	KillItem 18325,1
+	GiveStackItem 9601,20
+	#\n\n　皑荤钦聪促!\n　捞吧肺 康利泅惑捞扼 阂府绰 巴阑, 傈何 敲扼令付肺 汲疙且 荐 乐促绰 吧 刘疙秦 焊捞摆绢夸!
+	EndWindow 11489
+
+	Window_YES Job >= 280 && Job < 290 && Item 18325 >= 1
+	KillItem 18325,1
+	GiveStackItem 10401,20
+	#\n\n　皑荤钦聪促!\n　捞吧肺 康利泅惑捞扼 阂府绰 巴阑, 傈何 敲扼令付肺 汲疙且 荐 乐促绰 吧 刘疙秦 焊捞摆绢夸!
+	EndWindow 11489
+
+	Window_YES Job >= 290 && Job < 300 && Item 18325 >= 1
+	KillItem 18325,1
+	GiveStackItem 9601,20
+	#\n\n　皑荤钦聪促!\n　捞吧肺 康利泅惑捞扼 阂府绰 巴阑, 傈何 敲扼令付肺 汲疙且 荐 乐促绰 吧 刘疙秦 焊捞摆绢夸!
+	EndWindow 11489
+
+	Window_YES Job >= 300 && Job < 340 && Item 18325 >= 1
+	KillItem 18325,1
+	GiveStackItem 10401,20
+	#\n\n　皑荤钦聪促!\n　捞吧肺 康利泅惑捞扼 阂府绰 巴阑, 傈何 敲扼令付肺 汲疙且 荐 乐促绰 吧 刘疙秦 焊捞摆绢夸!
+	EndWindow 11489
+
+	Window_YES Job >= 340 && Job < 350 && Item 18325 >= 1
+	KillItem 18325,1
+	GiveStackItem 9601,20
+	#\n\n　皑荤钦聪促!\n　捞吧肺 康利泅惑捞扼 阂府绰 巴阑, 傈何 敲扼令付肺 汲疙且 荐 乐促绰 吧 刘疙秦 焊捞摆绢夸!
+	EndWindow 11489
+
+	Window_YES Job >= 350 && Job < 360 && Item 18325 >= 1
+	KillItem 18325,1
+	GiveStackItem 12401,20
+	#\n\n　皑荤钦聪促!\n　捞吧肺 康利泅惑捞扼 阂府绰 巴阑, 傈何 敲扼令付肺 汲疙且 荐 乐促绰 吧 刘疙秦 焊捞摆绢夸!
+	EndWindow 11489
+
+	Window_YES Job >= 360 && Job < 370 && Item 18325 >= 1
+	KillItem 18325,1
+	GiveStackItem 12801,20
+	#\n\n　皑荤钦聪促!\n　捞吧肺 康利泅惑捞扼 阂府绰 巴阑, 傈何 敲扼令付肺 汲疙且 荐 乐促绰 吧 刘疙秦 焊捞摆绢夸!
+	EndWindow 11489
+
+	Window_YES Job >= 450 && Job < 460 && Item 18325 >= 1
+	KillItem 18325,1
+	GiveStackItem 10003,20
+	#\n\n　皑荤钦聪促!\n　捞吧肺 康利泅惑捞扼 阂府绰 巴阑, 傈何 敲扼令付肺 汲疙且 荐 乐促绰 吧 刘疙秦 焊捞摆绢夸!
+	EndWindow 11489
+
+	Window_YES Job >= 460 && Job < 470 && Item 18325 >= 1
+	KillItem 18325,1
+	GiveStackItem 12000,20
+	#\n\n　皑荤钦聪促!\n　捞吧肺 康利泅惑捞扼 阂府绰 巴阑, 傈何 敲扼令付肺 汲疙且 荐 乐促绰 吧 刘疙秦 焊捞摆绢夸!
+	EndWindow 11489
+
+	Window_YES Job >= 470 && Job < 480 && Item 18325 >= 1
+	KillItem 18325,1
+	GiveStackItem 9603,20
+	#\n\n　皑荤钦聪促!\n　捞吧肺 康利泅惑捞扼 阂府绰 巴阑, 傈何 敲扼令付肺 汲疙且 荐 乐促绰 吧 刘疙秦 焊捞摆绢夸!
+	EndWindow 11489
+
+	Window_YES Item 18325 >= 1
+	KillItem 18325,1
+	GiveStackItem (9600%20,10000%20,10400%20,12404%20,12800%20),20
+	#\n\n　皑荤钦聪促!\n　捞吧肺 康利泅惑捞扼 阂府绰 巴阑, 傈何 敲扼令付肺 汲疙且 荐 乐促绰 吧 刘疙秦 焊捞摆绢夸!
+	EndWindow 11489
+
+
+########## 炼荤狼汾辑甫 啊瘤绊 乐绰 版快 ##########
+block Item 18323 >= 1
+	#\n\n　弊 龋炮俊 啊矫绰 疤聪鳖? 何反焙夸.\n　弊 龋炮篮, 楷备措惑栏肺辑 蕊固甫 啊瘤绊 乐绢夸.
+	EndWindow 11490
+
+########## 利钦窍瘤 臼篮 版快 ##########
+block
+	#\n\n　寸脚篮 历林扼绰 巴捞 泅角俊 粮犁茄促绊 积阿窍绊 乐唱?\n　弊 稠芭甫 力矫秦拎.
+	EndWindow 11491
+

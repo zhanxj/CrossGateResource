@@ -1,0 +1,56 @@
+#汲拌档 背券
+
+##############  ##############
+block
+#\n\n　咯扁辑绰 「贰壶 固雇 汲拌档 背券鼻」苞 亮酒窍绰 贰壶 固雇 汲拌档 1厘阑 背券窍绊 乐嚼聪促.
+	Window 15418,OK
+	Window_OK Item 18661 == 0
+#\n\n　墨骸努 力厚俊辑 「贰壶 固雇 汲拌档 背券鼻」阑 涝荐窍矫搁 咯扁肺 客林绞矫坷.
+	EndWindow 15419,OK
+	Window_OK Item 18661 >= 1
+#\n\n　绵窍钦聪促. 弊烦 「贰壶 固雇 汲拌档 背券鼻」阑 亮酒窍绰 贰壶 固雇 汲拌档 1厘苞 背券秦靛府摆嚼聪促.
+	Window 15420,OK
+	Window_OK Item 18661 >= 1
+#\n\n　「贰壶 固雇 汲拌档A」客 背券窍摆嚼聪鳖?
+	Window 15421,YES,NO
+	Window_YES Item 18661 >= 1
+	KillItem 18661
+	GiveLeak1Item 18653
+#\n\n　皑荤钦聪促. 菊栏肺档 墨骸努 力厚甫 肋 何殴靛赋聪促.
+	EndWindow 15422,OK
+	Window_NO Item 18661 >= 1
+#\n\n　「贰壶 固雇 汲拌档B」客 背券窍摆嚼聪鳖?
+	Window 15423,YES,NO
+	Window_YES Item 18661 >= 1
+	KillItem 18661
+	GiveLeak1Item 18654
+#\n\n　皑荤钦聪促. 菊栏肺档 墨骸努 力厚甫 肋 何殴靛赋聪促.
+	EndWindow 15422,OK
+	Window_NO Item 18661 >= 1
+#\n\n　「贰壶 固雇 汲拌档C」客 背券窍摆嚼聪鳖?
+	Window 15424,YES,NO
+	Window_YES Item 18661 >= 1
+	KillItem 18661
+	GiveLeak1Item 18655
+#\n\n　皑荤钦聪促. 菊栏肺档 墨骸努 力厚甫 肋 何殴靛赋聪促.
+	EndWindow 15422,OK
+	Window_NO Item 18661 >= 1
+#\n\n　「贰壶 固雇 汲拌档D」客 背券窍摆嚼聪鳖?
+	Window 15425,YES,NO
+	Window_YES Item 18661 >= 1
+	KillItem 18661
+	GiveLeak1Item 18656
+#\n\n　皑荤钦聪促. 菊栏肺档 墨骸努 力厚甫 肋 何殴靛赋聪促.
+	EndWindow 15422,OK
+	Window_NO Item 18661 >= 1
+#\n\n　「贰壶 固雇 汲拌档E」客 背券窍摆嚼聪鳖?
+	Window 15426,YES,NO
+	Window_YES Item 18661 >= 1
+	KillItem 18661
+	GiveLeak1Item 18657
+#\n\n　皑荤钦聪促. 菊栏肺档 墨骸努 力厚甫 肋 何殴靛赋聪促.
+	EndWindow 15422,OK
+
+
+
+

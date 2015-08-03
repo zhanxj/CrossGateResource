@@ -1,0 +1,105 @@
+#
+#咯脚 墨坊（官肺胶 霸捞飘/凯覆/傈捧 饶）
+#
+
+##############  ##############
+block BImage == 101913 || BImage == 101910
+#15909·\n\n\n\n@c（∝）函脚惑怕俊辑绰 措拳且 荐 绝嚼聪促
+	EndWindow 15909,OK
+
+##############  ##############
+block
+#\n\n\n\n\n@cˇ咯绰 磊咯, 肋 坷继嚼聪促ˇ
+	Window 15333,NEXT
+#\n\n\n\n\n@cˇ捞犯霸 捞具扁甫 窍绰 巴篮 割 锅掳老鳖夸ˇ
+	Window 15334,NEXT
+#\n\n\n\n\n@c府骇府快胶绰 魔宫狼 技拌俊辑\n@c促矫 泪甸菌嚼聪促ˇ
+	Window 15335,NEXT
+#\n\n\n\n\n@cˇˇ窍瘤父 咯绰 磊咯ˇˇ
+	Window 15336,NEXT
+#\n\n\n\n@c扁撅窍绊 拌矫瘤 臼摆瘤父\n@c寸脚狼 柳楼 轿框篮\n@c捞力何磐啊 矫累涝聪促ˇ
+	Window 15337,NEXT
+#\n\n\n\n@c捞 技拌绰 4000斥阑 林扁肺\n@c割 锅捞绊 鞍篮 开荤甫 登钱捞窍绊\n@c割 锅捞绊 度 鞍篮 肋给苞 度 鞍篮 浇悄阑\n@c登钱捞秦 吭嚼聪促.ˇ
+	Window 15338,NEXT
+#\n\n\n\n\n@cˇˇ炼陛档 撇府瘤 臼绊ˇˇ
+	Window 15339,NEXT
+#\n\n\n\n\n@cˇ寸脚苞 窍绰 捞 措拳档\n@c国结 割 玫 锅捞唱 登钱捞窍绊 乐绰 巴涝聪促ˇ
+	Window 15340,NEXT
+#\n\n\n\n\n@cˇ摧腮 捞 技拌俊绰\n@c臂磊 弊措肺 「固贰」啊 绝嚼聪促ˇ
+	Window 15341,NEXT
+#\n\n\n\n\n@cˇ锐噶篮 绊荤窍绊\n@c例噶付历 倾遏登瘤 臼绰 浇锹 技拌ˇ
+	Window 15342,NEXT
+#\n\n\n\n@c儡开俊 荤绰 牢埃档\n@c快府甸 脚捞扼绊 阂府绰 脚开狼 粮犁付历\n@c捞 唱急俊辑绰 档噶磨 荐啊 绝嚼聪促
+	Window 15343,NEXT
+#\n\n\n\n@c弊府绊 弊 柳角阑 扁撅窍绊 乐绰 巴篮\n@c3疙狼 矫埃狼 咯脚 吝俊辑\n@c「固贰」甫 包厘窍绰 历挥涝聪促
+	Window 15344,NEXT
+#\n\n\n\n@c寸脚篮 菊栏肺\n@c脚拳狼 矫措客 捞 矫措甫\n@c坷啊搁辑\n@c开荤甫 父甸绢 啊摆瘤夸ˇ
+	Window 15345,NEXT
+#\n\n\n\n@cˇ寸脚捞 穿备俊 狼秦辑ˇ\n@c公均阑 困秦\n@c积败抄 粮犁牢瘤\n@c弊巴篮 唱档 葛辅聪促ˇ
+	Window 15346,NEXT
+#\n\n\n\n@cˇ寸脚篮 脚开俊档\n@c儡开俊档 加窍瘤 臼绰\n@c漂喊茄 粮犁涝聪促ˇ
+	Window 15347,NEXT
+#\n\n\n\n@cˇ咯绰 磊咯\n@c寸脚捞 柳沥 凯绢具 且 巴篮\n@c捞繁\n@c巩 蝶困绰 酒凑聪促ˇ
+	Window 15348,NEXT
+#\n\n\n\n\n@cˇ茄绝捞 摧腮 捞 唱急技拌ˇ
+	Window 15349,NEXT
+#\n\n\n@cˇ捞 历林罐篮 楷尖甫\n@c攫哩啊 寸脚捞\n@c何饯临 巴阑 官扼哥\n@c唱绰 攫力唱\n@c寸脚阑 捞犯霸 何辅聪促ˇ
+	Window 15350,NEXT
+#\n\n\n\n\n@cˇˇ「款疙阑 咯绰 磊」扼绊ˇˇ
+	Window 15351,NEXT
+#\n\n\n\n\n@cˇˇ锭啊 柯 巴 鞍嚼聪促ˇˇ
+	Window 15352,NEXT
+#\n\n\n\n@cˇ咯绰 磊咯\n@c攫哩啊 馆靛矫\n@c捞 技拌狼 款疙阑 谗绊\n@c固贰甫 捞绢林绞矫坷ˇ
+	Window 15353,NEXT
+#\n\n\n\n\n@cˇ4000斥 傈俊 促矫 父唱档废 窍瘤夸ˇ
+	Window 15354,OK
+	Window_OK Item 18589 == 1
+	EndEvent 21 = 1
+	KillItem 18589,(15316)
+	LeaveGroup
+	Warp 0,1530,15,6
+
+	Window_OK Item 18590 == 1
+	EndEvent 21 = 1
+	KillItem 18590,(15316)
+	LeaveGroup
+	Warp 0,1530,15,6
+
+	Window_OK Item 18591 == 1
+	EndEvent 21 = 1
+	KillItem 18591,(15316)
+	LeaveGroup
+	Warp 0,1530,15,6
+
+	Window_OK Item 18592 == 1
+	EndEvent 21 = 1
+	KillItem 18592,(15316)
+	LeaveGroup
+	Warp 0,1530,15,6
+
+	Window_OK Item 18593 == 1
+	EndEvent 21 = 1
+	KillItem 18593,(15316)
+	LeaveGroup
+	Warp 0,1530,15,6
+
+	Window_OK Item 18594 == 1
+	EndEvent 21 = 1
+	KillItem 18594,(15316)
+	LeaveGroup
+	Warp 0,1530,15,6
+
+	Window_OK Item 18595 == 1
+	EndEvent 21 = 1
+	KillItem 18595,(15316)
+	LeaveGroup
+	Warp 0,1530,15,6
+
+	Window_OK
+	EndEvent 21 = 1
+	LeaveGroup
+	Warp 0,1530,15,6
+
+
+
+

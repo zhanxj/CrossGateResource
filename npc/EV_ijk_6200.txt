@@ -1,0 +1,25 @@
+#焊拱惑磊			6200	999 8 7		焊籍
+
+
+###### 焊籍阑 啊瘤绊 乐绰 版快 ######
+	block Item 18462 >= 1
+	#\n\n　救阑 炼荤沁瘤父 捞力 酒公巴档 绝绰 巴 鞍促.
+	EndWindow 11888
+
+###### 酒捞袍俊 后 镑捞 乐绰 版快 ######
+	block ItemSpace >= 1
+	#\n\n　河霸 蝴唱绰 倒捞 乐促. 啊瘤摆嚼聪鳖?
+	Window 11891,YES,NO
+
+	Window_YES ItemSpace >= 1
+	GiveItem 18462,1
+
+	Window_YES
+	Window_NO
+
+###### 酒捞袍俊 后 镑捞 绝绰 版快 ######
+	block
+	#\n\n　家瘤前捞 啊垫 瞒 乐嚼聪促.
+	EndWindow 10000
+
+

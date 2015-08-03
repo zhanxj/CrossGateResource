@@ -1,0 +1,45 @@
+#固肺 饭捞胶	1困		6140 1406 5 5
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+
+########## 榜牢茄 版快 ##########
+	block EndEvent 46 == 1
+	#\n\n　肋 沁绢! 促澜 饭捞胶档 扁措窍瘤.\n　捞 规阑 唱啊辑 固肺狼 胶鸥飘 瘤痢俊 倒酒啊摆唱?
+	Window 11785,YES,NO
+
+	Window_YES
+	Warp 0,1404,0,4
+
+	Window_NO
+
+########## 榜牢茄 版快 ##########
+	block Item 18377 >= 1
+	#\n\n　咯扁啊 榜捞具! 肋 沁绢!
+	Window 11775,OK
+
+	Window_OK
+	#\n\n　绵窍秦! 磊匙啊 捞锅 饭捞胶狼 １困促! 捞吧 罐酒林霸.
+	Window 11777,YES,NO
+
+	Window_YES Item 18377 >= 1
+	KillItem 18377,1
+	GiveLeak0Item 18396,1
+	EndEvent 46 = 1
+	#\n\n　捞霸 惑前捞促. 措窜茄 疙抗扼备!
+	EndWindow 11778
+
+	Window_NO
+	#\n\n　构具, 捞霸 鞘夸绝促绰 扒啊?
+	EndWindow 11779
+
+########## 榜牢茄 版快 ##########
+	block
+	#\n\n　涝厘 倾啊啊 绝绢.\n　捞 规阑 唱啊辑 固肺狼 胶鸥飘 瘤痢俊 倒啊啊摆唱?
+	Window 11776,YES,NO
+
+	Window_YES
+	Warp 0,1404,0,4
+
+	Window_NO
+

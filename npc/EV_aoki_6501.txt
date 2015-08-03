@@ -1,0 +1,139 @@
+#炼荐 器内
+
+##########皑沥 傈狼 啊楼甫 啊瘤绊 乐绰 版快 弊成 唱沟啊瘤#########
+block Leak0Item 18352 >= 1
+
+	#绢? 呈, 购啊 犁固乐绰 吧 啊瘤绊 乐匙! 唱茄抛 焊咯拎!
+
+	Window 14028,YES,NO
+        Window_YES
+        KillLeak0item 18352,1
+       	Window 14030,NEXT
+	#褥褥. 儒澜, 蜡皑捞瘤父 捞扒 秦利苞绰 酒公 包拌档 绝绰 巴 鞍酒
+	EndWindow14031
+        #览? 荤肥绰 灯绢. 唱绰 炼荤窍绰 霸 秒固芭电.
+        Window_YES
+	Window_NO
+
+##########皑沥 傈狼 啊楼甫 啊瘤绊 乐绰 版快 咙铰狼 啊磷#############
+block Leak0Item 18354 >= 1
+
+	#绢? 呈, 购啊 犁固乐绰 吧 啊瘤绊 乐匙! 唱茄抛 焊咯拎!
+
+	Window 14028,YES,NO
+        Window_YES
+        KillLeak0item 18354,1
+       	Window 14030,NEXT
+	#褥褥. 儒澜, 蜡皑捞瘤父 捞扒 秦利苞绰 酒公 包拌档 绝绰 巴 鞍酒
+	EndWindow14031
+        #览? 荤肥绰 灯绢. 唱绰 炼荤窍绰 霸 秒固芭电.
+        Window_YES
+	Window_NO
+
+##########皑沥 傈狼 啊楼甫 啊瘤绊 乐绰 版快 港没捞 漠#############
+block Leak0Item 18356 >= 1
+
+	#绢? 呈, 购啊 犁固乐绰 吧 啊瘤绊 乐匙! 唱茄抛 焊咯拎!
+
+	Window 14028,YES,NO
+        Window_YES
+        killleak0item 18356,1
+       	Window 14030,NEXT
+	#褥褥. 儒澜, 蜡皑捞瘤父 捞扒 秦利苞绰 酒公 包拌档 绝绰 巴 鞍酒
+	EndWindow14031
+        #览? 荤肥绰 灯绢. 唱绰 炼荤窍绰 霸 秒固芭电.
+        Window_YES
+	Window_NO
+
+
+##########皑沥 傈狼 柳楼甫 啊瘤绊 乐绰 版快 秦利狼 八#########
+block Leak0Item 18355 >= 1
+
+	#绢? 呈, 购啊 犁固乐绰 吧 啊瘤绊 乐匙! 唱茄抛 焊咯拎!
+
+	Window 14028,YES,NO
+        Window_YES Leak0item 18355 >= 1
+        KillLeak0item 18355,1
+	GiveLeak1item 18355,1
+       	Window 14029,NEXT
+	#褥褥. 坷坷! 呈! 捞扒 秦利捞 荤侩窍绊 乐带 巴 鞍酒! 肋灯焙.
+	EndWindow14031
+        #览? 荤肥绰 灯绢. 唱绰 炼荤窍绰 霸 秒固芭电.
+        Window_YES
+	Window_NO
+##########皑沥 傈狼 柳楼甫 啊瘤绊 乐绰 版快 酒幅飘 荤磊狼 啊磷#########
+block Leak0Item 18353 >= 1
+
+	#绢? 呈, 购啊 犁固乐绰 吧 啊瘤绊 乐匙! 唱茄抛 焊咯拎!
+
+	Window 14028,YES,NO
+        Window_YES Leak0item 18353 >= 1
+        KillLeak0item 18353,1
+	GiveLeak1item 18353,1
+       	Window 14029,NEXT
+	#褥褥. 坷坷! 呈! 捞扒 秦利捞 荤侩窍绊 乐带 巴 鞍酒! 肋灯焙.
+	EndWindow14031
+        #览? 荤肥绰 灯绢. 唱绰 炼荤窍绰 霸 秒固芭电.
+        Window_YES
+	Window_NO
+##########皑沥 傈狼 柳楼甫 啊瘤绊 乐绰 版快 技福角扼狼 瘤莆捞#######
+block Leak0Item 18351 >= 1
+
+	#绢? 呈, 购啊 犁固乐绰 吧 啊瘤绊 乐匙! 唱茄抛 焊咯拎!
+
+	Window 14028,YES,NO
+        Window_YES Leak0item 18351 >= 1
+        KillLeak0item 18351,1
+        GiveLeak1item 18351,1
+       	Window 14029,NEXT
+	#褥褥. 坷坷! 呈! 捞扒 秦利捞 荤侩窍绊 乐带 巴 鞍酒! 肋灯焙.
+
+	EndWindow14031
+        #览? 荤肥绰 灯绢. 唱绰 炼荤窍绰 霸 秒固芭电.
+        Window_YES
+	Window_NO
+
+##########皑沥 饶狼 酒捞袍阑 啊瘤绊 乐绰 版快（漠）#########
+block Leak1Item 18356 >= 1
+	Window 14050,YES,NO
+	Window_YES 18356 >= 1
+	KillLeak1item 18356,1
+        Window_YES
+	Window_NO
+
+##########皑沥 饶狼 酒捞袍阑 啊瘤绊 乐绰 版快（啊磷）#########
+block Leak1Item 18354 >= 1
+	Window 14052,YES,NO
+	Window_YES 18354 >= 1
+	KillLeak1item 18354,1
+        Window_YES
+	Window_NO
+
+##########皑沥 饶狼 酒捞袍阑 啊瘤绊 乐绰 版快（唱沟啊瘤）#########
+
+block Leak1Item 18352 >= 1
+
+	Window 14051,YES,NO
+	Window_YES 18352 >= 1
+	KillLeak1item 18352,1
+        Window_YES
+	Window_NO
+
+
+#########柳楼甫 啊瘤绊 乐阑 版快#############################################
+block Leak1item 18351 >= 1 || Leak1item 18353 >= 1 || Leak1item 18355 >= 1
+
+	EndWindow 14044
+##########静饭扁甫 啊瘤绊 乐阑 版快#############################################
+block Item 18361 >= 1 || Item 18362 >= 1 || Item 18363 >= 1
+	EndWindow 14048
+
+#########酒公巴档 爱绊 乐瘤 臼阑 版快########
+block
+	#「沥富 技坷档绢 急积丛狼 变 捞具扁俊绰 龙啡绢. 霸促啊 捞繁 镑俊辑 混扁鳖瘤 窍备, 「捞 悼奔俊绰 购啊 乐绢!」扼绰 家府绰 救 甸菌瘤父. 概锅 拱扒 荤矾 啊绰 郴 涝厘档 积阿秦 玲栏搁 亮摆绢.」
+	Window 14044,NEXT
+
+#唱绰 技坷档绢狼 炼荐牢 器内扼绊 秦. 肋 何殴茄促. 瘤陛 秦利捞 巢变 拱扒阑 葛酒辑 炼荤窍绊 乐绢. 购啊 秦利俊 包拌等 犁固乐绰 巴捞 乐栏搁 啊廉客 林瘤 臼摆绢? 静饭扁肺 焊咯档 弊 吝俊绰 秦利捞 荤侩沁带 巴捞 乐绢. 唱扼搁 啊楼客 柳楼甫 备盒且 荐 乐瘤··何殴且霸!」
+
+	EndWindow 14027
+

@@ -1,0 +1,218 @@
+#规绢备流牢侩 捞亥飘 抛胶飘 195 203
+#贸澜栏肺 炼扒捞 老摹茄 喉废阑 贸府茄促
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+########## 规绢备流牢阑 茫绊 乐绰 荤恩 ##########
+
+### 规绢备流牢狼 流诀捞 酒囱 版快 ###
+
+	# --- 葛氰啊狼 版快 --- #
+	block Job >= 0 && Job < 200
+	#规绢备流牢阑 茫绊 乐促匙.\n 磊匙, 趣矫 酒唱?
+	EndWindow 10869
+
+	# --- 公扁流牢狼 版快 --- #
+	block Job >= 200 && Job < 270
+	#公扁流牢丛捞矫焙.\n规绢备流牢捞 绢叼 乐绰瘤 酒矫唱夸?
+	EndWindow 10868
+
+	# --- 公扁, 规绢备流牢 捞寇狼 流牢狼 版快 --- #
+	block Job >= 350 && Job < 470
+	#规绢备流牢阑 茫绊 乐促匙.\n 磊匙, 趣矫 酒唱?
+	EndWindow 10869
+
+
+### 规绢备流牢狼 流诀狼 版快 ###
+
+	# --- 捧备流牢狼 版快 --- #
+	block Job >= 270 && Job < 280
+	#捧备流牢丛牢啊.\n「3612捧备」甫 父甸绢 林菌栏搁 窍匙.\n荤肥绰 惦灰 窍瘤!
+	Window 10867,OK,CANCEL
+
+	Window_OK Item3612 == 0
+	#肯己登菌阑 锭绰 馆靛矫 唱俊霸 迫酒 林矫霸.
+	EndWindow 10871,OK,CANCEL
+
+	Window_OK Item3612 >= 1
+	#坷坷, 芭扁俊 乐绰 巴篮 「3612捧备」！\n咯扁 100GOLD乐匙.\n弊巴阑 唱俊霸 迫瘤 臼摆唱?
+	Window 10866,OK,NO
+	
+	Window_OK
+	KillItem3612
+	AddGold 100
+	#绊缚匙. 肚 何殴窍瘤.
+	EndWindow 10885
+
+	Window_NO
+	#付澜捞 官差搁 攫力扼档 促矫 客林矫霸.
+	Message 10870
+
+
+	# --- 葛磊流牢狼 版快 --- #
+	block Job >= 280 && Job < 290
+	#葛磊流牢丛牢啊.\n「4012葛磊」甫 父甸绢 林菌栏搁 窍匙.\n荤肥绰 惦灰 窍瘤!
+	Window 10865,OK,CANCEL
+
+	Window_OK Item4012 == 0
+	#父甸绢柳 规绢备绰 馆靛矫 唱俊霸 迫酒林矫霸.
+	EndWindow 10871,OK,CANCEL
+
+	Window_OK Item4012 >= 1
+	#坷坷, 芭扁俊 乐绰 巴篮 「4012葛磊」！\n咯扁 100GOLD乐匙.\n弊巴阑 唱俊霸 迫瘤 臼摆唱?
+	Window 10864,YES,NO
+	
+	Window_YES
+	KillItem4012
+	AddGold 100
+	#绊缚匙. 肚 何殴窍瘤.
+	EndWindow 10885
+
+	Window_NO
+	#付澜捞 官差搁 攫力扼档 促矫 客林矫霸.
+	Message 10870
+
+
+	# --- 癌渴流牢狼 版快 --- #
+	block Job >= 290 && Job < 300
+	#癌渴流牢丛牢啊.\n「4412癌渴」阑 父甸绢 林菌栏搁 窍匙.\n荤肥绰 惦灰 窍瘤!
+	Window 10863,OK,CANCEL
+
+	Window_OK Item4412 == 0
+	#父甸绢柳 规绢备绰 馆靛矫 唱俊霸 迫酒林矫霸.
+	EndWindow 10871,OK,CANCEL
+
+	Window_OK Item4412 >= 1
+	#坷坷, 芭扁俊 乐绰 巴篮 「4412癌渴」！\n咯扁 100GOLD乐匙.\n弊巴阑 唱俊霸 迫瘤 臼摆唱?
+	Window 10862,YES,NO
+	
+	Window_YES
+	KillItem4412
+	AddGold 100
+	#绊缚匙. 肚 何殴窍瘤.
+	EndWindow 10885
+
+	Window_NO
+	#付澜捞 官差搁 攫力扼档 促矫 客林矫霸.
+	Message 10870
+
+
+	# --- 渴流牢狼 版快 --- #
+	block Job >= 300 && Job < 310
+	#渴流牢丛牢啊.\n「4812渴」阑 父甸绢 林菌栏搁 窍匙.\n荤肥绰 惦灰 窍瘤!
+	Window 10861,OK,CANCEL
+
+	Window_OK Item4812 == 0
+	#父甸绢柳 规绢备绰 馆靛矫 唱俊霸 迫酒林矫霸.
+	EndWindow 10871,OK,CANCEL
+
+	Window_OK Item4812 >= 1
+	#坷坷, 芭扁俊 乐绰 巴篮 「4812渴」！\n咯扁 100GOLD乐匙.\n弊巴阑 唱俊霸 迫瘤 臼摆唱?
+	Window 10860,YES,NO
+	
+	Window_YES
+	KillItem4812
+	AddGold 100
+	#绊缚匙. 肚 何殴窍瘤.
+	EndWindow 10885
+
+	Window_NO
+	#付澜捞 官差搁 攫力扼档 促矫 客林矫霸.
+	Message 10870
+
+
+	# --- 肺宏流牢狼 版快 --- #
+	block Job >= 310 && Job < 320
+	#肺宏流牢丛牢啊.\n「5212肺宏」甫 父甸绢 林菌栏搁 窍匙.\n荤肥绰 惦灰 窍瘤!
+	Window 10859,OK,CANCEL
+
+	Window_OK Item5212 == 0
+	#父甸绢柳 规绢备绰 馆靛矫 唱俊霸 迫酒林矫霸.
+	EndWindow 10871,OK,CANCEL
+
+	Window_OK Item5212 >= 1
+	#坷坷, 芭扁俊 乐绰 巴篮 「5212肺宏」！\n咯扁 100GOLD乐匙.\n弊巴阑 唱俊霸 迫瘤 臼摆唱?
+	Window 10858,YES,NO
+	
+	Window_YES
+	KillItem5212
+	AddGold 100
+	#绊缚匙. 肚 何殴窍瘤.
+	EndWindow 10885
+
+	Window_NO
+	#付澜捞 官差搁 攫力扼档 促矫 客林矫霸.
+	Message 10870
+
+
+	# --- 何明流牢狼 版快 --- #
+	block Job >= 320 && Job < 330
+	#何明流牢丛牢啊.\n「5612何明」甫 父甸绢 林菌栏搁 窍匙.\n荤肥绰 惦灰 窍瘤!
+	Window 10857,OK,CANCEL
+
+	Window_OK Item5612 == 0
+	#父甸绢柳 规绢备绰 馆靛矫 唱俊霸 迫酒林矫霸.
+	EndWindow 10871,OK,CANCEL
+
+	Window_OK Item5612 >= 1
+	#坷坷, 芭扁俊 乐绰 巴篮 「5612何明」！\n咯扁 100GOLD乐匙.\n弊巴阑 唱俊霸 迫瘤 臼摆唱?
+	Window 10856,YES,NO
+	
+	Window_YES
+	KillItem5612
+	AddGold 100
+	#绊缚匙. 肚 何殴窍瘤.
+	EndWindow 10885
+
+	Window_NO
+	#付澜捞 官差搁 攫力扼档 促矫 客林矫霸.
+	Message 10870
+
+
+	# --- 备滴流牢狼 版快 --- #
+	block Job >= 330 && Job < 340
+	#备滴流牢丛牢啊.\n「6012备滴」甫 父甸绢 林菌栏搁 窍匙.\n荤肥绰 惦灰 窍瘤!
+	Window 10855,OK,CANCEL
+
+	Window_OK Item6012 == 0
+	#父甸绢柳 规绢备绰 馆靛矫 唱俊霸 迫酒林矫霸.
+	EndWindow 10871,OK,CANCEL
+
+	Window_OK Item6012 >= 1
+	#坷坷, 芭扁俊 乐绰 巴篮 「6012备滴」！\n咯扁 100GOLD乐匙.\n弊巴阑 唱俊霸 迫瘤 臼摆唱?
+	Window 10854,YES,NO
+	
+	Window_YES
+	KillItem6012
+	AddGold 100
+	#绊缚匙. 肚 何殴窍瘤.
+	EndWindow 10885
+
+	Window_NO
+	#付澜捞 官差搁 攫力扼档 促矫 客林矫霸.
+	Message 10870
+
+
+	# --- 规菩流牢狼 版快 --- #
+	block Job >= 340 && Job < 350
+	#规菩流牢丛牢啊.\n「6412规菩」甫 父甸绢 林菌栏搁 窍匙.\n荤肥绰 惦灰 窍瘤!
+	Window 10853,OK,CANCEL
+
+	Window_OK Item6412 == 0
+	#父甸绢柳 规绢备绰 馆靛矫 唱俊霸 迫酒林矫霸.
+	EndWindow 10871,OK,CANCEL
+
+	Window_OK Item6412 >= 1
+	#坷坷, 芭扁俊 乐绰 巴篮 「6412规菩」！\n咯扁 100GOLD乐匙.\n弊巴阑 唱俊霸 迫瘤 臼摆唱?
+	Window 10852,YES,NO
+	
+	Window_YES
+	KillItem6412
+	AddGold 100
+	#绊缚匙. 肚 何殴窍瘤.
+	EndWindow 10885
+
+	Window_NO
+	#付澜捞 官差搁 攫力扼档 促矫 客林矫霸.
+	Message 10870
+

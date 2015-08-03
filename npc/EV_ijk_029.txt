@@ -1,0 +1,153 @@
+#沤沥侩 捞亥飘 抛胶飘 195 207
+#贸澜栏肺 炼扒捞 老摹茄 喉废阑 贸府茄促
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+########## 函厘窍瘤 臼疽绊, 巢己狼 葛嚼阑 窍绊 乐绰 版快 ##########
+block MetamoCount == 0 && BBimage >= 100000 && BBimage <= 100173 
+	#巢己盒篮 捞率栏肺 瘤唱啊绞矫坷.
+	Window 10819,OK,CANCEL
+	
+	# --- OK狼 版快 --- #
+		Window_OK
+		Warp 0,777,204,205	
+
+block MetamoCount == 0 && BBimage >= 105000 && BBimage <= 105173 
+	#巢己盒篮 捞率栏肺 瘤唱啊绞矫坷.
+	Window 10819,OK,CANCEL
+	
+	# --- OK狼 版快 --- #
+		Window_OK
+		Warp 0,777,204,205	
+
+block MetamoCount == 0 && BBimage >= 106000 && BBimage <= 106173 
+	#巢己盒篮 捞率栏肺 瘤唱啊绞矫坷.
+	Window 10819,OK,CANCEL
+	
+	# --- OK狼 版快 --- #
+		Window_OK
+		Warp 0,777,204,205	
+
+########## 函厘窍瘤 臼疽绊, 咯己狼 葛嚼阑 窍绊 乐绰 版快##########
+block MetamoCount == 0 && BBimage >= 100252 && BBimage <= 100423 
+	#咯扁绰 巢磊父 瘤唱哎 荐 乐绢夸.
+	EndWindow 10818
+
+block MetamoCount == 0 && BBimage >= 105252 && BBimage <= 105423 
+	#咯扁绰 巢磊父 瘤唱哎 荐 乐绢夸.
+	EndWindow 10818
+
+block MetamoCount == 0 && BBimage >= 106252 && BBimage <= 106423 
+	#咯扁绰 巢磊父 瘤唱哎 荐 乐绢夸.
+	EndWindow 10818
+
+########## 函厘窍瘤 臼疽绊, 脐狼 葛嚼阑 窍绊 乐绰 版快 ##########
+block MetamoCount == 0 && BBimage >= 101000 && BBimage <= 101935 
+	#脐狼 馆涝篮 陛瘤涝聪促ˇ. 饿鳖, 林牢篮 绢叼俊 乐瘤?
+	EndWindow 10817
+
+block MetamoCount == 0 && BBimage >= 107000 && BBimage <= 107935 
+	#脐狼 馆涝篮 陛瘤涝聪促ˇ. 饿鳖, 林牢篮 绢叼俊 乐瘤?
+	EndWindow 10817
+
+########## 函厘窍瘤 臼疽绊, 包府磊狼 葛嚼阑 窍绊 乐绰 版快 ##########
+block MetamoCount == 0 && BBimage >= 100425 && BBimage <= 100805 
+	#寸脚篮 漂喊洒 烹苞窍寂档 邓聪促.
+	EndWindow 10816,OK,CANCEL
+
+	#----- 扩档快 ＯＫ狼 版快 -----#
+		Window_OK
+		Warp 0,777,204,205
+
+block MetamoCount == 0 && BBimage >= 105425 && BBimage <= 105805 
+	#寸脚篮 漂喊洒 烹苞窍寂档 邓聪促.
+	EndWindow 10816,OK,CANCEL
+
+	#----- 扩档快 ＯＫ狼 版快 -----#
+		Window_OK
+		Warp 0,777,204,205
+
+block MetamoCount == 0 && BBimage >= 106425 && BBimage <= 106805 
+	#寸脚篮 漂喊洒 烹苞窍寂档 邓聪促.
+	EndWindow 10816,OK,CANCEL
+
+	#----- 扩档快 ＯＫ狼 版快 -----#
+		Window_OK
+		Warp 0,777,204,205
+
+
+########## 函厘秦辑, 巢己狼 葛嚼阑 窍绊 乐绰 版快 ##########
+block MetamoCount >= 1 && BBimage >= 100000 && BBimage <= 100173 
+	#栏澜, 巢己盒捞矫瘤夸? 捞率栏肺 瘤唱啊绞矫坷.
+	Window 10815,OK,CANCEL
+	
+	# --- OK狼 版快 --- #
+		Window_OK
+		Warp 0,777,204,205	
+
+block MetamoCount >= 1 && BBimage >= 105000 && BBimage <= 105173 
+	#栏澜, 巢己盒捞矫瘤夸? 捞率栏肺 瘤唱啊绞矫坷.
+	Window 10815,OK,CANCEL
+	
+	# --- OK狼 版快 --- #
+		Window_OK
+		Warp 0,777,204,205
+
+block MetamoCount >= 1 && BBimage >= 106000 && BBimage <= 106173 
+	#栏澜, 巢己盒捞矫瘤夸? 捞率栏肺 瘤唱啊绞矫坷.
+	Window 10815,OK,CANCEL
+	
+	# --- OK狼 版快 --- #
+		Window_OK
+		Warp 0,777,204,205
+
+########## 函厘秦辑, 咯己狼 葛嚼阑 窍绊 乐绰 版快##########
+block MetamoCount >= 1 && BBimage >= 100252 && BBimage <= 100423 
+	#咯扁绰 巢磊父 瘤唱哎 荐 乐绢夸.
+	EndWindow 10818
+
+block MetamoCount >= 1 && BBimage >= 105252 && BBimage <= 105423 
+	#咯扁绰 巢磊父 瘤唱哎 荐 乐绢夸.
+	EndWindow 10818
+
+block MetamoCount >= 1 && BBimage >= 106252 && BBimage <= 106423 
+	#咯扁绰 巢磊父 瘤唱哎 荐 乐绢夸.
+	EndWindow 10818
+
+
+########## 函厘秦辑, 脐狼 葛嚼阑 窍绊 乐绰 版快 ##########
+block MetamoCount >= 1 && BBimage >= 101000 && BBimage <= 101935 
+	#脐狼 馆涝篮 陛瘤涝聪促ˇ. 饿鳖, 林牢篮 绢叼俊 乐瘤?
+	EndWindow 10817
+
+block MetamoCount >= 1 && BBimage >= 107000 && BBimage <= 107935 
+	#脐狼 馆涝篮 陛瘤涝聪促ˇ. 饿鳖, 林牢篮 绢叼俊 乐瘤?
+	EndWindow 10817
+
+
+########## 函厘秦辑, 包府磊狼 葛嚼阑 窍绊 乐绰 版快 ##########
+block MetamoCount >= 1 && BBimage >= 100425 && BBimage <= 100805 
+	#寸脚篮 漂喊洒 烹苞窍寂档 邓聪促.
+	EndWindow 10816,OK,CANCEL
+
+	#----- 扩档快 ＯＫ狼 版快 -----#
+		Window_OK
+		Warp 0,777,204,205
+
+block MetamoCount >= 1 && BBimage >= 105425 && BBimage <= 105805 
+	#寸脚篮 漂喊洒 烹苞窍寂档 邓聪促.
+	EndWindow 10816,OK,CANCEL
+
+	#----- 扩档快 ＯＫ狼 版快 -----#
+		Window_OK
+		Warp 0,777,204,205
+
+block MetamoCount >= 1 && BBimage >= 106425 && BBimage <= 106805 
+	#寸脚篮 漂喊洒 烹苞窍寂档 邓聪促.
+	EndWindow 10816,OK,CANCEL
+
+	#----- 扩档快 ＯＫ狼 版快 -----#
+		Window_OK
+		Warp 0,777,204,205
+
+

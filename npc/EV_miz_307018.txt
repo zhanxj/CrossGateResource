@@ -1,0 +1,46 @@
+#鸥匙付葛扼 涅胶飘：矫矫啊矫扼４
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###########　蜡前狼 揪狙 乐澜　##############
+block Item 18794 >= 1
+	Window 206084,OK
+	leavegroup
+	Warp 0,33000,290,435
+	
+###########　磷绰 脚　###############
+block endevent37 == 1
+	Window 206064,OK
+	Window_OK
+	Setaction 10
+	Window 206065,NEXT
+	Window 206066,OK
+	Window_OK ItemSpace >= 1
+	leavegroup
+	GiveItem 18794
+	Endevent37 = 0
+	Warp 0,33000,290,435
+	
+	Window_OK ItemSpace == 0
+	EndWindow 206067,OK
+
+###########　铰府 饶　###############
+block Item 18792 >= 1
+
+	Window 206698,OK
+	Window_OK
+	leavegroup
+	KillItem 18792,1,(206697)
+	GiveItem 18793
+	Warp 0,33246,13,16
+
+###########　蜡皑 踌祸狼 何利阑 啊瘤绊 乐瘤 臼促　###############
+block Item 18792 == 0
+
+	leavegroup
+	Warp 0,33000,290,435
+
+
+
+
+

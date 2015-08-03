@@ -1,0 +1,25 @@
+#急牢秒流 涅胶飘：迹扼扼 档荤（措搬）
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+###########　酒公巴档 绝澜　##############
+block endevent87 == 1
+
+	Window 20847,OK
+	Window_OK
+	endevent87 = 0
+	Warp 0,43100,119,41
+
+block
+
+	Window 20845,YES,NO
+	Window_YES
+	Window 20847,OK
+	Window_OK
+	Warp 0,43100,119,41 
+	Window_NO
+	Window 20846,OK
+	Window_OK
+	endevent87 = 1 
+	encount 3|0,45014,20,7||0|||||0|25000|||||||||
+
+	

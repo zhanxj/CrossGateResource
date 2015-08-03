@@ -1,0 +1,137 @@
+#
+#囱磊 涅胶飘
+#汲疙 亮酒窍绰 青农
+
+#### 炼荤 俺矫窍瘤 臼疽绰单 酒捞袍捞 乐绰 版快 家芭 ###
+block NowEvent 7 == 0 && Item 18550 >= 1
+	KillItem 18550
+
+#### 炼荤 俺矫窍瘤 臼疽绰单 酒捞袍捞 乐绰 版快 家芭 ###
+block NowEvent 7 == 0 && Item 18551 >= 1
+	KillItem 18551
+
+#### 炼荤 俺矫窍瘤 臼疽绰单 酒捞袍捞 乐绰 版快 家芭 ###
+block NowEvent 7 == 0 && Item 18552 >= 1
+	KillItem 18552
+
+#### 炼荤 俺矫窍瘤 臼疽绰单 酒捞袍捞 乐绰 版快 家芭 ###
+block NowEvent 7 == 0 && Item 18553 >= 1
+	KillItem 18553
+
+#### 炼荤 俺矫窍瘤 臼疽绰单 酒捞袍捞 乐绰 版快 家芭 ###
+block NowEvent 7 == 0 && Item 18554 >= 1
+	KillItem 18554
+
+######### 柳裹牢 浚爹 ########
+block NowEvent 16 == 1
+#\n\n　炼荤绰 辆丰等 巴 鞍焙. 柳裹牢阑 茫疽促绊?. 开矫肺焙, 郴啊 夯措肺 磊匙绰 捞 檬刮肯沤沥狼 亮篮 扼捞国捞促. 荐绊沁绢.
+	Window 14892,NEXT
+#\n\n　弊府绊, 磷篮 家赤狼 功, 措己寸 啊鳖捞俊 肋 汞绢玲绢. 付瘤阜栏肺 倔奔阑 焊捞绊 客.　酒掂.
+	EndWindow 14893,OK
+
+######### 酒令固 裹牢 浚爹 ########
+block EndEvent 16 == 1
+	NowEvent 7 = 0
+	EndEvent 7 = 0
+	NowEvent 8 = 0
+	EndEvent 8 = 0
+	NowEvent 9 = 0
+	EndEvent 9 = 0
+	NowEvent 10 = 0
+	EndEvent 10 = 0
+	NowEvent 11 = 0
+	EndEvent 11 = 0
+	NowEvent 12 = 0
+	EndEvent 12 = 0
+	NowEvent 13 = 0
+	EndEvent 13 = 0
+	NowEvent 14 = 0
+	EndEvent 14 = 0
+	NowEvent 15 = 0
+	EndEvent 15 = 0
+	NowEvent 16 = 0
+	EndEvent 16 = 0
+	NowEvent 17 = 1
+#\n\n　炼荤绰 辆丰等 巴 鞍焙. 弊 家赤啊 裹牢捞菌促绊?. 捞繁捞繁, 磊匙扼搁 捞 檬刮肯沤沥狼 亮篮 扼捞国捞 瞪 荐 乐阑 芭扼绊 积阿沁绰单, 呈公 苞措乞啊茄 巴 鞍焙. 荐绊沁绢.
+	Window 14894,NEXT
+#\n\n\n　　（∝）夯荤扒狼 炼荤绰 葛滴 辆丰灯嚼聪促.\n\n　　　　　　　　荐绊窍继嚼聪促.
+	EndWindow 14895,OK
+
+######### 炼荤俺矫 橇贰弊 乐澜 ########
+block NowEvent 7 == 1
+#\n\n　炼荤绰 柳傈捞 乐唱? 吝夸茄 巴篮 虐况靛具. 曼绊牢栏肺何磐 捞具扁甫 肋 佃绊, 窜辑啊 瞪 父茄富阑 利绢滴绰 芭瘤. 虐况靛啊 瞪父茄 富阑 盲泼芒俊 涝仿秦辑 富阑 吧绢毫. 弊贰, 茄锅 富阑 扒 虐况靛档 促弗 鸥捞怪俊辑 富阑 吧搁 促弗 馆览阑 焊老瘤档 葛福瘤.
+	Window 14896,NEXT
+#\n\n　酒酒, 弊犯瘤. 贸澜俊档 富沁瘤父 虐况靛甫 ＮＰＣ俊霸 富且 锭绰...甫 嘿捞绰 吧 镭瘤富扼备.抗甫 甸搁 青农扼绰 富阑 傈窍绊 酵栏搁 「青农...」扼绊 窍绰 芭具.
+	Window 15125,NEXT
+#\n\n　炼荤甫 贸澜何磐 促矫 窍摆唱?
+	Window 14897,YES,NO
+	Window_NO NowEvent 7 == 1
+#\n\n\n\n　　　　　（∝）荐荤甫 加青钦聪促
+	EndWindow 14898,OK
+	Window_YES NowEvent 7 == 1
+	NowEvent 7 = 0
+	EndEvent 7 = 0
+	NowEvent 8 = 0
+	EndEvent 8 = 0
+	NowEvent 9 = 0
+	EndEvent 9 = 0
+	NowEvent 10 = 0
+	EndEvent 10 = 0
+	NowEvent 11 = 0
+	EndEvent 11 = 0
+	NowEvent 12 = 0
+	EndEvent 12 = 0
+	NowEvent 13 = 0
+	EndEvent 13 = 0
+	NowEvent 14 = 0
+	EndEvent 14 = 0
+	NowEvent 15 = 0
+	EndEvent 15 = 0
+	NowEvent 16 = 0
+	EndEvent 16 = 0
+#\n\n\n　　　　（∝）荐荤甫 促矫 钦聪促\n\n　　　　　　荤扒阑 檬扁惑怕肺 登倒赋聪促
+	EndWindow 14899,OK
+
+#### 炼荤俺矫 橇贰弊 绝澜＆LV20固父狼 傈荤拌 ###
+block NowEvent 7 == 0 && Level < 20 && Job >= 0 && Job <= 157
+#\n\n　儒澜, 唱绰 瘤陛 绢妨款 荤扒阑 炼荤窍绊 乐瘤父, 磊匙狼 饭骇肺绰 酒流 到绰 扒 公府肺焙.
+	EndWindow 15124,OK
+
+#### 炼荤俺矫 橇贰弊 绝澜＆LV20固父狼 狼荤 埃龋荤 ###
+block NowEvent 7 == 0 && Level < 20 && Job >= 430 && Job <= 447
+#\n\n　儒澜, 唱绰 瘤陛 绢妨款 荤扒阑 炼荤窍绊 乐瘤父, 磊匙狼 饭骇肺绰 酒流 到绰 扒 公府肺焙.
+	EndWindow 15124,OK
+
+#### 炼荤俺矫 橇贰弊 绝澜＆LV20固父, 胶懦3固父狼 公扁荐府牢 ###
+block NowEvent 7 == 0 && Level < 20 && Job >= 370 && Job <= 377 && SkillLevel 217 < 3
+#\n\n　儒澜, 唱绰 瘤陛 绢妨款 荤扒阑 炼荤窍绊 乐瘤父, 磊匙狼 饭骇肺绰 酒流 到绰 扒 公府肺焙.
+	EndWindow 15124,OK
+
+#### 炼荤俺矫 橇贰弊 绝澜＆LV20固父, 胶懦3固父狼 葫绢备荐府牢 ###
+block NowEvent 7 == 0 && Level < 20 && Job >= 380 && Job <= 387 && SkillLevel 218 < 3
+#\n\n　儒澜, 唱绰 瘤陛 绢妨款 荤扒阑 炼荤窍绊 乐瘤父, 磊匙狼 饭骇肺绰 酒流 到绰 扒 公府肺焙.
+	EndWindow 15124,OK
+
+#### 炼荤俺矫 橇贰弊 绝澜＆LV20固父, 胶懦3固父狼 皑沥荤 ###
+block NowEvent 7 == 0 && Level < 20 && Job >= 390 && Job <= 397 && SkillLevel 219 < 3
+#\n\n　儒澜, 唱绰 瘤陛 绢妨款 荤扒阑 炼荤窍绊 乐瘤父, 磊匙狼 饭骇肺绰 酒流 到绰 扒 公府肺焙.
+	EndWindow 15124,OK
+
+#### 炼荤俺矫 橇贰弊 绝澜＆LV20固父, 胶懦3固父狼 档厘流牢 ###
+block NowEvent 7 == 0 && Level < 20 && Job >= 400 && Job <= 407 && SkillLevel 220 < 3
+#\n\n　儒澜, 唱绰 瘤陛 绢妨款 荤扒阑 炼荤窍绊 乐瘤父, 磊匙狼 饭骇肺绰 酒流 到绰 扒 公府肺焙.
+	EndWindow 15124,OK
+
+#### 炼荤俺矫 橇贰弊 绝澜＆LV20固父, 胶懦3固父狼 沤沥 ###
+block NowEvent 7 == 0 && Level < 20 && Job >= 410 && Job <= 417 && SkillLevel 221 < 3
+#\n\n　儒澜, 唱绰 瘤陛 绢妨款 荤扒阑 炼荤窍绊 乐瘤父, 磊匙狼 饭骇肺绰 酒流 到绰 扒 公府肺焙.
+	EndWindow 15124,OK
+
+#### 炼荤俺矫 橇贰弊 绝澜＆LV20固父, 胶懦3固父狼 急牢 ###
+block NowEvent 7 == 0 && Level < 20 && Job >= 420 && Job <= 427 && SkillLevel 222 < 3
+#\n\n　儒澜, 唱绰 瘤陛 绢妨款 荤扒阑 炼荤窍绊 乐瘤父, 磊匙狼 饭骇肺绰 酒流 到绰 扒 公府肺焙.
+	EndWindow 15124,OK
+
+######### 炼荤俺矫 橇贰弊 绝澜 ########
+block NowEvent 7 == 0
+#\n\n　咯绢, 磊匙档 酒令固 剧狼 青规阑 

@@ -1,0 +1,10 @@
+
+block
+#15950·\n\n　沥富 皑荤钦聪促. 畴扼俊霸绰 祈瘤肺 公荤窍促绊 舅妨滴摆绢夸. 捞 规俊辑 唱啊矫摆绢夸?
+	Window 15950,YES,NO
+	Window_YES
+	LeaveGroup
+	Warp 0,1521,5,72
+	Window_NO
+
+

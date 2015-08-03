@@ -1,0 +1,29 @@
+#
+block EndEvent 0 == 1
+#15935·\n\n　肺弊牢 器牢飘甫 酒奶颇肺 汲沥窍绊 酵篮 芭瘤?
+	Window 15935,YES,NO
+	Window_NO
+	Window_YES NowEvent 103 == 1
+		SetLoginPoint 1
+#15933·肺弊牢 器牢飘啊 酒奶颇肺 汲沥登菌嚼聪促
+		Message 15933
+	Window_YES
+#15936·\n\n　蜡皑捞瘤父 磊匙绰 鞘夸茄 炼扒阑 父练窍绊 乐瘤 臼篮 巴 鞍焙.
+		EndWindow 15936,OK
+
+
+#家券狼 规 包府牢俊霸 富阑 扒 利捞 绝绰 版快
+block EndEvent 0 == 0
+#15935·\n\n　肺弊牢 器牢飘甫 酒奶颇肺 汲沥窍绊 酵篮 芭瘤?
+	Window 15935,YES,NO
+	Window_NO
+	Window_YES NowEvent 103 == 1
+		EndEvent 0 = 1
+		SetLoginPoint 1
+#15933·肺弊牢 器牢飘啊 酒奶颇肺 汲沥登菌嚼聪促
+		Message 15933
+	Window_YES
+#15936·\n\n　蜡皑捞瘤父 磊匙绰 鞘夸茄 炼扒阑 父练窍绊 乐瘤 臼篮 巴 鞍焙.
+		EndWindow 15936,OK
+
+

@@ -1,0 +1,11 @@
+#addfeversec
+block checkskillslot==14
+	Window 300027,yes,no
+	Window_yes
+	killitem 39553
+	addskillslot
+	systemmessage 300028
+
+
+block
+	systemmessage 300033

@@ -1,0 +1,12 @@
+block
+	Window 300004,yes,no
+
+	Window_yes
+	killitem 39544
+	Warp 0,2000,58,71
+
+	Window_no
+	EndWindow 300005
+
+block
+	EndWindow 300005

@@ -1,0 +1,22 @@
+block NowEvent 76 == 0 && Job >= 121 && Job <= 127
+#15913·\n\n　构饿鳖, 弊 炼弊父 颊栏肺 赣府甫 锭府芭唱 垮阑 冈芭唱 窍绰 霸 劳槛秦瘤搁 蚕 亮篮 蠢肠捞扼辑富捞瘤, 构, 埃窜洒 富秦辑 坷具葫 弥绊扼绰 芭瘤.
+	Window 15913,OK
+	Window_OK NowEvent 76 == 0 && Job >= 121 && Job <= 127
+	LeaveGroup
+	Warp 0,47003,15,19
+
+block NowEvent 76 == 0
+#15777·\n\n　促摹绊 酵瘤 臼栏搁 绢辑 波廉.
+	EndWindow 15777,OK
+block
+#15778·\n\n　览? 呈档 弊 倔埃捞甸狼 悼丰牢啊? 犬角洒 焊拱篮 啊瘤绊 吭摆瘤?
+	Window 15778,YES,NO
+	Window_YES
+#15779·\n\n　亮酒亮酒, 弊烦 句傈洒 郴出.
+	EndWindow 15779,OK
+	Window_NO
+#15780·\n\n　弊繁啊, 磷绊 酵促搁 荤剧篮 臼摆绢.
+	Window 15780,OK
+	Window_OK
+	Encount 2|0,47000,10,19||0|||||0|25006|||||||||
+

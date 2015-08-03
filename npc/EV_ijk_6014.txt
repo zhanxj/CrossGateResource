@@ -1,0 +1,21 @@
+##########
+block Item900 == 1 && Item1700 == 1 && Item4500 == 1 && Gold == 505
+	GiveItem 13629,1
+        GiveItem 13669,1
+        GiveItem 18449,1
+        GiveItem 18450,1
+        GiveItem 18451,1
+        GiveItem 18452,1
+        GiveItem 18453,1
+        GiveItem 18454,1
+        GiveItem 18455,1
+        GiveItem 18456,1
+	EndWindow 120133
+
+block Item900 == 1 && Item1700 == 1 && Item4500 == 1 && Gold == 303
+	GiveItem 652115,1
+	EndWindow 120133
+	
+########## 当无任务兑换物品的时候##
+block ItemSpace >= 0
+	EndWindow 2200

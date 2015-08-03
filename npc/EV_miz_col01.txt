@@ -1,0 +1,59 @@
+#瘤窍捧扁厘 涅胶飘　捞抚绝澜（巩瘤扁）
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+
+######## ##########
+
+block Item 18282 >= 1
+	Window 20606,YES,NO
+	Window_YES
+	Window 20278,OK
+	Window_OK
+	Warp 0,1450,15,9
+	Window_NO
+	EndWindow 20607,OK
+	
+block Item 18279 >= 1 || Item 18280 >= 1 || Item 18281 >= 1
+	Window 20605,YES,NO
+	Window_YES
+	Window 20278,OK
+	Window_OK
+	Warp 0,1450,15,9
+	Window_NO
+	EndWindow 20607,OK
+	
+block Item 18278 >= 1 
+	Window 20604,YES,NO
+	Window_YES
+	Window 20278,OK
+	Window_OK
+	Warp 0,1450,15,9
+	Window_NO
+	EndWindow 20607,OK
+	
+block Item 18285 >= 1 || Item 18286 >= 1 || Item 18287 >= 1 || Item 18288 >= 1
+	Window 20603,YES,NO
+	Window_YES
+	Window 20278,OK
+	Window_OK
+	Warp 0,1450,15,9
+	Window_NO
+	EndWindow 20607,OK	
+block 
+#\n\n　龋!\n肋 舅酒瞒啡焙. 寸脚 贸澜 焊绰 倔奔捞匙. 瘤窍捧扁厘篮 包傈锐噶? 酒聪搁 免厘锐噶牢啊?构! 唱绰
+#绢蠢 率捞电 宝满瘤父 富捞瘤. 郴 矫鞭捞 棵扼啊绰 巴档 酒聪绊 富捞具. 郴 老篮 弊成 富阑 吧绢柯 荤恩篮 瘤窍肺 救郴窍绰#巴 挥捞聪鳖.
+#弊烦, 瘤窍肺 哎刨单 宝满酒?\n\n　档傈磊 @n揪肺焙夸. 抗急狼 汲疙阑 佃摆嚼聪鳖?
+	Window 20276,NEXT
+
+	Window 20277,YES,NO
+
+	Window_YES
+	Window 20278,OK
+	 Window_OK
+	  Warp 0,1450,15,9
+
+	Window_NO 
+	EndWindow 20279,OK
+
+

@@ -1,0 +1,20 @@
+#郡乔呈胶 咯空
+
+###　矫刮鼻阑 啊瘤绊 乐绰 版快　###
+block Item 16228 >= 1
+	Window 21627,next
+	Window 21628,next
+	Window 21629,next
+	Window 21630,next
+	Window 21631,next
+	Window 21632,next
+	Window 21633,next
+	Window 21634,OK
+		Window_OK
+		KillItemall 16228
+		EndEvent 103 = 1
+
+block
+#15839·\n\n　郡官聪酒俊 肋 坷继嚼聪促. 快府 唱扼绰 颇坊 空惫苞狼 焊促 亮篮 包拌甫 官扼绊 乐嚼聪促. 寸脚 鞍篮 咯青磊甫 烹茄 惑龋捞秦甫 快府甸篮 酒林 扁措窍绊 乐瘤夸. 弥辟俊绰 糠 唱扼 鄂苞狼 包拌厩拳啊 捌沥涝聪促父, 攫哩啊绰 辑肺 捞秦且 荐 乐阑 芭扼绊 瓜绊 乐嚼聪促.
+	EndWindow 15839,OK
+

@@ -1,0 +1,233 @@
+#
+#ＮＰＣス?リプトテスト
+#
+#Ｒ５糠松恶にケチをつけるＮＰＣ。≈もっと紊いものと蛤垂してやる∽とのたまうその咐驼に捐ると∧∧∈ネコ房ＮＰＣ茶咙∷
+#
+#Ｒ５糠初疥积の眷圭
+Block Item_601400 >= 1
+		Window "\n\n　ん々それは糠しい初∧∧。\n　あんまり删冉紊くないらしねえ。\n　∧∧そこで、紊い厦があるんだけど、\n　捐るかい々",Yes,No
+			Window_No
+				EndWindow "\n\n　ん。そっか、痰妄は咐わない。",OK
+			Window_Yes
+				Window "\n\n　お、そうか、捐るの。にゃはは。\n　いや、厦のわかるやつは般うにゃ。\n　うん。くくくくく。",Next
+				Window "\n\n　で、ね、厦の柒推は魂って词帽。\n　お涟の积っているその初とぉ、\n　あたしの入垄アイテ?とを\n　蛤垂してあげるって厦。\n　どう々碍くない厦でしょ々",Yes,No
+					Window_Yes
+					
+						Window "\n\n　そっか、じゃ蛤垂するにゃ。",OK
+						
+						Window_OK Item_601400 < 1
+							EndWindow "\n\n　ねえ、积ってないのに厦を渴めないでよぉ。",OK
+
+						Window_OK Item_601400 >= 1 && ItemDurPer_601400 == 100
+							KillItem 601400,1
+							GiveLeak1Item 3701,1
+							Endblock
+
+						Window_OK Item_601400 >= 1 && ItemDurPer_601400 < 100
+							EndWindow "\n\n　ん、そりゃ、乃んでるんだにゃあ。蛤垂できないや。",OK
+					Window_No
+						EndWindow "\n\n　ん、そ、痰妄は咐わないよ。",OK
+						
+						
+					
+
+#R5糠郴疥积の眷圭
+Block Item_601800 >= 1
+			Window "\n\n　ん々それは糠しい郴∧∧。\n　矾は极咳で戮の客を奸りたいと蛔うかにゃ々\n　∧∧そこで、紊い厦があるんだけど、\n　捐るかい々",Yes,No
+			Window_No
+				Window "\n\n　ん。そっか、痰妄は咐わない。",OK
+			Window_Yes
+				Window "\n\n　お、そうか、捐るの。にゃはは。\n　いや、厦のわかるやつは般うにゃ。\n　うん。くくくくく。",Next
+				Window "\n\n　で、ね、厦の柒推は魂って词帽。\n　お涟の积っているその郴とぉ、\n　あたしの入垄アイテ?とを\n　蛤垂してあげるって厦。\n　どう々碍くない厦でしょ々",Yes,No
+					Window_Yes
+						Window "\n\n　そっか、じゃ蛤垂するにゃ。",OK
+					
+						Window_OK Item_601800 < 1
+							EndWindow "\n\n　ねえ、积ってないのに厦を渴めないでよぉ。",OK
+					
+						Window_OK Item_601800 >= 1 && ItemDurPer_601800 == 100
+							KillItem 601800,1
+							GiveLeak1Item 4500,1
+							Endblock
+						
+						Window_OK Item_601800 >= 1 && ItemDurPer_601800 < 100
+							EndWindow "\n\n　ん、そりゃ、乃んでるんだにゃあ。蛤垂できないや。",OK
+							
+					Window_No
+						EndWindow "\n\n　ん、そ、痰妄は咐わないよ。",OK
+						
+						
+						
+
+#R5糠解疥积の眷圭
+Block Item_602800 >=1
+			Window "\n\n　ん々それは糠しい解∧∧。\n　や、解喀客は络恃だにゃ。くくく。\n　∧∧そこで、紊い厦があるんだけど、\n　捐るかい々",Yes,No
+			Window_No
+				Window "\n\n　ん。そっか、痰妄は咐わない。",OK
+			Window_Yes
+				Window "\n\n　お、そうか、捐るの。にゃはは。\n　いや、厦のわかるやつは般うにゃ。\n　うん。くくくくく。",Next
+				Window "\n\n　で、ね、厦の柒推は魂って词帽。\n　お涟の积っているその解とぉ、\n　あたしの入垄アイテ?とを\n　蛤垂してあげるって厦。\n　どう々碍くない厦でしょ々",Yes,No
+					Window_Yes
+						Window "\n\n　そっか、じゃ蛤垂するにゃ。",OK
+						
+						Window_OK Item_602800 < 1
+							EndWindow "\n\n　ねえ、积ってないのに厦を渴めないでよぉ。",OK
+						
+						Window_OK  Item_602800 >= 1 && ItemDurPer_602800 == 100
+							KillItem 602800,1
+							GiveLeak1Item 6500,1
+							Endblock
+
+						Window_OK Item_602800 >= 1 && ItemDurPer_602800 < 100
+							EndWindow "\n\n　ん、そりゃ、乃んでるんだにゃあ。蛤垂できないや。",OK
+					
+					Window_No
+						EndWindow "\n\n　ん、そ、痰妄は咐わないよ。",OK
+						
+						
+						
+
+#R5糠ブ〖ツ疥积の眷圭
+Block Item_602400 >=1
+			Window "\n\n　ん々それは糠しいブ〖ツ∧∧。\n　あんまり卿ってるとこ斧にゃいよ。\n　∧∧そこで、紊い厦があるんだけど、\n　捐るかい々",Yes,No
+			Window_No
+				Window "\n\n　ん。そっか、痰妄は咐わない。",OK
+			Window_Yes
+				Window "\n\n　お、そうか、捐るの。にゃはは。\n　いや、厦のわかるやつは般うにゃ。\n　うん。くくくくく。",Next
+				Window "\n\n　で、ね、厦の柒推は魂って词帽。\n　お涟の积っているそのブ〖ツとぉ、\n　あたしの入垄アイテ?とを\n　蛤垂してあげるって厦。\n　どう々碍くない厦でしょ々",Yes,No
+					Window_Yes
+						Window "\n\n　そっか、じゃ蛤垂するにゃ。",OK
+						
+						Window_OK Item_602400 < 1
+							EndWindow "\n\n　ねえ、积ってないのに厦を渴めないでよぉ。",OK
+						
+						Window_OK Item_602400 >= 1 && ItemDurPer_602400 == 100
+							KillItem 602400,1
+							GiveLeak1Item 5605,1
+							Endblock
+
+						Window_OK Item_602400 >= 1 && ItemDurPer_602400 < 100
+							EndWindow "\n\n　ん、そりゃ、乃んでるんだにゃあ。蛤垂できないや。",OK
+					
+					Window_No
+						EndWindow "\n\n　ん、そ、痰妄は咐わないよ。",OK
+						
+						
+						
+
+#R5糠斯灰疥积の眷圭
+Block Item_601600 >=1
+			Window "\n\n　ん々それは糠しい斯灰∧∧。\n　あんまり删冉紊くないらしいねえ。\n　∧∧そこで、紊い厦があるんだけど、\n　捐るかい々",Yes,No
+			Window_No
+				EndWindow "\n\n　ん。そっか、痰妄は咐わない。",OK
+			Window_Yes
+				Window "\n\n　お、そうか、捐るの。にゃはは。\n　いや、厦のわかるやつは般うにゃ。\n　うん。くくくくく。",Next
+				Window "\n\n　で、ね、厦の柒推は魂って词帽。\n　お涟の积っているその斯灰とぉ、\n　あたしの入垄アイテ?とを\n　蛤垂してあげるって厦。\n　どう々碍くない厦でしょ々",Yes,No
+					Window_Yes
+						Window "\n\n　そっか、じゃ蛤垂するにゃ。",OK
+						
+						Window_OK Item_601600 < 1
+							EndWindow "\n\n　ねえ、积ってないのに厦を渴めないでよぉ。",OK
+
+						Window_OK Item_601600 >= 1 && ItemDurPer_601600 == 100
+							KillItem 601600,1
+							GiveLeak1Item 4004,1
+							Endblock
+							
+						Window_OK Item_601600 >= 1 && ItemDurPer_601600 < 100
+							EndWindow "\n\n　ん、そりゃ、乃んでるんだにゃあ。蛤垂できないや。",OK
+					
+					Window_No
+						EndWindow "\n\n　ん、そ、痰妄は咐わないよ。",OK
+						
+						
+						
+
+#R5糠筏疥积の眷圭
+Block Item_602601 >=1
+			Window "\n\n　ん々それは糠しい筏∧∧。\n　あんまり删冉紊くないらしいねえ。\n　∧∧そこで、紊い厦があるんだけど、\n　捐るかい々",Yes,No
+			Window_No
+				EndWindow "\n\n　ん。そっか、痰妄は咐わない。",OK
+			Window_Yes
+				Window "\n\n　お、そうか、捐るの。にゃはは。\n　いや、厦のわかるやつは般うにゃ。\n　うん。くくくくく。",Next
+				Window "\n\n　で、ね、厦の柒推は魂って词帽。\n　お涟の积っているその筏とぉ、\n　あたしの入垄アイテ?とを\n　蛤垂してあげるって厦。\n　どう々碍くない厦でしょ々",Yes,No
+					Window_Yes
+						Window "\n\n　そっか、じゃ蛤垂するにゃ。",OK
+						
+						Window_OK Item_602601 < 1
+							EndWindow "\n\n　ねえ、积ってないのに厦を渴めないでよぉ。",OK
+						
+						Window_OK Item_602601 >= 1 && ItemDurPer_602601 == 100
+							KillItem 602601,1
+							GiveLeak1Item 6001,1
+							Endblock
+								
+						Window_OK Item_602601 >= 1 && ItemDurPer_602601 < 100
+							EndWindow "\n\n　ん、そりゃ、乃んでるんだにゃあ。蛤垂できないや。",OK
+					Window_No
+						EndWindow "\n\n　ん、そ、痰妄は咐わないよ。",OK
+						
+						
+
+#R5糠绳疥积の眷圭
+Block Item_602001 >=1
+			Window "\n\n　ん々それは糠しい绳∧∧。\n　いくらぶん艰るといってもねえ∧∧。\n　∧∧そこで、紊い厦があるんだけど、\n　捐るかい々",Yes,No
+			Window_No
+				EndWindow "\n\n　ん。そっか、痰妄は咐わない。",OK
+			Window_Yes
+				Window "\n\n　お、そうか、捐るの。にゃはは。\n　いや、厦のわかるやつは般うにゃ。\n　うん。くくくくく。",Next
+				Window "\n\n　で、ね、厦の柒推は魂って词帽。\n　お涟の积っているその绳とぉ、\n　あたしの入垄アイテ?とを\n　蛤垂してあげるって厦。\n　どう々碍くない厦でしょ々",Yes,No
+					Window_Yes
+						Window "\n\n　そっか、じゃ蛤垂するにゃ。",OK
+
+						Window_OK Item_602001 < 1
+							EndWindow "\n\n　ねえ、积ってないのに厦を渴めないでよぉ。",OK
+						
+						Window_OK Item_602001 >= 1 && ItemDurPer_602001 == 100
+							KillItem 602001,1
+							GiveLeak1Item 4806,1
+							Endblock
+
+						Window_OK Item_602001 >= 1 && ItemDurPer_602001 < 100
+							EndWindow "\n\n　ん、そりゃ、乃んでるんだにゃあ。蛤垂できないや。",OK
+								
+					Window_No
+						EndWindow "\n\n　ん、そ、痰妄は咐わないよ。",OK
+						
+						
+
+#R5糠ロ〖ブ疥积の眷圭
+Block Item_602200 >=1
+			Window "\n\n　ん々それは糠しいロ〖ブ∧∧。\n　あんまり删冉紊くないらしいねえ。\n　∧∧そこで、紊い厦があるんだけど、\n　捐るかい々",Yes,No
+			Window_No
+				EndWindow "\n\n　ん。そっか、痰妄は咐わない。",OK
+			Window_Yes
+				Window "\n\n　お、そうか、捐るの。にゃはは。\n　いや、厦のわかるやつは般うにゃ。\n　うん。くくくくく。",Next
+				Window "\n\n　で、ね、厦の柒推は魂って词帽。\n　お涟の积っているそのロ〖ブとぉ、\n　あたしの入垄アイテ?とを\n　蛤垂してあげるって厦。\n　どう々碍くない厦でしょ々",Yes,No
+					Window_Yes
+						Window "\n\n　そっか、じゃ蛤垂するにゃ。",OK
+
+						Window_OK Item_602200 < 1
+							EndWindow "\n\n　ねえ、积ってないのに厦を渴めないでよぉ。",OK
+
+						Window_OK Item_602200 >= 1 && ItemDurPer_602200 == 100
+							KillItem 602001,1
+							GiveLeak1Item 5206,1
+							Endblock
+
+						Window_OK Item_602200 >= 1 && ItemDurPer_602200 < 100
+							EndWindow "\n\n　ん、そりゃ、乃んでるんだにゃあ。蛤垂できないや。",OK
+
+				Window_No
+					EndWindow "\n\n　ん、そ、痰妄は咐わないよ。",OK
+					
+					
+
+#惧淡笆嘲の眷圭。
+
+Block
+
+		EndWindow "\n\n　うにゃ々部ですか、あなたは々\n　あたしを、かどわかすつもりですか々",OK
+
+
+

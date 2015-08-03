@@ -1,0 +1,23 @@
+#鸥匙付葛扼 涅胶飘：篮敌贸狼 巩
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###########　蜡前狼 揪狙 乐澜　##############
+block Item 18794 >= 1
+	EndWindow 206080,OK
+
+###########　endflg37　##############
+block endevent37 == 1
+	Window 206080,OK
+	Window_OK
+	leavegroup
+	Warp 0,33247,16,16
+
+###########　酒公巴档 绝澜　##############
+block
+	Window 206079,OK
+	Window_OK
+	leavegroup
+	Warp 0,33246,16,16
+
+

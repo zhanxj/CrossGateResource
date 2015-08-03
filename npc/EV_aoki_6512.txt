@@ -1,0 +1,179 @@
+#捍荤 啊箕后	（999：啊汲摹）
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'篮 佬阑 锭 扒呈盾
+
+
+############饭骇 25捞绊 困炼刘辑（己傍)甫 啊瘤绊 乐绰 版快#############
+block Level >= 25 && Leak1Item 18382 >= 1 && Group == 1
+	#\n\n 坷坷. 惑寸洒 惑秦脸焙. 弊 饭骇捞扼搁 啊楼刘辑 绝捞档 烹苞且 荐 乐绢. 炼缴窍扼备.
+	Window 14071,OK,CANCEL
+
+####扩档快 ＯＫ捞绊 颇萍甫 捞风绊 乐绰 版快
+	Window_OK Group > 1
+	#\n\n　咯扁辑何磐绰 去磊父 烹苞且 荐 乐促\n 颇萍甫 秦魂窍摆唱?
+	Window 14072,YES,NO
+	Window_YES Group > 1
+	LeaveGroup
+
+	Window_YES
+	Window_NO
+####扩档快 ＯＫ捞绊 去磊牢 版快
+	Window_OK Group == 1
+	Warp 0,15000,22,33
+############饭骇 25牢 版快#########################################
+block Level >= 25 && Group == 1
+	#\n\n捞 捞惑篮 饭骇捞 臭篮 荤恩捞唱 刘辑甫 啊柳 荤恩捞 酒聪搁 烹苞且 荐 绝叼.
+
+	Window 14054,OK,CANCEL
+###饭骇 25啊 救 登绰 版快
+	Window_OK Level < 25 && Group == 1
+
+	#\n\n 蜡皑捞瘤父, 呈绰 咯扁甫 烹苞且 炼扒阑 盲快瘤 给茄 巴 鞍促. 促矫 坷档废 秦.
+	EndWindow 14078
+
+###饭骇 25捞惑牢 版快.
+	Window_OK Level >= 25 && Group == 1
+	#\n\n 褥. 呈 沥档肺 碍窍促搁 咯扁甫 烹苞秦档 捌沥 绝摆焙. 刘辑 绝捞 烹青阑 倾遏窍瘤. 窍瘤父 面盒洒 炼缴窍扼备.
+	Window 14070,OK,CANCEL
+
+#OK捞绊 弊缝阑 捞风绊 乐阑 锭
+	Window_OK Group > 1
+	#\n\n　咯扁辑何磐绰 去磊父 烹苞且 荐 乐促\n 颇萍甫 秦魂窍摆唱?
+	Window 14072,YES,NO
+	Window_YES Group > 1
+	LeaveGroup
+
+	Window_NO
+
+###OK捞绊 去磊牢 版快
+	Window_OK Group == 1
+	Warp 0,15000,22,33
+
+############柳楼 刘辑甫 啊瘤绊 乐绰 版快###########
+block Item 18383 >= 1 && Group == 1
+	#\n\n捞 捞惑篮 饭骇捞 臭篮 荤恩捞唱 刘辑甫 啊柳 荤恩捞 酒聪搁 烹苞且 荐 绝促.
+	Window 14054,OK,CANCEL
+
+	Window_OK Group == 1
+	#\n\n澜. 撇覆绝绰 魄何福农 空泵狼 刘辑肺焙. 亮酒, 烹苞窍档废 秦.
+	Window 14056,OK,CANCEL
+
+#OK捞绊 弊缝阑 捞风绊 乐阑 锭
+	Window_OK Group > 1
+	#\n\n　咯扁辑何磐绰 去磊父 烹苞且 荐 乐促\n 颇萍甫 秦魂窍摆唱?
+	Window 14072,YES,NO
+	Window_YES Group > 1
+	LeaveGroup
+
+	Window_NO
+
+##去磊捞绊 ＯＫ甫 穿弗 版快.
+	Window_OK Group == 1
+	Warp 0,15000,22,33
+
+############困炼刘辑（己傍皑沥饶）甫 啊瘤绊 乐绰 版快###########
+block Leak1Item 18382 >= 1 && Group == 1
+	#\n\n捞 捞惑篮 饭骇捞 臭篮 荤恩捞唱 刘辑甫 啊柳 荤恩捞 酒聪搁 烹苞且 荐 绝促.
+	Window 14054,OK,CANCEL
+
+	Window_OK Group == 1
+	#\n\n澜. 撇覆绝绰 魄何福农 空泵狼 刘辑肺焙. 亮酒, 烹苞窍档废 秦.
+	Window 14056,OK,CANCEL
+
+#OK捞绊 弊缝阑 捞风绊 乐阑 锭
+	Window_OK Group > 1
+	#\n\n　咯扁辑何磐绰 去磊父 烹苞且 荐 乐促\n 颇萍甫 秦魂窍摆唱?
+	Window 14072,YES,NO
+	Window_YES Group > 1
+	LeaveGroup
+
+	Window_NO
+
+##去磊捞绊 ＯＫ甫 穿弗 版快.
+	Window_OK Group == 1
+	Warp 0,15000,22,33
+
+############困炼刘辑（角菩皑沥饶）甫 啊瘤绊 乐绰 版快###############
+block Leak1Item 18381 >= 1 && Group == 1
+	#\n\n捞 捞惑篮 饭骇捞 臭篮 荤恩捞唱 刘辑甫 啊柳 荤恩捞 酒聪搁 烹苞且 荐 绝促.
+	Window 14054,OK,CANCEL
+##弊缝阑 捞风绊 ＯＫ甫 穿弗 版快.
+	Window_OK Group > 1
+	#\n\n　咯扁辑何磐绰 去磊父 烹苞且 荐 乐促\n 颇萍甫 秦魂窍摆唱?
+	Window 14072,YES,NO
+	Window_YES Group > 1
+	LeaveGroup
+
+	Window_YES
+	Window_NO
+
+##去磊捞绊 ＯＫ甫 穿弗 版快.
+	Window_OK Group == 1
+	#\n\n览!? 捞巴篮 啊楼肺焙!! ..饱韭窍促! 匙仇篮 瘤唱哎 荐 绝绢!!!
+	EndWindow 14057
+
+############困炼刘辑（角菩）甫 啊瘤绊 乐菌带 版快###############
+block Leak0Item 18381 >= 1 && Group == 1
+	#\n\n捞 捞惑篮 饭骇捞 臭篮 荤恩捞唱 刘辑甫 啊柳 荤恩捞 酒聪搁 烹苞且 荐 绝促.
+	Window 14054,OK,CANCEL
+##弊缝阑 捞风绊 ＯＫ甫 穿弗 版快.
+	Window_OK Group > 1
+	#\n\n　咯扁辑何磐绰 去磊父 烹苞且 荐 乐促\n 颇萍甫 秦魂窍摆唱?
+	Window 14072,YES,NO
+	Window_YES Group > 1
+	LeaveGroup
+
+	Window_YES
+	Window_NO
+
+##去磊捞绊 ＯＫ甫 穿弗 版快.
+	Window_OK Group == 1
+	#\n\n览!? 捞巴篮 啊楼肺焙!! ..饱韭窍促! 匙仇篮 瘤唱哎 荐 绝绢!!!
+	KillLeak0Item 18381
+	GiveLeak1Item 18381
+	EndWindow 14057
+
+
+############困炼刘辑（己傍）甫 啊瘤绊 乐菌带 版快###############
+block Leak0Item 18382 >= 1 && Group == 1
+	#\n\n捞 捞惑篮 饭骇捞 臭篮 荤恩捞唱 刘辑甫 啊柳 荤恩捞 酒聪搁 烹苞且 荐 绝促.
+	Window 14054,OK,CANCEL
+
+	Window_OK Group == 1
+	#\n\n澜. 撇覆绝绰 魄何福农 空泵狼 刘辑肺焙. 亮酒, 烹苞窍档废 秦.
+	Window 14056,OK,CANCEL
+
+#OK捞绊 弊缝阑 捞风绊 乐阑 锭
+	Window_OK Group > 1
+	#\n\n　咯扁辑何磐绰 去磊父 烹苞且 荐 乐促\n 颇萍甫 秦魂窍摆唱?
+	Window 14072,YES,NO
+	Window_YES Group > 1
+	LeaveGroup
+
+	Window_NO
+
+##去磊捞绊 ＯＫ甫 穿弗 版快.
+	Window_OK Group == 1
+	KillLeak0Item 18382
+	GiveLeak1Item 18382
+	Warp 0,15000,22,33
+
+########## 颇萍 阂啊 ##########
+block Group > 1
+	#\n\n　咯扁辑何磐绰 去磊父 烹苞且 荐 乐促\n 颇萍甫 秦魂窍摆唱?
+	Window 14072,YES,NO
+
+	Window_YES Group > 1
+	LeaveGroup
+
+	Window_YES
+	Window_NO
+
+###########绢蠢 炼扒档 盲快瘤 臼篮 版快
+block
+	#\n\n捞 捞惑篮 饭骇捞 臭篮 荤恩捞唱 刘辑甫 啊柳 荤恩捞 酒聪搁 烹苞且 荐 绝促.
+	Window 14054,OK,CANCEL
+	Window_OK
+	EndWindow 14055
+
+

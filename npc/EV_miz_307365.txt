@@ -1,0 +1,1014 @@
+#急牢秒流 涅胶飘：其摹墨
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+###########　急牢 秒流 涅胶飘 吝　##############
+
+##########　　　　　　　###########
+##########　汗件酒 揪狙 乐澜　###########
+##########　　　　　　　###########
+
+##　浚靛３１「农府胶呕 呈明」（18760）##
+block endevent31 == 1 && Item 18760 >= 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	KillItem 18760
+	endevent31 = 0
+	Window_NO
+	EndWindow 20890
+
+## 浚靛３１「迹扼扼 茄蛤 老扁」（18759）　##
+block endevent31 == 1 && Item 18759 >= 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	KillItem 18759
+	endevent31 = 0
+	Window_NO
+	EndWindow 20890
+
+## 浚靛３１##
+block endevent31 == 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	endevent31 = 0
+	Window_NO
+	EndWindow 20890
+
+##「急牢俊霸辑 柯 祈瘤」（18765）　「农府胶呕 呈明」（18760）##
+block Item 18765 >= 1 && Item 18760 >= 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	KillItem 18765
+	KillItem 18760
+	Window_NO
+	EndWindow 20890
+
+##「急牢俊霸辑 柯 祈瘤」（18765）　「迹扼扼 茄蛤 老扁」（18759）##
+block Item 18765 >= 1 && Item 18759 >= 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	KillItem 18765
+	KillItem 18759
+	Window_NO
+	EndWindow 20890
+
+##「急牢俊霸辑 柯 祈瘤」（18765）　##
+block Item 18765 >= 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	KillItem 18765
+	Window_NO
+	EndWindow 20890
+
+##「急牢俊霸 焊郴绰 祈瘤」（18764）　「农府胶呕 呈明」（18760）##
+block Item 18764 >= 1 && Item 18760 >= 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	KillItem 18764
+	KillItem 18760
+	Window_NO
+	EndWindow 20890
+
+##「急牢俊霸 焊郴绰 祈瘤」（18764）　「迹扼扼 茄蛤 老扁」（18759）##
+block Item 18764 >= 1 && Item 18759 >= 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	KillItem 18764
+	KillItem 18759
+	Window_NO
+	EndWindow 20890
+
+##「急牢俊霸 焊郴绰 祈瘤」（18764）　##
+block Item 18764 >= 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	KillItem 18764
+	Window_NO
+	EndWindow 20890
+
+##「缴何抚 皋葛ㄩ」（18763）　「农府胶呕 呈明」（18760）##
+block Item 18763 >= 1 && Item 18760 >= 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	KillItem 18763
+	KillItem 18760
+	Window_NO
+	EndWindow 20890
+
+##「缴何抚 皋葛ㄩ」（18763）　「迹扼扼 茄蛤 老扁」（18759）##
+block Item 18763 >= 1 && Item 18759 >= 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	KillItem 18763
+	KillItem 18759
+	Window_NO
+	EndWindow 20890
+
+##「缴何抚 皋葛ㄩ」（18763）　##
+block Item 18763 >= 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	KillItem 18763
+	Window_NO
+	EndWindow 20890
+
+##「缴何抚 皋葛ㄨ」（18762）　「农府胶呕 呈明」（18760）##
+block Item 18762 >= 1 && Item 18760 >= 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	KillItem 18762
+	KillItem 18760
+	Window_NO
+	EndWindow 20890
+
+##「缴何抚 皋葛ㄨ」（18762）　「迹扼扼 茄蛤 老扁」（18759）##
+block Item 18762 >= 1 && Item 18759 >= 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	KillItem 18762
+	KillItem 18759
+	Window_NO
+	EndWindow 20890
+
+##「缴何抚 皋葛ㄨ」（18762）　　##
+block Item 18762 >= 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	KillItem 18762
+	Window_NO
+	EndWindow 20890
+
+##「缴何抚 皋葛ㄧ」（18761）　「农府胶呕 呈明」（18760）##
+block Item 18761 >= 1 && Item 18760 >= 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	KillItem 18761
+	KillItem 18760
+	Window_NO
+	EndWindow 20890
+
+##「缴何抚 皋葛ㄧ」（18761）　「迹扼扼 茄蛤 老扁」（18759）##
+block Item 18761 >= 1 && Item 18759 >= 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	KillItem 18761
+	KillItem 18759
+	Window_NO
+	EndWindow 20890
+
+##「缴何抚 皋葛ㄧ」（18761）　##
+block Item 18761 >= 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	KillItem 18761
+	Window_NO
+	EndWindow 20890
+
+##「农府胶呕 呈明」（18760）##
+block Item 18760 >= 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	KillItem 18760
+	Window_NO
+	EndWindow 20890
+
+##「迹扼扼 茄蛤 老扁」（18759）##
+block Item 18759 >= 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	KillItem 18759
+	Window_NO
+	EndWindow 20890
+
+##　浚靛８７ ##
+block endevent87 == 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	endevent87 = 0
+	Window_NO
+	EndWindow 20890
+
+##　浚靛３４　「缴荤版」（18758）　 ##
+block endevent34 == 1 && Item 18758 >= 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	KillItem 18758
+	endevent34 = 0
+	Window_NO
+	EndWindow 20890
+
+##　浚靛３４ ##
+block endevent34 == 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	endevent34 = 0
+	Window_NO
+	EndWindow 20890
+
+##　唱快３４「缴荤版」（18758） ##
+block nowevent34 == 1 && Item 18758 >= 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	KillItem 18758
+	nowevent34 = 0
+	Window_NO
+	EndWindow 20890
+
+##　唱快３４ ##
+block nowevent34 == 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	nowevent34 = 0
+	Window_NO
+	EndWindow 20890
+
+##　浚靛３３　「缴荤版」（18758）　 ##
+block endevent33 == 1 && Item 18758 >= 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	KillItem 18758
+	endevent33 = 0
+	Window_NO
+	EndWindow 20890
+
+##　浚靛３３ ##
+block endevent33 == 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	endevent33 = 0
+	Window_NO
+	EndWindow 20890
+
+##　浚靛３２　「缴荤版」（18758）　 ##
+block endevent32 == 1 && Item 18758 >= 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	KillItem 18758
+	endevent32 = 0
+	Window_NO
+	EndWindow 20890
+
+##　浚靛３２　唱快３３　 ##
+block endevent32 == 1 && nowevent33 == 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	endevent32 = 0
+	nowevent33 = 0
+	Window_NO
+	EndWindow 20890
+
+##　浚靛３２　 ##
+block endevent32 == 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	endevent32 = 0
+	Window_NO
+	EndWindow 20890
+
+##　唱快８７ ##
+block nowevent87 == 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	nowevent87 = 0
+	Window_NO
+	EndWindow 20890
+
+##　唱快８８　「磊技茄 檬惑拳」（18752） ##
+block nowevent88 == 1 && Item 18752 >= 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	KillItem 18752
+	nowevent88 = 0
+	Window_NO
+	EndWindow 20890
+
+##　唱快８８ ##
+block nowevent88 == 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	nowevent88 = 0
+	Window_NO
+	EndWindow 20890
+
+##　唱快３２ ##
+block nowevent32 == 1 && Item 18753 >= 1 && Item 18751 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18751
+	KillItem 18753
+	nowevent32 = 0
+	Window_NO
+	EndWindow 20890
+
+##　唱快３２ ##
+block nowevent32 == 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	nowevent32 = 0
+	Window_NO
+	EndWindow 20890
+
+##　唱快３１　「呈代呈代茄 檬惑拳」（18751）##
+block nowevent31 == 1 && Item 18751 >= 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	KillItem 18751
+	nowevent31 = 0
+	Window_NO
+	EndWindow 20890
+
+##　唱快３１　「急牢狼 檬惑拳」（18750）##
+block nowevent31 == 1 && Item 18750 >= 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	KillItem 18750
+	nowevent31 = 0
+	Window_NO
+	EndWindow 20890
+
+## 唱快３１##
+block nowevent31 == 1 && Item 18753 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18753
+	nowevent31 = 0
+	Window_NO
+	EndWindow 20890
+
+
+##########　　　　　　　###########
+##########　汗件酒 揪狙 绝澜　###########
+##########　　　　　　　###########
+
+##　浚靛３１「农府胶呕 呈明」（18760）##
+block endevent31 == 1 && Item 18760 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18760
+	endevent31 = 0
+	Window_NO
+	EndWindow 20890
+
+## 浚靛３１「迹扼扼 茄蛤 老扁」（18759）　##
+block endevent31 == 1 && Item 18759 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18759
+	endevent31 = 0
+	Window_NO
+	EndWindow 20890
+
+## 浚靛３１##
+block endevent31 == 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	endevent31 = 0
+	Window_NO
+	EndWindow 20890
+
+##「急牢俊霸辑 柯 祈瘤」（18765）　「农府胶呕 呈明」（18760）##
+block Item 18765 >= 1 && Item 18760 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18765
+	KillItem 18760
+	Window_NO
+	EndWindow 20890
+
+##「急牢俊霸辑 柯 祈瘤」（18765）　「迹扼扼 茄蛤 老扁」（18759）##
+block Item 18765 >= 1 && Item 18759 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18765
+	KillItem 18759
+	Window_NO
+	EndWindow 20890
+
+##「急牢俊霸辑 柯 祈瘤」（18765）　##
+block Item 18765 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18765
+	Window_NO
+	EndWindow 20890
+
+##「急牢俊霸 焊郴绰 祈瘤」（18764）　「农府胶呕 呈明」（18760）##
+block Item 18764 >= 1 && Item 18760 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18764
+	KillItem 18760
+	Window_NO
+	EndWindow 20890
+
+##「急牢俊霸 焊郴绰 祈瘤」（18764）　「迹扼扼 茄蛤 老扁」（18759）##
+block Item 18764 >= 1 && Item 18759 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18764
+	KillItem 18759
+	Window_NO
+	EndWindow 20890
+
+##「急牢俊霸 焊郴绰 祈瘤」（18764）　##
+block Item 18764 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18764
+	Window_NO
+	EndWindow 20890
+
+##「缴何抚 皋葛ㄩ」（18763）　「农府胶呕 呈明」（18760）##
+block Item 18763 >= 1 && Item 18760 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18763
+	KillItem 18760
+	Window_NO
+	EndWindow 20890
+
+##「缴何抚 皋葛ㄩ」（18763）　「迹扼扼 茄蛤 老扁」（18759）##
+block Item 18763 >= 1 && Item 18759 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18763
+	KillItem 18759
+	Window_NO
+	EndWindow 20890
+
+##「缴何抚 皋葛ㄩ」（18763）　##
+block Item 18763 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18763
+	Window_NO
+	EndWindow 20890
+
+##「缴何抚 皋葛ㄨ」（18762）　「农府胶呕 呈明」（18760）##
+block Item 18762 >= 1 && Item 18760 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18762
+	KillItem 18760
+	Window_NO
+	EndWindow 20890
+
+##「缴何抚 皋葛ㄨ」（18762）　「迹扼扼 茄蛤 老扁」（18759）##
+block Item 18762 >= 1 && Item 18759 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18762
+	KillItem 18759
+	Window_NO
+	EndWindow 20890
+
+##「缴何抚 皋葛ㄨ」（18762）　　##
+block Item 18762 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18762
+	Window_NO
+	EndWindow 20890
+
+##「缴何抚 皋葛ㄧ」（18761）　「农府胶呕 呈明」（18760）##
+block Item 18761 >= 1 && Item 18760 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18761
+	KillItem 18760
+	Window_NO
+	EndWindow 20890
+
+##「缴何抚 皋葛ㄧ」（18761）　「迹扼扼 茄蛤 老扁」（18759）##
+block Item 18761 >= 1 && Item 18759 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18761
+	KillItem 18759
+	Window_NO
+	EndWindow 20890
+
+##「缴何抚 皋葛ㄧ」（18761）　##
+block Item 18761 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18761
+	Window_NO
+	EndWindow 20890
+
+##「农府胶呕 呈明」（18760）##
+block Item 18760 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18760
+	Window_NO
+	EndWindow 20890
+
+##「迹扼扼 茄蛤 老扁」（18759）##
+block Item 18759 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18759
+	Window_NO
+	EndWindow 20890
+
+##　浚靛８７ ##
+block endevent87 == 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	endevent87 = 0
+	Window_NO
+	EndWindow 20890
+
+##　浚靛３４　「缴荤版」（18758）　 ##
+block endevent34 == 1 && Item 18758 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18758
+	endevent34 = 0
+	Window_NO
+	EndWindow 20890
+
+##　浚靛３４ ##
+block endevent34 == 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	endevent34 = 0
+	Window_NO
+	EndWindow 20890
+
+##　唱快３４「缴荤版」（18758） ##
+block nowevent34 == 1 && Item 18758 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18758
+	nowevent34 = 0
+	Window_NO
+	EndWindow 20890
+
+##　唱快３４ ##
+block nowevent34 == 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	nowevent34 = 0
+	Window_NO
+	EndWindow 20890
+
+##　浚靛３３　「缴荤版」（18758）　 ##
+block endevent33 == 1 && Item 18758 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18758
+	endevent33 = 0
+	Window_NO
+	EndWindow 20890
+
+##　浚靛３３ ##
+block endevent33 == 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	endevent33 = 0
+	Window_NO
+	EndWindow 20890
+
+##　浚靛３２　「缴荤版」（18758）　 ##
+block endevent32 == 1 && Item 18758 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18758
+	endevent32 = 0
+	Window_NO
+	EndWindow 20890
+
+##　浚靛３２　唱快３３　 ##
+block endevent32 == 1 && nowevent33 == 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	endevent32 = 0
+	nowevent33 = 0
+	Window_NO
+	EndWindow 20890
+
+##　浚靛３２　 ##
+block endevent32 == 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	endevent32 = 0
+	Window_NO
+	EndWindow 20890
+
+##　唱快８７ ##
+block nowevent87 == 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	nowevent87 = 0
+	Window_NO
+	EndWindow 20890
+
+##　唱快８８　「磊技茄 檬惑拳」（18752） ##
+block nowevent88 == 1 && Item 18752 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18752
+	nowevent88 = 0
+	Window_NO
+	EndWindow 20890
+
+##　唱快８８ ##
+block nowevent88 == 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	nowevent88 = 0
+	Window_NO
+	EndWindow 20890
+
+##　唱快３２ ##
+block nowevent32 == 1 && Item 18751 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18751
+	nowevent32 = 0
+	Window_NO
+	EndWindow 20890
+
+##　唱快３２ ##
+block nowevent32 == 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	nowevent32 = 0
+	Window_NO
+	EndWindow 20890
+
+##　唱快３１　「呈代呈代茄 檬惑拳」（18751）##
+block nowevent31 == 1 && Item 18751 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18751
+	nowevent31 = 0
+	Window_NO
+	EndWindow 20890
+
+##　唱快３１　「急牢狼 檬惑拳」（18750）##
+block nowevent31 == 1 && Item 18750 >= 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	KillItem 18750
+	nowevent31 = 0
+	Window_NO
+	EndWindow 20890
+
+## 唱快３１##
+block nowevent31 == 1
+
+	Window 20887,NEXT
+	Window 20888,YES,NO
+	Window_YES
+	Window 20889,OK
+	Window_OK
+	nowevent31 = 0
+	Window_NO
+	EndWindow 20890
+
+###############　急牢秒流 涅胶飘 俺矫　###################
+
+block
+
+	Window 20886,OK
+	Window_OK
+	nowevent31 = 1
+

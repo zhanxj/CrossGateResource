@@ -1,0 +1,60 @@
+#固肺 饭捞胶	固肺 榜 淬寸	6139 1405 6 3
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+
+########## 眉农 器牢飘甫 瘤唱瘤 臼篮 版快 ##########
+	block EndEvent 47 == 0
+	#\n\n　构具构具, 酒流 眉农 器牢飘甫 烹苞窍瘤 臼疽垒酒.\n　眉农 器牢飘甫 烹苞窍瘤 臼栏搁 咯扁鳖瘤 客档 榜牢捞 救等促备.
+	EndWindow 11857
+
+########## 1困肺 榜牢茄 版快 ##########
+	block Visitor == 0 && Item 18377 >= 1 && ItemCreateTime 18377 <= 60 && EndEvent 47 == 1
+	SetVisitor +1
+	Warp 0,1406,5,4
+
+########## 2困肺 榜牢茄 版快 ##########
+	block Visitor == 1 && Item 18377 >= 1 && ItemCreateTime 18377 <= 60 && EndEvent 47 == 1
+	SetVisitor +1
+	Warp 0,1407,5,4
+
+########## 3困肺 榜牢茄 版快 ##########
+	block Visitor == 2 && Item 18377 >= 1 && ItemCreateTime 18377 <= 60 && EndEvent 47 == 1
+	SetVisitor +1
+	Warp 0,1408,5,4
+
+########## 4困肺 榜牢茄 版快 ##########
+	block Visitor == 3 && Item 18377 >= 1 && ItemCreateTime 18377 <= 60 && EndEvent 47 == 1
+	SetVisitor +1
+	Warp 0,1409,5,4
+
+########## 5困肺 榜牢茄 版快 ##########
+	block Visitor == 4 && Item 18377 >= 1 && ItemCreateTime 18377 <= 60 && EndEvent 47 == 1
+	SetVisitor +1
+	Warp 0,1410,5,4
+
+########## 5困焊促 词霸 榜牢茄 版快 ##########
+	block Visitor >= 5 && Item 18377 >= 1 && ItemCreateTime 18377 <= 60 && EndEvent 47 == 1
+	SetVisitor +1
+	Warp 0,1411,5,4
+
+########## 倾啊刘捞 矫埃檬苞牢 版快 ##########
+	block Item 18377 >= 1 Item && CreateTime 18377 > 60 && EndEvent 47 == 1
+	#\n\n　涝厘倾啊刘狼 力茄矫埃捞 逞篮 巴 鞍焙.\n　捞锅浚 角拜捞焙. 促澜 锅浚 塞郴扼备!\n　咯扁辑 倒酒啊绰 扒 绢痘霸 窍摆唱? 固肺狼 措钦角鳖瘤 官贰促 临鳖?
+	Window 11786,YES,NO
+
+	Window_YES
+	Warp 0,1404,0,4
+
+	Window_NO
+	#\n\n　弊繁啊, 炼缴秦辑 倒啊啊霸.
+	EndWindow 11811
+
+########## 利钦窍瘤 臼篮 版快 ##########
+	block
+	#\n\n　涝厘倾啊刘阑 啊瘤绊 乐瘤 臼篮 巴 鞍焙.\n　寸厘 唱啊林霸.
+	Window 11824,OK
+
+	Window_OK
+	Warp 0,1404,0,4
+

@@ -1,0 +1,178 @@
+#芒绊 固雇：家瘤前 款馆淬寸狼 俐篮捞	6127	2301 14 2
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+
+########## 矾宏饭磐甫 啊瘤绊 乐绰 版快 ##########
+block Item 18418 >= 1
+	#\n\n　弊 矾宏饭磐, 喊肺 鞘夸绝瘤?\n　郴啊 贸盒秦 笛鳖?
+	Window 11693,YES,NO
+
+	Window_YES Item 18418 >= 1
+	KillItem 18418,1
+	#\n\n　亮酒, 弊烦, 家吝洒 该酒辑 痢厘俊霸ˇ.\n　酒, 酒聪酒聪, 滚副霸.
+	EndWindow 11694
+
+	Window_NO
+	#\n\n　酒聪, 喊肺 弊 祈瘤甫 啊瘤绊 痢厘阑 鲍酚洒妨绰 积阿 鞍篮 芭 救 秦. 窍·窍·窍ˇ
+	EndWindow 11695
+
+########## 祈瘤甫 啊瘤绊 乐绰 版快 ##########
+block Item 18417 >= 1
+	#\n\n　寸脚俊霸绰 脚技甫 脸焙.\n　焊翠捞扼变 菇窍瘤父, 捞 啊霸俊辑 静绊 乐绰 犁丰扼搁 乐栏聪鳖, 亮阑 措肺 啊廉啊.
+	Window 11696,OK
+
+	Window_OK
+	#\n\n　捞 「枚20俺」绰 鞘夸 绝绢?
+	Window 11697,YES,NO
+
+	Window_YES Item 18417 >= 1
+	KillItem 18417,1
+	GiveLeak1Item 9601,20
+	#\n\n　弊烦 捞吧 临霸. 沥富 绊付况.
+	Window 11700,OK
+
+	Window_NO
+	#\n\n　捞 「篮10俺」绰 鞘夸 绝绢?
+	Window 11698,YES,NO
+
+	Window_YES Item 18417 >= 1
+	KillItem 18417,1
+	GiveLeak1Item 9602,20
+	#\n\n　弊烦 捞吧 临霸. 沥富 绊付况.
+	Window 11700,OK
+
+	Window_NO
+	#\n\n　捞 「傈唱公20俺」绰 鞘夸 绝绢?
+	Window 11699,YES,NO
+
+	Window_YES Item 18417 >= 1
+	KillItem 18417,1
+	GiveLeak1Item 10001,20
+	#\n\n　弊烦 捞吧 临霸. 沥富 绊付况.
+	Window 11700,OK
+
+	Window_NO
+	#\n\n　捞 「饭阁 臂扼胶20俺」绰 鞘夸 绝绢?
+	Window 11701,YES,NO
+
+	Window_YES Item 18417 >= 1
+	KillItem 18417,1
+	GiveLeak1Item 12801,20
+	#\n\n　弊烦 捞吧 临霸. 沥富 绊付况.
+	Window 11700,OK
+
+	Window_NO
+	#\n\n　捞 「公疙20厘」篮 鞘夸 绝绢?
+	Window 11702,YES,NO
+
+	Window_YES Item 18417 >= 1
+	KillItem 18417,1
+	GiveLeak1Item 10401,20
+	#\n\n　弊烦 捞吧 临霸. 沥富 绊付况.
+	Window 11700,OK
+
+	Window_NO
+	#\n\n　捞 「歧飘10厘」篮 鞘夸 绝绢?
+	Window 11703,YES,NO
+
+	Window_YES Item 18417 >= 1
+	KillItem 18417,1
+	GiveLeak1Item 10402,10
+	#\n\n　弊烦 捞吧 临霸. 沥富 绊付况.
+	Window 11700,OK
+
+	Window_NO
+	#\n\n　捞 「快蜡20俺」绰 鞘夸 绝绢?
+	Window 11704,YES,NO
+
+	Window_YES Item 18417 >= 1
+	KillItem 18417,1
+	GiveLeak1Item 12401,20
+	#\n\n　弊烦 捞吧 临霸. 沥富 绊付况.
+	Window 11700,OK
+
+	Window_NO
+	#\n\n　捞 「家陛10俺」绰 鞘夸 绝绢?
+	Window 11705,YES,NO
+
+	Window_YES Item 18417 >= 1
+	KillItem 18417,1
+	GiveLeak1Item 12402,10
+	#\n\n　弊烦 捞吧 临霸. 沥富 绊付况.
+	Window 11700,OK
+
+	Window_NO
+	#\n\n　栏~澜. 捞 捞寇狼 家犁绰 绝绢.
+	EndWindow 11706
+
+	Window_OK
+	#\n\n　沥富 绊付况. 弊 惑磊甫 芒绊鳖瘤 啊廉啊 拎ˇ\n　俊? 救俊辑 固雇捞 唱客辑, 捞 祈瘤甫 冻绢飘啡促绊?\n　公郊 祈瘤老鳖? 栏澜, 绢叼焊磊?ˇ
+	Window 11707,OK
+
+	Window_OK ItemSpace >= 1
+	GiveLeak1Item 18418,1
+	#\n\n　侵窍~, 捞芭, 快府 痢厘捞 烤朝俊 馆沁带 咯磊俊霸, 付澜阑 傈窍扁 困秦 敬 祈瘤肺焙.\n　捞弗官 矾宏饭磐扼绰 芭瘤. 讲讲.\n　窍瘤父 历繁 惑磊俊 持绢底促绰 扒, 搬惫 焊郴瘤 臼疽促绰 芭焙.
+	EndWindow 11708
+
+	Window_OK
+	#\n\n　侵窍~, 捞芭, 快府 痢厘捞 烤朝俊 馆沁带 咯磊俊霸, 付澜阑 傈窍扁 困秦 敬 祈瘤肺焙.\n　捞弗官 矾宏饭磐扼绰 芭瘤. 讲讲.\n　窍瘤父 历繁 惑磊俊 持绢底促绰 扒, 搬惫 焊郴瘤 臼疽促绰 芭焙.
+	EndWindow 11709
+
+########## 荐荐膊尝狼 惑磊甫 啊瘤绊 乐绰 版快 ##########
+block Item 18415 >= 1
+	#\n\n　弊 惑磊甫, 瘤窍６摸狼 芒绊 救俊 初酒林瘤 臼摆唱, 档吝俊 捞 惑磊狼 凯艰甫 茫栏搁, 救阑 犬牢窍绊 客林搁 亮摆焙.
+	EndWindow 11710
+
+########## 饭骇 15捞惑牢 版快 ##########
+block Level >= 15
+	#\n\n　捞 惑磊, 构啊 甸绢乐菌阑鳖.\n　规秦登聪鳖 摹况滚府绊 酵瘤父, 瘤窍绰 付练捞 唱坷扁档 秦辑 啊瘤绊 啊绰 扒 郴虐瘤 臼焙.
+	Window 11711,OK
+
+	Window_OK Job >= 200 && Job < 430 && Group == 1
+	#\n\n　坷. 寸脚 流牢牢啊? 弊烦, 咯扁 瘤窍档 措面 葛剧阑 舅摆瘤?\n　寸脚捞扼搁 救缴窍绊 该辨 荐 乐阑 巴 鞍焙. 捞 惑磊甫 瘤窍弥窍摸狼 芒绊鳖瘤 啊瘤绊 啊玲栏搁 窍绰单, 何殴且 荐 绝阑鳖?
+	#\n　绢掳辑牢瘤, 弥辟俊 付练捞 免隔窍霸 登绢辑, 啊瘤绊 哎 荐啊 绝绢.
+	Window 11712,YES,NO
+
+	Window_OK Job >= 450 && Job < 480 && Group == 1
+	#\n\n　坷. 寸脚 流牢牢啊? 弊烦, 咯扁 瘤窍档 措面 葛剧阑 舅摆瘤?\n　寸脚捞扼搁 救缴窍绊 该辨 荐 乐阑 巴 鞍焙. 捞 惑磊甫 瘤窍弥窍摸狼 芒绊鳖瘤 啊瘤绊 啊玲栏搁 窍绰单, 何殴且 荐 绝阑鳖?
+	#\n　绢掳辑牢瘤, 弥辟俊 付练捞 免隔窍霸 登绢辑, 啊瘤绊 哎 荐啊 绝绢.
+	Window 11739,YES,NO
+
+	Window_OK Job >= 200 && Job < 430 && Group >= 2
+	#\n\n　捞繁, 腹篮 荤恩苞 茄锅俊绰 富且 荐 绝绢.\n　茄 荤恩究 富秦拎.
+	EndWindow 11713
+
+	Window_OK Job >= 450 && Job < 480 && Group == 2
+	#\n\n　捞繁, 腹篮 荤恩苞 茄锅俊绰 富且 荐 绝绢.\n　茄 荤恩究 富秦拎.
+	EndWindow 11713
+
+	Window_OK
+
+	Window_NO
+	#\n\n　弊繁啊, 绢驴 荐 绝焙. 促弗 荤恩阑 茫阑霸.
+	EndWindow 11714
+
+	Window_YES Job >= 200 && Job < 430 && Group == 1 && ItemSpace >= 1
+	GiveItem 18415,1
+	#\n\n　弊烦 捞 惑磊甫 临霸. 公芭快聪鳖 炼缴秦.\n　捞吧 捞 扒拱狼 瘤窍俊 乐绰 芒绊狼 弥窍摸俊 啊瘤绊 啊玲栏搁 秦.\n　初绰 镑篮 陛规 舅 荐 乐阑抛聪鳖, 何殴秦.
+	EndWindow 11715
+
+	Window_YES Job >= 450 && Job < 480 && Group == 1 && ItemSpace >= 1
+	GiveItem 18415,1
+	#\n\n　弊烦 捞 惑磊甫 临霸. 公芭快聪鳖 炼缴秦.\n　捞吧 捞 扒拱狼 瘤窍俊 乐绰 芒绊狼 弥窍摸俊 啊瘤绊 啊玲栏搁 秦.\n　初绰 镑篮 陛规 舅 荐 乐阑抛聪鳖, 何殴秦.
+	EndWindow 11715
+
+	Window_YES ItemSpace == 0
+	#\n\n　绢扼, 蜡皑捞焙. 家瘤前捞 啊垫 蛮 巴 鞍酒.
+	EndWindow 11716
+
+	Window_YES Group >= 2
+	#\n\n　捞繁捞繁, 腹篮 荤恩苞 茄锅俊绰 富且 荐 绝绢.\n　茄 荤恩究 富秦拎.
+	EndWindow 11713
+
+########## 利钦窍瘤 臼篮 版快 ##########
+block 
+	#\n\n　捞 啊霸, 概厘篮 2摸俊 乐瘤?\n　弊繁单, 咯扁辑 初咯乐绰 惑前篮 1摸俊辑 父甸绊 乐绢.\n　霸促啊 芒绊绰 弊 瘤窍俊 乐栏聪鳖, 快府甸阑 磷老 积阿牢啊, 沥富ˇ.
+	EndWindow 11717
+

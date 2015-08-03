@@ -1,0 +1,18 @@
+#モ带怜：概趣狼 刨脚
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###########　　##############
+block 
+	Window 219032,YES,NO
+	
+	Window_YES
+	Window 219015,OK
+	Window_OK
+	
+	setaction 5
+	EndWindow 219016,OK
+	
+	Window_NO
+	EndWindow 219017,OK
+

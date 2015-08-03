@@ -1,0 +1,18 @@
+#坷令唱弊 家斥扁狼 老扁
+
+###快 努腐栏肺 馆览###
+	block strcmpchat == r
+	#\n\n　坷令唱弊啊 敬 家斥矫例狼 老扁啊 乐促.\n　佬摆嚼聪鳖?
+	Window 11905,YES,NO
+
+	Window_YES
+#\n\n　　　　　≤≤≤　家斥扁狼 老扁　≤≤≤\n\n　　葛岿 葛老\n　坷疵档 捻付鸥客 愁疽促. 捻付鸥绰力老 模茄 模备促!
+	Window 11906,NEXT,CANCEL
+#\n\n　　　　　≤≤≤　家斥扁狼 老扁　≤≤≤\n\n　　葛岿 葛老\n　迫揪抚俊辑绰 捞力 绢弗俊霸档 瘤瘤臼霸 登菌促.
+	Window 11907,PREV,NEXT,CANCEL
+#\n\n　　　　　≤≤≤　家斥扁狼 老扁　≤≤≤\n\n　　葛岿 葛老\n　悼癌郴扁 模备甸捞尔 鞍捞 愁 荐绝促.\n　　捞力 郴 惑措啊 登绰 扒 捻付鸥 观俊 绝促.
+	Window 11908,PREV,OK
+
+	Window_NO
+	Window_OK
+

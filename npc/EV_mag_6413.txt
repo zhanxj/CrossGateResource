@@ -1,0 +1,272 @@
+#
+#畴目 力厚 背券
+#
+
+############## １殿阑 啊瘤绊 乐促 ##############
+block Item 19577 >= 1
+#\n\n　１殿 寸梅 绵窍钦聪促!\n　版前篮 300,000 Gold涝聪促. 券陛窍矫摆嚼聪鳖?
+	Window 14796,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 14797,OK
+	Window_YES Gold >= 700001
+#\n\n　歹 捞惑 啊龙 荐 绝嚼聪促.
+	EndWindow 14798,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 14799,OK
+	Window_OK Item 19577 >= 1
+	KillItem 19577
+	AddGold 300000
+
+############## ２殿阑 啊瘤绊 乐促 ##############
+block Item 19578 >= 1
+#\n\n　２殿 寸梅 绵窍钦聪促!\n　版前篮 50,000 Gold涝聪促. 券陛窍矫摆嚼聪鳖?
+	Window 14800,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 14797,OK
+	Window_YES Gold >= 950001
+#\n\n　歹 捞惑 啊龙 荐 绝嚼聪促.
+	EndWindow 14798,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 14799,OK
+	Window_OK Item 19578 >= 1
+	KillItem 19578
+	AddGold 50000
+
+############## ３殿阑 啊瘤绊 乐促 ##############
+block Item 19579 >= 1
+#\n\n　３殿 寸梅 绵窍钦聪促!\n　版前篮 5,000 Gold涝聪促. 券陛窍矫摆嚼聪鳖?
+	Window 14801,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 14797,OK
+	Window_YES Gold >= 995001
+#\n\n　歹 捞惑 啊龙 荐 绝嚼聪促.
+	EndWindow 14798,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 14799,OK
+	Window_OK Item 19579 >= 1
+	KillItem 19579
+	AddGold 5000
+
+############## ４殿阑 啊瘤绊 乐促 ##############
+block Item 19580 >= 1
+#\n\n　４殿 寸梅 绵窍钦聪促!\n　版前篮 2,500 Gold涝聪促. 券陛窍矫摆嚼聪鳖?
+	Window 14802,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 14797,OK
+	Window_YES Gold >= 997501
+#\n\n　歹 捞惑 啊龙 荐 绝嚼聪促.
+	EndWindow 14798,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 14799,OK
+	Window_OK Item 19580 >= 1
+	KillItem 19580
+	AddGold 2500
+
+############## ５殿阑 啊瘤绊 乐促 ##############
+block Item 19581 >= 1
+#\n\n　５殿 寸梅 绵窍钦聪促!\n　版前篮 500 Gold涝聪促. 券陛窍矫摆嚼聪鳖?
+	Window 14803,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 14797,OK
+	Window_YES Gold >= 999501
+#\n\n　歹 捞惑 啊龙 荐 绝嚼聪促.
+	EndWindow 14798,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 14799,OK
+	Window_OK Item 19581 >= 1
+	KillItem 19581
+	AddGold 500
+
+############## ６殿阑 啊瘤绊 乐促 ##############
+block Item 19582 >= 1
+#\n\n　６殿 寸梅 绵窍钦聪促!\n　版前篮 50 Gold涝聪促. 券陛窍矫摆嚼聪鳖?
+	Window 14804,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 14797,OK
+	Window_YES Gold >= 999951
+#\n\n　歹 捞惑 啊龙 荐 绝嚼聪促.
+	EndWindow 14798,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 14799,OK
+	Window_OK Item 19582 >= 1
+	KillItem 19582
+	AddGold 50
+
+##########　歹矾况柳 畴目 力厚 1殿阑 啊瘤绊 乐促　##########
+block Item 18289 >= 1
+#\n\n　惑寸洒 歹矾况柳 力厚匙夸.\n捞贰急 寸梅登菌绰瘤 舅 荐 绝焙夸.\n瘤陛 皑沥窍摆栏聪 泪矫 扁促妨#林绞矫坷
+	Window 20646,OK
+
+	Window_OK
+	KillItem 18289
+#\n\n　ˇˇˇˇˇ\n\n　夸硫 绢栋绞聪鳖?ˇˇ\n\n　ˇˇˇˇ\n\n　阂版扁瘤夸.\n\n　ˇˇˇ
+	Window 20647,NEXT
+
+#\n\n　了价钦聪促, 扁促府继瘤夸.\n　酒鳖 罐篮 力厚狼 搬苞啊 唱吭嚼聪促.
+	Window 20648,NEXT
+
+#\n\n　坷! 坷~~~!!
+	Window 20649,OK
+	Window_OK
+	GiveItem 19577
+#\n\n　１殿 寸梅 绵窍钦聪促!\n　版前篮 300,000 Gold涝聪促. 券陛窍矫摆嚼聪鳖?
+	Window 14796,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 14797,OK
+	Window_YES Gold >= 700001
+#\n\n　歹 捞惑 啊龙 荐 绝嚼聪促.
+	EndWindow 14798,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 14799,OK
+	Window_OK Item 19577 >= 1
+	KillItem 19577
+	AddGold 300000
+
+##########　歹矾况柳 畴目 力厚 2殿阑 啊瘤绊 乐促　##########
+block Item 18290 >= 1
+#\n\n　惑寸洒 歹矾况柳 力厚匙夸.\n捞贰急 寸梅登菌绰瘤 舅 荐 绝焙夸.\n瘤陛 皑沥窍摆栏聪 泪矫 扁促妨#林绞矫坷
+	Window 20646,OK
+
+	Window_OK
+	KillItem 18290
+#\n\n　ˇˇˇˇˇ\n\n　夸硫 绢栋绞聪鳖?ˇˇ\n\n　ˇˇˇˇ\n\n　阂版扁瘤夸.\n\n　ˇˇˇ
+	Window 20647,NEXT
+
+#\n\n　了价钦聪促, 扁促府继瘤夸.\n　酒鳖 罐篮 力厚狼 搬苞啊 唱吭嚼聪促.
+	Window 20648,NEXT
+
+#\n\n　坷! 坷~~~!!
+	Window 20649,OK
+	Window_OK
+	GiveItem 19578
+#\n\n　２殿 寸梅 绵窍钦聪促!\n　版前篮 50,000 Gold涝聪促. 券陛窍矫摆嚼聪鳖?
+	Window 14800,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 14797,OK
+	Window_YES Gold >= 950001
+#\n\n　歹 捞惑 啊龙 荐 绝嚼聪促.
+	EndWindow 14798,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 14799,OK
+	Window_OK Item 19578 >= 1
+	KillItem 19578
+	AddGold 50000
+
+##########　歹矾况柳 畴目 力厚 3殿阑 啊瘤绊 乐促　##########
+block Item 18291 >= 1
+#\n\n　惑寸洒 歹矾况柳 力厚匙夸.\n捞贰急 寸梅登菌绰瘤 舅 荐 绝焙夸.\n瘤陛 皑沥窍摆栏聪 泪矫 扁促妨#林绞矫坷
+	Window 20646,OK
+
+	Window_OK
+	KillItem 18291
+#\n\n　ˇˇˇˇˇ\n\n　夸硫 绢栋绞聪鳖?ˇˇ\n\n　ˇˇˇˇ\n\n　阂版扁瘤夸.\n\n　ˇˇˇ
+	Window 20647,NEXT
+
+#\n\n　了价钦聪促, 扁促府继瘤夸.\n　酒鳖 罐篮 力厚狼 搬苞啊 唱吭嚼聪促.
+	Window 20648,NEXT
+
+#\n\n　坷! 坷~~~!!
+	Window 20649,OK
+	Window_OK
+	GiveItem 19579
+#\n\n　３殿 寸梅 绵窍钦聪促!\n　版前篮 5,000 Gold涝聪促. 券陛窍矫摆嚼聪鳖?
+	Window 14801,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 14797,OK
+	Window_YES Gold >= 995001
+#\n\n　歹 捞惑 啊龙 荐 绝嚼聪促.
+	EndWindow 14798,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 14799,OK
+	Window_OK Item 19579 >= 1
+	KillItem 19579
+	AddGold 5000
+
+##########　歹矾况柳 畴目 力厚 4殿阑 啊瘤绊 乐促　##########
+block Item 18292 >= 1
+#\n\n　惑寸洒 歹矾况柳 力厚匙夸.\n捞贰急 寸梅登菌绰瘤 舅 荐 绝焙夸.\n瘤陛 皑沥窍摆栏聪 泪矫 扁促妨#林绞矫坷
+	Window 20646,OK
+
+	Window_OK
+	KillItem 18292
+#\n\n　ˇˇˇˇˇ\n\n　夸硫 绢栋绞聪鳖?ˇˇ\n\n　ˇˇˇˇ\n\n　阂版扁瘤夸.\n\n　ˇˇˇ
+	Window 20647,NEXT
+
+#\n\n　了价钦聪促, 扁促府继瘤夸.\n　酒鳖 罐篮 力厚狼 搬苞啊 唱吭嚼聪促.
+	Window 20648,NEXT
+
+#\n\n　坷! 坷~~~!!
+	Window 20649,OK
+	Window_OK
+	GiveItem 19580
+#\n\n　４殿 寸梅 绵窍钦聪促!\n　版前篮 2,500 Gold涝聪促. 券陛窍矫摆嚼聪鳖?
+	Window 14802,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 14797,OK
+	Window_YES Gold >= 997501
+#\n\n　歹 捞惑 啊龙 荐 绝嚼聪促.
+	EndWindow 14798,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 14799,OK
+	Window_OK Item 19580 >= 1
+	KillItem 19580
+	AddGold 2500
+
+##########　歹矾况柳 畴目 力厚 5殿阑 啊瘤绊 乐促　##########
+block Item 18293 >= 1
+#\n\n　惑寸洒 歹矾况柳 力厚匙夸.\n捞贰急 寸梅登菌绰瘤 舅 荐 绝焙夸.\n瘤陛 皑沥窍摆栏聪 泪矫 扁促妨#林绞矫坷
+	Window 20646,OK
+
+	Window_OK
+	KillItem 18293
+#\n\n　ˇˇˇˇˇ\n\n　夸硫 绢栋绞聪鳖?ˇˇ\n\n　ˇˇˇˇ\n\n　阂版扁瘤夸.\n\n　ˇˇˇ
+	Window 20647,NEXT
+
+#\n\n　了价钦聪促, 扁促府继瘤夸.\n　酒鳖 罐篮 力厚狼 搬苞啊 唱吭嚼聪促.
+	Window 20648,NEXT
+
+#\n\n　坷! 坷~~~!!
+	Window 20649,OK
+	Window_OK
+	GiveItem 19581
+#\n\n　５殿 寸梅 绵窍钦聪促!\n　版前篮 500 Gold涝聪促. 券陛窍矫摆嚼聪鳖?
+	Window 14803,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 14797,OK
+	Window_YES Gold >= 999501
+#\n\n　歹 捞惑 啊龙 荐 绝嚼聪促.
+	EndWindow 14798,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 14799,OK
+	Window_OK Item 19581 >= 1
+	KillItem 19581
+	AddGold 500
+
+############## 绢蠢 巴档 啊瘤绊 乐瘤 臼促 ##############
+block
+#\n\n　咯扁绰 寸梅 畴目 力厚狼 背券家涝聪促.
+	EndWindow 14805,OK
+
+

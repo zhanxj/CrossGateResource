@@ -1,0 +1,25 @@
+#内胶纳(巩力 敲肺绢侩）
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+#block Job >= 151 && Job <=157
+#block StrCmpChat == R
+
+
+block StrCmpChat == R
+############################################
+#\n\n　ˇˇ
+	EndWindow 14090
+
+block StrCmpChat != 14127
+#撇啡绢! 促矫 档傈窍档废
+	leavegroup
+	Warp 0,2260,7,6
+
+
+############################################
+block StrCmpChat == 14127
+#沥翠! 促澜
+	leavegroup
+	Warp 0,2257,7,8
+
+

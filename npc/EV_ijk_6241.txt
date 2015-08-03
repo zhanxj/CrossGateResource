@@ -1,0 +1,22 @@
+#捞吝芒巩		21016 59 6	6241
+
+##### 困 亲肺俊辑 快 努腐茄 版快 #####
+block StrCmpChat == r && ypos < 6
+	#\n\n　芒巩狼 泪陛艰甫 钱搁 历琶 救俊 泪涝且 荐 乐阑 巴 鞍促.\n　郴何肺 泪涝窍摆嚼聪鳖?
+	Window 11989,YES,NO
+
+	Window_YES
+	Warp 0,21016,59,7
+
+	Window_NO
+
+##### 酒贰 烹肺俊辑 快 努腐茄 版快 #####
+block StrCmpChat == r && ypos > 6
+	#\n\n　芒巩狼 泪陛艰甫 钱搁 历琶狼 观栏肺 唱哎 荐 乐阑 巴 鞍促.\n　历琶狼 观栏肺 唱啊摆嚼聪鳖?
+	Window 11990,YES,NO
+
+	Window_YES
+	Warp 0,21016,59,5
+
+	Window_NO
+

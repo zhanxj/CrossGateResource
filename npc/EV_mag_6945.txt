@@ -1,0 +1,339 @@
+#
+#绢蠢 沥档 莫龋啊 棵扼啊 乐绰瘤 啊福媚林绰 NPC
+#炼弊付茄 咯磊酒捞
+#
+#15480
+#\n\n　庆俊? 货肺款 喊疙阑 罐扁 困秦 畴仿窍绊 乐绢? 弊繁 炼弊父 喊疙阑 格钎肺 窍促聪, 绢弗档 措窜且 芭 绝焙. 疟疟. 寸脚篮 凯缴捞瘤父 巩捞尔 阁俊霸辑 喊疙阑 罐扁浚 酒流 何练秦.
+#15481
+#\n\n　俊俊? 寸脚 喊疙 窍唱 罐栏妨绊 鞘荤利栏肺 畴仿窍绊 乐焙. 弊繁 吧 「捣苞 鼻仿俊 骂电 牢积」捞扼绊 茄促带单. 疟疟. 绢蠢 沥档搁 喊疙阑 罐阑 荐 乐衬绊? 畴仿崔己啦 1/4 沥档老鳖?
+#15482
+#\n\n　龋俊? 寸脚 酒流 畴仿窍绊 乐绢? 儒澜, 弊犯霸 喊疙阑 啊瘤绊 酵促搁 郴啊 嘿咯临鳖? 鞘夸 绝绢? 构具, 「局茄抛 酒何窍绰 绢弗」牢 林力俊. 促澜 喊疙鳖瘤? 酒付档 绊厚绰 逞板瘤 臼阑鳖? 阁捞尔 巩焊促 郴 率捞 喊疙狼 季胶啊 乐摆瘤父 富捞具. 「价面捞甫 零绊 急 咯磊」扼绰 扒 绢锭~? 「绊喉赴苞 勉眠绰 巢磊」? 饺绢? 寐.
+#15483
+#\n\n　绢扼? 救崇 酒梅槽. 寸脚狼 货肺款 喊疙捞具. 「酒梅槽 @n」. 亮篮 喊疙捞焙. 皑悼且 沥档具. 饺绢? 酒, 弊贰. 开矫 巩捞尔 阁 率捞 亮篮 芭焙. 季胶 绝绢, 寸脚. 构, 弊父怒 畴仿沁栏聪 促澜 喊疙鳖瘤 弊犯霸 钢柳 臼瘤 臼摆绢? 绢弗狼 技拌绰 荐荐膊尝具. 喊疙栏肺 免技啊 搬沥登绰 芭焙.
+
+######################################################################
+#	傈捧拌
+######################################################################
+##如甸府绰 绢赴 钱~加昏捞绰 畴阀家府 +5000（0%~25%）+1250
+block Job >= 11 && Job <= 167 && Fame >= 5001 && Fame <= 6250 && HaveTitle == 6
+	EndWindow 15480,OK
+##如甸府绰 绢赴 钱~加昏捞绰 畴阀家府 +5000（26%~50%）
+block Job >= 11 && Job <= 167 && Fame >= 6251 && Fame <= 7500 && HaveTitle == 6
+	EndWindow 15481,OK
+##如甸府绰 绢赴 钱~加昏捞绰 畴阀家府 +5000（51%~75%）
+block Job >= 11 && Job <= 167 && Fame >= 7501 && Fame <= 8750 && HaveTitle == 6
+	EndWindow 15482,OK
+##如甸府绰 绢赴 钱~加昏捞绰 畴阀家府 +5000（76%~99%）
+block Job >= 11 && Job <= 167 && Fame >= 8751 && Fame <= 9999 && HaveTitle == 6
+	EndWindow 15483,OK
+
+##加昏捞绰 畴阀家府~顶俊 崔 弊覆磊 +10000（0%~25%）+2500
+block Job >= 11 && Job <= 167 && Fame >= 10001 && Fame <= 12500 && HaveTitle == 7
+	EndWindow 15480,OK
+##加昏捞绰 畴阀家府~顶俊 崔 弊覆磊 +10000（26%~50%）
+block Job >= 11 && Job <= 167 && Fame >= 12501 && Fame <= 15000 && HaveTitle == 7
+	EndWindow 15481,OK
+##加昏捞绰 畴阀家府~顶俊 崔 弊覆磊 +10000（51%~75%）
+block Job >= 11 && Job <= 167 && Fame >= 15001 && Fame <= 17500 && HaveTitle == 7
+	EndWindow 15482,OK
+##加昏捞绰 畴阀家府~顶俊 崔 弊覆磊 +10000（76%~99%）
+block Job >= 11 && Job <= 167 && Fame >= 17501 && Fame <= 19999 && HaveTitle == 7
+	EndWindow 15483,OK
+
+##顶俊 崔 弊覆磊~阂绢啊绰 航官恩 +13000（0%~25%）+3250
+block Job >= 11 && Job <= 167 && Fame >= 20001 && Fame <= 23250 && HaveTitle == 8
+	EndWindow 15480,OK
+##顶俊 崔 弊覆磊~阂绢啊绰 航官恩 +13000（26%~50%）
+block Job >= 11 && Job <= 167 && Fame >= 23251 && Fame <= 26500 && HaveTitle == 8
+	EndWindow 15481,OK
+##顶俊 崔 弊覆磊~阂绢啊绰 航官恩 +13000（51%~75%）
+block Job >= 11 && Job <= 167 && Fame >= 26501 && Fame <= 29750 && HaveTitle == 8
+	EndWindow 15482,OK
+##顶俊 崔 弊覆磊~阂绢啊绰 航官恩 +13000（76%~99%）
+block Job >= 11 && Job <= 167 && Fame >= 29751 && Fame <= 32999 && HaveTitle == 8
+	EndWindow 15483,OK
+
+##阂绢啊绰 航官恩~仟弗 浅款 +17000（0%~25%）+4250
+block Job >= 11 && Job <= 167 && Fame >= 33001 && Fame <= 37250 && HaveTitle == 9
+	EndWindow 15480,OK
+##阂绢啊绰 航官恩~仟弗 浅款 +17000（26%~50%）
+block Job >= 11 && Job <= 167 && Fame >= 37251 && Fame <= 41500 && HaveTitle == 9
+	EndWindow 15481,OK
+##阂绢啊绰 航官恩~仟弗 浅款 +17000（51%~75%）
+block Job >= 11 && Job <= 167 && Fame >= 41501 && Fame <= 45750 && HaveTitle == 9
+	EndWindow 15482,OK
+##阂绢啊绰 航官恩~仟弗 浅款 +17000（76%~99%）
+block Job >= 11 && Job <= 167 && Fame >= 45751 && Fame <= 49999 && HaveTitle == 9
+	EndWindow 15483,OK
+
+##仟弗 浅款~辨霸 桓篮 陛己 +20000（0%~25%）+5000
+block Job >= 11 && Job <= 167 && Fame >= 50001 && Fame <= 55000 && HaveTitle == 10
+	EndWindow 15480,OK
+##仟弗 浅款~辨霸 桓篮 陛己 +20000（26%~50%）
+block Job >= 11 && Job <= 167 && Fame >= 55001 && Fame <= 60000 && HaveTitle == 10
+	EndWindow 15481,OK
+##仟弗 浅款~辨霸 桓篮 陛己 +20000（51%~75%）
+block Job >= 11 && Job <= 167 && Fame >= 60001 && Fame <= 65000 && HaveTitle == 10
+	EndWindow 15482,OK
+##仟弗 浅款~辨霸 桓篮 陛己 +20000（76%~99%）
+block Job >= 11 && Job <= 167 && Fame >= 65001 && Fame <= 69999 && HaveTitle == 10
+	EndWindow 15483,OK
+
+##辨霸 桓篮 陛己~券锐狼 磊快 +30000（0%~25%）+7500
+block Job >= 11 && Job <= 167 && Fame >= 70001 && Fame <= 77500 && HaveTitle == 11
+	EndWindow 15480,OK
+##辨霸 桓篮 陛己~券锐狼 磊快 +30000（26%~50%）
+block Job >= 11 && Job <= 167 && Fame >= 77501 && Fame <= 85000 && HaveTitle == 11
+	EndWindow 15481,OK
+##辨霸 桓篮 陛己~券锐狼 磊快 +30000（51%~75%）
+block Job >= 11 && Job <= 167 && Fame >= 85001 && Fame <= 92500 && HaveTitle == 11
+	EndWindow 15482,OK
+##辨霸 桓篮 陛己~券锐狼 磊快 +30000（76%~99%）
+block Job >= 11 && Job <= 167 && Fame >= 92501 && Fame <= 99999 && HaveTitle == 11
+	EndWindow 15483,OK
+
+######################################################################
+#	八流牢~距力荤
+######################################################################
+##扁贱阑 篡绰 磊~疙俊 脚岿 +1000（0%~25%）+250
+block Job >= 201 && Job <= 367 && Fame >= 3001 && Fame <= 3250 && HaveTitle == 53
+	EndWindow 15480,OK
+##扁贱阑 篡绰 磊~疙俊 脚岿 +1000（26%~50%）
+block Job >= 201 && Job <= 367 && Fame >= 3251 && Fame <= 3500 && HaveTitle == 53
+	EndWindow 15481,OK
+##扁贱阑 篡绰 磊~疙俊 脚岿 +1000（51%~75%）
+block Job >= 201 && Job <= 367 && Fame >= 3501 && Fame <= 3750 && HaveTitle == 53
+	EndWindow 15482,OK
+##扁贱阑 篡绰 磊~疙俊 脚岿 +1000（76%~99%）
+block Job >= 201 && Job <= 367 && Fame >= 3751 && Fame <= 3999 && HaveTitle == 53
+	EndWindow 15483,OK
+
+##疙俊 脚岿~厘吝狼 焊苛 +2000（0%~25%）+500
+block Job >= 201 && Job <= 367 && Fame >= 4001 && Fame <= 4500 && HaveTitle == 54
+	EndWindow 15480,OK
+##疙俊 脚岿~厘吝狼 焊苛 +2000（26%~50%）
+block Job >= 201 && Job <= 367 && Fame >= 4501 && Fame <= 5000 && HaveTitle == 54
+	EndWindow 15481,OK
+##疙俊 脚岿~厘吝狼 焊苛 +2000（51%~75%）
+block Job >= 201 && Job <= 367 && Fame >= 5001 && Fame <= 5500 && HaveTitle == 54
+	EndWindow 15482,OK
+##疙俊 脚岿~厘吝狼 焊苛 +2000（76%~99%）
+block Job >= 201 && Job <= 367 && Fame >= 5501 && Fame <= 5999 && HaveTitle == 54
+	EndWindow 15483,OK
+
+##厘吝狼 焊苛~版扒茄 扁贱 +3000（0%~25%）+750
+block Job >= 201 && Job <= 367 && Fame >= 6001 && Fame <= 6750 && HaveTitle == 55
+	EndWindow 15480,OK
+##厘吝狼 焊苛~版扒茄 扁贱 +3000（26%~50%）
+block Job >= 201 && Job <= 367 && Fame >= 6751 && Fame <= 7500 && HaveTitle == 55
+	EndWindow 15481,OK
+##厘吝狼 焊苛~版扒茄 扁贱 +3000（51%~75%）
+block Job >= 201 && Job <= 367 && Fame >= 7501 && Fame <= 8250 && HaveTitle == 55
+	EndWindow 15482,OK
+##厘吝狼 焊苛~版扒茄 扁贱 +3000（76%~99%）
+block Job >= 201 && Job <= 367 && Fame >= 8251 && Fame <= 8999 && HaveTitle == 55
+	EndWindow 15483,OK
+
+##版扒茄 扁贱~脚俊 甸促 +5000（0%~25%）+1250
+block Job >= 201 && Job <= 367 && Fame >= 9001 && Fame <= 10250 && HaveTitle == 56
+	EndWindow 15480,OK
+##版扒茄 扁贱~脚俊 甸促 +5000（26%~50%）
+block Job >= 201 && Job <= 367 && Fame >= 10251 && Fame <= 11500 && HaveTitle == 56
+	EndWindow 15481,OK
+##版扒茄 扁贱~脚俊 甸促 +5000（51%~75%）
+block Job >= 201 && Job <= 367 && Fame >= 11501 && Fame <= 12750 && HaveTitle == 56
+	EndWindow 15482,OK
+##版扒茄 扁贱~脚俊 甸促 +5000（76%~99%）
+block Job >= 201 && Job <= 367 && Fame >= 12751 && Fame <= 13999 && HaveTitle == 56
+	EndWindow 15483,OK
+
+##脚俊 甸促~抗瘤甫 阶绰 磊 +6000（0%~25%）+1500
+block Job >= 201 && Job <= 367 && Fame >= 14001 && Fame <= 15500 && HaveTitle == 57
+	EndWindow 15480,OK
+##脚俊 甸促~抗瘤甫 阶绰 磊 +6000（26%~50%）
+block Job >= 201 && Job <= 367 && Fame >= 15501 && Fame <= 17000 && HaveTitle == 57
+	EndWindow 15481,OK
+##脚俊 甸促~抗瘤甫 阶绰 磊 +6000（51%~75%）
+block Job >= 201 && Job <= 367 && Fame >= 17001 && Fame <= 18500 && HaveTitle == 57
+	EndWindow 15482,OK
+##脚俊 甸促~抗瘤甫 阶绰 磊 +6000（76%~99%）
+block Job >= 201 && Job <= 367 && Fame >= 18501 && Fame <= 19999 && HaveTitle == 57
+	EndWindow 15483,OK
+
+##抗瘤甫 阶绰 磊~脚厘 +9000（0%~25%）+2250
+block Job >= 201 && Job <= 367 && Fame >= 20001 && Fame <= 22250 && HaveTitle == 58
+	EndWindow 15480,OK
+##抗瘤甫 阶绰 磊~脚厘 +9000（26%~50%）
+block Job >= 201 && Job <= 367 && Fame >= 22251 && Fame <= 24500 && HaveTitle == 58
+	EndWindow 15481,OK
+##抗瘤甫 阶绰 磊~脚厘 +9000（51%~75%）
+block Job >= 201 && Job <= 367 && Fame >= 24501 && Fame <= 26750 && HaveTitle == 58
+	EndWindow 15482,OK
+##抗瘤甫 阶绰 磊~脚厘 +9000（76%~99%）
+block Job >= 201 && Job <= 367 && Fame >= 26751 && Fame <= 28999 && HaveTitle == 58
+	EndWindow 15483,OK
+
+######################################################################
+#	荐府流牢~狼荤
+######################################################################
+##扁贱阑 篡绰 磊~疙俊 脚岿 +2000（0%~25%）+500
+block Job >= 371 && Job <= 447 && Fame >= 4001 && Fame <= 4500 && HaveTitle == 53
+	EndWindow 15480,OK
+##扁贱阑 篡绰 磊~疙俊 脚岿 +2000（26%~50%）
+block Job >= 371 && Job <= 447 && Fame >= 4501 && Fame <= 5000 && HaveTitle == 53
+	EndWindow 15481,OK
+##扁贱阑 篡绰 磊~疙俊 脚岿 +2000（51%~75%）
+block Job >= 371 && Job <= 447 && Fame >= 5001 && Fame <= 5500 && HaveTitle == 53
+	EndWindow 15482,OK
+##扁贱阑 篡绰 磊~疙俊 脚岿 +2000（76%~99%）
+block Job >= 371 && Job <= 447 && Fame >= 5501 && Fame <= 6000 && HaveTitle == 53
+	EndWindow 15483,OK
+
+##疙俊 脚岿~厘吝狼 焊苛 +3000（0%~25%）+750
+block Job >= 371 && Job <= 447 && Fame >= 6001 && Fame <= 6750 && HaveTitle == 54
+	EndWindow 15480,OK
+##疙俊 脚岿~厘吝狼 焊苛 +2000（26%~50%）
+block Job >= 371 && Job <= 447 && Fame >= 6751 && Fame <= 7500 && HaveTitle == 54
+	EndWindow 15481,OK
+##疙俊 脚岿~厘吝狼 焊苛 +2000（51%~75%）
+block Job >= 371 && Job <= 447 && Fame >= 7501 && Fame <= 8250 && HaveTitle == 54
+	EndWindow 15482,OK
+##疙俊 脚岿~厘吝狼 焊苛 +2000（76%~99%）
+block Job >= 371 && Job <= 447 && Fame >= 8251 && Fame <= 8999 && HaveTitle == 54
+	EndWindow 15483,OK
+
+##厘吝狼 焊苛~版扒茄 扁贱 +4000（0%~25%）+1000
+block Job >= 371 && Job <= 447 && Fame >= 9001 && Fame <= 10000 && HaveTitle == 55
+	EndWindow 15480,OK
+##厘吝狼 焊苛~版扒茄 扁贱 +3000（26%~50%）
+block Job >= 371 && Job <= 447 && Fame >= 10001 && Fame <= 11000 && HaveTitle == 55
+	EndWindow 15481,OK
+##厘吝狼 焊苛~版扒茄 扁贱 +3000（51%~75%）
+block Job >= 371 && Job <= 447 && Fame >= 11001 && Fame <= 12000 && HaveTitle == 55
+	EndWindow 15482,OK
+##厘吝狼 焊苛~版扒茄 扁贱 +3000（76%~99%）
+block Job >= 371 && Job <= 447 && Fame >= 12001 && Fame <= 12999 && HaveTitle == 55
+	EndWindow 15483,OK
+
+##版扒茄 扁贱~脚俊 甸促 +6000（0%~25%）+1500
+block Job >= 371 && Job <= 447 && Fame >= 13000 && Fame <= 14500 && HaveTitle == 56
+	EndWindow 15480,OK
+##版扒茄 扁贱~脚俊 甸促 +5000（26%~50%）
+block Job >= 371 && Job <= 447 && Fame >= 14501 && Fame <= 16000 && HaveTitle == 56
+	EndWindow 15481,OK
+##版扒茄 扁贱~脚俊 甸促 +5000（51%~75%）
+block Job >= 371 && Job <= 447 && Fame >= 16001 && Fame <= 17500 && HaveTitle == 56
+	EndWindow 15482,OK
+##版扒茄 扁贱~脚俊 甸促 +5000（76%~99%）
+block Job >= 371 && Job <= 447 && Fame >= 17501 && Fame <= 18999 && HaveTitle == 56
+	EndWindow 15483,OK
+
+##脚俊 甸促~抗瘤甫 阶绰 磊 +8000（0%~25%）+2000
+block Job >= 371 && Job <= 447 && Fame >= 19001 && Fame <= 21000 && HaveTitle == 57
+	EndWindow 15480,OK
+##脚俊 甸促~抗瘤甫 阶绰 磊 +6000（26%~50%）
+block Job >= 371 && Job <= 447 && Fame >= 21001 && Fame <= 23000 && HaveTitle == 57
+	EndWindow 15481,OK
+##脚俊 甸促~抗瘤甫 阶绰 磊 +6000（51%~75%）
+block Job >= 371 && Job <= 447 && Fame >= 23001 && Fame <= 25000 && HaveTitle == 57
+	EndWindow 15482,OK
+##脚俊 甸促~抗瘤甫 阶绰 磊 +6000（76%~99%）
+block Job >= 371 && Job <= 447 && Fame >= 25001 && Fame <= 26999 && HaveTitle == 57
+	EndWindow 15483,OK
+
+##抗瘤甫 阶绰 磊~脚厘 +10000（0%~25%）+2500
+block Job >= 371 && Job <= 447 && Fame >= 27001 && Fame <= 29500 && HaveTitle == 58
+	EndWindow 15480,OK
+##抗瘤甫 阶绰 磊~脚厘 +9000（26%~50%）
+block Job >= 371 && Job <= 447 && Fame >= 29501 && Fame <= 32000 && HaveTitle == 58
+	EndWindow 15481,OK
+##抗瘤甫 阶绰 磊~脚厘 +9000（51%~75%）
+block Job >= 371 && Job <= 447 && Fame >= 32001 && Fame <= 34500 && HaveTitle == 58
+	EndWindow 15482,OK
+##抗瘤甫 阶绰 磊~脚厘 +9000（76%~99%）
+block Job >= 371 && Job <= 447 && Fame >= 34501 && Fame <= 36999 && HaveTitle == 58
+	EndWindow 15480,OK
+
+######################################################################
+#	唱公槽~堡何
+######################################################################
+##扁贱阑 篡绰 磊~疙俊 脚岿 +500（0%~25%）+125
+block Job >= 451 && Job <= 477 && Fame >= 2501 && Fame <= 2625 && HaveTitle == 53
+	EndWindow 15480,OK
+##扁贱阑 篡绰 磊~疙俊 脚岿 +2000（26%~50%）
+block Job >= 451 && Job <= 477 && Fame >= 2626 && Fame <= 2750 && HaveTitle == 53
+	EndWindow 15481,OK
+##扁贱阑 篡绰 磊~疙俊 脚岿 +2000（51%~75%）
+block Job >= 451 && Job <= 477 && Fame >= 2751 && Fame <= 2875 && HaveTitle == 53
+	EndWindow 15482,OK
+##扁贱阑 篡绰 磊~疙俊 脚岿 +2000（76%~99%）
+block Job >= 451 && Job <= 477 && Fame >= 2876 && Fame <= 2999 && HaveTitle == 53
+	EndWindow 15483,OK
+
+##疙俊 脚岿~厘吝狼 焊苛 +1500（0%~25%）+375
+block Job >= 451 && Job <= 477 && Fame >= 3001 && Fame <= 3375 && HaveTitle == 54
+	EndWindow 15480,OK
+##疙俊 脚岿~厘吝狼 焊苛 +2000（26%~50%）
+block Job >= 451 && Job <= 477 && Fame >= 3376 && Fame <= 3750 && HaveTitle == 54
+	EndWindow 15481,OK
+##疙俊 脚岿~厘吝狼 焊苛 +2000（51%~75%）
+block Job >= 451 && Job <= 477 && Fame >= 3751 && Fame <= 4125 && HaveTitle == 54
+	EndWindow 15482,OK
+##疙俊 脚岿~厘吝狼 焊苛 +2000（76%~99%）
+block Job >= 451 && Job <= 477 && Fame >= 4126 && Fame <= 4499 && HaveTitle == 54
+	EndWindow 15483,OK
+
+##厘吝狼 焊苛~版扒茄 扁贱 +3500（0%~25%）+875
+block Job >= 451 && Job <= 477 && Fame >= 4501 && Fame <= 5375 && HaveTitle == 55
+	EndWindow 15480,OK
+##厘吝狼 焊苛~版扒茄 扁贱 +3000（26%~50%）
+block Job >= 451 && Job <= 477 && Fame >= 5376 && Fame <= 6250 && HaveTitle == 55
+	EndWindow 15481,OK
+##厘吝狼 焊苛~版扒茄 扁贱 +3000（51%~75%）
+block Job >= 451 && Job <= 477 && Fame >= 6251 && Fame <= 7125 && HaveTitle == 55
+	EndWindow 15482,OK
+##厘吝狼 焊苛~版扒茄 扁贱 +3000（76%~99%）
+block Job >= 451 && Job <= 477 && Fame >= 7126 && Fame <= 7999 && HaveTitle == 55
+	EndWindow 15483,OK
+
+##版扒茄 扁贱~脚俊 甸促 +4000（0%~25%）+1000
+block Job >= 451 && Job <= 477 && Fame >= 8001 && Fame <= 9000 && HaveTitle == 56
+	EndWindow 15480,OK
+##版扒茄 扁贱~脚俊 甸促 +5000（26%~50%）
+block Job >= 451 && Job <= 477 && Fame >= 9001 && Fame <= 10000 && HaveTitle == 56
+	EndWindow 15481,OK
+##版扒茄 扁贱~脚俊 甸促 +5000（51%~75%）
+block Job >= 451 && Job <= 477 && Fame >= 10001 && Fame <= 11000 && HaveTitle == 56
+	EndWindow 15482,OK
+##版扒茄 扁贱~脚俊 甸促 +5000（76%~99%）
+block Job >= 451 && Job <= 477 && Fame >= 11001 && Fame <= 11999 && HaveTitle == 56
+	EndWindow 15483,OK
+
+##脚俊 甸促~抗瘤甫 阶绰 磊 +5000（0%~25%）+1250
+block Job >= 451 && Job <= 477 && Fame >= 12001 && Fame <= 13250 && HaveTitle == 57
+	EndWindow 15480,OK
+##脚俊 甸促~抗瘤甫 阶绰 磊 +6000（26%~50%）
+block Job >= 451 && Job <= 477 && Fame >= 13251 && Fame <= 14500 && HaveTitle == 57
+	EndWindow 15481,OK
+##脚俊 甸促~抗瘤甫 阶绰 磊 +6000（51%~75%）
+block Job >= 451 && Job <= 477 && Fame >= 14501 && Fame <= 15750 && HaveTitle == 57
+	EndWindow 15482,OK
+##脚俊 甸促~抗瘤甫 阶绰 磊 +6000（76%~99%）
+block Job >= 451 && Job <= 477 && Fame >= 15751 && Fame <= 16999 && HaveTitle == 57
+	EndWindow 15483,OK
+
+##抗瘤甫 阶绰 磊~脚厘 +8000（0%~25%）+2000
+block Job >= 451 && Job <= 477 && Fame >= 17001 && Fame <= 19000 && HaveTitle == 58
+	EndWindow 15480,OK
+##抗瘤甫 阶绰 磊~脚厘 +9000（26%~50%）
+block Job >= 451 && Job <= 477 && Fame >= 19001 && Fame <= 21000 && HaveTitle == 58
+	EndWindow 15481,OK
+##抗瘤甫 阶绰 磊~脚厘 +9000（51%~75%）
+block Job >= 451 && Job <= 477 && Fame >= 21001 && Fame <= 23000 && HaveTitle == 58
+	EndWindow 15482,OK
+##抗瘤甫 阶绰 磊~脚厘 +9000（76%~99%）
+block Job >= 451 && Job <= 477 && Fame >= 23001 && Fame <= 24999 && HaveTitle == 58
+	EndWindow 15483,OK
+
+
+

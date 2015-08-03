@@ -1,0 +1,14 @@
+#
+#配虐明唱扁狼 籍魄
+#
+
+##############  ##############
+block
+#\n\n　郴 蜡趣俊 蝶甫刨啊ˇˇ
+	Window 14793,YES,NO
+	Window_YES
+	LeaveGroup
+	Warp 0,4335,14,7
+	Window_NO
+
+

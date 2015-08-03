@@ -1,0 +1,23 @@
+#
+#氓厘（技饭匙 合何 公牢坷滴阜） 
+#
+
+##############  ##############
+block Item 18571 == 1
+#\n\n\n\n@c　捞惑茄 巴篮 酒囱 巴 鞍促.
+	EndWindow 15246,OK
+
+##############  ##############
+block
+#\n\n　氓厘捞 乐促. 炼荤窍摆嚼聪鳖?
+	Window 15171,YES,NO
+	Window_YES ItemSpace != 0 && Item 18571 == 0
+	GiveItem 18571
+#\n\n　佬阑 荐 绝绰 巩磊肺 静咯柳 坷贰等 氓阑 颊俊 持菌促.
+	EndWindow 15172,OK
+	Window_YES
+#\n\n　购啊 氓捞 乐瘤父 歹 捞惑 啊龙 荐 绝促.
+	EndWindow 15173,OK
+	Window_NO
+
+

@@ -1,0 +1,115 @@
+#
+#墨骸努 力厚 背券
+#
+
+############## １殿阑 啊瘤绊 乐促 ##############
+block Item 19599 >= 1
+#\n\n　寸梅 绵窍 靛赋聪促! 版前篮\n@cＱ颇明\n　涝聪促. 背券窍矫摆嚼聪鳖?
+	Window 15460,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 15461,OK
+	Window_YES ItemSpace == 0
+#\n\n　歹 捞惑 啊瘤角 荐 绝嚼聪促.
+	EndWindow 15462,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 15463,OK
+	Window_OK Item 19599 >= 1
+	KillItem 19599
+	GiveLeak1Item 18658,1
+
+############## ２殿阑 啊瘤绊 乐促 ##############
+block Item 19600 >= 1
+#\n\n　寸梅 绵窍 靛赋聪促! 版前篮\n　笼 瞒侩鼻府辑\n　涝聪促. 背券窍矫摆嚼聪鳖?
+#\n\n　寸梅 绵窍 靛赋聪促! 版前篮\n@c磊蓖牢屈\n@c绊喉府扒 牢屈\n　吝 窍唱 罚待涝聪促. 背券窍矫摆嚼聪鳖?
+#	Window 15464,YES,NO
+	Window 15486,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 15461,OK
+	Window_YES ItemSpace == 0
+#\n\n　歹 捞惑 啊瘤角 荐 绝嚼聪促.
+	EndWindow 15462,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 15463,OK
+	Window_OK Item 19600 >= 1
+	KillItem 19600
+#	GiveItem 19523,1
+	GiveLeak1Item (18690%1$1,18693%1$1)
+
+############## ３殿阑 啊瘤绊 乐促 ##############
+block Item 19601 >= 1
+#\n\n　寸梅 绵窍 靛赋聪促! 版前篮\n@c鸥款 霸捞飘 橇府菩胶\n@c贰乔靛 固雇 汲拌档 背券鼻\n@cＯ颇明\n@c家必利牢 鼻\n　吝 窍唱 罚待涝聪促. 背券窍矫摆嚼聪鳖?
+	Window 15465,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 15461,OK
+	Window_YES ItemSpace == 0
+#\n\n　歹 捞惑 啊瘤角 荐 绝嚼聪促.
+	EndWindow 15462,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 15463,OK
+	Window_OK Item 19601 >= 1
+	KillItem 19601
+	GiveLeak1Item (18698%1$1,18699%1$1,18660%1$1,18661%1$1)
+
+############## ４殿阑 啊瘤绊 乐促 ##############
+block Item 19602 >= 1
+#\n\n　寸梅 绵窍 靛赋聪促! 版前篮\n@c咯岿瘤荤扼\n　涝聪促. 背券窍矫摆嚼聪鳖?
+	Window 15466,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 15461,OK
+	Window_YES ItemSpace == 0
+#\n\n　歹 捞惑 啊瘤角 荐 绝嚼聪促.
+	EndWindow 15462,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 15463,OK
+	Window_OK Item 19602 >= 1
+	KillItem 19602
+	GiveLeak1Item 18662,1
+
+############## ５殿阑 啊瘤绊 乐促 ##############
+block Item 19603 >= 1
+#\n\n　寸梅 绵窍 靛赋聪促! 版前篮\n@c府辣 傅（葛炼前）\n@c酒箕橇 傅（葛炼前）\n@c荤儡墨 傅（葛炼前）\n@c惯纳胶狼 何利（葛炼前）\n@c饭瘤胶帕胶狼 刘钎（1/144）\n　吝 窍唱 罚待涝聪促. 背券窍矫摆嚼聪鳖?
+	Window 15467,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 15461,OK
+	Window_YES ItemSpace == 0
+#\n\n　歹 捞惑 啊瘤角 荐 绝嚼聪促.
+	EndWindow 15462,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 15463,OK
+	Window_OK Item 19603 >= 1
+	KillItem 19603
+	GiveLeak1Item (18665%1$1,18666%1$1,18667%1$1,18668%1$1,18669%1$1)
+
+############## ５殿阑 啊瘤绊 乐促 ##############
+block Item 19604 >= 1
+#\n\n　寸梅 绵窍 靛赋聪促! 版前篮\n@c等厘惫\n　涝聪促. 背券窍矫摆嚼聪鳖?
+	Window 15468,YES,NO
+	Window_NO
+#\n\n　肚 坷绞矫坷.
+	EndWindow 15461,OK
+	Window_YES ItemSpace == 0
+#\n\n　歹 捞惑 啊瘤角 荐 绝嚼聪促.
+	EndWindow 15462,OK
+	Window_YES
+#\n\n　皑荤钦聪促.
+	Window 15463,OK
+	Window_OK Item 19604 >= 1
+	KillItem 19604
+	GiveLeak1Item 18670,1
+
+############## 绢恫 巴档 啊瘤绊 乐瘤 臼促 ##############
+block
+#\n\n　咯扁绰 墨骸努 力厚狼 背券家涝聪促.
+	EndWindow 15469,OK
+
+

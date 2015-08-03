@@ -1,0 +1,56 @@
+#鸥匙付葛扼 涅胶飘：矫虐固１
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###########　府橇 器飘甫 啊瘤绊 乐促　##############
+block Item 18871 >= 1 || Item 18872 >= 1
+	EndWindow 206030,OK
+
+###########　蜡前狼 揪狙阑 啊瘤绊 乐促　##############
+block Item 18794 >= 1
+	EndWindow 206029,OK
+
+##################################################
+block nowevent36 == 1 || endevent37 == 1 || nowevent37 == 1
+	EndWindow 206022,OK
+block endevent36 == 1
+	EndWindow 206028,OK
+###########　矫虐固狼 狼汾辑甫 啊瘤绊 乐促　##############
+block Item 18793 >= 1
+	Window 206023,YES,NO
+
+	Window_YES
+	Window 206024,OK
+	Window_OK
+	leavegroup
+	KillItem 18793
+	nowevent36 = 1
+
+	Window_NO
+	Window 206025,NEXT
+	Window 206026,NEXT
+	Window 206027,NEXT
+	Window 206028,OK
+	Window_OK
+	leavegroup
+	KillItem 18793
+	endevent36 = 1
+
+
+###########　具付葛葛狼 何明甫 啊瘤绊 乐促　##############
+#block Item 18791 >= 1
+#	Window 206022,OK
+#	Window_OK
+#	Killitem 18791
+#
+###########　府夯阑 啊瘤绊 乐促　##############
+block Item 18790 >= 1
+	Window 206021,OK
+	Window_OK
+	leavegroup
+	Killitem 18790
+
+###########　酒公巴档 绝澜　##############
+block
+	EndWindow 206020,OK
+

@@ -1,0 +1,39 @@
+#券惑傈扁ㄧ　饭瘤胶帕胶　力档 酒胶魄 瘤窍
+#
+
+########## 『秦林狼 过』阑 啊瘤绊 乐瘤 臼促 ##########
+block Item 18444 == 0
+#\n\n　府辣丛捞 扁促府绊 拌绞聪促.
+	EndWindow 14612,OK
+
+########## 距档 澜侥档 啊瘤绊 乐瘤 臼促 ##########
+block drugdish == 0 && Item 18444 != 0
+#\n\n　炼缴窍技夸.
+	Window 14613,YES,NO
+	Window_YES drugdish == 0 && Item 18444 != 0
+	leavegroup
+	killdrugdish
+	Warp 0,23003,40,21
+	Window_YES  drugdish != 0
+#\n\n　绢扼? 捞芭 何殴沁带 焊鞭拱磊肺焙夸?
+	Window 14617,OK
+	Window_OK
+	Window_NO
+
+########## 距档 澜侥档 啊瘤绊 乐促 ##########
+block drugdish != 0
+#\n\n　焊鞭拱磊甫 炼崔窍蠢扼 荐绊窍继嚼聪促. 捞父怒 距捞唱 澜侥捞 乐栏搁 搬傈鳖瘤 绢痘霸电 轿匡荐 乐阑 巴 鞍嚼聪促. 捞芭 傈何 罐酒档 登摆瘤夸?
+	Window 14614,YES,NO
+	Window_YES
+#\n\n　皑荤钦聪促. 炼缴窍技夸.
+	Window 14615,OK
+	Window_OK
+	killdrugdish
+	leavegroup
+	Warp 0,23003,40,21
+
+	Window_NO
+#\n\n　绢扼? 府辣丛膊辑 傈何 罐栏扼绊 富靖窍继嚼聪促父ˇˇ
+	EndWindow 14616,OK
+
+

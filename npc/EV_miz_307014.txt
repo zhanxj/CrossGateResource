@@ -1,0 +1,27 @@
+#鸥匙付葛扼 涅胶飘：单胶葛胶狼 功格
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###########　捞亥飘 柳青 吝阑 啊瘤绊 乐促　##############
+block Item 18790 >= 1 || Item 18791 >= 1 || Item 18792 >= 1 || Item 18793 >= 1 || Item 18794 >= 1 || nowevent36 == 1 || nowevent37 == 1 || endevent36 == 1 || endevent37 == 1
+	EndWindow 206054,OK
+
+###########　nowflg35　##############
+block nowevent35 == 1 || endevent35 == 1
+
+	Window 206055,YES,NO
+	Window_YES
+	Window 206056,OK
+	Window_OK Itemspace >= 1
+	GiveItem 18790
+	Window_OK Itemspace == 0
+	EndWindow 206147,OK
+	Window_NO
+	EndWindow 206057,OK
+
+###########　酒公巴档 绝澜　##############
+block
+
+	EndWindow 206054,OK
+
+

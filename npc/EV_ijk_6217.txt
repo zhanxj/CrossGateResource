@@ -1,0 +1,113 @@
+#流牢 珐农 诀Ａ捞亥飘　2瞒矫氰包（皑沥）
+
+#皑沥流牢, 珐农A, 弊缝
+#block Job >= 384 && Group >= 2 && EndEvent 91 == 1
+#	#\n\n　磊匙绰 捞固 空泵流牢狼 磊拜矫氰俊 钦拜茄 巴 鞍篮单, 酒流 珐农 诀阑 给茄 流牢阑 辑器飘窍矾 柯 扒啊？\n　父距 弊犯促搁, YES 滚瓢阑 穿福霸. 2瞒矫氰 措雀厘栏肺 焊郴林瘤.
+#	Window 17016,YES,NO
+
+#	Window_YES Job >= 384 && Group >= 2 && EndEvent 91 == 1
+#	Warp 0,4421,8,10
+
+#	Window_NO
+
+#皑沥流牢, 珐农A
+#block Job >= 384 && EndEvent 91 == 1
+#	#\n\n　磊匙绰 捞固 空泵流牢狼 磊拜矫氰俊 钦拜茄 巴 鞍焙. 酒流 珐农 诀阑 给茄 流牢阑 辑器飘窍矾 柯 芭扼搁, 弊缝阑 捞风绊 郴霸 富阑 吧档废.
+#	EndWindow 17020
+
+##########　NowEvent叼滚弊侩　##########
+block NowEvent 91 == 1
+	NowEvent 91 = 0
+	#\n\n　咯扁辑绰, 磊匙甸 颇萍狼 皑沥瓷仿阑 焊档废 窍摆促. 皑沥荤俊霸 1瞒矫氰狼 累己拱阑 林绊 唱俊霸 富阑 吧档废.
+	EndWindow 11957
+
+##########　珐农Ｂ皑沥荤啊 夸府 饭矫乔 歹固 酒捞袍阑 啊瘤绊 乐绰 版快　##########
+block Job >= 393 && SkillLevel 219 >= 8 && Item 18525 >= 1
+	#\n\n　褥, 皑沥篮 场车唱? 弊烦 焊档废 且鳖.
+	Window 11958,YES,NO
+
+	Window_NO
+	#\n\n　览？ 酒流 皑沥捞 场唱瘤 臼疽唱？ 玫玫洒 秦档 登聪鳖, 皑沥捞 场唱搁 郴霸 焊咯林档废.
+	EndWindow 11959
+
+	Window_YES Job >= 393 && SkillLevel 219 >= 8 && Leak0Item 18525 >= 1
+	#\n\n　······.捞 累己拱篮 酒流 肯傈窍霸绰 皑沥登瘤 臼篮 巴 鞍焙. 粱歹 塞郴档废.
+	EndWindow 11960
+
+	Window_YES Job >= 393 && SkillLevel 219 >= 8 && Leak1Item 18525 >= 1
+	#\n\n　龋坷, 亮摆瘤. 2瞒矫氰档 钦拜捞促. 捞力何配 钦拜狼 规栏肺 啊具 窍聪 弊缝牢 盲肺 乐档废. ＯＫ甫 穿福搁 况橇窍聪鳖, 府歹 捞寇狼 荤恩篮 ＯＫ滚瓢阑 穿福瘤 富档废.
+	Window 11950,OK
+
+	Window_OK
+	KillItem 18525
+	NowEvent 91 = 1
+	Warp 0,4421,8,10
+
+##########　珐农Ｂ皑沥荤啊 距 饭矫乔 歹固 酒捞袍阑 啊瘤绊 乐绰 版快　##########
+block Job >= 393 && SkillLevel 219 >= 8 && Item 18526 >= 1
+	Window 11958,YES,NO
+
+	Window_NO
+	EndWindow 11959
+
+	Window_YES Job >= 393 && SkillLevel 219 >= 8 && Leak0Item 18526 >= 1
+	EndWindow 11960
+
+	Window_YES Job >= 393 && SkillLevel 219 >= 8 && Leak1Item 18526 >= 1
+	Window 11950,OK
+
+	Window_OK
+	KillItem 18526
+	NowEvent 91 = 1
+	Warp 0,4421,8,10
+
+
+##########　珐农Ｂ皑沥荤啊 澜侥·距 眠啊 饭矫乔 酒捞袍阑 啊瘤绊 乐绰 版快　##########
+block Job >= 393 && SkillLevel 219 >= 8
+	#\n\n　咯扁辑绰, 磊匙甸 颇萍狼 皑沥瓷仿阑 焊档废 窍瘤. 1瞒矫氰狼 累己拱阑 积魂拌流牢俊霸辑 罐疽绰啊？
+	Window 11954,YES,NO
+
+	Window_NO
+	#\n\n　弊烦, 快急篮 酒鳖狼 累己拱阑 啊瘤绊 郴霸 促矫 茄锅 富阑 吧档废.
+	EndWindow 11944
+
+###　澜侥狼 版快
+
+	Window_YES Job >= 393 && SkillLevel 219 >= 8 && Item 15230 >= 1
+	KillItem 15230,1
+	Giveitem 18525,1
+	#\n\n　弊烦, 瘤陛何磐 2瞒矫氰阑 笼青窍摆促. 瘤陛 阜, 1瞒矫氰狼 累己拱俊 距埃 付贱阑 啊沁促. 磊匙狼 啊沥瓷仿捞 珐农 诀俊 舅嘎阑 父怒 己厘沁促搁, 绢妨框绝捞 盔贰 葛嚼阑 茫酒尘 荐啊 乐摆瘤. 矫氰秦 焊档废.
+	Window 11955,OK
+
+###　距狼 版快
+
+	Window_YES Job >= 393 && SkillLevel 219 >= 8 && Item 15630 >= 1
+	KillItem 15630,1
+	Giveitem 18526,1
+	Window 11955,OK
+
+	Window_YES Item 15230 == 0
+	#\n\n　酒流 累己拱阑 罐瘤 臼篮 巴 鞍焙. 飘饭捞靛茄 饶俊 促矫 茄锅 富阑 吧档废.
+	EndWindow 17005
+
+	Window_OK
+	#\n\n　弊 累己拱阑 磊匙 瓷仿栏肺 皑沥窍霸. 皑沥捞 场唱搁, 促矫 茄锅 郴霸 富阑 吧档废. 弊 锭 磊匙甸篮 2瞒矫氰俊档 钦拜且 巴捞促.
+	EndWindow 11956
+
+
+##########　皑沥荤啊 胶懦 饭骇捞 何练茄 版快　##########
+block jobancestry == 390 && SkillLevel 219 < 8
+	#\n\n　磊匙狼 塞篮 珐农 诀狼 扁夯摹俊 固摹瘤 给窍绰 巴 鞍焙. 荐青茄 饶俊 促矫 茄锅 坷档废 窍霸.
+	EndWindow 11951
+
+##########　利钦窍瘤 臼篮 版快　##########
+block NowEvent 91 == 1
+	NowEvent 91 = 0
+	#\n\n　咯扁辑绰, 磊匙甸 颇萍狼 皑沥瓷仿阑 焊档废 窍摆促. 皑沥荤俊霸 1瞒矫氰狼 累己拱阑 林绊 唱俊霸 富阑 吧档废.
+	EndWindow 11957
+
+##########　利钦窍瘤 臼篮 版快　##########
+block
+	#\n\n　咯扁辑绰, 磊匙甸 颇萍狼 皑沥瓷仿阑 焊档废 窍摆促. 皑沥荤俊霸 1瞒矫氰狼 累己拱阑 林绊 唱俊霸 富阑 吧档废.
+	EndWindow 11957
+
