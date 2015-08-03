@@ -1,0 +1,10 @@
+#
+#kaisuukenn
+#
+
+
+block
+	Endwindow "\n\n　 @g,239526 @",ok
+
+
+

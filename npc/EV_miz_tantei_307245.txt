@@ -1,0 +1,15 @@
+#沤沥 涅胶飘：巩
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###########　酒公巴档 绝澜　##############
+block 
+
+	Window 206422,YES,NO
+	Window_YES
+	leavegroup
+	playse 76,1,1
+	Warp 0,33263,6,15
+	Window_NO
+
+

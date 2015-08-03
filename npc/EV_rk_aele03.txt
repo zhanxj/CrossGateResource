@@ -1,0 +1,10 @@
+#
+#雀坷府官恩
+#
+
+#\n\n\n\n@c　辈厘茄 浅拘捞促!
+block 
+
+Window 21359,OK
+ Window_OK
+  Warp 0,15567,15,11

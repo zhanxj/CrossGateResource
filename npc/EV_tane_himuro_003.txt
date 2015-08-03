@@ -1,0 +1,60 @@
+
+block
+
+
+
+				LocalCount0 = random 3,0
+
+				if LocalCount0 == 1
+
+
+#					Window "\n\n　酒酒, 采捞促. 采捞 儡多 焊咯ˇˇ",next
+					Window 3006874,next
+
+
+
+#					EndWindow "\n\n　酒, 倒酒啊脚 且酒滚瘤ˇˇ"
+					EndWindow 3006875
+
+
+
+				else
+
+					if LocalCount0 == 2
+
+#						Window "\n\n　饶瘤魂篮, 饶瘤魂篮 绢蠢 规氢老鳖ˇˇ",next
+						Window 3006876,next
+
+
+#						EndWindow "\n\n　炼陛父 歹 啊搁\n　炼陛父, 炼陛父 歹 啊搁\n　绊氢俊 倒酒哎 荐 乐绢ˇˇ"
+						EndWindow 3006877
+
+
+
+					else
+
+#						Window "\n\n　郡幅矫柯?\n　郡幅矫柯捞扼绊!!",next
+						Window 3006878,next
+
+
+#						EndWindow "\n\n　技扼俊畴 档辑包 3磊概?"
+						EndWindow 3006879
+
+
+					endif
+
+				endif
+
+
+
+
+
+
+
+
+
+
+
+
+
+

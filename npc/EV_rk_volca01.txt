@@ -1,0 +1,43 @@
+#距力荤 墨方
+
+#EndFLG　132捞 ON捞搁
+block EndEvent 132 == 1
+	Window 22573,Next
+	Window 22574,Next
+	Window 22575,OK
+		Window_OK
+			NowEvent 132 = 0
+			EndEvent 132 = 0
+			EndEvent 133 = 1
+			CheckTitle
+
+#「技羔饭狼 厚距」阑 啊瘤绊 乐栏搁
+block Item 16392 >= 1
+	EndWindow 22583,OK
+
+#「技羔饭狼 皋葛」甫 啊瘤绊 乐栏搁
+block Item 16388 >= 1
+	Window 22491,Next
+	EndWindow 22492,OK
+
+#「力拱狼 馆瘤」甫 啊瘤绊 乐栏搁
+block Item 16389 >= 1
+	Window 22494,Next
+	EndWindow 22495,OK
+
+#NowFLG　132捞 ON捞搁
+block NowEvent 132 == 1
+	Window 22497,Next
+	EndWindow 22498,OK
+
+#EndFLG　131捞 ON（侩荤グ辆丰场）捞搁
+block EndEvent 131 == 1
+	Window 22496,Next
+	Window 22497,Next
+	Window 22498,OK
+		Window_OK
+			NowEvent 132 = 1
+#
+block
+	EndWindow 22499,OK
+

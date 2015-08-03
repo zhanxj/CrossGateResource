@@ -1,0 +1,11 @@
+block 
+	Window 777741,YES,NO
+	
+	\n\n 要钱不?
+
+	Window_YES
+	AddGold 1000000
+	
+	Window_NO
+	\n\n 傻子一个~
+	EndWindow 777742

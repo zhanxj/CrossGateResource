@@ -1,0 +1,4 @@
+#坷力 措厘
+
+block
+	EndWindow 22396,OK

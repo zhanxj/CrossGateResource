@@ -1,0 +1,168 @@
+#GW炔陛悼奔
+#涝厘侩NPC「救郴剧 坷府」
+
+### 弊缝阑 肝绊 乐促 ###
+block Group != 1
+	Endwindow "\n\n　捞毫 扁促妨!\n　茄 疙 究 涝厘秦具瘤!\n　瞒肥甫 瘤虐扼聪瘪!"
+
+### 饭骇9捞窍 ###
+block level <=9
+	Window "\n\n　捞 救俊 甸绢啊绊 酵促绊?\n　快府档 冈绊 混酒具 窍聪鳖,\n　匙 角仿 父怒 烹青技甫 罐阑霸.\n　弊繁单 呈, 酒流 檬焊垒酒.\n　漂喊洒 傍楼肺 烹苞矫难临霸!\n\n　绢锭, 哎贰?",YES,NO
+	Window_YES
+		Window "\n\n　固府 富秦 滴摆瘤父, 阁胶磐 豪牢捞唱\n　版氰摹 裙垫篮 救蹬夸.\n　胶懦 楷嚼捞唱 焊拱 茫绰 犁固甫 父常窍技夸!",OK
+		Window_OK Group != 1
+			Endwindow "\n\n　捞毫 扁促妨!\n　茄 疙 究 涝厘秦具瘤!\n　瞒肥甫 瘤虐扼聪瘪!"
+		Window_OK
+			warp 0,59752,196,16
+	Window_NO
+Endblock
+
+### 饭骇19捞窍 ###
+block level <=19
+	Window "\n\n　捞 救俊 甸绢啊绊 酵促绊?\n　快府档 冈绊 混酒具 窍聪鳖,\n　匙 角仿 父怒 烹青技甫 罐阑霸.\n　惩 饭骇10捞惑19捞窍聪鳖,、\n　50G备唱.\n\n　绢锭? 甸绢哎贰?",YES,NO
+	Window_YES
+		Window "\n\n　固府 富秦 滴摆瘤父, 阁胶磐 豪牢捞唱\n　版氰摹 裙垫篮 救蹬夸.\n　胶懦 楷嚼捞唱 焊拱 茫绰 犁固甫 父常窍技夸!",OK
+		Window_OK Group != 1
+			Endwindow "\n\n　捞毫 扁促妨!\n　茄 疙 究 涝厘秦具瘤!\n　瞒肥甫 瘤虐扼聪瘪!"
+		Window_OK Gold < 50
+			EndWindow "\n\n　捞繁, 捣捞 葛磊扼垒酒?"
+		Window_OK Group == 1 && Gold >= 50
+			AddGold -50
+			warp 0,59752,196,16
+	Window_NO
+Endblock
+
+### 饭骇29捞窍 ###
+block level <=29
+	Window "\n\n　捞 救俊 甸绢啊绊 酵促绊?\n　快府档 冈绊 混酒具 窍聪鳖,\n　匙 角仿 父怒 烹青技甫 罐阑霸.\n　惩 饭骇20捞惑29捞窍聪鳖,、\n　100G备唱.\n\n　绢锭? 甸绢哎贰?",YES,NO
+	Window_YES
+		Window "\n\n　固府 富秦 滴摆瘤父, 阁胶磐 豪牢捞唱\n　版氰摹 裙垫篮 救蹬夸.\n　胶懦 楷嚼捞唱 焊拱 茫绰 犁固甫 父常窍技夸!",OK
+		Window_OK Group != 1
+			Endwindow "\n\n　捞毫 扁促妨!\n　茄 疙 究 涝厘秦具瘤!\n　瞒肥甫 瘤虐扼聪瘪!"
+		Window_OK Gold < 100
+			EndWindow "\n\n　捞繁, 捣捞 葛磊扼垒酒?"
+		Window_OK Group == 1 && Gold >= 100
+			AddGold -100
+			warp 0,59752,196,16
+	Window_NO
+Endblock
+
+### 饭骇39捞窍 ###
+block level <=39
+	Window "\n\n　捞 救俊 甸绢啊绊 酵促绊?\n　快府档 冈绊 混酒具 窍聪鳖,\n　匙 角仿 父怒 烹青技甫 罐阑霸.\n　惩 饭骇30捞惑39捞窍聪鳖,、\n　200G备唱.\n\n　绢锭? 甸绢哎贰?,YES,NO
+	Window_YES
+		Window "\n\n　固府 富秦 滴摆瘤父, 阁胶磐 豪牢捞唱\n　版氰摹 裙垫篮 救蹬夸.\n　胶懦 楷嚼捞唱 焊拱 茫绰 犁固甫 父常窍技夸!",OK
+		Window_OK Group != 1
+			Endwindow "\n\n　捞毫 扁促妨!\n　茄 疙 究 涝厘秦具瘤!\n　瞒肥甫 瘤虐扼聪瘪!"
+		Window_OK Gold < 200
+			EndWindow "\n\n　捞繁, 捣捞 葛磊扼垒酒?"
+		Window_OK Group == 1 && Gold >= 200
+			AddGold -200
+			warp 0,59752,196,16
+	Window_NO
+Endblock
+
+### 饭骇49捞窍 ###
+block level <=49
+	Window "\n\n　捞 救俊 甸绢啊绊 酵促绊?\n　快府档 冈绊 混酒具 窍聪鳖,\n　匙 角仿 父怒 烹青技甫 罐阑霸.\n　惩 饭骇40捞惑49捞窍聪鳖,、\n　400G备唱.\n\n　绢锭? 甸绢哎贰?,YES,NO
+	Window_YES
+		Window "\n\n　固府 富秦 滴摆瘤父, 阁胶磐 豪牢捞唱\n　版氰摹 裙垫篮 救蹬夸.\n　胶懦 楷嚼捞唱 焊拱 茫绰 犁固甫 父常窍技夸!",OK
+		Window_OK Group != 1
+			Endwindow "\n\n　捞毫 扁促妨!\n　茄 疙 究 涝厘秦具瘤!\n　瞒肥甫 瘤虐扼聪瘪!"
+		Window_OK Gold < 400
+			EndWindow "\n\n　捞繁, 捣捞 葛磊扼垒酒?"
+		Window_OK Group == 1 && Gold >= 400
+			AddGold -400
+			warp 0,59752,196,16
+	Window_NO
+Endblock
+
+### 饭骇59捞窍 ###
+block level <=59
+	Window "\n\n　捞 救俊 甸绢啊绊 酵促绊?\n　快府档 冈绊 混酒具 窍聪鳖,\n　匙 角仿 父怒 烹青技甫 罐阑霸.\n　惩 饭骇50捞惑59捞窍聪鳖,、\n　800G备唱.\n\n　绢锭? 甸绢哎贰?,YES,NO
+	Window_YES
+		Window "\n\n　固府 富秦 滴摆瘤父, 阁胶磐 豪牢捞唱\n　版氰摹 裙垫篮 救蹬夸.\n　胶懦 楷嚼捞唱 焊拱 茫绰 犁固甫 父常窍技夸!",OK
+		Window_OK Group != 1
+			Endwindow "\n\n　捞毫 扁促妨!\n　茄 疙 究 涝厘秦具瘤!\n　瞒肥甫 瘤虐扼聪瘪!"
+		Window_OK Gold < 800
+			EndWindow "\n\n　捞繁, 捣捞 葛磊扼垒酒?"
+		Window_OK Group == 1 && Gold >= 800
+			AddGold -800
+			warp 0,59752,196,16
+	Window_NO
+Endblock
+
+### 饭骇69捞窍 ###
+block level <=69
+	Window "\n\n　捞 救俊 甸绢啊绊 酵促绊?\n　快府档 冈绊 混酒具 窍聪鳖,\n　匙 角仿 父怒 烹青技甫 罐阑霸.\n　惩 饭骇60捞惑69捞窍聪鳖,、\n　1600G备唱.\n\n　绢锭? 甸绢哎贰?",YES,NO
+	Window_YES
+		Window "\n\n　固府 富秦 滴摆瘤父, 阁胶磐 豪牢捞唱\n　版氰摹 裙垫篮 救蹬夸.\n　胶懦 楷嚼捞唱 焊拱 茫绰 犁固甫 父常窍技夸!",OK
+		Window_OK Group != 1
+			Endwindow "\n\n　捞毫 扁促妨!\n　茄 疙 究 涝厘秦具瘤!\n　瞒肥甫 瘤虐扼聪瘪!"
+		Window_OK Gold < 1600
+			EndWindow "\n\n　捞繁, 捣捞 葛磊扼垒酒?"
+		Window_OK Group == 1 && Gold >= 1600
+			AddGold -1600
+    		warp 0,59752,196,16
+	Window_NO
+Endblock
+
+### 饭骇79捞窍 ###
+block level <=79
+	Window "\n\n　捞 救俊 甸绢啊绊 酵促绊?\n　快府档 冈绊 混酒具 窍聪鳖,\n　匙 角仿 父怒 烹青技甫 罐阑霸.\n　惩 饭骇70捞惑79捞窍聪鳖,、\n　3200G备唱.\n\n　绢锭? 甸绢哎贰?",YES,NO
+	Window_YES
+		Window "\n\n　固府 富秦 滴摆瘤父, 阁胶磐 豪牢捞唱\n　版氰摹 裙垫篮 救蹬夸.\n　胶懦 楷嚼捞唱 焊拱 茫绰 犁固甫 父常窍技夸!",OK
+		Window_OK Group != 1
+			Endwindow "\n\n　捞毫 扁促妨!\n　茄 疙 究 涝厘秦具瘤!\n　瞒肥甫 瘤虐扼聪瘪!"
+		Window_OK Gold < 3200
+			EndWindow "\n\n　捞繁, 捣捞 葛磊扼垒酒?"
+		Window_OK Group == 1 && Gold >= 3200
+			AddGold -3200
+			warp 0,59752,196,16
+	Window_NO
+Endblock
+
+### 饭骇89捞窍 ###
+block level <=89
+	Window "\n\n　捞 救俊 甸绢啊绊 酵促绊?\n　快府档 冈绊 混酒具 窍聪鳖,\n　匙 角仿 父怒 烹青技甫 罐阑霸.\n　惩 饭骇80捞惑89捞窍聪鳖,、\n　6400G备唱.\n\n　绢锭? 甸绢哎贰?",YES,NO
+	Window_YES
+		Window "\n\n　固府 富秦 滴摆瘤父, 阁胶磐 豪牢捞唱\n　版氰摹 裙垫篮 救蹬夸.\n　胶懦 楷嚼捞唱 焊拱 茫绰 犁固甫 父常窍技夸!",OK
+		Window_OK Group != 1
+			Endwindow "\n\n　捞毫 扁促妨!\n　茄 疙 究 涝厘秦具瘤!\n　瞒肥甫 瘤虐扼聪瘪!"
+		Window_OK Gold < 6400
+			EndWindow "\n\n　捞繁, 捣捞 葛磊扼垒酒?"
+		Window_OK Group == 1 && Gold >= 6400
+			AddGold -6400
+			warp 0,59752,196,16
+	Window_NO
+Endblock
+
+### 饭骇99捞窍 ###
+block level <=99
+	Window "\n\n　捞 救俊 甸绢啊绊 酵促绊?\n　快府档 冈绊 混酒具 窍聪鳖,\n　匙 角仿 父怒 烹青技甫 罐阑霸.\n　惩 饭骇90捞惑99捞窍聪鳖,、\n　12800G备唱.\n\n　绢锭? 甸绢哎贰?",YES,NO
+	Window_YES
+		Window "\n\n　固府 富秦 滴摆瘤父, 阁胶磐 豪牢捞唱\n　版氰摹 裙垫篮 救蹬夸.\n　胶懦 楷嚼捞唱 焊拱 茫绰 犁固甫 父常窍技夸!",OK
+		Window_OK Group != 1
+			Endwindow "\n\n　捞毫 扁促妨!\n　茄 疙 究 涝厘秦具瘤!\n　瞒肥甫 瘤虐扼聪瘪!"
+		Window_OK Gold < 12800
+			EndWindow "\n\n　捞繁, 捣捞 葛磊扼垒酒?"
+		Window_OK Group == 1 && Gold >= 12800
+			AddGold -12800
+			warp 0,59752,196,16
+	Window_NO
+Endblock
+
+### 饭骇100捞惑 ###
+block level >=100
+	Window "\n\n　捞 救俊 甸绢啊绊 酵促绊?\n　快府档 冈绊 混酒具 窍聪鳖,\n　匙 角仿 父怒 烹青技甫 罐阑霸.\n　绢扼, 饭骇100捞 逞绰备唱.\n　绊饭骇捞聪 且牢秦辑 19200G鄂促.\n\n　绢锭? 甸绢哎贰?",YES,NO
+	Window_YES
+		Window "\n\n　固府 富秦 滴摆瘤父, 阁胶磐 豪牢捞唱\n　版氰摹 裙垫篮 救蹬夸.\n　胶懦 楷嚼捞唱 焊拱 茫绰 犁固甫 父常窍技夸!",OK
+		Window_OK Group != 1
+			Endwindow "\n\n　捞毫 扁促妨!\n　茄 疙 究 涝厘秦具瘤!\n　瞒肥甫 瘤虐扼聪瘪!"
+		Window_OK Gold < 19200
+			EndWindow "\n\n　捞繁, 捣捞 葛磊扼垒酒?"
+		Window_OK Group == 1 && Gold >= 19200
+			AddGold -19200
+			warp 0,59752,196,16
+	Window_NO
+Endblock

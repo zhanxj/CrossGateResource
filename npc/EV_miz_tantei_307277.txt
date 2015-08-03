@@ -1,0 +1,40 @@
+#沤沥 涅胶飘：陛嘿捞急馆
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+##########　NOWFLG 73 on　「夯促」　##############
+block nowevent73 == 1 && strcmpchat == 206720
+
+	EndWindow 206600,OK
+
+##########　NOWFLG 73 on　「颊俊 棱绰促」　##############
+block nowevent73 == 1 && Item 18897 >= 1 && strcmpchat == 206724
+
+	EndWindow 206600,OK
+
+block nowevent73 == 1 && Item 18897 == 0 && strcmpchat == 206724
+
+	Window 206601,OK
+	Window_OK Itemspace >= 1
+	leavegroup
+	playse 65,1,1
+	GiveItem 18897
+	Window_OK Itemspace == 0
+	EndWindow 206431,OK
+
+###########　「夯促」　##############
+block strcmpchat == 206720
+
+	EndWindow 206598,OK
+
+###########　「颊俊 棱绰促」　##############
+block strcmpchat == 206724
+
+	EndWindow 206598,OK
+
+###########　酒公巴档 绝澜　##############
+block 
+
+	EndWindow 206597,OK
+
+

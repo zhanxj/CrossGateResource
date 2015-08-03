@@ -1,0 +1,9 @@
+#
+#崔狼 馆瘤
+#
+
+block
+	EndEvent 202 = 1
+	CheckTitle
+
+	killitemall 14638

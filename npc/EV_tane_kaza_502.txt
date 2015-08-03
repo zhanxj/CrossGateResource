@@ -1,0 +1,42 @@
+
+
+
+block
+
+
+
+if  Item 607600 >= 1
+
+
+#			Window "\n\n　弊措, 歹宽 表篮 镑阑 官扼绰啊?",yes,no	
+			Window 3006803,yes,no	
+
+
+			Window_yes
+
+#				Window "\n\n　弊犯促搁, 歹宽 表篮 顶狼 关官蹿\n　阂采狼 楷苛栏肺.",ok
+				Window 3006804,ok
+
+
+
+				
+				Window_ok
+
+					warp 0,59676,154,31
+
+			Window_no
+
+#				EndWindow "\n\n　弊犯促搁, 倒酒啊档废 窍扼.\n　倔付 饶俊绰 促矫 咯扁俊\n　瘤苛狼 架捞 凯赴促."
+				EndWindow 3006805
+
+
+else
+
+#				EndWindow "\n\n　坷贰等 凯艰甫 备窍扼."
+				EndWindow 3006806
+
+
+endif
+
+
+

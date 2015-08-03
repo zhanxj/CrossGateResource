@@ -1,0 +1,10 @@
+#
+#备扼 芒test
+#
+
+
+block
+	Endwindow "\n\n @g,239522 @",ok
+
+
+

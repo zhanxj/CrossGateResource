@@ -1,0 +1,67 @@
+
+block
+
+
+
+				LocalCount0 = random 4,0
+
+				if LocalCount0 == 1
+
+
+#					Window "\n\n　逛 酒流~?\n　动, 动",next
+					Window 3006868,next
+
+
+#					EndWindow "\n\n　呈公 锭妨辑\n　逛弊俯, 柄瘤摆绢?"
+					EndWindow 3006869
+
+
+				else
+
+					if LocalCount0 == 2
+
+#						Window "\n\n　酒公档 绝绢, 瘤陛 快府笼ˇˇ",next
+						Window 3006870,next
+
+
+#						EndWindow "\n\n　勉眠绊 酵瘤父, 硅啊 绊颇辑 公府ˇˇ"
+						EndWindow 3006871
+
+
+					else
+
+						if LocalCount0 == 3
+
+#						Window "\n\n　屈, 开矫 措窜窍焙, 快府甸\n　捞繁, 傍汗俊, 斑叼绊ˇˇ",next
+						Window 3006872,next
+
+
+#						EndWindow "\n\n　屈? 屈?\n　屈, 绢叼~?"
+						EndWindow 3006873
+
+						else
+						
+							Window 3910001,next
+							Window 3910002,ok
+							Window_ok Itemspace >= 1
+							GiveItem 607654,1
+							Window_ok
+							EndWindow 3910003
+						endif
+					endif
+
+				endif
+
+
+
+
+
+
+
+
+
+
+
+
+
+

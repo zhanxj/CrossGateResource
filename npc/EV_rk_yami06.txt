@@ -1,0 +1,25 @@
+#公搁倾 狼荤 夯何侩 ＮＰＣ 叼弊 瘤肺
+#贸澜栏肺 炼扒捞 老摹茄 喉废阑 贸府茄促
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+####### 呈胶 母阑 啊瘤绊 乐绊 距力荤 ########
+block ITEM 18350 >= 1 && job >=361 &&  job <= 367
+ Window 21167,next
+ Window 21168,next
+ Window 21170,next
+  giverecipe 971
+ Window 21171,next
+ Window 21172,next
+ Window 21173,next
+ Endwindow 21174
+
+####### 呈胶 母阑 啊瘤绊 乐促 ########
+block ITEM 18350 >= 1
+ Window 21167,next
+ Window 21168,next
+ Endwindow 21169
+
+####### 呈胶 母阑 啊瘤绊 乐瘤 臼促 ########
+block
+ Endwindow 21166

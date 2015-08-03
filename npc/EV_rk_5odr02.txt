@@ -1,0 +1,30 @@
+#困捍 墨瘤朝
+
+#郡俊辑 涅胶飘 柳青 吝捞搁(空练狼 刘钎甫 啊瘤绊 乐促搁)
+block Item 16395 >= 1
+	Window 22589,YES,NO
+		Window_YES
+			Window 22590,OK
+				Window_OK
+					KillItemAll 16395
+					KillItemAll 16396
+					KillItemAll 16397
+					NowEvent 115 = 0
+					EndEvent 115 = 0
+		Window_NO
+			EndWindow 22591,OK
+
+#郡 绕６殿阑 啊瘤绊 乐促搁
+block EndEvent 52 == 1
+	Window 22592,YES,NO
+		Window_YES
+			Window 22593,OK
+				Window_OK
+					NowEvent 115 = 1
+					LeaveGroup
+					Warp 0,33108,25,25
+		Window_NO
+			EndWindow 22594,OK
+#
+block
+	EndWindow 22595,OK

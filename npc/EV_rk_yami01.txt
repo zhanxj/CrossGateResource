@@ -1,0 +1,22 @@
+#公搁倾 狼荤 夯何侩 ＮＰＣ 付练楷备啊 靛官矫
+#贸澜栏肺 炼扒捞 老摹茄 喉废阑 贸府茄促
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+####### 鸥乔坷虐酒甫 啊瘤绊 乐绰 版快 ########
+block Item 18631 >= 1
+
+ Window 21145,Yes,No
+     Window_YES
+       window 21146,OK
+       window_OK Item 18631 >= 1
+         Killitemall 18631
+         Giveitem 18638
+      window_OK
+     Window_NO
+       EndWindow 21147
+########## 啊瘤绊 乐瘤 臼篮 版快 ##########
+block Item 18631 == 0
+ Window 21143,next
+ EndWindow 21144
+

@@ -1,0 +1,6 @@
+#绊绊切磊 隔瓢
+
+#
+block
+	Window 22596,Next
+	EndWindow 22597,OK

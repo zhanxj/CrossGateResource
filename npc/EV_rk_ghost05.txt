@@ -1,0 +1,31 @@
+#侩磊 府辣
+
+#敲饭捞绢啊 「酒捞 捞寇狼 咯己 某腐磐」扼搁
+block BBImage >= 100275 && BBImage <= 100423
+	Window 22362,Next
+	Window 22363,Next
+	Window 22364,OK
+		Window_OK
+			LeaveGroup
+			Warp 0,46010,130,105
+block BBImage >= 105275 && BBImage <= 105423
+	Window 22362,Next
+	Window 22363,Next
+	Window 22364,OK
+		Window_OK
+			LeaveGroup
+			Warp 0,46010,130,105
+block BBImage >= 106250 && BBImage <= 106423
+	Window 22362,Next
+	Window 22363,Next
+	Window 22364,OK
+		Window_OK
+			LeaveGroup
+			Warp 0,46010,130,105
+
+#
+block
+	Window 22365,OK
+		Window_OK
+			LeaveGroup
+			Warp 0,46010,130,105

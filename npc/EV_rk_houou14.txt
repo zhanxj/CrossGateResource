@@ -1,0 +1,4 @@
+#楷给
+
+block
+	EndWindow 22129,OK

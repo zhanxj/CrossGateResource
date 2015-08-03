@@ -1,0 +1,112 @@
+#辨靛 open　shikenkan　tuchi狼 荤恩
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+
+
+
+###########　14605,15317 乐澜　##############
+
+block Item 14601 >= 1
+
+
+#\n\n　辑滴福绰 霸 亮摆瘤.
+
+
+	EndWindow 3006288
+
+
+
+#block skilllevel 215 <= 0 && Item 14605 >= 1
+
+
+#\n\n　辑滴福绰 霸 亮摆瘤.
+
+
+#	EndWindow 3006633
+
+
+###########　14605,15317 乐澜　##############
+
+
+
+
+block Item 14605 >= 1 && Item 15317 >= 1 && ItemCreateTime 15317 <= 2
+
+
+#\n\n　澜,\n　肋 冈菌促.
+
+	Window 3006212,next
+
+	Window 3006213,next
+
+	Window 3006214,next
+
+	Window 3006215,OK
+
+	window_ok Item 14605 >= 1 && Item 15317 >= 1
+
+	KillItem 15317,1
+	GiveItem 14601,1
+
+	window_ok 
+
+	EndWindow 3790001
+
+block Item 14605 >= 1 && item 15317 >= 1 && ItemCreateTime 15317 > 2
+
+
+#\n\n　澜,\n　滴何客 客牢俊霸 咯青阑 矫难急 救登瘤.\n　父甸绊 矫埃捞 呈公 瘤车绢.
+
+	KillItem 15317,1
+
+	EndWindow 3006211
+
+
+
+
+
+
+
+
+###########　14605 乐澜　##############
+
+block Item 14605 >= 1
+
+
+#\n\n　褥, 辨靛 付胶磐 锐噶磊牢啊?\n　弊烦, 入狼 苞力甫 林瘤.
+
+
+	Window 3006209,next
+
+
+	Window 3006210,OK
+
+
+	window_ok skilllevel 215 < 1 
+
+		EndWindow 3790002
+
+
+
+	window_ok skilllevel 215 >= 1 
+
+		GiveRecipe 947
+
+
+
+
+###########　飘罚胶 nashi　##############
+
+
+block
+
+#\n\n　咯青磊甸俊霸\n　蜡福弊 脚苞 入狼 沥飞 傀饭狼\n　啊龋啊 乐扁甫.
+
+
+
+
+	EndWindow 3006630
+
+
+

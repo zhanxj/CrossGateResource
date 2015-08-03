@@ -1,0 +1,31 @@
+#
+#傀捞飘府胶
+#
+
+#endflg104啊 ON捞绊 鞠龋「钙林...」甫 惯攫
+block EndEvent 104 ==1 && StrCmpChat == 21884
+	Window 21881,OK
+		Window_OK ItemSpace == 0
+			Endwindow 10000
+		Window_OK Gold <= 199
+			Endwindow 10005
+		Window_OK
+			AddGold -200
+			GiveItem 18963
+
+#endflg104啊 ON捞绊 鞠龋「皑磊脾辫...」阑 惯攫
+block EndEvent 104 ==1 && StrCmpChat == 21885
+	Window 21881,OK
+		Window_OK ItemSpace == 0
+			Endwindow 10000
+		Window_OK Gold <= 99
+			Endwindow 10005
+		Window_OK
+			AddGold -100
+			GiveItem 18964
+
+#endflg104啊 ON捞搁
+block EndEvent 104 ==1
+	Endwindow 21882
+block
+	Endwindow 21883

@@ -1,0 +1,14 @@
+#铰妨 颇府浚
+
+#EndFLG　138捞 ON捞绊 烹青倾啊刘阑 啊瘤绊 乐促搁
+block EndEvent 138 == 1 && Item 16407 >= 1
+	EndWindow 22688,OK
+
+#EndFLG　138捞 ON
+block EndEvent 138 == 1
+	EndWindow 22689,OK
+
+#
+block
+	EndWindow 22690,OK
+

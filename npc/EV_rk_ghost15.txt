@@ -1,0 +1,4 @@
+#窍飘圈
+
+block
+	EndWindow 22391,OK

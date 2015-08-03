@@ -1,0 +1,4 @@
+#矫赤 饶快府
+
+block
+	EndWindow 22151,OK

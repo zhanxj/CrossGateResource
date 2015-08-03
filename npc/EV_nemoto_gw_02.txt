@@ -1,0 +1,11 @@
+#GW炔陛悼奔
+#呕免NPC「救郴拌 龙」
+
+block
+	Window "\n\n　观栏肺 唱啊绊 酵唱?",YES,NO
+		Window_YES Group != 1
+			EndWindow "\n\n　茄 疙究 唱啊具 蹬."
+		Window_YES
+			Warp 0,59501,250,109
+		Window_NO
+Endblock

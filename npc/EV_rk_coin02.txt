@@ -1,0 +1,35 @@
+#
+#烤 悼傈 背券
+#
+
+#角滚 榜方
+block StrCmpChat == 4007
+	Window 22001,Yes,No
+		Window_No
+			EndWindow 15684,OK
+		Window_Yes PetSpace == 0
+			EndWindow 21417
+		Window_Yes Item 18984 == 0
+			EndWindow 22000
+		Window_Yes
+			KillItem 18984,1
+			GivePet 623
+			Message 4011
+
+#榜靛 榜方
+block StrCmpChat == 4009
+	Window 22002,Yes,No
+		Window_No
+			EndWindow 15684,OK
+		Window_Yes PetSpace == 0
+			EndWindow 21417
+		Window_Yes Item 18984 <= 2
+			EndWindow 22000
+		Window_Yes
+			KillItem 18984,3
+			GivePet 624
+			Message 4011
+
+block
+#\n\n　咯扁辑绰 酒福墨叼酒 烤 悼傈阑 岗柳 版前苞 背券秦靛府绊 乐嚼聪促.
+	EndWindow 22003

@@ -1,0 +1,43 @@
+#皋牢　裥仔3　
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###########　酒公巴档 绝澜　##############
+
+
+
+
+
+
+
+
+
+
+
+
+block CheckRealTime 2004/1/1,00:00:00 == 1
+#block CheckRealTime 2003/12/24,18:00:00 == 1
+
+	Window 3640001,next
+
+	EndWindow 3640002
+
+
+
+block CheckRealTime 2003/12/26,00:00:00 == 1
+#block CheckRealTime 2003/12/24,00:00:00 == 1
+
+
+	Window 3640003,next
+
+	Window 3640004,next
+
+	EndWindow 3640005
+
+
+
+
+
+
+
+

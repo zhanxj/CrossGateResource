@@ -1,0 +1,15 @@
+#拜捧啊侩 ＮＰＣ
+
+block	Job >= 161 && Job <= 167
+	EndWindow 120191
+
+### 蓖吧捞甫 啊瘤绊 乐促 ###
+block Item 18599 >= 1
+
+window 21075,ok
+ window_ok
+  warp 0,15524,16,19
+### 啊瘤绊 乐瘤 臼促 ###
+
+block
+   endwindow 21076

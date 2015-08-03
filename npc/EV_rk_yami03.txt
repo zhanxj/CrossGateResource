@@ -1,0 +1,46 @@
+#公搁倾 狼荤 夯何侩 ＮＰＣ 叼弊 瘤肺
+#贸澜栏肺 炼扒捞 老摹茄 喉废阑 贸府茄促
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+####### 公搁倾 狼荤 缴杭阑 啊瘤绊 乐促 ########
+block Item 18344 >= 1
+ Window 21156,OK
+  Window_OK
+  warp 0,15531,29,51
+
+####### 呈胶 母阑 啊瘤绊 乐促 ########
+block Item 18350 >= 1
+ Window 21157,OK
+  Window_OK
+  warp 0,15531,29,51
+####### 公搁倾 狼荤 奇带飘甫 啊瘤绊 乐促 ########
+block Item 18639 >= 1
+ Window 21156,OK
+  Window_OK
+  warp 0,15531,29,51
+
+####### 绢恫 巴档 啊瘤绊 乐瘤 臼促 ########
+block
+ window 21149,yes,no
+  window_no
+   endwindow 21155
+  window_yes
+   window 21151,yes,no
+    window_yes ItemSpace == 0
+     Endwindow 21150
+    window_yes gold >= 30000
+     window 21154,OK
+     window_OK
+      AddGold -30000
+      giveitem 18639
+      warp 0,15531,29,51
+     window_yes
+      window 21188,OK
+       window_OK
+       warp 0,15535,44,15
+    window_no
+     window 21152,ok
+      window_ok
+       message 21153
+       warp 0,15535,44,15

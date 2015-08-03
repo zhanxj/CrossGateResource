@@ -1,0 +1,28 @@
+#沤沥 涅胶飘：畴唱畴唱(4)
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###########　ENDFLG 75 on　##############
+block endevent75 == 1
+
+	Window 206317,NEXT
+	Window 206318,OK
+	Window_OK
+	leavegroup
+	Warp 0,33259,10,7
+
+###########　「裹牢篮 呈促! 矫胶磐 纳捞啊 傈何 磊归沁绢!」　##############
+block strcmpchat == 206716
+
+	Window 206315,NEXT
+	Window 206543,NEXT
+	Window 206316,OK
+	Window_OK
+	leavegroup
+	Warp 0,33295,17,9
+
+###########　酒公巴档 绝澜　##############
+block 
+
+	EndWindow 206337,OK
+

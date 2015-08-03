@@ -1,0 +1,17 @@
+### 弊缝阑 捞风绊 乐促 ###
+block Group != 1
+ Endwindow 21211
+
+
+block
+ Window 21212,OK
+  Window_OK ItemSpace >= 2
+	GiveItem 18672,1
+	Giveleak1Item (18449%2,18450%1,18451%3,18452%5,18453%5,18454%5,18455%5,18456%5)
+	LeaveGroup
+	Warp 0,1000,141,148
+  Window_OK
+   Endwindow 120025
+
+
+

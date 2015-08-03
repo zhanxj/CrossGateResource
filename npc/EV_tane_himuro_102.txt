@@ -1,0 +1,67 @@
+
+block
+
+
+
+
+
+
+			if LocalCount3 == 5
+
+				LocalCount3 = random 2,0
+
+				if LocalCount3 == 1
+
+
+
+					LocalCount3 = 5
+
+#					Window "\n\n　解篮 芭?\n　臂疥ˇˇ",next
+					Window 3006892,next
+
+
+#					EndWindow "\n\n　葫角捞扼档 乐栏搁 亮摆瘤父.\n　葫角俊辑 割 归 斥 悼救捞唱\n　咯矾啊瘤 巴阑 犁况抵 夯促, 扼绊."
+					EndWindow 3006893
+
+
+
+
+				else
+					LocalCount3 = 5
+
+
+#					Window "\n\n　馋利馋利茄 巴篮\n　个俊 亮酒夸.",next
+					Window 3006894,next
+
+
+#					EndWindow "\n\n　绢滴款 镑俊辑\n　割 绞 斥捞绊 割 归 斥捞绊 犁况抵辑\n　馋利馋利馋利馋利馋利馋利\n　馋利馋利馋利窍霸 茄 巴篮.",next
+					EndWindow 3006895,next
+
+
+				endif
+
+
+
+			else
+
+
+				LocalCount3 = 5
+
+
+#				Window "\n\n　芒巩 观俊 芭磨霸 郴府绰 厚\n　厚良绊 翠翠茄 啊霸俊辑, 澜匡茄 巢磊甸捞ˇˇ",next
+				Window 3006896,next
+
+
+#				EndWindow "\n\n　唱俊霸 绢柄啊 搓阑 沥档肺 啊鳖捞俊辑\n　解篮 巴狼 捞具扁甫\n　快饶饶ˇˇ"
+				EndWindow 3006897
+
+
+
+
+			endif
+
+
+
+
+
+

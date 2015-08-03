@@ -1,0 +1,11 @@
+#
+#蜡府芒test
+#
+
+
+block
+	Endwindow 4220001,ok
+
+
+
+

@@ -1,0 +1,588 @@
+#阁胶磐 内牢 [券傈 措]NPC
+#
+#
+#
+#
+#
+#
+#
+#
+
+
+#阁胶磐 内牢阑 辆幅 惑包绝捞 1俺扼档 家瘤且 版快
+
+
+Block Leak1Item_620032 >= 1 || Leak1Item_620033 >= 1 || Leak1Item_620034 >= 1 || Leak1Item_620035 >= 1 || Leak1Item_621006 >= 1
+
+	Window "\n\n　咯扁绰 阁胶磐 内牢 券傈家促.\n　阁胶磐 内牢阑 老沥 荐 捞惑 葛栏搁,\n　目促鄂 内牢栏肺 背券秦林瘤.",Next
+	
+	Window "\n\n　曼绊肺 内牢篮\n　1M楼府 50概甫5M楼府 10概肺,\n　5M楼府 100概甫 10M楼府50概肺,\n　10M楼府100概甫 1000M楼府1概肺,\n　1000M楼府10概甫 1父M楼府1概肺,\n　1父M楼府10概甫 10父M楼府1概肺,\n　阿阿 券傈且 荐 乐促.",Next
+	
+
+	Window "\n\n　绢, 内牢 爱绊 乐备唱! 背券且贰?",Yes,No
+	
+		Window_No
+		
+			GotoF case11
+			
+		Window_Yes ItemSpace == 0
+			
+			GotoF case12
+			
+		Window_Yes  Leak1Item_620032 >=1 || Leak1Item_620033 >= 1 || Leak1Item_620034 >= 1 || Leak1Item_620035 >= 1 || Leak1Item_621006 >= 1
+						
+			GotoF case2
+							
+		Window_Yes
+			
+			GotoF case10
+			
+		EndBlock
+	
+	
+	
+	
+Block
+
+	Window "\n\n　咯扁绰 阁胶磐 内牢 券傈家促.\n　阁胶磐 内牢阑 老沥 荐 捞惑 葛栏搁,\n　目促鄂 内牢栏肺 背券秦林瘤.",Next
+	
+	endWindow "\n\n　曼绊肺 内牢篮\n　1M楼府 50概甫5M楼府 10概肺,\n　5M楼府 100概甫 10M楼府50概肺,\n　10M楼府100概甫 1000M楼府1概肺,\n　1000M楼府10概甫 1父M楼府1概肺,\n　1父M楼府10概甫 10父M楼府1概肺,\n　阿阿 券傈且 荐 乐促."
+	
+
+		
+		
+		
+	EndBlock
+	
+	
+Block
+
+	*case2*
+	
+	
+	
+	if Leak1Item_620032 >= 50
+		
+		
+		Window "\n\n　1M楼府50概肺焙.\n　5M楼府10概扼匙.",Yes,No
+			
+			
+			Window_Yes Leak1Item_620032 >= 50 && ItemSpace >= 1
+			
+				KillLeak1Item 620032,50
+			 	GiveLeak1Item 620033,10
+			 	
+			 	GotoF case20
+			 	
+			
+			Window_Yes ItemSpace == 0
+			
+				GotoF case12
+			
+			
+			Window_Yes Leak1Item_620032 < 50
+			
+				GotoF case10
+			
+			Window_Yes
+			
+				GotoF case10
+				
+			Window_No Leak1Item_620033 < 100 && Leak1Item_620034 < 100 && Leak1Item_620035 < 10 && Leak1Item_621006 < 10
+			
+				GotoF case11
+				
+				
+			Window_No
+			
+				GotoF case4
+				
+				
+				
+				EndBlock
+	else
+		
+		*case4*
+		
+		if Leak1Item_620033 >= 100
+		
+			
+			Window "\n\n　5M楼府100概肺焙.\n　10M楼府50概扼匙.",Yes,No
+			
+				Window_Yes Leak1Item_620033 >= 100 && ItemSpace >= 1
+				
+					KillLeak1Item 620033,100
+					GiveLeak1item 620034,50
+				
+					GotoF case21
+			
+				Window_Yes ItemSpace == 0
+			
+					GotoF case12
+			
+				Window_Yes Leak1Item_620033 < 100
+			
+					GotoF case10
+					
+				Window_Yes
+			
+					GotoF case10
+					
+				Window_No Leak1Item_620034 < 100 && Leak1Item_620035 < 10 && Leak1Item_621006 < 10
+			
+					GotoF case11
+					
+				Window_No
+			
+					GotoF case5
+					
+					EndBlock
+					
+		else
+		
+			*case5*
+			
+			if Leak1Item_620034 >= 100
+			
+			
+				Window "\n\n　10M楼府100概肺焙.\n　1000M楼府1概扼匙.",Yes,No
+				
+				
+					Window_Yes Leak1Item_620034 >= 100 && ItemSpace >= 1
+					
+						KillLeak1Item 620034,100
+						GiveLeak1Item 621006,1
+					
+						GotoF case22
+					
+					Window_Yes ItemSpace == 0
+					
+						GotoF case12
+						
+					Window_Yes Leak1Item_620034 < 100
+					
+						GotoF case10
+						
+					Window_Yes
+			
+						GotoF case10
+						
+					Window_No Leak1Item_620035 < 10 && Leak1Item_621006 < 10
+			
+						GotoF case11
+						
+					Window_No
+			
+						GotoF case6
+			
+						EndBlock
+						
+				else
+						
+			*case6*
+			
+			if Leak1Item_621006 >= 10
+			
+			
+				Window "\n\n　1000M楼府10概肺焙.\n　1父M楼府1概扼匙.",Yes,No
+				
+				
+					Window_Yes Leak1Item_621006 >= 10 && ItemSpace >= 1
+					
+						KillLeak1Item 621006,10
+						GiveLeak1Item 620035,1
+					
+						GotoF case23
+					
+					Window_Yes ItemSpace == 0
+					
+						GotoF case12
+						
+					Window_Yes Leak1Item_621006 < 10
+					
+						GotoF case10
+						
+					Window_Yes
+			
+						GotoF case10
+						
+					Window_No Leak1Item_620035 < 10
+			
+						GotoF case11
+						
+					Window_No
+			
+						GotoF case7
+			
+						EndBlock
+		
+			else
+					
+					*case7*
+					
+				if Leak1Item_620035 >= 10
+				
+					Window "\n\n　1父M楼府10概肺焙.\n　10父M楼府1概扼匙.",Yes,No
+					
+						Window_Yes Leak1Item_620035 >= 10 && ItemSpace >= 1
+						
+							KillLeak1Item 620035,10
+							GiveLeak1Item 620036,1
+							
+							GotoF case24
+						
+						Window_Yes ItemSpace == 0
+						
+							GotoF case12
+							
+						Window_Yes Leak1Item_620035 < 10
+						
+							GotoF case10
+						
+						Window_Yes
+			
+							GotoF case10
+						
+						Window_No
+						
+							GotoF case11
+							
+							EndBlock
+				
+				else
+					
+					EndWindow "\n\n　背券且 父怒 面盒洒 啊廉客."
+					
+					
+	endif
+		endif
+			endif
+				endif
+					endif
+				
+	EndWindow "\n\n　背券且 父怒 面盒洒 啊廉客."
+					
+				
+	
+	EndBlock
+	
+				
+Block
+
+	*case25*
+	
+	
+	
+	if Leak1Item_620032 >= 50
+		
+		
+		Window "\n\n　1M楼府50概肺焙.\n　5M楼府10概扼匙.",Yes,No
+			
+			
+			Window_Yes Leak1Item_620032 >= 50 && ItemSpace >= 1
+			
+				KillLeak1Item 620032,50
+			 	GiveLeak1Item 620033,10
+			 	
+			 	GotoF case20
+			 	
+			
+			Window_Yes ItemSpace == 0
+			
+				GotoF case12
+			
+			
+			Window_Yes Leak1Item_620032 < 50
+			
+				GotoF case10
+			
+			Window_Yes
+			
+				GotoF case10
+				
+				
+				
+			Window_No
+			
+				GotoF case11
+				
+				
+				
+				EndBlock
+	else
+		
+		*case26*
+		
+		if Leak1Item_620033 >= 100
+		
+			
+			Window "\n\n　5M楼府100概肺焙.\n　10M楼府50概扼匙.",Yes,No
+			
+				Window_Yes Leak1Item_620033 >= 100 && ItemSpace >= 1
+				
+					KillLeak1Item 620033,100
+					GiveLeak1item 620034,50
+				
+					GotoF case21
+			
+				Window_Yes ItemSpace == 0
+			
+					GotoF case12
+			
+				Window_Yes Leak1Item_620033 < 100
+			
+					GotoF case10
+					
+				Window_Yes
+			
+					GotoF case10
+					
+					
+				Window_No
+			
+					GotoF case11
+					
+					EndBlock
+					
+		else
+		
+			*case27*
+			
+			if Leak1Item_620034 >= 100
+			
+			
+				Window "\n\n　10M楼府100概肺焙.\n　1000M楼府1概扼匙.",Yes,No
+				
+				
+					Window_Yes Leak1Item_620034 >= 100 && ItemSpace >= 1
+					
+						KillLeak1Item 620034,100
+						GiveLeak1Item 621006,1
+					
+						GotoF case22
+					
+					Window_Yes ItemSpace == 0
+					
+						GotoF case12
+						
+					Window_Yes Leak1Item_620034 < 100
+					
+						GotoF case10
+						
+					Window_Yes
+			
+						GotoF case10
+						
+						
+					Window_No
+			
+						GotoF case11
+			
+						EndBlock
+						
+				else
+						
+			*case28*
+			
+			if Leak1Item_621006 >= 10
+			
+			
+				Window "\n\n　1000M楼府10概肺焙.\n　1父M楼府1概扼匙.",Yes,No
+				
+				
+					Window_Yes Leak1Item_621006 >= 10 && ItemSpace >= 1
+					
+						KillLeak1Item 621006,10
+						GiveLeak1Item 620035,1
+					
+						GotoF case23
+					
+					Window_Yes ItemSpace == 0
+					
+						GotoF case12
+						
+					Window_Yes Leak1Item_621006 < 10
+					
+						GotoF case10
+						
+					Window_Yes
+			
+						GotoF case10
+						
+						
+					Window_No
+			
+						GotoF case11
+			
+						EndBlock
+		
+			else
+					
+					*case29*
+					
+				if Leak1Item_620035 >= 10
+				
+					Window "\n\n　1父M楼府10概肺焙.\n　10父M楼府1概扼匙.",Yes,No
+					
+						Window_Yes Leak1Item_620035 >= 10 && ItemSpace >= 1
+						
+							KillLeak1Item 620035,10
+							GiveLeak1Item 620036,1
+							
+							GotoF case24
+						
+						Window_Yes ItemSpace == 0
+						
+							GotoF case12
+							
+						Window_Yes Leak1Item_620035 < 10
+						
+							GotoF case10
+						
+						Window_Yes
+			
+							GotoF case10
+						
+						Window_No
+						
+							GotoF case11
+							
+							EndBlock
+				
+				else
+					
+					EndWindow "\n\n　背券且 父怒 面盒洒 啊廉客."
+					
+					
+	endif
+		endif
+			endif
+				endif
+					endif
+				
+	EndWindow "\n\n　背券且 父怒 面盒洒 啊廉客."
+					
+				
+	
+	EndBlock
+						
+Block
+
+	*case20*
+	
+	Window "\n\n　肚 券傈 且贰?",Yes,No
+	
+		Window_yes Leak1Item_620032 >= 50
+	
+			GotoB case25
+		
+		Window_yes
+	
+			endWindow "\n\n　歹 捞惑 券傈且 荐 绝焙."
+			
+		Window_No
+		
+			GotoF case11
+			
+			
+
+Block
+
+	*case21*
+	
+	Window "\n\n　肚 券傈 且贰?",Yes,No
+	
+		Window_yes Leak1Item_620033 >= 100
+	
+			GotoB case26
+		
+		Window_yes
+	
+			endWindow "\n\n　歹 捞惑 券傈且 荐 绝焙."
+			
+		Window_No
+		
+			GotoF case11
+			
+			
+Block
+
+	*case22*
+	
+	Window "\n\n　肚 券傈 且贰?",Yes,No
+	
+		Window_yes Leak1Item_620034 >= 100
+	
+			GotoB case27
+		
+		Window_yes
+	
+			endWindow "\n\n　歹 捞惑 券傈且 荐 绝焙."
+			
+		Window_No
+		
+			GotoF case11
+			
+Block
+
+	*case23*
+	
+	Window "\n\n　肚 券傈 且贰?",Yes,No
+	
+		Window_yes Leak1Item_621006 >= 10
+	
+			GotoB case28
+		
+		Window_yes
+	
+			endWindow "\n\n　歹 捞惑 券傈且 荐 绝焙."
+			
+		Window_No
+		
+			GotoF case11
+			
+			
+Block
+
+	*case24*
+	
+	Window "\n\n　肚 券傈 且贰?",Yes,No
+	
+		Window_yes Leak1Item_620035 >= 10
+			
+			GotoB case29
+		
+		Window_yes
+	
+			endWindow "\n\n　歹 捞惑 券傈且 荐 绝焙."
+			
+		Window_No
+		
+			GotoF case11
+			
+
+
+#阁胶磐 内牢阑 档吝俊 绝矩 版快(纳捞胶10锅)
+
+Block
+
+	*case10*
+
+	EndWindow "\n\n　内牢捞 绝促聪, 富捞 登唱."
+	
+	
+	
+#芭例茄 版快狼 馆览(纳捞胶11锅)
+Block
+	*case11*
+	
+	EndWindow "\n\n　弊贰? 鞘夸窍搁 攫力电 客."
+	
+#酒捞袍捞 啊垫蛮 版快(纳捞胶12锅)
+Block
+	*case12*
+	
+	EndWindow "\n\n　酒捞袍捞 父顶捞具."
+
+
+

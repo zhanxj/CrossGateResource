@@ -1,0 +1,9 @@
+#矫刮 绒酒挪配胶
+
+#
+block
+	Window 22451,Yes,No
+		Window_No
+			EndWindow 22453,OK
+		Window_Yes
+			EndWindow 22452,OK

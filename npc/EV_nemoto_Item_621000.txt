@@ -1,0 +1,93 @@
+#
+#官福 单府(阁胶磐 林冈逛)
+#
+
+##官福 单府甫 2俺 捞惑 爱绊 乐促
+block Item 621000 >= 2
+	EndWindow "\n\n　官福 单府绰 2俺 捞惑 瘤聪绊 乐栏搁\n　冈阑 荐 绝嚼聪促."
+
+##牢亥配府 后沫捞 3俺 固父
+block ItemSpace < 3
+		EndWindow"\n\n　酒捞袍沫阑 3俺 捞惑 厚款促澜\n　棱荐绞矫坷."
+
+## 后 脐浇吩捞 绝促
+block petspace == 0
+		EndWindow"\n\n　阁胶磐 浇吩阑 1俺 捞惑 厚款促澜\n　棱荐绞矫坷."
+
+##酒捞袍 后沫捞 3俺 捞惑
+block Itemspace  >= 3
+	LocalCount31 = random 100,0
+		Window "\n\n　官福 单府甫 冈嚼聪促.",OK
+
+##困 皋矫瘤 钎矫 吝俊 官福 单府啊 刘啊沁促
+			Window_OK LocalCount31 >= 0 && LocalCount31 <= 100 && Item 621000 > 1
+				EndWindow "\n\n　官福 单府甫 2俺 捞惑 爱绊 乐栏搁\n　冈阑 荐 绝嚼聪促."
+
+##困 皋矫瘤 钎矫 吝俊 酒捞袍 后沫捞 何练秦脸促
+			Window_OK LocalCount31 >= 0 && LocalCount31 <= 100 && Itemspace < 3
+				EndWindow "\n\n　酒捞袍沫阑 3俺 捞惑 厚况敌 促澜 棱荐矫扁 官而聪促."
+
+##20％狼 犬伏肺 75距阑 4技飘 霖促
+			Window_OK LocalCount31 >= 81 && LocalCount31 <= 100
+				KillItem 621000,1,(3012001)
+				GiveStackItem 15605,12 
+			Endblock
+
+##20％狼 犬伏肺 皋飘 技飘甫 霖促
+			Window_OK LocalCount31 >= 61 && LocalCount31 <= 80
+				KillItem 621000,1,(3012001)
+				GiveLeak1Item 18195,2
+				GiveLeak1Item 18194,1
+				GiveLeak1Item 18231,1
+			Endblock
+
+##20％狼 犬伏肺 辨靛阁胶磐 吝焊籍技飘甫 霖促
+			Window_OK LocalCount31 >= 41 && LocalCount31 <= 60
+				KillItem 621000,1,(3012001)
+				GiveLeak1Item 608400,1
+				GiveLeak1Item 608410,1
+				GiveLeak1Item 608420,1
+				GiveLeak1Item 608430,1
+			Endblock
+
+##20％狼 犬伏肺 何胶飘 倾宏甫 4俺 霖促
+			Window_OK LocalCount31 >= 21 && LocalCount31 <= 40
+				KillItem 621000,1,(3012001)
+				GiveLeak1Item 607680,4
+			Endblock
+
+##10％狼 犬伏肺 何胶飘 倾宏, 何胶飘 倾宏SP甫 2俺究 霖促
+			Window_OK LocalCount31 >=11  && LocalCount31 <= 20
+				Killitem 621000,1,(3012001)
+				GiveLeak1Item 607680,2
+				GiveLeak1Item 607685,2
+			Endblock
+
+##4％狼 犬伏肺 阁胶磐 内牢 1M阑 4技飘 霖促
+			Window_OK LocalCount31 >= 7 && LocalCount31 <= 10
+				Killitem 621000,1,(3012001)
+				GiveStackItem 620032,200
+			Endblock
+
+##3％狼 犬伏肺 漂措 烽钮宏 技飘甫 霖促
+			Window_OK LocalCount31 >= 4 && LocalCount31 <= 6
+				Killitem 621000,1,(3012001)
+				GiveLeak1Item 18025,1
+				GiveLeak1Item 18046,1
+				GiveLeak1Item 18067,1
+				GiveLeak1Item 18088,1
+			Endblock
+
+##2％狼 犬伏肺 辨靛阁胶磐 乔府x2, 绊喉赴 烹备捞, 酒捞箕牡叼甫 霖促
+			Window_OK LocalCount31 >= 2 && LocalCount31 <= 3
+				Killitem 621000,1,(3012001)
+				GiveLeak1Item 608700,2
+				GiveLeak1Item 608606,1
+				GiveLeak1Item 608604,1
+			Endblock
+
+##1％狼 犬伏肺 矫府快胶甫 霖促
+			Window_OK LocalCount31 == 1 && petspace > 0
+				Killitem 621000,1,(3012001)
+				Givepet 313900
+			Endblock

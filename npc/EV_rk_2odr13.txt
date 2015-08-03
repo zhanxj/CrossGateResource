@@ -1,0 +1,6 @@
+#角赴
+
+#
+block
+	EndWindow 23161,OK
+

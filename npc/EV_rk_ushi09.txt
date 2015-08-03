@@ -1,0 +1,35 @@
+#拜捧啊侩 ＮＰＣ
+#贸澜栏肺 炼扒捞 老摹茄 喉废阑 贸府茄促
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+########## 酒捞袍狼 后 镑捞 绝绰 版快 ##########
+block ItemSpace == 0
+	#\n\n　临 巴捞 乐瘤父 酒捞袍捞 啊垫 谩焙.
+	EndWindow 21117
+########## 蓖吧捞 肺胶飘狼 版快 ##########
+block Item 18599 == 0
+ encount 2|0,300,715,35||0|||||0|12019|||||||||
+
+############## 皋矫瘤 钎矫 ################
+block
+window 21093,next
+window 21095,next
+window 21096,next
+window 21097,yes,no
+ window_yes
+   window 21094,next
+   window 21098,ok
+    window_ok ItemSpace != 0
+     killitem 18599
+     giveitem 18600
+     warp 0,15525,21,6
+    window_ok
+     EndWindow 21117
+ window_no
+  encount 2|0,300,715,35||0|||||0|12019|||||||||
+
+ItemSpace != 0
+               Giveitem 18114,1
+        Window_OK
+			EndWindow 21050

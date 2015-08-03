@@ -1,0 +1,16 @@
+#捍俊 穿款 磊(15557)
+#
+
+block
+ Changepal 15,180
+#\n侩狼 格家府：\n\n　荤恩阑 磷牢 磊啊 匙 菊俊 乐促绊 窍磊.\n\n　磷澜栏肺辑 弊 了蔼阑 摹福霸 且刨啊?（匙甫 急琶）\n　酒聪搁 了甫 汞瘤 臼绊 籍规且刨啊?（酒聪坷甫 急琶）
+ Window 21321,yes,no
+#
+  Window_yes
+   LeaveGroup
+   Warp 0,15560,15,19
+  Window_no
+   LeaveGroup
+   Warp 0,15560,11,19
+
+

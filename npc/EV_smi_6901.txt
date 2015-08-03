@@ -1,0 +1,103 @@
+#捞亥飘 抛胶飘
+#贸澜栏肺 炼扒捞 老摹茄 喉废阑 贸府茄促
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+########## 候 滚芭揪狼 版快 ##########
+block Item 18422 >= 1
+	#祈瘤甫 啊瘤绊 乐绰 版快
+	#览? 构具 惩?
+	Window 13003,YES,NO
+
+	#----- 扩档快 YES狼 版快 -----#
+	#捞矾聂历矾聂, 苞楷 模备甫 档客林瘤 臼摆唱
+	Window_YES
+	Window 13004,OK
+
+	Window_OK
+	Window 13026,OK
+
+	#----- 扩档快 OK ２雀掳老 锭 -----#
+	Window_OK Item 18422 >= 1
+	Killitem 18422,1
+	GiveItem 18423,1
+	EndWindow 13007
+
+	Window_OK
+
+	#----- 扩档快 NO狼 版快 -----#
+	#杭老捞 绝栏搁 绢辑 倒酒啊.
+	Window_NO 
+	EndWindow 13005
+
+	#----- 扩档快 YES捞绊 后 镑捞 ３绝阑 锭 -----#
+	#Window_OK itemspace <= 3
+	#Window 13012,OK
+
+
+########## 皑苛狼 凯艰甫 啊瘤绊 乐绰 版快 ##########
+block Item 18424 >= 1
+	#何殴秦.
+	EndWindow 13031
+
+
+########## 倒阑 盲奔 饶, 凯艰 累己狼 版快 ##########
+block Item 18425 >= 3 && Item 18426 >= 3 && Item 18427 >= 3 && Item 18423 >= 1
+	#炼扒 乐澜：ABC3俺究狼 堡籍阑 葛栏搁. 堡魂狼 凯艰（１）
+	#坷坷, 弊巴篮 堡籍捞 酒囱啊, 瘤陛何磐 父甸瘤.
+	Window 13009,YES,NO
+
+	Window_YES
+	Window 13024,OK
+
+	#----- 扩档快 OK狼 版快 -----#
+	#堡籍 ３辆幅（A·B·C）LOST
+	Window_OK Item 18425 >= 3 && Item 18426 >= 3 && Item 18427 >= 3 && Item 18423 >= 1
+	Killitem 18425,3
+	Killitem 18426,3
+	Killitem 18427,3
+	Killitem 18423,1
+	GiveItem 18424,1
+	Window_OK
+
+	#----- 扩档快 NO狼 版快 -----#
+	#何殴捞具, 堡籍阑 弧府 啊廉客林霸
+	Window_NO
+	EndWindow 13025
+
+
+########## 倒阑 盲奔 饶, 凯艰 累己狼 版快 ##########
+block Item 18425 >= 3 && Item 18426 >= 3 && Item 18427 >= 3
+	#炼扒 乐澜：ABC3俺究狼 堡籍阑 葛栏搁. 堡魂狼 凯艰（１）
+	#坷坷, 弊巴篮 堡籍捞 酒囱啊, 瘤陛何磐 父甸瘤.
+	Window 13009,YES,NO
+
+	Window_YES
+	Window 13024,OK
+
+	#----- 扩档快 OK狼 版快 -----#
+	#堡籍 ３辆幅（A·B·C）LOST
+	Window_OK Item 18425 >= 3 && Item 18426 >= 3 && Item 18427 >= 3
+	Killitem 18425,3
+	Killitem 18426,3
+	Killitem 18427,3
+	GiveItem 18424,1
+	Window_OK
+
+	#----- 扩档快 NO狼 版快 -----#
+	#何殴捞具, 堡籍阑 弧府 啊廉客林霸
+	Window_NO
+	EndWindow 13025
+
+
+########## 堡魂狼 凯艰甫 啊瘤绊 乐绰 版快 ##########
+block Item 18423 >= 1
+	#\n\n　摧囚柳 巩捞扼绰 扒, 惫康 力24盎档狼 瘤窍2摸栏肺 郴妨啊辑 官肺 菊俊 乐绢.\n　何殴秦.
+	EndWindow 13032
+
+
+########## 利钦窍瘤 臼篮 版快 ##########
+block
+	#肚 烤朝贸烦 鞍捞 老窍绊 酵焙.
+	EndWindow 13008
+

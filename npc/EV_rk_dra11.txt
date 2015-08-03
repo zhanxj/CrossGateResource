@@ -1,0 +1,34 @@
+#归锋狼 荤磊(15540)
+#
+
+block Item 18768 != 0
+ Changepal 15,180
+#\n\n　荤乔鞘胶啊 力窜 傈眉客 碍窍霸 傍疙窍绊 乐促.\n　郴 绊悼档 痢痢 芭扁俊 捞缠妨啊绰 巴阑 蠢长促.\n\n　狼侥捞 痢痢 钢绢廉 埃促ˇˇˇ
+ Window 21307,NEXT
+#\n\n　咯绰 磊咯ˇ　\n　捞 巩篮 凯赴 巴 鞍焙夸.
+ Window 21308,OK
+  Window_OK Item 18768 != 0
+   #killitem 18768,1,(21325)
+   LeaveGroup
+   Warp 0,15551,28,37
+  Window_OK
+   Window 21309,next
+   Endwindow 21235
+
+block
+ Window 21309,next
+ Endwindow 21235
+
+#block
+##\n\n　锭甫 扁促妨扼
+# Window 21279,OK
+#  Window_OK ItemSpace != 0
+#  giveitem 18766,1
+#  LeaveGroup
+#   Warp 0,1530,15,6
+############## 酒捞袍 啊垫 曼 ##############
+#	Window_OK
+#         Endwindow 10000
+
+
+

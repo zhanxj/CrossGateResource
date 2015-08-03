@@ -1,0 +1,14 @@
+#霸脚
+
+
+#付捞付捞 钱阑 啊瘤绊 乐促
+block Item 16430 >= 1
+	Window 23086,OK
+		Window_OK
+			LeaveGroup
+			Warp 0,43970,4,7
+#
+block
+	EndWindow 23087,OK
+
+

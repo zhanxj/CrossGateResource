@@ -1,0 +1,24 @@
+#沤沥 涅胶飘：捍
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###########　捍　（18896)捞 乐促　##############
+block Item 18896 >= 1
+
+	EndWindow 206653,OK
+
+###########　「颊俊 棱绰促」　##############
+block strcmpchat == 206724
+
+	Window 206652,OK
+	Window_OK Itemspace >= 1
+	leavegroup
+	GiveItem 18896
+	Window_OK Itemspace == 0
+	EndWindow 206431,OK
+
+###########　酒公巴档 绝澜　##############
+block 
+
+	EndWindow 206651,OK
+

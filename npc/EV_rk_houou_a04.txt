@@ -1,0 +1,4 @@
+#乔禄
+
+block
+	EndWindow 22321,OK

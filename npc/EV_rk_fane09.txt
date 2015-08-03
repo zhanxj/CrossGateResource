@@ -1,0 +1,6 @@
+#窍剐漠
+
+#
+block
+	EndWindow 22706,OK
+

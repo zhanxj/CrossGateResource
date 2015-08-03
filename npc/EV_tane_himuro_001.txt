@@ -1,0 +1,58 @@
+
+block
+
+
+
+				LocalCount0 = random 3,0
+
+				if LocalCount0 == 1
+
+
+#					Window "\n\n　官~拘!! 官~拘~!! 官~拘!!",next
+					Window 3006862,next
+
+
+#					EndWindow "\n\n　逛阑~逛阑~拎~绢~!!"
+					EndWindow 3006863
+
+
+				else
+
+					if LocalCount0 == 2
+
+#						Window "\n\n　历扁, 3老捞唱 蝶舵茄 巴阑 给 冈菌嚼聪促.",next
+						Window 3006864,next
+
+
+#						EndWindow "\n\n　弊力绰 厚鸥刮, 绢力绰 扒户,\n　坷疵篮 拱 观俊ˇˇ"
+						EndWindow 3006865
+
+
+
+					else
+
+#						Window "\n\n　硅绊颇~",next
+						Window 3006866,next
+
+
+#						EndWindow "\n\n　林规厘 绢叼~?"
+						EndWindow 3006867
+
+
+					endif
+
+				endif
+
+
+
+
+
+
+
+
+
+
+
+
+
+

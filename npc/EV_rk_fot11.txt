@@ -1,0 +1,6 @@
+#FOT巩力４
+
+block
+#
+	EndWindow 21719,OK
+

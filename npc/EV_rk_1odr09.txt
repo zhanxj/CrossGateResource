@@ -1,0 +1,21 @@
+#盒畴狼 巩瘤扁
+
+#盒畴狼 了辑甫 啊瘤绊 乐促
+block Item 16446 >= 1
+	Window 23187,OK
+		Window_OK
+			Encount 2|0,33608,8,59||0|||||0|20051|||||||||
+#
+block
+		Window 23196,Yes,No
+			Window_Yes
+				Window 23189,OK
+					Window_OK
+						LeaveGroup
+						Warp 0,33000,468,381
+			Window_No
+				Window 23190,OK
+					Window_OK
+						LeaveGroup
+						Warp 0,33000,468,381
+

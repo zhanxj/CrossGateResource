@@ -1,0 +1,50 @@
+#历林罐篮 绊格
+
+
+#郡 ２殿阑 啊瘤绊 乐绊, 抗加狼 格吧捞客 老蚌 俺狼 了辑甫 啊瘤绊 乐促
+
+
+block EndEvent 56 == 1 && Item 16438 >= 1 && Item 16440 >= 1 && Item 16441 >= 1 && Item 16442 >= 1 && Item 16443 >= 1 && Item 16444 >= 1 && Item 16445 >= 1 && Item 16446 >= 1
+	Window 23185,OK
+		Window_OK
+			LeaveGroup
+			Warp 0,33000,479,372
+
+
+#鄂 ２殿阑 啊瘤绊 乐绊, 抗加狼 格吧捞客 老蚌 俺狼 了辑甫 啊瘤绊 乐促
+
+
+block EndEvent 64 == 1 && Item 16438 >= 1 && Item 16440 >= 1 && Item 16441 >= 1 && Item 16442 >= 1 && Item 16443 >= 1 && Item 16444 >= 1 && Item 16445 >= 1 && Item 16446 >= 1
+	Window 23185,OK
+		Window_OK
+			LeaveGroup
+			Warp 0,33000,479,372
+
+
+
+
+#郡 ２殿甫 啊瘤绊 乐促＆抗加狼 格吧捞甫 啊瘤绊 乐促
+block EndEvent 56 == 1 && Item 16438 >= 1
+	Window 3420001,OK
+		Window_OK
+			LeaveGroup
+			Warp 0,33000,479,372
+
+
+#鄂 ２殿甫 啊瘤绊 乐促搁＆抗加狼 格吧捞甫 啊瘤绊 乐促
+block EndEvent 64 == 1 && Item 16438 >= 1
+	Window 3420002,OK
+		Window_OK
+			LeaveGroup
+			Warp 0,33000,479,372
+
+#郡 ２殿甫 啊瘤绊 乐促搁
+block EndEvent 56 == 1
+	EndWindow 23186,OK
+#鄂 ２殿甫 啊瘤绊 乐促搁
+block EndEvent 64 == 1
+	EndWindow 23186,OK
+#
+block
+		EndWindow 23233,OK
+

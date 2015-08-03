@@ -1,0 +1,4 @@
+#捍荤狼 矫眉
+
+block
+	EndWindow 22378,OK

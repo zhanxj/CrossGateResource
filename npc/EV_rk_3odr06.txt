@@ -1,0 +1,7 @@
+#唱公槽 橇肺沛
+
+#
+block
+	Window 23030,Next
+	EndWindow 23031,OK
+

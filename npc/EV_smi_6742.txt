@@ -1,0 +1,40 @@
+#捞亥飘 抛胶飘
+#贸澜栏肺 炼扒捞 老摹茄 喉废阑 贸府茄促
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+
+########## 切积 扁酒扁酒 ##########
+
+block Item 18489 >=1 && Item 18490 >=1  && Item 18564 >=1
+	Window 13166,NEXT
+	Window 13167,NEXT
+	Window 13168,Ok
+
+	Window_OK itemspace == 0
+	#家瘤前捞 啊垫 谩绢.
+	EndWindow 13012
+
+	#器惑：
+	Window_OK itemspace >= 0
+	Killitem 18489
+	Killitem 18490
+	Killitem 18564
+	Killitem 18488
+	GiveItem 18565
+
+block Item 18565 >=1
+
+	EndWindow 13169
+
+block Item 18488 >=1
+
+	Window 13160,NEXT
+	Window 13161,NEXT
+	EndWindow 13162
+
+block 
+
+	EndWindow 13159
+
+

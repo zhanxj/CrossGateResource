@@ -1,0 +1,56 @@
+
+block
+
+
+
+				LocalCount0 = random 3,0
+
+				if LocalCount0 == 1
+
+
+#					Window "\n\n　历, 沥脚瞒妨绢绢绢!",next
+					Window 3006880,next
+
+
+#					EndWindow "\n\n　磊搁, 磊搁 磷绢绢绢!!"
+					EndWindow 3006881
+
+
+				else
+
+					if LocalCount0 == 2
+
+#						Window "\n\n　绢捞! 寸脚!\n　绢痘霸 粱 秦 毫酒酒酒酒!",next
+						Window 3006882,next
+
+
+#						EndWindow "\n\n　模备啊, 绿绿 本绢辑\n　模备啊 历祈俊俊俊俊!"
+						EndWindow 3006883
+
+
+					else
+
+#						Window "\n\n　绢捞! 绢捞!\n　沥脚瞒妨!! 模备!!",next
+						Window 3006884,next
+
+#						EndWindow "\n\n　呈 绊氢篮 绢叼具?\n　荤扼配啊衬!\n　芭变 亮篮 镑捞瘤!\n　绢捞! 磊瘤付!\n　构扼档 亮栏聪鳖 拌加 瘤铂咯!"
+						EndWindow 3006885
+
+
+					endif
+
+				endif
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+#
+#呕林 囱磊 唱公捞
+#
+
+
+
+### 囱磊扼搁 ###
+block Job == 151 || Job == 152 || Job == 153 || Job == 154 || Job == 155 || Job == 156 || Job == 157
+#\n\n　捞繁 镑俊 荤恩捞 坷促聪 喊老捞焙.\n　构? 扒呈祈 魂怖措扁肺 扒呈啊绊 酵促绊?\n\n　ˇ!?构具 呈, 囱磊垒酒!?\n　捞繁 巴码, 朝促恩零狼 贱过栏肺 茄规俊 逞阑 荐 乐垒酒!? 啊罕霸 逞绢滚府绊 客!
+Window 21366,OK
+	Window_OK
+	LeaveGroup
+	Warp 0,15568,41,50
+	Window_OK
+
+### 朝促恩零狼 噶配甫 啊瘤绊 乐促搁 ###
+block Item 18803 >= 1
+#\n\n　亮酒, 弊 噶配甫 吧摹绊 顿搁, 焊烹荤恩捞扼档 捞 芭府 沥档绰 巩力绝阑 芭具.\n\n　弊烦 炼缴秦.
+Window 21369,OK
+	Window_OK
+	LeaveGroup
+	Warp 0,15568,41,50
+	Window_OK
+
+### 弊 寇狼 流诀捞扼搁 ###
+block
+#\n\n　捞繁 镑俊 荤恩捞 坷促聪 喊老捞焙.\n　构? 扒呈祈 魂怖措扁肺 扒呈啊绊 酵促绊?\n 栏~澜ˇ. 窍瘤父 囱磊扼档 酒囱 茄 捞 芭府甫 顿绰 巴篮 帮鄂窍摆瘤ˇ.
+Window 21367,NEXT
+#\n\n　ˇ亮酒, 弊烦 郴 朝促恩零狼 噶配甫 漂喊洒 林档废 窍瘤.\n\n 窜 999999G罐阑刨单 宝满摆瘤?
+Window 21368,yes,no
+	Window_yes Gold >= 999999 && ItemSpace != 0
+	addgold -999999
+	GiveItem 18803,1
+#\n\n　弊 朝促恩零狼 档氛捞甫 吧摹绊 顿搁, 焊烹荤恩捞扼档 捞 芭府 沥档绰 巩力绝阑 芭具.\n\n　弊烦 炼缴秦.
+	Window 21369,OK
+		Window_OK
+		LeaveGroup
+		Warp 0,15568,41,50
+		Window_OK
+	Window_yes ItemSpace == 0
+	Endwindow 10000
+	Window_yes Gold <= 999998
+	Endwindow 10005
+	Window_yes
+	Window_no
+	Endwindow 21383
+

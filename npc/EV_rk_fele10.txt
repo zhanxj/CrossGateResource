@@ -1,0 +1,11 @@
+#
+#瘤惑栏肺 倒妨焊郴绰 荤扼父歹
+#
+
+block
+#\n\n\n\n@c　捞力 扁骄栏肺 倒酒啊绊 酵绢?
+ Window 21495,Yes,No
+  Window_Yes
+   LeaveGroup
+   warp 0,100,261,478
+  Window_NO

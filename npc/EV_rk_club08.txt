@@ -1,0 +1,27 @@
+#
+#颇扼绊
+#
+
+###　　###
+
+#乃狼 疙窃 墨款飘啊 ３捞惑狼 版快
+block Item 16239 == 1 && StampCount 16239 >= 3
+	EndWindow 21844
+
+#颇扼绊狼 祈瘤甫 啊瘤绊 乐促搁
+block Item 18982 == 1
+	EndWindow 21854
+
+#搬去 奇带飘甫 啊瘤绊 乐促搁
+block Item 18969  >= 1
+#（吝帆）何叼 捞 祈瘤甫 弊俊霸 傈秦 林技夸.
+	Window 21566,OK
+	Window_OK
+			killItem 18969,1
+			GiveItem 18982,1
+###　　###
+block
+#\n\n　唱 缴茄 富阑 呈公 腹捞 沁绢.\n　弊 荤恩篮 绢叼肺 啊滚赴 吧鳖ˇ.
+	EndWindow 21565
+
+

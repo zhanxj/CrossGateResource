@@ -1,0 +1,11 @@
+#
+#固趣狼 规 荤扼父歹
+#
+
+block
+#\n\n　促弗 规栏肺 单妨啊临鳖?
+	Window 21503,Yes,No
+        Window_Yes
+		playse 279,1,1
+		Warp 0,15596,22,9
+	Window_No

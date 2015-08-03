@@ -1,0 +1,73 @@
+
+
+block Item 607654 >= 1
+
+			Window 3890001,next
+
+			EndWindow 3890002
+
+block
+
+			if LocalCount1 == 5
+
+				LocalCount1 = random 3,0
+
+				if LocalCount1 == 1
+
+					LocalCount1 = 5
+
+#					Window "\n\n　快府 林规厘篮\n　弊俯捞 累酒辑\n　陛规 猖猖 疚酒夸~",next
+					Window 3006856,next
+
+
+#					EndWindow "\n\n　捞锅俊档\n　脚 皋春啊, 脚 皋春啊, 扼搁辑.\n　喊肺 皋春啊 何练窍瘤档 臼篮单~"
+					EndWindow 3006857
+
+
+
+				else
+
+					LocalCount1 = 5
+
+#					Window "\n\n　快府 林规厘篮\n　弊俯捞 累酒辑\n　良篮 镑阑 亮酒秦夸~",next
+					Window 3006858,next
+
+
+#					EndWindow "\n\n　酒付, 瘤陛码 绢凋啊\n　良篮 贱笼俊辑 贱林沥阑 窍绊 乐阑 芭抗夸~"
+					EndWindow 3006859
+
+
+
+				endif
+
+
+
+			else
+
+					LocalCount1 = 5
+
+#				Window "\n\n　酒~居.\n　林规厘捞 角辆登绢辑\n　颊丛俊霸 夸府甫 尘 荐 绝绢夸~",next
+				Window 3006860,next
+
+
+#				EndWindow "\n\n　绢侗窍瘤.\n　购啊,\n　困氰茄 惑怕啊 等 颊丛捞 乐备~"
+				EndWindow 3006861
+
+
+
+
+			endif
+
+
+
+
+
+
+
+
+
+
+
+
+
+

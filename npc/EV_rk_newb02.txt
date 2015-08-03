@@ -1,0 +1,14 @@
+#檬焊磊 堡厘＿绊福矫俊焙
+#
+
+block
+#\n\n　~~阂啊 酒捞袍狼 汲疙
+ Window 21231,NEXT
+ Window 21232,OK
+############## 酒捞袍 硅器 ##############
+	Window_OK ItemSpace != 0
+	giveitem 18697
+############## 酒捞袍 啊垫 曼 ##############
+	Window_OK
+         Endwindow 10000
+

@@ -1,0 +1,5 @@
+#捞抚 绝绰 家赤
+
+#
+block
+	EndWindow 23097,OK

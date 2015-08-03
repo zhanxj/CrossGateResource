@@ -1,0 +1,71 @@
+
+block
+
+
+			if LocalCount3 == 5
+
+				LocalCount3 = random 2,0
+
+				if LocalCount3 == 1
+
+
+
+					LocalCount3 = 5
+
+
+#					Window "\n\n　『坷疵广狼 馆蛮』力4鼻篮\n　贱救林 漂笼.",next
+					Window 3006898,next
+
+
+#					EndWindow "\n\n　辑宏 鸥捞撇篮\n　『傈汲狼 侩磊啊 亮酒茄 咐』"
+					EndWindow 3006899
+
+
+
+				else
+
+
+					LocalCount3 = 5
+
+
+#					Window "\n\n　『坷疵广狼 馆蛮』力5鼻篮\n　惯瓤侥前 漂笼.",next
+					Window 3006900,next
+
+
+#					EndWindow "\n\n　秦伙苞 惯瓤侥前阑 贸澜 冈篮 赤籍篮\n　决没 措窜茄 巴 鞍酒."
+					EndWindow 3006901
+
+
+				endif
+
+
+
+			else
+
+
+				LocalCount3 = 5
+
+
+#				Window "\n\n　『坷疵广狼 馆蛮』篮\n　傈汲狼 侥脚捞 扁废茄 傈汲狼 馆蛮笼.",next
+				Window 3006902,next
+
+
+#				EndWindow "\n\n　弊 荤夯阑 啊瘤绊 乐栏搁\n　唱吝俊 购啊 祈府"
+				EndWindow 3006903
+
+
+
+
+			endif
+
+
+
+
+
+
+
+
+
+
+
+

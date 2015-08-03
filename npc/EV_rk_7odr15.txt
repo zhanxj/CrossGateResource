@@ -1,0 +1,9 @@
+#颇荐槽 矫付瘤
+
+#鄂 ７殿 柳青 吝
+block NowEvent 112 == 1
+	EndWindow 22218,OK
+
+#郡 ７殿 柳青 吝
+block NowEvent 111 == 1
+	EndWindow 22219,OK

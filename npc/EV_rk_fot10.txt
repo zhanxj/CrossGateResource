@@ -1,0 +1,6 @@
+#FOT巩力３
+
+block
+#
+	EndWindow 21718,OK
+

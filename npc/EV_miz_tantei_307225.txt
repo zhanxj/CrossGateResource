@@ -1,0 +1,31 @@
+#沤沥 涅胶飘：侥扁 技飘
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###########　「夯促」　##############
+block strcmpchat == 206720
+
+	EndWindow 206415,OK
+
+###########　「颊俊 棱绰促」　##############
+block strcmpchat == 206724
+	playse 55,1,1
+	EndWindow 206416,OK
+
+###########　酒公巴档 绝澜　##############
+block 
+
+	Window 206408,NEXT
+	Window 206409,NEXT
+	Window 206410,NEXT
+	Window 206411,NEXT
+	Window 206412,NEXT
+	Window 206413,OK
+	Window_OK
+	changepal 13,150
+	Window 206414,OK
+	Window_OK
+	leavegroup
+	Warp 0,33256,13,9
+
+

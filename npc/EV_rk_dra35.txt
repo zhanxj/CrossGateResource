@@ -1,0 +1,62 @@
+#归锋（拳捞飘 靛贰帮）(15585)
+#
+
+###侩狼 葛嚼牢 版快绰 措拳且 荐 绝促###
+block BImage == 101904 || BImage == 101905
+	Endwindow 21517
+
+###橇贰弊 眉农###
+block EndEvent 39 == 1
+	Endwindow 21418
+block EndEvent 38 == 1
+	Endwindow 21397
+
+###　###
+block
+#\n\n　肋 吭嚼聪促 『咯绰 磊』咯.\n\n　牢埃狼 酒捞扼搁 沥脚捞 酒垫秦龙 矫埃 悼救
+#寸脚阑 扁促府绊 乐菌嚼聪促.
+	Window 21411,next
+#\n\n　疙缴窍绊 甸绢林绞矫坷.\n　快府甸 窍踞 侩篮 葛电 积拱阑 瘤虐绰 巴捞 目促鄂 格利涝聪促.
+#\n\n　唱绰 腹篮 积拱甸捞 戈噶窍绰 葛嚼阑 毫吭嚼聪促.
+#\n　戈噶 加俊 亲惑 焊捞绰 巴篮 目促鄂 颇鲍客 浇悄捞菌嚼聪促.
+	Window 21412,next
+#\n\n　恐, 积拱篮 辑肺 磷捞瘤 臼栏搁 救 登绰 吧鳖夸?　
+#\n　辑肺 磷捞瘤 臼绊 混酒啊绰 巴篮 阂啊瓷茄 巴老鳖夸?
+#\n\n　弊犯瘤绰 臼阑 疤聪促. 悼拱狼 公府绰 塞捞 碍茄 巴俊霸 蝶辅聪促.
+#碍窍绊 快荐茄 磊啊 乐栏搁, 芭扁俊 龙辑啊 怕绢唱绰 巴老 疤聪促.
+	Window 21413,next
+#\n\n　牢埃捞扼绊 秦辑 抗寇绰 酒凑聪促.
+#\n　咯绰 磊咯···技拌俊 函酋阑 啊廉棵 磊咯.\n　寸脚 沥档狼 荤恩捞扼搁
+#绢府籍篮 捧里阑 登钱捞窍绰 荤恩甸阑 捞缠 荐 乐阑瘤档 葛辅聪促.
+	Window 21414,next
+#
+#快府甸狼 狼瘤甫 备泅窍绰 磊狼 刘钎肺辑 捞巴阑 靛府瘤夸.
+#咯绰 磊咯, 何叼 牢埃阑 捧里捞 绝绰 技拌肺 捞缠绢林绞矫坷ˇ何殴涝聪促.
+	Window 21415,OK
+		Window_OK PetSpace != 0
+			KillItem 18780
+			KillItem 18903
+			KillItem 18904
+			EndEvent 38 = 1
+			NowEvent 38 = 0
+			checktitle
+			GivePet 246
+			#菊栏肺狼 寸脚狼 款疙篮ˇ
+			Message 21416
+			LeaveGroup
+			Warp 0,1530,15,6
+		Window_OK ItemSpace == 0
+			EndWindow 10000
+		Window_OK
+			KillItem 18780
+			KillItem 18903
+			KillItem 18904
+			EndEvent 38 = 1
+			NowEvent 38 = 0
+			checktitle
+			GiveItem 18906
+			#菊栏肺狼 寸脚狼 款疙篮ˇ
+			Message 21416
+			LeaveGroup
+			Warp 0,1530,15,6
+

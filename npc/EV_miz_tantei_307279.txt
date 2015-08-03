@@ -1,0 +1,34 @@
+#沤沥 涅胶飘：急馆
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###########　「夯促」　##############
+block strcmpchat == 206720
+
+	EndWindow 206607,OK
+
+###########　「滴靛赴促」　##############
+block strcmpchat == 206723
+	playse 143,1,1
+	EndWindow 206608,OK
+
+###########　「颊俊 棱绰促」　##############
+block Item 18894 != 0 && block strcmpchat == 206724
+
+	EndWindow 206606,OK
+
+block Item 18894 == 0 && strcmpchat == 206724
+
+	Window 206609,OK
+	Window_OK Itemspace >= 1
+	leavegroup
+	GiveItem 18894
+	Window_OK Itemspace == 0
+	EndWindow 206431,OK
+
+###########　酒公巴档 绝澜　##############
+block 
+
+	EndWindow 206606,OK
+
+

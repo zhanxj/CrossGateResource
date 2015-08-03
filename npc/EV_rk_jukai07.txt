@@ -1,0 +1,5 @@
+#寇喷捞 侩狼 富抗
+
+block
+	Window 21894,Next
+	EndWindow 21895,OK

@@ -1,0 +1,23 @@
+#拜捧啊侩 ＮＰＣ
+#贸澜栏肺 炼扒捞 老摹茄 喉废阑 贸府茄促
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+### 蓖吧捞甫 捞固 啊瘤绊 乐促 ###
+block Item 18599 >= 1
+endwindow 21074
+### 楷绢甫 啊瘤绊 乐促 ###
+block Item 18598 >= 1
+
+window 21070,ok
+ window_ok Item 18598 >= 1
+  killitemall 18598
+  giveitem 18599
+
+block
+ window 21068,next
+ window_21069,yes,no
+  window_yes
+   encount 2|||0|||||0|12021|||||||||
+  window_no
+   endwindow 21072

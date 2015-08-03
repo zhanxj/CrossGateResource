@@ -1,0 +1,65 @@
+
+
+block Item 607654 >= 1
+
+			Window 4490001,yes,no
+
+				window_yes
+					
+
+						Window 4490002,ok
+
+						window_ok Item 607654 >= 1
+						KillItem 607654,1
+						giveItem 15318,1
+
+						window_ok
+
+				window_no
+
+					EndWindow 4490003
+
+
+block
+
+
+			if LocalCount0 == 5
+
+				LocalCount0 = random 2,0
+
+				if LocalCount0 == 1
+
+#		２雀掳 捞饶
+
+
+#					Window "\n\n　酒聪, 逮变 逮焙.\n　开矫.",next
+					Window 3006794,next
+
+
+#					Window "\n\n　馋龙变 赤籍捞焙.\n　捞芭 临 抛聪鳖 倒酒啊.",ok
+					Window 3006795,ok
+
+					window_ok Item 607631 >= 1
+
+					endWindow 4490004
+
+
+					window_ok LocalCount10 == 1
+
+					endWindow 4490005
+
+
+					window_ok ItemSpace >= 1
+
+					LocalCount0 = 0
+
+					LocalCount10 = 1
+					
+					GiveItem 607631,1
+
+
+
+
+					window_ok ItemSpace == 0
+
+#					Window "\n\n　构具.\n　酒公巴档 救 啊瘤绊 乐垒酒

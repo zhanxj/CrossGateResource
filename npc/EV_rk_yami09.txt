@@ -1,0 +1,15 @@
+#公搁倾 狼荤 夯何侩 ＮＰＣ 叼弊 瘤肺
+#贸澜栏肺 炼扒捞 老摹窍绰 喉废阑 贸府茄促
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+####### 青农＿舅颇匙 ########
+block
+ window 21182,next
+ window 21183,next
+ window 21184,OK
+  window_OK ItemSpace != 0
+   giveitem 18640
+   warp 0,400,304,429
+  window_OK
+   Endwindow 21187

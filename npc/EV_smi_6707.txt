@@ -1,0 +1,127 @@
+#捞亥飘 抛胶飘
+#贸澜栏肺 炼扒捞 老摹茄 喉废阑 贸府茄促
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+
+########## 厩苛闭 窍唱扼档 啊瘤绊 乐绰 版快 ##########
+block Item 18428 >= 1 || Item 18429 >= 1 || Item 18430 >= 1 && Group == 1
+
+	#厩苛闭阑 滴绊 啊.
+	EndWindow 13055
+
+
+########## 急苛闭 固福固福 困厘 涝备 ##########
+block Item 18435 >= 1 || Item 18436 >= 1 || Item 18437 >= 1 || Item 18438 >= 1 && Group == 1
+
+	#距阑 啊瘤绊 乐栏搁 鞍篮 拱扒 ２俺 罐瘤 臼绰 汲沥
+	EndWindow 13066
+
+
+########## 急苛闭 固福固福 困厘 涝备·胶懦 饭骇５老 锭 ##########
+block Group == 1 && SkillLevel 225 >= 5 || Group == 1 && SkillLevel 226 >= 5
+	#炼扒：厩苛焊胶闭 ４辆幅 乐绰 版快
+	Window 13043,OK
+	Window_OK
+	Window 13044,OK
+	Window_OK
+	Window 13060,OK
+
+	#----- 扩档快 OK捞绊 后 酒捞袍捞 ０狼 版快 -----#
+	Window_OK itemspace == 0
+	#家瘤前捞 啊垫 谩促固福.
+	EndWindow 13051
+
+	Window_OK itemspace >= 0
+	#困厘侩 亲积拱龙阑 罐绰促
+	GiveItem 18435,1
+	LeaveGroup
+	Warp 0,13507,5,47,0,13508,5,47,0,13509,5,47
+
+
+########## 急苛闭 固福固福 困厘 涝备·胶懦 饭骇４老 锭 ##########
+block Group == 1 && SkillLevel 225 == 4 || Group == 1 && SkillLevel 226 == 4
+	#炼扒：厩苛焊胶闭 ４辆幅 乐绰 版快
+	Window 13043,OK
+	Window_OK
+	Window 13044,OK
+	Window_OK
+	Window 13061,OK
+
+	#----- 扩档快 OK捞绊 后 酒捞袍捞 ０狼 版快 -----#
+	Window_OK itemspace == 0
+	#家瘤前捞 啊垫 谩促固福.
+	EndWindow 13051
+
+	Window_OK itemspace >= 0
+	#困厘侩 亲积拱龙阑 罐绰促
+	GiveItem 18436,1
+	LeaveGroup
+	Warp 0,13507,5,47,0,13508,5,47,0,13509,5,47
+
+
+########## 急苛闭 固福固福 困厘 涝备·胶懦 饭骇３老 锭 ##########
+block Group == 1 && SkillLevel 225 == 3 || Group == 1 && SkillLevel 226 == 3
+	#炼扒：厩苛焊胶闭 ４辆幅 乐绰 版快
+	Window 13043,OK
+	Window_OK
+	Window 13044,OK
+	Window_OK
+	Window 13062,OK
+
+	#----- 扩档快 OK捞绊 后 酒捞袍捞 ０狼 版快 -----#
+	Window_OK itemspace == 0
+	#家瘤前捞 啊垫 谩促固福.
+	EndWindow 13051
+
+	Window_OK itemspace >= 0
+	#困厘侩 亲积拱龙阑 罐绰促
+	GiveItem 18437,1
+	LeaveGroup
+	Warp 0,13507,5,47,0,13508,5,47,0,13509,5,47
+
+
+########## 急苛闭 固福固福 困厘 涝备·胶懦 饭骇２老 锭##########
+block Group == 1 && SkillLevel 225 == 2 || Group == 1 && SkillLevel 226 == 2
+	#炼扒：厩苛焊胶闭 ４辆幅 乐绰 版快
+	Window 13043,OK
+	Window_OK
+	Window 13044,OK
+	Window_OK
+	Window 13063,OK
+
+	#----- 扩档快 OK捞绊 后 酒捞袍捞 ０狼 版快 -----#
+	Window_OK itemspace == 0
+	#家瘤前捞 啊垫 谩促固福.
+	EndWindow 13051
+
+	Window_OK itemspace >= 0
+	#困厘侩 亲积拱龙阑 罐绰促
+	GiveItem 18438,1
+	LeaveGroup
+	Warp 0,13507,5,47,0,13508,5,47,0,13509,5,47
+
+
+########## 急苛闭 固福固福 困厘 涝备 ##########
+block Group == 1 && SkillLevel 225 < 2 || Group == 1 && SkillLevel 226 < 2
+	#炼扒：弊缝捞绊 2疙 捞惑捞绊（2疙掳 器窃）胶懦 饭骇１捞搁
+	Window 13078,OK
+	Window_OK
+	LeaveGroup
+	Warp 0,13507,5,47
+
+########## 急苛闭 固福固福 困厘 涝备 ##########
+block Group == 1 
+	#炼扒：弊缝捞绊 2疙 捞惑捞绊（2疙掳 器窃）胶懦 饭骇１捞搁
+	Window 13078,OK
+	Window_OK
+	LeaveGroup
+	Warp 0,13507,5,47
+
+########## 急苛闭 固福固福 困厘 涝备 ##########
+block Group >= 2
+	#炼扒：弊缝捞绊 2疙 捞惑捞扼搁（2疙掳 器窃）
+	EndWindow 13059
+
+
+

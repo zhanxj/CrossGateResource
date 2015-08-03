@@ -1,0 +1,27 @@
+#府敲饭捞 茨篮 侩（榜靛 靛贰帮）(15572&3)
+#
+
+block EndEvent 38 == 1
+	EndWindow 21462
+
+block EndEvent 39 == 1
+	EndWindow 21463
+
+block
+#\n\n　捞 顶俊 荤绰 荤恩甸狼 捞具扁甫 倒酒促聪哥 佃绊 吭绰啊?\n　弊 搬苞 绢恫 积阿捞 甸菌唱.
+#\n\n　如甸府瘤 臼绰 搬狼啊 积板促搁, 弊巴捞 匙啊 唱酒啊具 且 辨捞摆瘤.
+	Window 21460,next
+#\n\n　窍瘤父 咯扁俊 客辑 酒流 噶汲烙捞 乐促搁
+#瘤陛狼 匙 狼瘤绰 噶汲烙 加俊 乐促.
+#\n\n　磊巩狼 己盲俊 倒酒啊摆促搁 朝俺甫 呼妨 林瘤
+	Window_21461,yes,no
+		Window_YES
+			KillItem 18780
+			KillItem 18781
+			KillItem 18782
+			KillItem 18885
+			KillItem 18887
+			LeaveGroup
+			Warp 0,15562,15,15
+		Window_NO
+

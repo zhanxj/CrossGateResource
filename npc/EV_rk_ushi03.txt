@@ -1,0 +1,20 @@
+#拜捧啊侩 ＮＰＣ
+#贸澜栏肺 炼扒捞 老摹茄 喉废阑 贸府茄促
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+############## 皋矫瘤 钎矫 ################
+block
+window 21079,next
+window 21080,next
+window 21081,next
+window 21082,next
+window 21084,next
+window 21083,next
+window 21085,next
+window 21086,next
+window 21087,next
+window 21088,next
+window 21089,ok
+window_ok
+warp 0,15529,15,16

@@ -1,0 +1,19 @@
+#孺锋（喉发 靛贰帮）(15586)
+#
+
+#归 浚爹 焊疽促搁
+block EndEvent 38 == 1
+	Endwindow 21418
+#孺 浚爹 焊疽促搁
+block EndEvent 39 == 1
+	Endwindow 21433
+
+block
+#靛叼绢 吭绰啊. 扁促府绊 乐菌促. 『咯绰 磊』咯.
+#弊措绰 磊脚狼 粮犁狼 寸困己阑 郴霸 拱栏矾 柯 巴捞摆瘤.
+#ˇ弊烦, 殿 困俊 鸥档废 秦扼. 窍疵阑ˇˇˇ官扼焊磊.
+	Window 21434,OK
+	Window_OK
+		LeaveGroup
+		Warp 0,15588,74,34
+	Window_OK

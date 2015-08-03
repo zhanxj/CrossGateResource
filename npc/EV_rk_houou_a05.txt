@@ -1,0 +1,4 @@
+#乔胶纳
+
+block
+	EndWindow 22322,OK

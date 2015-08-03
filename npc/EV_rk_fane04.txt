@@ -1,0 +1,15 @@
+#荤成槽 墨捞俩
+
+#EndFLG　138捞 ON捞绊 烹青倾啊刘阑 啊瘤绊 乐促搁
+block EndEvent 138 == 1 && Item 16407 >= 1
+	EndWindow 22684,OK
+
+#EndFLG　138捞 ON
+block EndEvent 138 == 1
+	Window 22685,Next
+	EndWindow 22686,OK
+
+#
+block
+	EndWindow 22687,OK
+

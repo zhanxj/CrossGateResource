@@ -1,0 +1,43 @@
+#捞亥飘 抛胶飘
+#贸澜栏肺 炼扒捞 老摹茄 喉废阑 贸府茄促
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+
+########## 公赤 荤蜡府 ##########
+block Item 18480 >= 1 || Item 18481 >= 1 || Item 18482 >= 1 || Item 18483 >= 1 || Item 18484 >= 1 || Item 18485 >= 1 || Havetitle == 79 || Havetitle == 80 || Havetitle == 81 || Havetitle == 82 || Havetitle == 83
+
+	Window 13129,OK
+	Window_OK 
+
+
+########## 公赤 荤蜡府 ##########
+block 
+
+	Window 3510001,YES,NO
+
+	#----- 扩档快 YES捞绊 后 酒捞袍捞 ０狼 版快 -----#
+	Window_YES itemspace == 0
+	#蜡皑捞瘤父 后 镑捞 何练钦聪促.
+	EndWindow 13133
+
+	#----- 扩档快 YES狼 版快 -----#
+	#力厚甫 罐绰促.
+	Window_YES itemspace >= 1
+
+	Window 3510002,ok
+	
+	Window_ok
+	
+		GiveItem 18480,1
+
+
+
+	#----- 扩档快 NO狼 版快 -----#
+	#弊繁啊夸. 绢驴 荐 绝焙夸.
+	Window_NO 
+	EndWindow 13119
+
+
+
+

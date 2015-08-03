@@ -1,0 +1,78 @@
+#GATE(Akerfa > kannaber)
+
+block endevent143 == 1 && endevent139 == 0
+	endevent85 = 1
+	EndEvent 125 = 1
+	EndWindow 120197,OK
+
+block endevent143 == 1 && endevent133 == 0
+	endevent85 = 1
+	EndEvent 125 = 1
+	EndWindow 120197,OK
+
+block endevent143 == 1 && endevent131 == 0
+	endevent85 = 1
+	EndEvent 125 = 1
+	EndWindow 120197,OK
+
+block endevent139 == 1 && endevent133 == 0
+	endevent85 = 1
+	EndEvent 125 = 1
+	EndWindow 120197,OK
+
+block endevent139 == 1 && endevent131 == 0
+	endevent85 = 1
+	EndEvent 125 = 1
+	EndWindow 120197,OK
+
+block endevent133 == 1 && endevent131 == 0
+	endevent85 = 1
+	EndEvent 125 = 1
+	EndWindow 120197,OK
+
+block EndEvent 125 == 1
+	EndWindow 120197,OK
+
+
+############## 咯青狼 巩 橇贰弊（100）啊 辑 乐瘤 臼促 ##############
+block Nowevent 110 == 0
+	Endwindow 11135
+
+############## 弊缝阑 捞风绊 乐促 ##############
+block Group != 1
+	Endwindow 11136
+
+############## 咯青狼 巩 橇贰弊啊 辑 乐绊, 弊缝阑 捞风绊 乐瘤 臼促 ##############
+block
+	Window 22271,YES,NO
+
+############## 橇府菩胶荤侩 ##############
+	Window_YES Group == 1 && Item 18660 >= 1
+	Window 15427,OK
+	Window_OK Item 18660 >= 1
+	LeaveGroup
+	Warp 0,33500,22,28
+
+############## 雀荐鼻荤侩 ##############
+	Window_YES Group == 1 && Item 18448 >= 1
+	Window 14657,OK
+	Window_OK Item 18448 >= 1
+	KillItem 18448,1
+	LeaveGroup
+	Warp 0,33500,22,28
+
+############## 捣捞 何练窍促 ##############
+	Window_YES Group == 1 && Gold < 400
+	EndWindow 10005
+
+############## 况橇 ##############
+	Window_YES
+	AddGold -400
+	LeaveGroup
+	Warp 0,33500,22,28
+	Window_YES
+
+############## 酒聪坷甫 急琶 ##############
+	Window_NO
+	Endwindow 11139
+

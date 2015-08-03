@@ -1,0 +1,21 @@
+#捍俊 穿款 磊(15557)
+#
+
+block
+ Changepal 15,180
+#\n侩狼 格家府：\n\n　寸脚篮 荤阜阑 规炔窍绊 乐绊, 巢篮 澜侥篮 户 茄 炼阿挥涝聪促.\n　弊凡 锭 本林妨辑 鲍肺况窍绰 荤恩捞 唱鸥车促绊 钦矫促.\n\n　寸脚篮 户阑 馆 唱穿绢 林摆嚼聪鳖?
+ Window 21319,yes,no
+#
+  Window_yes
+   LeaveGroup
+   Warp 0,15553,11,19
+  Window_no
+#\n促弗 侩狼 格家府：\n\n　弊繁啊. 弊犯促搁 笛 吝狼 窍唱肺焙.\n\n　付瘤阜 户篮 匙啊 傈何 冈电瘤（匙甫 急琶）\n　本林赴 磊俊霸 傈何 林电瘤促.（酒聪坷甫 急琶）
+   Window 21320,yes,no
+	Window_yes
+	   LeaveGroup
+	   Warp 0,15553,15,19
+	  Window_no
+	   LeaveGroup
+	   Warp 0,15553,13,19
+

@@ -1,0 +1,43 @@
+#
+#剧富啊霸
+#
+
+###　2002/12/25 00:00:01 捞饶扼搁　###
+block CheckRealTime 2003/12/25,00:00:00 == 1
+#block CheckRealTime 2003/12/17,16:00:00 == 1
+
+
+	EndWindow 3680001,OK
+
+
+############## 剧富阑 啊瘤绊 乐促 ##############
+block Item 607651 >= 1
+
+	EndWindow 3680002,OK
+############## 剧富阑 啊瘤绊 乐瘤 臼促 ##############
+block Item 607651 == 0
+	Window 3680003,next
+
+
+	Window 3680004,next
+
+	Window 3680005,YES,NO
+
+
+	Window_NO
+
+	EndWindow 3680006,OK
+
+
+	Window_YES Item 607651 == 0 && ItemSpace == 0
+	EndWindow 3680007,OK
+
+	Window_YES Item 607651 == 0 && ItemSpace != 0
+
+	Window 3680008,next
+
+	GiveItem 607651
+
+
+
+

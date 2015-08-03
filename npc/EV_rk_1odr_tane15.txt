@@ -1,0 +1,95 @@
+#风厚（酒福墨叼酒）
+
+
+
+block EndEvent 56 == 1 && globalFlag26 == 1
+
+	Window "\n\n　咯绢, @n焙牢啊??\n　捞繁 镑俊辑 魂氓牢啊?\n　快纳纳纳纳纳。",Next
+
+	Window 3450001,Next
+	
+	Window 3450002,Next
+	
+	Window 3450003,Next
+
+	Window 3450004,ok
+
+	Window_OK
+
+			EndEvent 57 = 1
+			CheckTitle
+			LeaveGroup
+			Warp 0,33608,130,60
+
+
+block EndEvent 64 == 1 && globalFlag26 == 1
+
+	Window 3450005,Next
+
+	Window 3450006,Next
+	
+	Window 3450007,Next
+	
+	Window 3450008,Next
+
+	Window 3450009,ok
+
+
+
+	Window_OK
+
+
+			EndEvent 65 = 1
+			CheckTitle
+			LeaveGroup
+			Warp 0,33608,130,60
+
+
+
+#风厚
+
+
+
+block EndEvent 56 == 1
+
+
+
+	Window 3450010,Next
+
+	Window 3450011,Next
+
+	Window 3450012,Next
+
+	Window 3450013,ok
+
+		Window_OK
+
+			EndEvent 57 = 1
+			CheckTitle
+			LeaveGroup
+			SystemMessage 4457
+			Warp 0,33000,468,381
+
+
+block EndEvent 64 == 1
+
+
+
+	Window 3450014,Next
+
+	Window 3450015,Next
+
+	Window 3450016,Next
+
+	Window 3450017,ok
+
+		Window_OK
+
+			EndEvent 65 = 1
+			CheckTitle
+			LeaveGroup
+			SystemMessage 4457
+			Warp 0,33000,468,381
+
+
+

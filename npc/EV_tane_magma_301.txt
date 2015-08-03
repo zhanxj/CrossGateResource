@@ -1,0 +1,18 @@
+
+block
+
+#	Window "\n\n　酒公巴档 焊捞瘤 臼绰促.\n　酒公巴档 甸府瘤 臼绰促.",next
+	Window 3006930,next
+
+#	Window "\n\n　捞 顶 关俊辑 瘤郴辨 割 己惑.\n　捞固 脚开 蝶困 扁撅 加俊辑 锐固秦脸促.",next
+	Window 3006931,next
+
+#	Window "\n\n　客扼.\n　『登促 父 馆乾捞』啊 惑措窍瘤.",ok
+	Window 3006932,ok
+
+	Window_ok
+
+		Encount 2|0,59500,200,35||0|||||0|305006|||||||||
+
+
+

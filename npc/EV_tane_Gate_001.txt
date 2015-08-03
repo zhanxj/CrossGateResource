@@ -1,0 +1,29 @@
+#抛胶飘　迫饭镁　胶困摹狼 荤恩
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###########　酒公巴档 绝澜　##############
+block
+
+
+	Window 3002100,next
+
+	Window 3002101,next
+
+
+	Window 3002102,yes,no
+
+	window_yes
+	
+		window 3002103,ok
+
+
+	window_ok
+	
+		Warp 0,59502,198,46
+
+	window_no
+	
+		endwindow 3002104,ok
+
+

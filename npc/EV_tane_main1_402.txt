@@ -1,0 +1,16 @@
+#
+#付
+#
+
+
+
+
+block
+
+
+						Window 4670001,next
+
+
+						EndWindow 4670002
+
+

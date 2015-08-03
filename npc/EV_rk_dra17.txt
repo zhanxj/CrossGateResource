@@ -1,0 +1,16 @@
+#捍俊 穿款 磊(15557)
+#
+
+block
+ Changepal 15,180
+#\n侩狼 格家府：\n\n　国饭啊 措樊栏肺 惯积秦辑 匙啊 老焙 圭阑 付备 噶媚初绊 乐促绊 窍磊.\n\n　弊措肺 规摹秦 笛 扒啊?（匙甫 急琶）\n　促棱酒辑 阂怕况 磷老刨啊?（酒聪坷甫 急琶）
+ Window 21318,yes,no
+#
+  Window_yes
+   LeaveGroup
+   Warp 0,15549,11,19
+  Window_no
+   LeaveGroup
+   Warp 0,15549,15,19
+
+

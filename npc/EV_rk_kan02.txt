@@ -1,0 +1,6 @@
+#沫唱海扼 芭府
+#焙荤乞沸啊 呼
+
+block
+	Window 22283,Next
+	EndWindow 22284,OK

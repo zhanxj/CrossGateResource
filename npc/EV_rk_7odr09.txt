@@ -1,0 +1,52 @@
+#唱墨配虐
+
+#鄂 绕７殿 努府绢 饶＆但摹狼 馆瘤啊 乐阑 锭
+block EndEvent 112 == 1 && Item 16369 >= 1
+	Window 22281,Next
+	Window 22198,OK
+		Window_OK
+			KillItemAll 16369
+			GiveItem 16362,1
+			EndEvent 112 = 0
+			LeaveGroup
+			Warp 0,33500,22,28
+
+#鄂 绕７殿 努府绢 饶
+block EndEvent 112 == 1
+	Window 22198,OK
+		Window_OK
+			EndEvent 112 = 0
+			LeaveGroup
+			Warp 0,33500,22,28
+
+#牢绢狼 传拱阑 啊瘤绊 乐促搁
+block Item 16364 >= 1
+	EndWindow 22265,OK
+
+#秦利狼 蓖吧捞甫 家瘤
+block Item 16366 >= 1
+	EndWindow 22265,OK
+
+#鄂 绕７殿 柳青 吝
+block NowEvent 112 == 1
+	Window 22199,Next
+	Window 22200,Next
+	Window 22201,YES
+		Window_YES ItemSpace == 0
+			EndWindow 10000,OK
+		Window_YES
+			Window 22264,OK
+				Window_OK
+					GiveItem 16366,1
+
+
+#鄂 绕８殿阑 啊瘤绊 乐促
+block EndEvent 58 == 1
+	EndWindow 22202,OK
+
+#郡 绕７殿 柳青 吝
+block NowEvent 111 == 1
+	EndWindow 22203,OK
+
+block
+	EndWindow 22204,OK

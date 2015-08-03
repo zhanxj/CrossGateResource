@@ -1,0 +1,27 @@
+#部贺 募饭捞
+
+#郡 ７殿 柳青 吝
+block NowEvent 111 == 1
+	Window 22226,OK
+		Window_OK
+
+#鄂 ７殿 柳青 吝＆捞固 酒捞袍阑 啊瘤绊 乐促
+#block NowEvent 112 == 1 && Item 16362 >= 1
+#	EndWindow 22227,OK
+
+#鄂 ７殿 柳青 吝捞绊 绕档矫甫 啊瘤绊 乐促
+block NowEvent 112 == 1 && Item 16361 >= 1
+	Window 22228,Yes,No
+		Window_NO
+			EndWindow 22229,OK
+		Window_YES
+			Window 22230,OK
+				Window_OK ItemSpace == 0
+					EndWindow 10000,OK
+				Window_OK
+					EndEvent 109 = 1
+					KillItemAll 16361
+					GiveItem 16369,1
+
+block
+	EndWindow 22226,OK

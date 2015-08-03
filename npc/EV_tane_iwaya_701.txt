@@ -1,0 +1,27 @@
+
+block
+
+	if Itemspace >= 1
+	
+		giveItem 14664,1
+		globalFlag7 = 1
+
+	endif
+
+#	Window "\n\n　赣复加俊 格家府啊 匡赴促ˇˇ",next
+	Window 3006915,next
+
+#	Window "\n\n　ˇˇ「郴 泪阑 规秦窍瘤 付扼\n　「唱绰, 捞固, 面盒洒 轿奎促ˇ",next
+	Window 3006916,next
+
+#	Window "\n\n　ˇˇ「唱绰, 捞力 瘤闷促.\n　「玫开狼 归己捞咯, 唱甫 泪甸霸 秦促肺ˇˇ",next
+	Window 3006917,next
+
+#	Window "\n\n　ˇˇ「唱甫 捞侩窍瘤 付扼!!",next
+	Window 3006918,next
+	
+	warp 0,59503,267,267
+	
+	
+
+

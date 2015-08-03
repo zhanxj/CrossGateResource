@@ -1,0 +1,17 @@
+#
+#巩瘤扁 款叼匙
+#
+
+block Level < 60
+ Endwindow 21284
+
+block
+	Window 21286,Yes,No
+         Window_Yes Group == 1
+         Window 21304,OK
+          Window_OK
+		LeaveGroup
+          Warp 0,6764,18,18
+         Window_Yes Group != 1
+          EndWindow 21287
+         Window_No

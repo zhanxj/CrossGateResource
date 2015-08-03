@@ -1,0 +1,72 @@
+
+block
+
+
+
+
+
+
+			if LocalCount0 == 5
+
+				LocalCount0 = random 2,0
+
+				if LocalCount0 == 1
+
+
+
+
+#					Window "\n\n　救俊辑 盔茄捞 货绢唱柯促.",next
+					Window 3006919,next
+
+
+#					EndWindow "\n\n　累凯狼 官恩阑 鸥绊ˇˇ\n　弊繁 蠢肠捞 电促."
+					EndWindow 3006920
+
+
+				else
+
+					LocalCount0 = 5
+
+
+#					Window "\n\n　咯扁 付拱篮, 购啊 撇府焙.",next
+					Window 3006921,next
+
+#					EndWindow "\n\n　公攫啊俊 瘤硅, 酒聪 葫狼登绢 乐绰 巴 鞍酒."
+					EndWindow 3006922
+
+
+				endif
+
+
+
+			else
+
+
+				LocalCount0 = 5
+
+
+#				Window "\n\n　酒公贰档 弥辟俊 付拱捞 腹促绊 积阿沁绰单\n　捞 悼奔 救俊辑 唱坷绊 乐绰 淀 窍焙.",next
+				Window 3006923,next
+
+
+				
+#				EndWindow "\n\n　档措眉 救俊\n　构啊 乐绰 扒啊ˇˇ"
+				EndWindow 3006924
+
+
+
+			endif
+
+
+
+
+
+
+
+
+
+
+
+
+
+

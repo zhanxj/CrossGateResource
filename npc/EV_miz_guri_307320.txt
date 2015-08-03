@@ -1,0 +1,147 @@
+#鲍炼 弊府迄 器裙 涅胶飘:饭靛 内飘（１）
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###########　弊府迄 百 肯丰　##############
+block endevent85 == 1
+
+	EndWindow 206836,OK
+
+
+###########　弊府迄 百狼 舅 乐澜　##############
+block Item 18956 >= 1 || Item 18962 >= 1 && nowevent86 == 1
+
+	nowevent86 = 0
+	EndWindow 206835,OK
+
+block Item 18956 >= 1 || Item 18962 >= 1
+
+	EndWindow 206835,OK
+
+###########　皋葛 酪绢滚覆　##############
+block Item 18954 == 0 && endevent83 == 1 && nowevent84 == 1 && endevent84 == 1
+
+	Window 206834,OK
+	Window_OK
+	GiveItem 18954
+
+###########　担 汲摹 肯丰　##############
+block Item 18954 >= 1
+
+	EndWindow 206827,OK
+
+###########　竿荐侩 担 乐澜　##############
+block Item 18953 >= 1
+
+	EndWindow 206833,OK
+
+###########　捍荤 嘎篮 饶　##############
+block nowevent83 == 1
+
+	Window 206830,NEXT
+	Window 206831,OK
+	Window_OK Itemspace >= 1
+	GiveItem 18953,3	
+	Window_OK Itemspace == 0
+	EndWindow 206832,OK
+
+###########　竿刀 角菩 饶　##############
+block endevent82 == 1
+
+	Window 206828,OK
+	Window_OK
+	leavegroup
+	setaction 14
+	EndWindow 206829,OK
+
+###########　皋葛 酪绢滚覆　##############
+block Item 18952 == 0 && nowevent81 == 1 && nowevent82 == 1 && endevent81 == 1
+
+	Window 206834,OK
+	Window_OK
+	GiveItem 18952
+
+###########　竿刀 汲摹 肯丰　##############
+block Item 18952 >= 1
+
+	EndWindow 206827,OK
+
+###########　竿刀 冈捞 乐澜　##############
+block Item 18951 >= 1
+
+	EndWindow 206826,OK
+
+###########　弊府迄 炼快 饶　##############
+block nowevent80 == 1
+
+	EndWindow 206825,OK
+
+###########　弊府迄狼 标判 乐澜　##############
+block Item 18949 >= 1
+
+	EndWindow 206824,OK
+
+###########　俺 冈腮 饶　##############
+block endevent79 == 1
+
+	EndWindow 206823,OK
+
+###########　盒储 惯斑 饶　##############
+block nowevent79 == 1
+
+	setaction 14
+	EndWindow 206822,OK
+
+###########　盒储 乐澜　##############
+block Item 18947 >= 1
+
+	EndWindow 206821,OK
+
+###########　具盲 惯斑 饶　##############
+block nowevent78 == 1
+
+	EndWindow 206820,OK
+
+###########　具盲 乐澜　##############
+block Item 18946 >= 1
+
+	EndWindow 206819,OK
+
+###########　牢荐 饶　##############
+block endevent78 == 1
+
+	EndWindow 206818,OK
+
+###########　酒公巴档 绝澜（饭骇30捞惑）　##############
+block level >= 30 && nowevent86 == 1
+
+	Window 206813,YES,NO
+	Window_YES
+	Window 206814,NEXT
+	Window 206815,NEXT
+	Window 206816,OK
+	Window_OK
+	nowevent86 = 0
+	endevent78 = 1
+	Window_NO
+	EndWindow 206817,OK
+
+block level >= 30
+
+	Window 206813,YES,NO
+	Window_YES
+	Window 206814,NEXT
+	Window 206815,NEXT
+	Window 206816,OK
+	Window_OK
+	endevent78 = 1
+	Window_NO
+	EndWindow 206817,OK
+
+###########　酒公巴档 绝澜（饭骇29捞窍）　##############
+block level <= 29
+
+	EndWindow 206812,OK
+
+
+

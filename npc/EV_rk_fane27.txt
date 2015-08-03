@@ -1,0 +1,5 @@
+#绊鞭脚磊 扼府郡
+
+#
+block
+	EndWindow 22762,OK

@@ -1,0 +1,20 @@
+#公搁倾 狼荤 夯何侩 ＮＰＣ 叼弊 瘤肺
+#贸澜栏肺 炼扒捞 老摹茄 喉废阑 贸府茄促
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+####### 阂街窍霸档 公搁倾 沥屈栏肺 概仿 促款 ########
+block Group != 1
+ Endwindow 21197
+
+block
+ Window 21158,next
+ Window 21159,next
+ Window 21160,next
+ Window 21161,OK
+  Window_OK Group != 1
+  Window_OK
+   setcharm -1
+   message 21194
+   warp 0,400,280,364
+

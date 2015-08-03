@@ -1,0 +1,28 @@
+#鲍炼 弊府迄 器裙 涅胶飘：促-
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###########　俺啊 冈腮 饶　##############
+block endevent79 == 1
+
+	Window 206865,OK
+	Window_OK
+	setaction 14
+
+###########　盒储 惯斑 饶　##############
+block nowevent79 == 1
+
+	Window 206864,OK
+	Window_OK
+	setaction 15
+
+
+###########　盒储 乐澜　##############
+block
+
+	EndWindow 206863,OK
+
+
+
+
+

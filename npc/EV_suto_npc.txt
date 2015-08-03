@@ -1,0 +1,20 @@
+
+#脚目盖靛
+
+Block Pa11Item 620036 == 1
+
+	EndWindow "扁促副膊"
+	
+Block Pgflag 1,2 == 1
+
+	EndWindow "览, 宝满酒"
+	
+Block PallgFlag 2 == 1
+
+	EndWindow "巩力绝绢"
+
+block
+	Endwindow "抛胶飘吝"
+
+
+

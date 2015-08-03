@@ -1,0 +1,17 @@
+#侩狼 荤磊(归)(15561)
+#
+
+block
+
+#\n\n　咯绰 磊咯, 霖厚绰 登菌嚼聪鳖?\n　磊, 菊栏肺 唱酒啊 快府 林牢狼 芭己栏肺 氢窍绞矫坷.
+Window 21335,OK
+  Window_OK ItemSpace != 0
+     killitemall 18768
+     killitemall 18783
+     killitemall 18784
+  giveitem 18780,1
+  LeaveGroup
+   Warp 0,15551,76,47
+############# 酒捞袍 啊垫 曼 ##############
+  Window_OK
+         Endwindow 10000

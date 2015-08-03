@@ -1,0 +1,27 @@
+/*
+副饭捞　boukenyado狼 荤恩
+措巩磊, 家巩磊狼 备喊篮 绝澜
+'_'绰 佬阑 锭 扒呈盾
+*/
+
+#include "./header/global0.h"
+
+block Xpos ==  && Ypos == 
+
+	Play_SE 274
+	Message "拱俊 刀捞 集咯乐促!　LP５器牢飘 历窍"
+	SetLp -5
+
+block Xpos ==  && Ypos == 
+
+	Message "拱俊 刀捞 集咯乐促!　LP５器牢飘 历窍"
+	SetLp -5
+
+block Xpos ==  && Ypos == 
+
+	Message "拱俊 刀捞 集咯乐促!　LP５器牢飘 历窍"
+	SetLp -5
+
+
+
+

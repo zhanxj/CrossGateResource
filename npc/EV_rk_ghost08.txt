@@ -1,0 +1,4 @@
+#饭瘤胶帕胶
+
+block
+	EndWindow 22369,OK

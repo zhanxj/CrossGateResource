@@ -1,0 +1,30 @@
+#沤沥 涅胶飘：橇珐努赴(1)
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###########　历翅　檬措厘 乐澜　「农风令...」　##############
+block nowtime == 2 && Item 18891 >= 1 && strcmpchat == 206739
+
+	Window 206252,OK
+	Window_OK group == 1
+	KillItem 18891
+	Warp 0,33254,10,5
+	Window_OK group >= 2
+	EndWindow 206613,OK
+
+
+###########　历翅　檬措厘 乐澜　##############
+block nowtime == 2 && Item 18891 >= 1
+
+	EndWindow 206251,OK
+
+###########　历翅 捞寇　檬措厘 乐澜　##############
+block nowtime != 2 && Item 18891 >= 1
+
+	EndWindow 206250,OK
+
+###########　　##############
+block 
+
+	EndWindow 206249,OK
+

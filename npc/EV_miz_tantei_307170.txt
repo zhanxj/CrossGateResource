@@ -1,0 +1,18 @@
+#沤沥 涅胶飘：橇赴萍(2)
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###########　酒公巴档 绝澜　##############
+block 
+	Window 206237,YES,NO
+	Window_YES
+	Window 206238,OK
+	Window_OK
+	leavegroup
+	Warp 0,1541,13,10
+	Window_NO
+	EndWindow 206239,OK
+
+
+
+

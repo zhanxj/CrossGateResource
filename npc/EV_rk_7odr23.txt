@@ -1,0 +1,4 @@
+#公贱荤 蜡快禄
+
+block
+	EndWindow 22235,OK

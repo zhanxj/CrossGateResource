@@ -1,0 +1,20 @@
+#鲍炼 弊府迄 器裙 涅胶飘：辑率狼 寇谍 芒绊巩
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###########　刀 冈捞 角菩 饶　##############
+block endevent82 == 1
+
+	Window 206886,YES,NO
+	Window_YES
+	leavegroup
+	playse 304,1,1
+	playse 192,1,1
+	Warp 0,46003,5,13
+	Window_NO
+
+###########　酒公巴档 绝澜　##############
+block
+
+	EndWindow 206883,OK
+

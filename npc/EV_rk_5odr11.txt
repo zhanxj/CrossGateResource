@@ -1,0 +1,17 @@
+#舅力脚狼 荤磊
+
+#馆去狼 备浇(利)阑 啊瘤绊 乐促搁
+block Item 16398 >= 1
+	EndWindow 22627,OK
+
+#风厚狼 剧檬甫 啊瘤绊 乐促搁
+block Item 16399 >= 1
+	EndWindow 22628,OK
+
+#咀加狼 标判阑 啊瘤绊 乐促搁
+block Item 16396 >= 1
+	EndWindow 22629,OK
+
+#
+block
+	EndWindow 22630,OK

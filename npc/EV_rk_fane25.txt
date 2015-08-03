@@ -1,0 +1,5 @@
+#绊鞭脚磊 捻胶内
+
+#
+block
+	EndWindow 22759,OK

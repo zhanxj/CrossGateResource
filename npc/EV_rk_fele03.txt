@@ -1,0 +1,21 @@
+#
+#巩瘤扁 荤扼父歹
+#
+
+##　饭骇４５固父狼 版快
+block Level < 45
+#\n\n　阂采狼 矫访俊 档傈秦 焊瘤 臼摆唱?\n\n　ˇ扼绊 富窍绊 酵瘤父 匙 角仿栏沸 酒流 困氰窍焙.\n　攫哩啊 碍秦柳 饶俊 促矫 坷档废 秦.
+ Endwindow 21489
+
+############## 炼扒阑 父练窍绊 乐促 ##############
+block
+#\n\n　呈 惑寸洒 碍茄 巴 鞍焙.\n\n　ˇ阂采狼 矫访俊 档傈秦 焊瘤 臼摆唱?
+Window 21490,Yes,No
+	Window_No
+        Window_Yes
+		Window 21602,OK
+			Window_OK
+				LeaveGroup
+				Warp 0,6763,14,3
+			Window_OK
+

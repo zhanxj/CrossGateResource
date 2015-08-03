@@ -1,0 +1,15 @@
+#沤沥 涅胶飘：扩扁胶 傍累(10)
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###########　酒公巴档 绝澜　##############
+block 
+	Window 206233,YES,NO
+	Window_YES
+	Window 206234,OK
+	Window_OK
+	leavegroup
+	Warp 0,33257,8,8
+	Window_NO
+	EndWindow 206235,OK
+

@@ -1,0 +1,4 @@
+#荤宏府唱
+
+block
+	EndWindow 22128,OK

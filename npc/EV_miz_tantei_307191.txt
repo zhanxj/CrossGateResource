@@ -1,0 +1,102 @@
+#沤沥 涅胶飘：攀弊伐(6)
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###########　ENDFLG 73 on　 「矫胶磐 纳捞...」　##############
+block nowevent74 == 1 && strcmpchat == 206733 
+
+	EndWindow 206274,OK
+
+block endevent73 == 1 && strcmpchat == 206733 
+
+	Window 206274,NEXT
+	Window 206275,OK
+	Window_OK
+	leavegroup
+	nowevent74 = 1
+
+###########　NOWFLG 69 on　 「舅府官捞...」　##############
+block nowevent69 == 1 && strcmpchat == 206740
+
+	EndWindow 206273,OK
+
+###########　「矫胶磐 纳捞」　##############
+block strcmpchat == 206733
+
+	EndWindow 206276,OK
+
+###########　「畴唱畴唱」　##############
+block strcmpchat == 206734
+
+	EndWindow 206277,OK
+
+###########　「钒虐 农扼款」　##############
+block strcmpchat == 206730
+
+	EndWindow 206278,OK
+
+###########　「蹿磐 乔胶」　##############
+block strcmpchat == 206731
+
+	EndWindow 206279,OK
+
+###########　「俊剐府」　##############
+block strcmpchat == 206732
+
+	EndWindow 206280,OK
+
+###########　「扩扁胶」　##############
+block strcmpchat == 206727
+
+	EndWindow 206281,OK
+
+###########　「橇赴萍」　##############
+block strcmpchat == 206728
+
+	EndWindow 206282,OK
+
+###########　「橇珐努赴」　##############
+block strcmpchat == 206736
+
+	EndWindow 206283,OK
+
+###########　「青农」　##############
+block strcmpchat == 206726
+
+	EndWindow 206284,OK
+
+###########　「啊刨」　##############
+block strcmpchat == 206735
+
+	EndWindow 206285,OK
+
+###########　巢磊　############
+block bbimage >=100000 && bbimage <= 100200
+
+	EndWindow 206271,OK
+
+block bbimage >=105000 && bbimage <= 105200
+
+	EndWindow 206271,OK
+
+block bbimage >=106000 && bbimage <= 106200
+
+	EndWindow 206271,OK
+
+
+###########　咯磊　############
+block bbimage >= 100250 && bbimage <= 100500
+
+	EndWindow 206272,OK
+
+block bbimage >= 105250 && bbimage <= 105500
+
+	EndWindow 206272,OK
+
+block bbimage >= 106250 && bbimage <= 106500
+
+	EndWindow 206272,OK
+
+
+
+

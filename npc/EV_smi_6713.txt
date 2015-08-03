@@ -1,0 +1,43 @@
+#捞亥飘 抛胶飘
+#贸澜栏肺 炼扒捞 老摹茄 喉废阑 贸府茄促
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+
+########## 芭措 皋扁 楷备啊 ##########
+block Item 18471 >= 1 && Item 18472 >= 1 && Item 18473 >= 1
+	#炼扒：芭措 皋扁丛狼 陛聪 ３俺 乐绰 版快
+	#绊付况, 器惑阑 临霸!
+	Window 13075,YES,NO
+
+	#器惑：河篮 急牢厘 LV1肺 背券
+	Window_YES PetSpace >= 1 && Item 18471 >= 1 && Item 18472 >= 1 && Item 18473 >= 1
+	Killitem 18471,1
+	Killitem 18472,1
+	Killitem 18473,1
+	Givepet 435
+
+	Window_YES PetSpace == 0 && Item 18471 >= 1 && Item 18472 >= 1 && Item 18473 >= 1 
+	#酒公贰档 后 镑捞 绝绰 巴 鞍焙
+	EndWindow 13076
+
+	Window_NO
+	EndWindow 13077
+
+
+########## 芭措 皋扁 楷备啊 ##########
+block
+	#芭措 皋扁 楷备啊 汲疙
+	Window 13068,OK
+	Window_OK 
+	Window 13069,YES,NO
+	Window_YES 
+	Window 13071,OK
+	Window_OK
+	EndWindow 13072
+
+	Window_NO 
+	EndWindow 13070
+
+
+

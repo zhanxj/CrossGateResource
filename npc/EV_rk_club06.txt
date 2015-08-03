@@ -1,0 +1,113 @@
+#
+#乃
+#
+
+#措扁角 檬措鼻阑 啊瘤绊 乐促搁
+block Item 16272 >= 1 || Item 16273 >= 1
+	Endwindow 21876
+
+#撤捞搁
+block nowtime == 1
+	Endwindow 21816
+
+#搬去 奇带飘甫 啊瘤绊 乐促搁
+block Item 18969 == 1
+			Endwindow 21837
+#颇扼绊狼 祈瘤甫 啊瘤绊 乐促搁
+block Item 18982 == 1
+			Endwindow 21838
+#窍风啊 版苞窍瘤 臼疽促搁
+block Item 16239 == 1 && ItemCreateTime 16239 <= 1439
+			Endwindow 21841
+
+#乃狼 疙窃 墨款飘啊 100 捞惑捞搁
+block Item 16239 == 1 && StampCount 16239 >= 100
+	Endwindow 21876
+
+#乃狼 疙窃 墨款飘啊 99捞搁
+block Item 16239 == 1 && StampCount 16239 == 99
+			AddStampCount 16239
+			Endwindow 22287
+
+##　乃狼 疙窃 墨款飘啊 29捞搁
+block Item 16239 == 1 && StampCount 16239 == 29
+			AddStampCount 16239
+			Endwindow 21859
+
+##　乃狼 疙窃 墨款飘啊 16捞搁
+block Item 16239 == 1 && StampCount 16239 == 16
+			AddStampCount 16239
+			Endwindow 21960
+
+##　乃狼 疙窃 墨款飘啊 6捞搁
+block Item 16239 == 1 && StampCount 16239 == 6
+			AddStampCount 16239
+			Endwindow 21858
+
+##　乃狼 疙窃 墨款飘啊 ４捞惑捞搁
+block Item 16239 == 1 && StampCount 16239 >= 4
+			AddStampCount 16239
+			Endwindow 21840
+##　乃狼 疙窃 墨款飘啊 ３捞搁
+block Item 16239 == 1 && StampCount 16239 == 3
+			Endwindow 21839
+
+#固聪 涅胶飘 崔己 饶扼搁
+block Item 16244 >= 1
+	Window 21561,OK
+
+		Window_OK
+			KillItem 16244
+			AddStampCount 16239 
+			LeaveGroup
+			Warp 0,1165,19,38
+
+##　乃狼 疙窃 墨款飘啊 ２捞搁
+block Item 16239 == 1 && StampCount 16239 == 2
+	Window 21556,Next
+	Window 21557,Next
+	Window 21558,Yes,No
+		Window_No
+			Endwindow 21559
+		Window_Yes
+			Window 21560,OK
+				Window_OK ItemSpace == 0
+					Endwindow 10000
+				Window_OK
+					GiveItem 18969
+					LeaveGroup
+					Warp 0,1165,19,38
+#　乃狼 疙窃 墨款飘啊 １捞搁
+block Item 16239 == 1 && StampCount 16239 == 1
+	Window 21551,Next
+	Window 21552,Next
+	Window 21553,Next
+	Play_SE 75,320,240
+	Window 21554,Next
+	Window 21555,OK
+		Window_OK
+			AddStampCount 16239
+			LeaveGroup
+			Warp 0,2431,7,3,	0,2431,5,28
+
+
+##　乃狼 疙窃阑 啊瘤绊 乐瘤 臼促搁
+block
+	Window 21546,Next
+	Window 21547,Next
+	Window 21548,Yes,No
+		Window_No
+			Endwindow 21549
+		Window_Yes Gold <= 40
+			Endwindow 10005
+		Window_Yes
+			AddGold -40
+			Window 21550,OK
+				Window_OK ItemSpace == 0
+					Endwindow 10000
+				Window_OK
+					GiveItem 16239
+					AddStampCount 16239
+					LeaveGroup
+					Warp 0,1165,19,38
+

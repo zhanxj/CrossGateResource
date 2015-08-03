@@ -1,0 +1,18 @@
+#皋牢　蜡利　啊狼 荤恩　??#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###########　酒公巴档 绝澜　##############
+
+
+
+block globalFlag36 == 1 && globalFlag10 == 1
+
+
+			window 4570001,next
+
+			endwindow 4570002
+
+
+block globalFlag10 == 1
+
+#\n\n　???

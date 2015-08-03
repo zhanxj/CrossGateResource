@@ -1,0 +1,5 @@
+#器刨
+
+block
+	EndWindow 22212,OK
+

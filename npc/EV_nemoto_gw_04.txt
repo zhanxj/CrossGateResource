@@ -1,0 +1,37 @@
+#GW炔陛悼奔
+#虐 酒捞袍 硅器盔「叼弊瘤肺」
+
+## 捞固 姐臂扼胶甫 爱绊 乐促
+block Item 607737 >= 1
+	EndWindow "\n\n　呈, 岗柳 祸 姐臂扼胶 爱绊 乐匙.\n　肋 绢匡府绰焙."
+
+## 档矫遏阑 2俺 捞惑 爱绊 乐促.
+block Item 622000 >= 2
+	Window "\n\n　卡, 呈 烙付 档矫遏捞 恐弊府 腹酒?\n　叼弊鸥茄抛 捞惑茄 吧 冈捞霸 出笛 鉴 绝瘤.\n　救灯瘤父, 郴啊 傈何 冈绢摹匡 抛促!",OK
+	Window_OK
+		KillItemall 622000
+Endblock
+
+## 捞固 档矫遏阑 爱绊 乐促
+block Item 622000 == 1
+	EndWindow "\n\n　快拱罗拱窍促埃 富扼滚赴促备!\n　绢辑 叼弊鸥俊霸 爱促拎."
+
+## 困 酒捞袍阑 阂家瘤
+block
+	Window "\n\n　捞毫, 付魔 肋 吭绢!\n　固救茄单, 捞 档矫遏 粱 历 菊狼\n　叼弊鸥茄抛 爱促拎!\n　1斥俊 1锅 乐绰 奴 老捞扼 公府沁绰瘤\n　绢力历翅何磐 广货 父电 档矫遏阑\n　镭绊 啊滚啡瘤 构具.",NEXT
+	Window "\n\n　咯扁鳖瘤 坷蠢扼 抄 踌檬啊 灯促.\n　呈 茄抛 何殴 粱 窍磊.\n\n　甸绢临 刨啊?",YES,NO
+## 酒捞袍沫俊 后沫捞 绝促
+	Window_YES Itemspace == 0
+		EndWindow "\n\n　酒捞袍沫捞 菜 蛮 葛剧捞焙.\n　硅崔窍妨搁,\n　快急 酒捞袍何磐 沥府秦."
+## 措拳 吝俊 档矫遏捞 疵绢车促
+	Window_YES Item 622000 >= 1
+		Window "\n\n　绢扼, 绢掳辑 档矫遏阑 爱绊 乐绰芭瘤?\n　酒流档 傈秦林瘤 臼疽焙.\n　弊扒 颊栏肺 父电霸 酒聪垒酒!\n　弊繁 扒 郴啊 冈绢滚副 抛促!",OK
+		Window_OK
+			KillItemall 622000
+## 档矫遏阑 霖促
+	Window_YES
+		GiveLeak1Item 622000,1
+	EndWindow "\n\n　肋 何殴秦!"
+## 芭例茄促
+	Window_NO
+		EndWindow "\n\n　开矫, 档矫 荤恩甸篮 揭揭嘎焙."

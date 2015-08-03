@@ -1,0 +1,51 @@
+#沤沥 涅胶飘：橇珐努赴(7)
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###########　ENDFLG 73 on　 「矫胶磐 纳捞...」　##############
+block endevent73 == 1 && strcmpchat == 206733 
+
+	EndWindow 206264,OK
+
+###########　NOWFLG 71 on　「荐搁距...」　##############
+block nowevent71 == 1 && strcmpchat == 206738
+
+	Window 206261,OK
+	Window_OK
+	leavegroup
+	nowevent71 = 0
+	endevent71 = 1
+
+###########　「啊刨」捞 盲泼俊 器窃等促　##############
+block strcmpchat == 206735
+
+	EndWindow 206265,OK
+
+
+###########　NOWFLG 69 on　 「舅府官捞...」　##############
+block nowevent69 == 1 && strcmpchat == 206740
+
+	Window 206262,NEXT
+	EndWindow 206263,OK
+
+###########　枚荤 鞍篮 巴（18897）乐澜　##############
+block Item 18897 >= 1
+
+	EndWindow 206259,OK
+
+###########　己成（18893）乐澜　##############
+block Item 18894 >= 1
+
+	EndWindow 206259,OK
+
+###########　「啊刨」捞 盲泼俊 器窃等促　##############
+block strcmpchat == 206735
+
+	EndWindow 206265,OK
+
+###########　酒公巴档 绝澜　##############
+block 
+
+	EndWindow 206258,OK
+
+

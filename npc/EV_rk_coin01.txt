@@ -1,0 +1,282 @@
+#
+#烤 悼傈 芭贰
+#
+
+#鸥款 霸捞飘 雀荐鼻
+block StrCmpChat == 4012
+	Window 22004,Yes,No
+		Window_No
+			EndWindow 15684,OK
+		Window_Yes ItemSpace == 0
+			EndWindow 10000
+		Window_Yes Item 18983 <= 9
+			EndWindow 22000
+		Window_Yes
+			KillItem 18983,10
+			GiveLeak1Item 18448
+			Message 4011
+#混氛 靛 轰萍 雀荐鼻
+block StrCmpChat == 4013
+	Window 22008,Yes,No
+		Window_No
+			EndWindow 15684,OK
+		Window_Yes ItemSpace == 0
+			EndWindow 10000
+		Window_Yes Item 18983 <= 29
+			EndWindow 22000
+		Window_Yes
+			KillItem 18983,30
+			GiveLeak1Item 16347,1
+			Message 4011
+#酒捞胶帮
+block StrCmpChat == 4014
+	Window 22009,Yes,No
+		Window_No
+			EndWindow 15684,OK
+		Window_Yes ItemSpace == 0
+			EndWindow 10000
+		Window_Yes Item 18983 <= 59
+			EndWindow 22000
+		Window_Yes
+			KillItem 18983,60
+			GiveItem 16312
+			Message 4011
+#铆烙
+block StrCmpChat == 4015
+	Window 22010,Yes,No
+		Window_No
+			EndWindow 15684,OK
+		Window_Yes ItemSpace == 0
+			EndWindow 10000
+		Window_Yes Item 18983 <= 59
+			EndWindow 22000
+		Window_Yes
+			KillItem 18983,60
+			GiveItem 16313
+			Message 4011
+#官角府胶农狼 厚疵
+block StrCmpChat == 4016
+	Window 22011,Yes,No
+		Window_No
+			EndWindow 15684,OK
+		Window_Yes ItemSpace == 0
+			EndWindow 10000
+		Window_Yes Item 18983 <= 59
+			EndWindow 22000
+		Window_Yes
+			KillItem 18983,60
+			GiveItem 16314
+			Message 4011
+#固匙饿 况磐
+block StrCmpChat == 4017
+	Window 22012,Yes,No
+		Window_No
+			EndWindow 15684,OK
+		Window_Yes ItemSpace == 0
+			EndWindow 10000
+		Window_Yes Item 18983 <= 59
+			EndWindow 22000
+		Window_Yes
+			KillItem 18983,60
+			GiveItem 16315
+			Message 4011
+#老扁厘
+block StrCmpChat == 4018
+	Window 22013,Yes,No
+		Window_No
+			EndWindow 15684,OK
+		Window_Yes ItemSpace == 0
+			EndWindow 10000
+		Window_Yes Item 18983 <= 59
+			EndWindow 22000
+		Window_Yes
+			KillItem 18983,60
+			GiveItem 16316
+			Message 4011
+#刀荤 赣敲矾
+block StrCmpChat == 4019
+	Window 22014,Yes,No
+		Window_No
+			EndWindow 15684,OK
+		Window_Yes ItemSpace == 0
+			EndWindow 10000
+		Window_Yes Item 18983 <= 59
+			EndWindow 22000
+		Window_Yes
+			KillItem 18983,60
+			GiveItem 16317
+			Message 4011
+
+#沮焊叼靛俩
+block StrCmpChat == 4021
+	Window 22016,Yes,No
+		Window_No
+			EndWindow 15684,OK
+		Window_Yes ItemSpace == 0
+			EndWindow 10000
+		Window_Yes Item 18983 <= 99
+			EndWindow 22000
+		Window_Yes
+			KillItem 18983,100
+			GiveItem 16318
+			Message 4011
+#眠浅狼 窍橇
+block StrCmpChat == 4022
+	Window 22017,Yes,No
+		Window_No
+			EndWindow 15684,OK
+		Window_Yes ItemSpace == 0
+			EndWindow 10000
+		Window_Yes Item 18983 <= 99
+			EndWindow 22000
+		Window_Yes
+			KillItem 18983,100
+			GiveItem 16319
+			Message 4011
+#绊措荐狼 绊勘
+block StrCmpChat == 4023
+	Window 22018,Yes,No
+		Window_No
+			EndWindow 15684,OK
+		Window_Yes ItemSpace == 0
+			EndWindow 10000
+		Window_Yes Item 18983 <= 99
+			EndWindow 22000
+		Window_Yes
+			KillItem 18983,100
+			GiveItem 16320
+			Message 4011
+#V
+block StrCmpChat == 4074 || StrCmpChat == 4084
+	Window 22130,Yes,No
+		Window_No
+			EndWindow 15684,OK
+		Window_Yes ItemSpace == 0
+			EndWindow 10000
+		Window_Yes Item 18983 <= 199
+			EndWindow 22000
+		Window_Yes
+			KillItem 18983,200
+			GiveItem 16348
+			Message 4011
+#S
+block StrCmpChat == 4075 || StrCmpChat == 4085
+	Window 22131,Yes,No
+		Window_No
+			EndWindow 15684,OK
+		Window_Yes ItemSpace == 0
+			EndWindow 10000
+		Window_Yes Item 18983 <= 199
+			EndWindow 22000
+		Window_Yes
+			KillItem 18983,200
+			GiveItem 16349
+			Message 4011
+#T
+block StrCmpChat == 4076 || StrCmpChat == 4086
+	Window 22132,Yes,No
+		Window_No
+			EndWindow 15684,OK
+		Window_Yes ItemSpace == 0
+			EndWindow 10000
+		Window_Yes Item 18983 <= 199
+			EndWindow 22000
+		Window_Yes
+			KillItem 18983,200
+			GiveItem 16350
+			Message 4011
+#Q
+block StrCmpChat == 4077 || StrCmpChat == 4087
+	Window 22133,Yes,No
+		Window_No
+			EndWindow 15684,OK
+		Window_Yes ItemSpace == 0
+			EndWindow 10000
+		Window_Yes Item 18983 <= 199
+			EndWindow 22000
+		Window_Yes
+			KillItem 18983,200
+			GiveItem 16351
+			Message 4011
+#M
+block StrCmpChat == 4078 || StrCmpChat == 4088
+	Window 22134,Yes,No
+		Window_No
+			EndWindow 15684,OK
+		Window_Yes ItemSpace == 0
+			EndWindow 10000
+		Window_Yes Item 18983 <= 199
+			EndWindow 22000
+		Window_Yes
+			KillItem 18983,200
+			GiveItem 16352
+			Message 4011
+#H
+block StrCmpChat == 4079 || StrCmpChat == 4089
+	Window 22135,Yes,No
+		Window_No
+			EndWindow 15684,OK
+		Window_Yes ItemSpace == 0
+			EndWindow 10000
+		Window_Yes Item 18983 <= 319
+			EndWindow 22000
+		Window_Yes
+			KillItem 18983,320
+			GiveItem 16353
+			Message 4011
+#A
+block StrCmpChat == 4080 || StrCmpChat == 4090
+	Window 22136,Yes,No
+		Window_No
+			EndWindow 15684,OK
+		Window_Yes ItemSpace == 0
+			EndWindow 10000
+		Window_Yes Item 18983 <= 319
+			EndWindow 22000
+		Window_Yes
+			KillItem 18983,320
+			GiveItem 16354
+			Message 4011
+#I
+block StrCmpChat == 4081 || StrCmpChat == 4091
+	Window 22137,Yes,No
+		Window_No
+			EndWindow 15684,OK
+		Window_Yes ItemSpace == 0
+			EndWindow 10000
+		Window_Yes Item 18983 <= 319
+			EndWindow 22000
+		Window_Yes
+			KillItem 18983,320
+			GiveItem 16355
+			Message 4011
+#C
+block StrCmpChat == 4082 || StrCmpChat == 4092
+	Window 22138,Yes,No
+		Window_No
+			EndWindow 15684,OK
+		Window_Yes ItemSpace == 0
+			EndWindow 10000
+		Window_Yes Item 18983 <= 319
+			EndWindow 22000
+		Window_Yes
+			KillItem 18983,320
+			GiveItem 16356
+			Message 4011
+#R
+block StrCmpChat == 4083 || StrCmpChat == 4093
+	Window 22139,Yes,No
+		Window_No
+			EndWindow 15684,OK
+		Window_Yes ItemSpace == 0
+			EndWindow 10000
+		Window_Yes Item 18983 <= 319
+			EndWindow 22000
+		Window_Yes
+			KillItem 18983,320
+			GiveItem 16357
+			Message 4011
+block
+#\n\n　咯扁辑绰 酒福墨叼酒 烤 悼傈阑 岗柳 版前苞 背券秦靛府绊 乐嚼聪促.
+	Endwindow 22005
+

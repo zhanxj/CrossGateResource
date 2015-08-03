@@ -1,0 +1,67 @@
+
+block
+
+
+
+
+
+
+
+			if LocalCount0 == 5
+
+				LocalCount0 = random 2,0
+
+				if LocalCount0 == 1
+
+
+#					Window "\n\n　咯扁浚 匙啊 备窍绰 巴篮 绝促. 酒公巴档 绝绢.\n　栋唱档废 秦.",yes,no
+					Window 3006908,yes,no
+
+
+					Window_yes
+
+#						EndWindow "\n\n　弊贰, 弊霸 亮酒."
+						EndWindow 3006909
+
+
+					Window_no
+
+#						Window "\n\n　富蓖甫 给 舅酒佃绰 赤籍捞焙ˇˇ",next
+						Window 3006910,next
+
+
+						Encount 2|0,59685,84,81||0|||||10|305002|||||||||
+
+
+				else
+
+					LocalCount0 = 5
+
+
+#					EndWindow "\n\n　唱绰 颇荐槽捞促.\n　酒公巴档 酒囱 颇荐槽捞促.\n　酒公巴档 绝绰 镑狼 颇荐槽捞促.",next
+					EndWindow 3006911,next
+
+
+				endif
+
+
+
+			else
+
+
+				LocalCount0 = 5
+
+
+#				Window "\n\n　捞 蜡利篮 咯扁辑 场捞促.",next
+				Window 3006912,next
+
+#				Window "\n\n　捞 菊俊绰 酒公巴档 绝促.\n　绝绢. 酒公巴档 绝促.\n　酒公巴档 绝绢.",next
+				Window 3006913,next
+
+
+#				endWindow "\n\n　公荤且 锭\n　句傈洒 拱矾啊绰 霸 亮酒."
+				endWindow 3006914
+
+			endif
+
+

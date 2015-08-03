@@ -1,0 +1,4 @@
+#坷墨矫扼
+
+block
+	EndWindow 22221,OK

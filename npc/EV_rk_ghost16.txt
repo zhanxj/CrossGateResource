@@ -1,0 +1,9 @@
+#酱
+
+#涅胶飘 努府绢 饶扼搁
+block EndEvent 131 == 1
+	EndWindow 22392,OK
+
+#
+block
+	EndWindow 22393,OK

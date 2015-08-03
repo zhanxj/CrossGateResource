@@ -1,0 +1,5 @@
+#部贺 激付
+
+block
+	Window 22233,NEXT
+	EndWindow 22234,OK

@@ -1,0 +1,14 @@
+#拱
+
+#蜡府 炼尝甫 爱绊 乐促搁
+block Item 16432 >= 1
+	Window 23148,Yes,No
+		Window_No
+		Window_Yes Item 16432 >= 1
+			KillItemAll 16432,(4447)
+			GiveItem 16433,1,(4448)
+		Window_Yes
+#
+block
+	EndWindow 23150,OK
+

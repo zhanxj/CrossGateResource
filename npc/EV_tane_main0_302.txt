@@ -1,0 +1,76 @@
+#皋牢　林沥桂捞?3　
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###########　酒公巴档 绝澜　##############
+
+
+
+
+
+
+
+block Item 14664 >= 1 && Item 14665 >= 1
+
+
+#\n\n　臂疥?\n　绢叼肺 捞荤 艾绰瘤绰 葛福摆焙~
+
+
+	Window 3006559,next
+
+
+	Window 3006560,next
+
+#\n\n　剑阑\n　酒林 亮酒秦辑\n　惯奔窍绊 倒酒棵 锭 磊林 甸范促绊 富沁绢?氡?
+
+	
+	EndWindow 3006561
+
+
+
+
+
+
+
+
+
+block 
+
+
+#\n\n　匙, 绢辑 坷技夸.\n　捞 啊霸绰 绢锭夸?
+
+	Window 3006556,next
+
+
+	Window 3006557,next
+
+	EndWindow 3006558
+
+
+
+
+
+
+block CheckRealTime 2005/1/1,00:00:00 == 1
+#block CheckRealTime 2004/12/10,15:00:00 == 1
+
+	Window 4600001,next
+
+	EndWindow 4600002
+
+
+
+#block CheckRealTime 2003/12/24,00:00:00 == 1
+
+block
+
+	Window 4600003,next
+
+	Window 4600004,next
+
+	endWindow 4600005
+
+
+
+
+

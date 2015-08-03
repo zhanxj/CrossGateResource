@@ -1,0 +1,4 @@
+#矫赤 虐府俊
+
+block
+	EndWindow 22152,OK

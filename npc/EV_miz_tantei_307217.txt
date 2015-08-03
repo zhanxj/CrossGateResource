@@ -1,0 +1,59 @@
+#沤沥 涅胶飘：
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###########　NOWFLG 69 on　 「舅府官捞...」　##############
+block nowevent69 == 1 && strcmpchat == 206740
+
+	EndWindow 206370,OK
+
+###########　「矫胶磐 纳捞」　##############
+block strcmpchat == 206733
+
+	EndWindow 206371,OK
+
+###########　「畴唱畴唱」　##############
+block strcmpchat == 206734
+
+	EndWindow 206371,OK
+
+###########　「攀弊伐」　##############
+block strcmpchat == 206729
+
+	EndWindow 206371,OK
+
+###########　「钒虐 农扼款」　##############
+block strcmpchat == 206730
+
+	EndWindow 206371,OK
+
+###########　「扩扁胶」　##############
+block strcmpchat == 206727
+
+	EndWindow 206371,OK
+
+###########　「橇赴萍」　##############
+block strcmpchat == 206728
+
+	EndWindow 206371,OK
+
+###########　「橇珐努赴」　##############
+block strcmpchat == 206736
+
+	EndWindow 206371,OK
+
+###########　「青农」　##############
+block strcmpchat == 206726
+
+	EndWindow 206371,OK
+
+###########　「啊刨」　##############
+block strcmpchat == 206735
+
+	EndWindow 206371,OK
+
+###########　酒公巴档 绝澜　##############
+block
+	EndWindow 206369,OK
+
+

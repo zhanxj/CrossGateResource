@@ -1,0 +1,8 @@
+#喊阑 畴贰窍绰 庆福固唱
+
+#
+block
+	Window 22349,Next
+	Window 22350,Next
+	EndWindow 22351,OK
+

@@ -1,0 +1,20 @@
+#
+#固趣狼 规 荤扼父歹
+#
+
+
+block Item 18931 >= 1
+#\n\n　促弗 规俊 单妨啊 临鳖?
+	Window 21503,Yes,No
+        Window_Yes
+		playse 279,1,1
+		Warp 0,15596,59,51,	0,15596,27,86,	0,15596,43,16
+	Window_No
+
+block
+#\n\n　促弗 规俊 单妨啊 临鳖?
+	Window 21503,Yes,No
+        Window_Yes
+		playse 279,1,1
+		Warp 0,15596,59,51,	0,15596,27,86,	0,15596,43,16,	0,15596,74,26
+	Window_No

@@ -1,0 +1,56 @@
+#皋牢　窍胶鸥狼 荤恩　
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###########　酒公巴档 绝澜　##############
+
+
+block globalFlag10 == 1
+
+	Window 3006546,yes,no
+
+	window_no
+
+	EndWindow 3006602
+
+	window_yes Itemspace < 1
+
+	EndWindow 3006603
+
+
+	window_yes Itemspace >= 1
+
+	window 3006601,ok
+
+	window_ok
+
+	GiveItem (14668%100,14669%100,14670%1)
+
+
+block Item 14664 >= 1 && Item 14665 >= 1 && Item 14666 >= 1
+
+	Window 3006546,yes,no
+
+	window_no
+
+	EndWindow 3006602
+
+	window_yes Itemspace < 1
+
+	EndWindow 3006603
+
+
+	window_yes Itemspace >= 1
+
+	window 3006601,ok
+
+	window_ok
+
+	GiveItem (14668%100,14669%100,14670%1)
+
+
+
+
+block Item 14664 >= 1 && Item 14665 >= 1 && Item 14666 < 1
+
+#\n\n　???

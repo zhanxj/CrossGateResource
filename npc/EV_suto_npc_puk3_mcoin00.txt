@@ -1,0 +1,591 @@
+#阁胶磐 内牢 版前背券NPC
+#
+#
+#
+#
+#胶配快 鸥明具
+
+
+
+
+
+
+
+
+
+#溅橇 去脚狼 夸府甫 急琶茄 版快.
+
+Block StrCmpChat == 3010000
+
+	if ItemSpace >= 1
+
+		Window "\n\n　坷, 「溅橇 去脚狼 夸府」牢啊. 岗瘤焙.\n　澜侥捞瘤父, 澜侥捞 酒囱ˇ\n　曼绊肺, 背券内牢荐绰\n　1M阑 100概唱, 5M阑 20概,\n　趣篮 10M甫 10概促.\n　背券窍妨搁 弊 沥档绰 霖厚窍扼备.",Yes,No
+	
+		Window_Yes ItemSpace >= 1 && Leak1Item_620032 >= 100
+		
+				Window "\n\n　爱绊 乐焙. 弊烦 背券窍瘤.",OK
+				
+					Window_OK ItemSpace >= 1 && Leak1Item_620032 >= 100
+					
+						KillLeak1Item 620032,100
+						GiveItem 621000,1
+						
+						EndBlock
+						
+					Window_OK Leak1Item_620032 <= 99
+					
+						GotoF case10
+						
+					Window_OK ItemSpace < 1
+					
+						EndWindow "\n\n　酒捞袍沫阑 厚况滴绰 霸 扁夯 酒囱啊?"
+		
+					Window_OK
+					
+						GotoF case10
+		
+						EndBlock
+		
+		Window_Yes ItemSpace >= 1 && Leak1Item_620033 >= 20
+		
+				Window "\n\n　力过 爱绊 乐焙. 弊烦 背券窍瘤.",OK
+				
+					Window_OK ItemSpace >= 1 && Leak1Item_620033 >= 20
+					
+						KillLeak1Item 620033,20
+						GiveItem 621000,1
+						
+						EndBlock
+						
+					Window_OK Leak1Item_620033 <= 19
+					
+						GotoF case10
+						
+					Window_OK ItemSpace < 1
+					
+						EndWindow "\n\n　酒捞袍沫阑 厚况滴绰 霸 扁夯 酒囱啊?"
+		
+					Window_OK
+					
+						GotoF case10
+						
+						EndBlock
+		
+		Window_Yes ItemSpace >= 1 && Leak1Item_620034 >= 10
+		
+				Window "\n\n　力过 爱绊 乐焙. 弊烦 背券窍瘤.",OK
+				
+					Window_OK ItemSpace >= 1 && Leak1Item_620034 >= 10
+					
+						KillLeak1Item 620034,10
+						GiveItem 621000,1
+						
+						EndBlock
+						
+					Window_OK Leak1Item_620034 <= 9
+					
+						GotoF case10
+						
+					Window_OK ItemSpace < 1
+					
+						EndWindow "\n\n　酒捞袍沫阑 厚况滴绰 霸 扁夯 酒囱啊?"
+						
+					Window_OK
+					
+						GotoF case10
+						
+						EndBlock
+						
+		Window_Yes ItemSpace < 1
+		
+			GotoF case12
+			
+		Window_Yes
+		
+			GotoF case14
+
+		
+		Window_No
+		
+			GotoF case13
+			
+	else
+		
+		EndWindow "\n\n　酒捞袍沫阑 厚况滴绰 霸 扁夯 酒囱啊?"
+		
+	endif
+
+
+
+
+
+#脚拳狼 厘厚甫 急琶茄 版快
+
+#Block StrCmpChat == 3010002
+
+	if ItemSpace >= 1
+	
+		Window "\n\n　坷, 「脚拳狼 厘厚」牢啊. 陛瘤等 塞.\n　磊迟 弥碍狼 塞阑,\n　颊俊 持霸 登绰焙.\n　曼绊肺, 背券内牢荐绰\n　10M阑 500概唱 1000M阑 5概促.\n　沥蔓力促.\n　背券窍绊 酵栏搁 老沥 荐樊阑 霖厚窍霸.",Yes,No
+	
+		Window_Yes ItemSpace >= 1 && Leak1Item_620034 >= 500
+		
+				Window "\n\n　力过 爱绊 乐焙. 弊烦 背券窍瘤.",OK
+				
+					Window_OK ItemSpace >= 1 && Leak1Item_620034 >= 500
+					
+						KillLeak1Item 620034,500
+						GiveItem 607743,1
+						
+						EndBlock
+						
+					Window_OK Leak1Item_620034 <= 499
+					
+						GotoF case10
+						
+					Window_OK ItemSpace < 1
+					
+						EndWindow "\n\n　酒捞袍沫阑 厚况滴绰 霸 扁夯 酒囱啊?"
+						
+					Window_OK
+					
+						GotoF case10
+						
+						
+		Window_Yes ItemSpace >= 1 && Leak1Item_621006 >= 5
+		
+				Window "\n\n　力过 爱绊 乐焙. 弊烦 背券窍瘤.",OK
+				
+					Window_OK ItemSpace >= 1 && Leak1Item_621006 >= 5
+					
+						KillLeak1Item 621006,5
+						GiveItem 607743,1
+						
+						EndBlock
+						
+					Window_OK Leak1Item_620034 <= 4
+					
+						GotoF case10
+						
+					Window_OK ItemSpace < 1
+					
+						EndWindow "\n\n　酒捞袍沫阑 厚况滴绰 霸 扁夯 酒囱啊?"
+						
+					Window_OK
+					
+						GotoF case10
+						
+						
+		Window_Yes ItemSpace < 1 
+		
+			GotoF case12
+			
+		Window_Yes
+			
+			GotoF case14
+		
+		Window_No
+		
+			GotoF case13
+			
+	else
+		
+		EndWindow "\n\n　酒捞袍沫阑 厚况滴绰 霸 扁夯 酒囱啊?"
+		
+	endif
+
+
+
+
+#傈汲狼 阁胶磐甫 急琶茄 版快
+
+Block StrCmpChat == 3010003
+	
+	
+	if PetSpace >= 1
+		
+		Window "\n\n　卿, 磊匙 傈汲狼 阁胶磐啊 爱绊 酵篮啊.\n　栏, 栏澜, 舅摆促.\n　曼绊肺 背券内牢荐绰\n　1000M阑 10概 趣篮 1父M阑 1概促.\n　葛阑 荐 乐阑鳖唱.\n　背券窍绊 酵栏搁 弊 沥档 荐甫 霖厚秦 坷霸.",Yes,No
+		
+		
+		Window_Yes PetSpace >=1 && Leak1Item_620035 >= 1
+		
+			Window "\n\n　面盒洒 爱绊 乐焙. 弊烦 背券窍瘤.",OK
+			
+				Window_OK PetSpace >=1 && Leak1Item_620035 >= 1
+				
+					KillLeak1Item 620035,1
+					GivePet 312100
+					
+					EndBlock
+					
+					Window_OK Leak1Item_620035 == 0
+					
+						GotoF case10
+						
+					Window_OK PetSpace < 1
+					
+						EndWindow "\n\n　澜, 脐 甸绢哎 镑捞 绝绰吧?"
+						
+					Window_OK
+					
+						GotoF case10
+						
+			EndBlock
+						
+		Window_Yes PetSpace >=1 && Leak1Item_621006 >= 10
+		
+			Window "\n\n　面盒洒 爱绊 乐焙. 弊烦 背券窍瘤.",OK
+			
+				Window_OK PetSpace >=1 && Leak1Item_621006 >= 10
+				
+					KillLeak1Item 621006,10
+					GivePet 312100
+					
+					EndBlock
+					
+					Window_OK Leak1Item_620035 <= 9
+					
+						GotoF case10
+						
+					Window_OK PetSpace < 1
+					
+						EndWindow "\n\n　澜, 脐 甸绢哎 镑捞 绝绰吧?"
+						
+					Window_OK
+					
+						GotoF case10
+						
+				EndBlock
+						
+		Window_Yes PetSpace < 1
+		
+			EndWindow "\n\n　澜, 脐 甸绢哎 镑捞 绝绰吧?"
+			
+		Window_Yes
+			
+			GotoF case14
+		
+		Window_No
+		
+			GotoF case13
+			
+	else
+		
+		EndWindow "\n\n　脐侩 后浇吩阑 固府 霖厚秦 滴绰 霸 扁夯酒囱啊?"
+		
+	endif
+	
+	
+	
+	
+
+#怕绊狼 阁胶磐甫 急琶茄 版快
+
+Block StrCmpChat == 3010004
+
+
+	if PetSpace >= 1
+	
+		Window "\n\n　坷, 弊贰, 怕绊狼 阁胶磐牢啊.\n　捞赤籍篮 怕绊狼 扁贱肺 父甸绢脸促绊 窍瘤.\n　曼绊肺 背券内牢荐绰,\n　1父M阑 10概 趣篮 10父M阑 1概促.\n　葛栏扁 塞甸吧.\n　背券窍绊 酵栏搁 葛酒客.",Yes,No
+	
+		
+				Window_Yes PetSpace >= 1 && Leak1Item_620036 >= 1
+		
+					Window "\n\n　面盒洒 爱绊 乐焙. 弊烦 背券窍瘤.",OK
+			
+						Window_OK PetSpace >= 1 && Leak1Item_620036 >= 1
+				
+							KillLeak1Item 620036,1
+							GivePet 309000
+					
+							EndBlock
+					
+							Window_OK Leak1Item_620036 == 0
+						
+								GotoF case10
+						
+							Window_OK PetSpace < 1
+					
+								EndWindow "\n\n　澜, 脐捞 甸绢哎 后 浇吩捞 绝绰吧?"
+						
+							Window_OK Leak1Item_620036 == 0
+						
+								GotoF case10
+						
+				EndBlock
+#####################################1父(620035)10概
+				Window_Yes PetSpace >= 1 && Leak1Item_620035 >= 10
+		
+					Window "\n\n　面盒洒 爱绊 乐焙. 弊烦 背券窍瘤.",OK
+			
+						Window_OK PetSpace >= 1 && Leak1Item_620035 >= 10
+				
+							KillLeak1Item 620035,10
+							GivePet 309000
+					
+							EndBlock
+					
+							Window_OK Leak1Item_620035 <= 9
+						
+								GotoF case10
+						
+							Window_OK PetSpace < 1
+					
+								EndWindow "\n\n　澜, 脐捞 甸绢哎 后 浇吩捞 绝绰吧?"
+						
+							Window_OK Leak1Item_620035 <= 9
+						
+								GotoF case10
+						
+				EndBlock
+#####################################
+						
+				Window_Yes PetSpace < 1
+		
+						EndWindow "\n\n　澜, 脐捞 甸绢哎 后 浇吩捞 绝绰吧?"
+						
+				Window_Yes
+			
+						GotoF case14
+						
+				Window_No
+		
+						GotoF case13
+						 
+			
+			
+	else
+		
+		EndWindow "\n\n　脐侩 后浇吩阑 霖厚秦 滴绰 霸 扁夯酒囱啊?"
+		
+
+	endif
+	
+	
+	
+	
+	
+	
+	
+#玫拌狼 阁胶磐甫 急琶茄 版快
+	
+Block StrCmpChat == 3010005
+	
+	if PetSpace >= 1
+		
+		Window "\n\n　玫拌狼 阁胶磐啊 爱绊 酵促绊?\n　历扒 富具, 窍疵阑 朝扼促囱促备.\n　凯缴洒 虐况焊霸.\n　曼绊肺 背券内牢荐绰,\n　1父M阑20概 趣篮 10父M阑 2概促.\n　葛阑 荐 乐阑扼唱.\n　背券窍妨搁 弊 沥捣 葛酒具力.",Yes,No
+		
+		Window_Yes PetSpace >=1 && Leak1Item_620036 >= 2
+		
+			Window "\n\n　面盒洒 爱绊 乐焙. 弊烦 背券窍瘤.",OK
+			
+				Window_OK PetSpace >=1 && Leak1Item_620036 >= 2
+				
+					KillLeak1Item 620036,2
+					GivePet 309600
+					
+					EndBlock
+					Window_OK Leak1Item_620036 <= 1
+					
+						GotoF case10
+						
+					Window_OK PetSpace < 1
+					
+						EndWindow "\n\n　澜, 脐捞 甸绢哎 后 浇吩捞 绝绰吧?"
+					
+					Window_OK
+					
+						GotoF case10
+						
+						
+				EndBlock
+						
+#####################################1父(620035)20概
+			Window_Yes PetSpace >= 1 && Leak1Item_620035 >= 20
+		
+					Window "\n\n　面盒洒 爱绊 乐焙. 弊烦 背券窍瘤.",OK
+			
+						Window_OK PetSpace >= 1 && Leak1Item_620035 >= 20
+				
+							KillLeak1Item 620035,20
+							GivePet 309600
+					
+							EndBlock
+					
+							Window_OK Leak1Item_620035 <= 19
+						
+								GotoF case10
+						
+							Window_OK PetSpace < 1
+					
+								EndWindow "\n\n　澜, 脐捞 甸绢哎 后 浇吩捞 绝绰吧?"
+						
+							Window_OK Leak1Item_620035 <= 19
+						
+								GotoF case10
+						
+				EndBlock
+#####################################
+						
+		Window_Yes Leak1Item_620036 <= 1
+		
+			GotoF case14
+						
+		Window_Yes PetSpace < 1 
+		
+			EndWindow "\n\n　澜, 脐捞 甸绢哎 后 浇吩捞 绝绰吧?"
+		
+		
+		Window_No
+		
+			GotoF case13
+			
+	else
+		
+		EndWindow "\n\n　脐侩 后浇吩阑 霖厚秦 滴绰 霸 扁夯酒囱啊?"
+		
+	endif
+	
+	
+	
+	
+	
+	
+	
+#瘤硅 阁胶磐甫 急琶
+
+Block StrCmpChat == 3010007
+
+	if PetSpace >= 1
+
+			Window "\n\n　卿, 磊匙, 沥富肺 瘤硅 阁胶磐甫\n　颊俊 持阑 积阿牢啊.\n　攫舵 蓖勘霸 焊捞瘤父,\n　捞赤籍狼 付仿篮 辈厘秦.\n　弊贰辑「瘤硅」扼绰 捞抚捞 嘿篮芭瘤.\n　背券窍绊 酵栏搁,\n　1父M阑 30概 趣篮 10父M阑 3概 霖厚窍档废.",Yes,No
+		
+			Window_Yes PetSpace >=1 && Leak1Item_620036 >= 3
+		
+			Window "\n\n　面盒洒 爱绊 乐焙. 弊烦 背券窍瘤.",OK
+			
+				Window_OK PetSpace >=1 && Leak1Item_620036 >= 3
+				
+					KillLeak1Item 620036,3
+					GivePet 310300
+					
+					EndBlock
+					Window_OK Leak1Item_620036 == 0
+					
+						GotoF case10
+						
+					Window_OK PetSpace < 1
+					
+						EndWindow "\n\n　澜, 脐捞 甸绢哎 后 浇吩捞 绝绰吧?"
+					
+					Window_OK
+					
+						GotoF case10
+						
+						
+						EndBlock
+						
+#####################################1父(620035)30概
+			Window_Yes PetSpace >= 1 && Leak1Item_620035 >= 30
+		
+					Window "\n\n　面盒洒 爱绊 乐焙. 弊烦 背券窍瘤.",OK
+			
+						Window_OK PetSpace >= 1 && Leak1Item_620035 >= 30
+				
+							KillLeak1Item 620035,30
+							GivePet 310300
+					
+							EndBlock
+					
+							Window_OK Leak1Item_620035 <= 29
+						
+								GotoF case10
+						
+							Window_OK PetSpace < 1
+					
+								EndWindow "\n\n　澜, 脐捞 甸绢哎 后 浇吩捞 绝绰吧?"
+						
+							Window_OK Leak1Item_620035 <= 29
+						
+								GotoF case10
+						
+				EndBlock
+#####################################
+						
+			Window_Yes Leak1Item_620036 <= 2
+		
+				GotoF case14
+						
+			Window_Yes PetSpace < 1
+		
+				EndWindow "\n\n　澜, 脐捞 甸绢哎 后 浇吩捞 绝绰吧?"
+		
+			Window_No
+		
+				GotoF case13
+			
+	else
+		
+		EndWindow "\n\n　脐侩 后浇吩阑 霖厚秦 滴绰 霸 扁夯酒囱啊?"
+		
+	endif
+	
+	
+	
+#阁胶磐 内牢阑 绢恫 辆幅电 窍唱 家瘤且 版快.
+
+Block
+
+	Window "\n\n　咯扁绰 阁胶磐 内牢背券家促.\n　穿眠秦 焊捞瘤父, 褥, 促弗 镑俊辑,\n　焊扁 塞电 拱扒捞 乐瘤.",Next
+
+	Window "\n\n　曼绊肺 背券版前篮, 6俺促.\n　溅橇 去脚狼 夸府\n　脚拳狼 厘厚\n　傈汲狼 阁胶磐\n　怕绊狼 阁胶磐\n　玫拌狼 阁胶磐\n　瘤硅 阁胶磐\n　爱绊 酵篮 版前阑 富秦毫.",Next
+				
+	Window "\n\n　啊拜篮,\n　溅橇 去脚狼 夸府啊100M\n　脚拳狼 厘厚啊 5000M\n　傈汲狼 阁胶磐啊 1父M\n　怕绊狼 阁胶磐啊 10父M\n　玫拌狼 阁胶磐啊 20父M\n　瘤硅 阁胶磐啊 30父M",Next
+				
+	Endwindow "\n\n　茄锅 歹 富秦 林瘤. 捞措肺 富窍霸.\n　溅橇 去脚狼 夸府\n　脚拳狼 厘厚\n　傈汲狼 阁胶磐\n　怕绊狼 阁胶磐\n　玫拌狼 阁胶磐\n　瘤硅 阁胶磐\n　捞惑."
+				
+	
+	
+#阁胶磐 内牢阑 档吝俊 绝矩 版快(纳捞胶10锅)
+
+Block
+
+	*case10*
+
+	EndWindow "\n\n　芭窿富窍搁 救蹬零.\n　内牢, 救爱绊 乐垒酒, 柳楼 绝唱?"
+	
+	
+	
+#芭例茄 版快狼 馆览(纳捞胶11锅)
+
+Block
+
+	*case11*
+	
+	EndWindow "\n\n　弊繁啊, 构, 促澜俊 坷霸."
+	
+#酒捞袍捞 啊垫蛮 版快(纳捞胶12锅)
+
+Block
+
+	*case12*
+	
+	EndWindow "\n\n　酒捞袍 后沫阑 犬焊秦 滴绰 霸 扁夯酒囱啊?"
+	
+#措扁巩(纳捞胶13锅)
+
+Block
+
+	*case13*
+	
+	EndWindow "\n\n　褥, 荐樊阑 盲快搁 促矫 坷霸."
+	
+	
+#阁胶磐啊 啊垫蛮 版快(纳捞胶14锅)
+
+Block
+
+	*case14*
+	
+	EndWindow "\n\n　澜, 荐樊阑 盲快档废."
+
+

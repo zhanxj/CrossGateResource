@@ -1,0 +1,33 @@
+#沤沥 涅胶飘： 剧悼捞
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###########　「夯促」　##############
+block endevent67 == 1 && strcmpchat == 206720
+
+	EndWindow 206395,OK
+
+block nowevent75 == 1 && strcmpchat == 206720
+
+	Window 206396,OK
+	Window_OK Itemspace != 0
+	leavegroup
+	playse 65,1,1
+	GiveItem 18889
+	endevent67 = 1
+	Window_OK Itemspace == 0
+	EndWindow 206431
+
+###########　「颊俊 棱绰促」　##############
+block strcmpchat == 206724
+
+	EndWindow 206397,OK
+
+###########　酒公巴档 绝澜　##############
+block 
+
+	EndWindow 206395,OK
+
+
+
+

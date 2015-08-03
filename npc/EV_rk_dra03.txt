@@ -1,0 +1,34 @@
+#
+#巩瘤扁 酒捞胶 酒扼快匙
+#
+
+### 扁撅阑 啊瘤绊 乐促 ###
+block Item 18780 >= 1 || Item 18781 >= 1 || Item 18782 >= 1
+ Endwindow 21338
+
+### 扁撅阑 啊瘤绊 乐促 ###
+block Item 18766 >= 1
+ Endwindow 21259
+block Item 18767 >= 1
+ Endwindow 21259
+### 弊缝 屁辫 ###
+block Group != 1
+ EndWindow 21239
+
+############## 橇府酒焊肺胶甫 努府绢窍瘤 臼疽促 ##############
+block EndEvent 18 != 1
+#\n\n　倔澜狼 豪牢俊 埃挤茄 磊 捞寇甫 瘤唱啊霸 且 荐绰 绝嚼聪促.\n\n　栋唱绞矫坷.
+	EndWindow 21237
+############## 橇府酒焊肺胶甫 努府绢沁促 ##############
+block EndEvent 18 == 1
+#\n\n　咯绰 磊ˇ.\n　　倔澜狼 豪牢俊 埃挤茄 磊ˇ.\n\n　ˇ磊脚狼 狼瘤甫 啊柳 磊扼搁ˇˇˇ\n　ˇ捞菊栏肺 唱酒啊绞矫坷.
+	Window 21238,Yes,No
+         Window_Yes Group == 1
+          Warp 0,15536,15,15
+### 弊缝 屁辫 ###
+         Window_Yes Group != 1
+          EndWindow 21239
+         Window_No
+
+
+

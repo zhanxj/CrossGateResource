@@ -1,0 +1,16 @@
+#卡特修改.QQ88621517
+
+########## 当物品栏小于1个空位##
+block ItemSpace < 1
+	EndWindow 10000
+
+### 顶狼 鉴 农府胶呕阑 啊瘤绊 乐瘤 臼促 ###
+block Item 9203 == 0
+ EndWindow 21593
+
+### 顶狼 鉴 农府甫 扒迟促? ###
+block Item 9203 >= 1
+	KillItem 9203,1
+	GiveItem 18932,1
+	EndWindow 120036
+

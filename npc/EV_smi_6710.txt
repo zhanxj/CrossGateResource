@@ -1,0 +1,149 @@
+#捞亥飘 抛胶飘
+#贸澜栏肺 炼扒捞 老摹茄 喉废阑 贸府茄促
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+
+########## 距（18435）阑 啊瘤绊 乐瘤 臼篮 版快 ##########
+block Item 18435 != 1 && Item 18436 != 1 && Item 18437 != 1 && Item 18438 != 1 && Group == 1
+
+	#汲荤啊 吭促~酒
+	Window 13046,OK
+	Window_OK 
+	LeaveGroup
+	Warp 0,13503,41,39
+
+
+########## 距（18435）LV５甫 啊瘤绊 乐绊 力茄矫埃阑 逞篮 版快 ##########
+block Item 18435 == 1 && ItemCreateTime 18435 >= 41 && Group == 1
+
+	#汲荤啊 吭促~酒
+	Window 13046,OK
+	Window_OK 
+	KillItem 18435,1
+	LeaveGroup
+	Warp 0,13503,41,39
+
+########## 距（18436）LV４甫 啊瘤绊 乐绊 力茄矫埃阑 逞篮 版快 ##########
+block Item 18436 == 1 && ItemCreateTime 18436 >= 43 && Group == 1
+
+	#汲荤啊 吭促~酒
+	Window 13046,OK
+	Window_OK 
+	KillItem 18436,1
+	LeaveGroup
+	Warp 0,13503,41,39
+
+########## 距（18437）LV3阑 啊瘤绊 乐绊 力茄矫埃阑 逞篮 版快 ##########
+block Item 18437 == 1 && ItemCreateTime 18437 >= 46 && Group == 1
+
+	#汲荤啊 吭促~酒
+	Window 13046,OK
+	Window_OK 
+	KillItem 18437,1
+	LeaveGroup
+	Warp 0,13503,41,39
+
+########## 距（18438）LV２甫 啊瘤绊 乐绊 力茄矫埃阑 逞篮 版快 ##########
+block Item 18438 == 1 && ItemCreateTime 18438 >= 49 && Group == 1
+
+	#汲荤啊 吭促~酒
+	Window 13046,OK
+	Window_OK 
+	KillItem 18438,1
+	LeaveGroup
+	Warp 0,13503,41,39
+
+
+########## 距（18435）LV５甫 啊瘤绊 乐绊 力茄矫埃阑 逞瘤 臼篮 版快 ##########
+block Item 18435 == 1 && ItemCreateTime 18435 <= 40 && Item 18428 >= 3 && Item 18429 >= 3 && Item 18430 >= 3 && Group == 1
+
+	#
+	Window 13045,OK
+	Window_OK 
+	KillItem 18428,3
+	KillItem 18429,3
+	KillItem 18430,3
+
+	KillItem 18435,1
+	LeaveGroup
+	Warp 0,13514,6,13
+
+
+########## 距（18436）LV4甫 啊瘤绊 乐绊 力茄矫埃阑 逞瘤 臼篮 版快 ##########
+block Item 18436 == 1 && ItemCreateTime 18436 <= 42 && Item 18428 >= 6 && Item 18429 >= 6 && Item 18430 >= 6 && Group == 1
+
+	#
+	Window 13045,OK
+	Window_OK 
+	KillItem 18428,6
+	KillItem 18429,6
+	KillItem 18430,6
+
+	KillItem 18436,1
+	LeaveGroup
+	Warp 0,13514,6,13
+
+
+########## 距（18437）LV3阑 啊瘤绊 乐绊 力茄矫埃阑 逞瘤 臼篮 版快 ##########
+block Item 18437 == 1 && ItemCreateTime 18437 <= 45 && Item 18428 >= 10 && Item 18429 >= 10 && Item 18430 >= 10 && Group == 1
+
+	#
+	Window 13045,OK
+	Window_OK 
+	KillItem 18428,10
+	KillItem 18429,10
+	KillItem 18430,10
+
+	KillItem 18437,1
+	LeaveGroup
+	Warp 0,13514,6,13
+
+
+########## 距（18438）LV2甫 啊瘤绊 乐绊 力茄矫埃阑 逞瘤 臼篮 版快 ##########
+block Item 18438 == 1 && ItemCreateTime 18438 <= 48 && Item 18428 >= 14 && Item 18429 >= 14 && Item 18430 >= 14 && Group == 1
+
+	#
+	Window 13045,OK
+	Window_OK 
+	KillItem 18428,14
+	KillItem 18429,14
+	KillItem 18430,14
+
+	KillItem 18438,1
+	LeaveGroup
+	Warp 0,13514,6,13
+
+
+########## 距（18435）LV５力茄矫埃阑 逞瘤 臼疽绊 固闭狼 荐啊 ５俺 捞寇狼 版快 ##########
+block Item 18435 == 1 && ItemCreateTime 18435 <= 40 && Item 18428 <= 3 || Item 18429 <= 3 || Item 18430 <= 3 || Group == 1
+
+	#酒流 捞吧沸 刘侥秦滚妨
+	EndWindow 13047
+
+########## 距（18436）LV４力茄矫埃阑 逞瘤 臼疽绊 固闭狼 荐啊 ５俺 捞寇狼 版快 ##########
+block Item 18436 == 1 && ItemCreateTime 18436 <= 42 && Item 18428 <= 6 || Item 18429 <= 6 || Item 18430 <= 6 || Group == 1
+
+	#酒流 捞吧沸 刘侥秦滚妨
+	EndWindow 13047
+
+########## 距（18437）LV３力茄矫埃阑 逞瘤 臼疽绊 固闭狼 荐啊 ５俺 捞寇狼 版快 ##########
+block Item 18437 == 1 && ItemCreateTime 18437 <= 45 && Item 18428 <= 10 || Item 18429 <= 10 || Item 18430 <= 10 || Group == 1
+
+	#酒流 捞吧沸 刘侥秦滚妨
+	EndWindow 13047
+
+########## 距（18438）LV２力茄矫埃阑 逞瘤 臼疽绊 固闭狼 荐啊 ５俺 捞寇狼 版快 ##########
+block Item 18438 == 1 && ItemCreateTime 18438 <= 48 && Item 18428 <= 14 || Item 18429 <= 14 || Item 18430 <= 14 || Group == 1
+
+	#酒流 捞吧沸 刘侥秦滚妨
+	EndWindow 13047
+
+
+########## 急苛闭 固福固福 困厘 涝备 ##########
+block  Group >= 2
+	#炼扒：弊缝俊辑 2疙 捞惑捞扼搁（2疙掳 器窃）
+	EndWindow 13059
+
+
+

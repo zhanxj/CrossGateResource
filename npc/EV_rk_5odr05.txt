@@ -1,0 +1,8 @@
+#空泵 痢贱荤 皋肺胶
+
+#郡俊辑 涅胶飘 柳青吝捞扼搁
+block NowEvent 115 == 1
+	EndWindow 22606,OK
+#
+block
+	EndWindow 22607,OK

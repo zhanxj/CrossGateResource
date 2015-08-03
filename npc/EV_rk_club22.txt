@@ -1,0 +1,17 @@
+#
+#圈 淬寸(措扁角)
+#
+
+#措扁角 檬措鼻阑 啊瘤绊 乐促搁
+block Item 16272 >= 1 || Item 16273 >= 1 || Item 16292 >= 1 || Item 16370 >= 1 || Item 16375 >= 1 || Item 16376 >= 1 || Item 16377 >= 1
+#21877·\n\n　措扁角俊 甸绢啊矫摆嚼聪鳖?
+	Window 21877,Yes,No
+		Window_No
+			Endwindow 15684
+		Window_Yes
+			LeaveGroup
+          		Warp 0,2433,7,6
+block
+#21878·\n\n\n\n@c包拌磊 捞寇俊绰 措扁角肺 甸绢哎 荐 绝嚼聪促.
+			Endwindow 21878
+

@@ -1,0 +1,4 @@
+#开荤楷备啊 捞弊聪
+
+block
+	EndWindow 22397,OK

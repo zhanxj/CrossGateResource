@@ -1,0 +1,14 @@
+#风厚
+
+#郡俊辑 努府绢茄 利捞 乐促搁
+block EndEvent 53 == 1
+	Window 22651,Next
+	Window 22652,OK
+		Window_OK
+			Encount 2|0,34023,23,27||0|||||0|20032|||||||||
+
+#鄂俊辑 努府绢茄 利捞 乐促搁
+block EndEvent 61 == 1
+	Window 22653,OK
+		Window_OK
+			Encount 2|0,34023,23,27||0|||||0|20032|||||||||

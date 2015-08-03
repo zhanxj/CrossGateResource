@@ -1,0 +1,16 @@
+#矫备饭
+
+#酒令虐甫 初闷促
+block NowEvent 128 == 1
+	Window 22477,OK
+		Window_OK
+			LeaveGroup
+			Warp 0,35007,60,80
+
+#酒令虐甫 磷看促
+block EndEvent 128 == 1
+	Window 22476,OK
+		Window_OK
+			LeaveGroup
+			Warp 0,35004,11,16
+

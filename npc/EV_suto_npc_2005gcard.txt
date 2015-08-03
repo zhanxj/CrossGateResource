@@ -1,0 +1,90 @@
+
+block StrCmpChat == 3007208
+
+*case01*
+	Window "\n\n　酒, 贸澜 核摆嚼聪促!狼 墨靛焙夸.\n　50F涝聪促.",Yes,No
+		Window_No
+			EndWindow "\n\n　览? 鞘夸绝绢夸?",OK
+		Window_Yes ItemSpace == 0
+			EndWindow "\n\n　酒捞袍捞 啊垫 谩绢夸.",OK
+		Window_Yes Gold <= 49
+			EndWindow "\n\n　捣捞 葛磊扼夸.",OK
+		Window_Yes
+			Window "\n\n　匙, 皑荤钦聪促!\n　何掺烦里捞 寸脚档 捞力\n　磊扁 付澜阑 傈秦焊酒夸!",OK
+				Window_OK
+					AddGold -50
+					GiveItem 621001,1
+
+
+
+
+block StrCmpChat==3007209
+
+*case02*
+	Window "\n\n　酒, 攫力唱 窃膊!狼 墨靛焙夸.\n　50G涝聪促.",Yes,No
+		Window_No
+			EndWindow "\n\n　览? 鞘夸绝绢夸?",OK
+		Window_Yes ItemSpace == 0
+			EndWindow "\n\n　酒捞袍捞 啊垫 谩绢夸.",OK
+		Window_Yes Gold <= 49
+			EndWindow "\n\n　捣捞 葛磊扼夸.",OK
+		Window_Yes
+			Window "\n\n　匙, 皑荤钦聪促!\n　攫力唱 窃膊 蝶困 搬惫,\n　狙, 酒储, 酒公巴档 酒凑聪促.",OK
+				Window_OK
+					AddGold -50
+					GiveItem 621002,1
+
+
+
+block StrCmpChat==3007210
+
+
+*case03*
+	Window "\n\n　酒, 航狼 侥垮 墨靛焙夸.\n　50G涝聪促.",Yes,No
+		Window_No
+			EndWindow "\n\n　览? 鞘夸绝绢夸?",OK
+		Window_Yes ItemSpace == 0
+			EndWindow "\n\n　酒捞袍捞 啊垫 谩绢夸.",OK
+		Window_Yes Gold <= 49
+			EndWindow "\n\n　捣捞 葛磊扼夸.",OK
+		Window_Yes
+			Window "\n\n　匙, 皑荤钦聪促!\n　宝满篮 酒捞叼绢匙夸.\n　开矫 捞 拌例俊绰\n　咐乐绰 霸 腹烈.",OK
+				Window_OK
+					AddGold -50
+					GiveItem 621003,1
+
+
+
+
+
+block StrCmpChat==3007211
+ gotoB case01
+
+
+
+
+block StrCmpChat==3007212
+ gotoB case02
+
+
+block StrCmpChat==3007213
+ gotoB case03
+
+
+block
+
+
+	Window "\n\n　坷罚父涝聪促!\n　累喊狼 拌例捞 瘤唱, 货 父巢狼 拌例.\n　货 模备俊霸 脚切扁 墨靛甫 凛矫促!",next
+
+	Window "\n\n　扁埃茄沥 弊府泼墨靛啊\n　瘤陛 荤搁 1厘俊 50G!\n　歹喉 努腐窍搁 割 锅捞扼档 杭 荐 乐绢夸.",next
+	
+	Window "\n\n　促澜 3辆幅 吝, 盔窍绰 吧 榜扼,\n　墨靛A, 墨靛B, 墨靛Cˇ\n　历茄抛 林巩窍技夸.",next
+	
+	Window "\n　　　　墨靛A绰 捞疤聪促.\n\n　 @g,239524 @",next
+	
+	Window "\n　　　　墨靛B绰 捞疤聪促.\n\n　 @g,239525 @",next
+	
+	Endwindow "\n　　　　付瘤阜栏肺 墨靛C绰 捞芭俊夸.\n\n　 @g,239526 @"
+	
+
+

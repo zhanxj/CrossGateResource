@@ -1,0 +1,12 @@
+#卡特修改   QQ：88621517
+
+block EndEvent 125 == 1
+	EndWindow 120197,OK
+
+###########　酒公巴档 绝澜　##############
+block
+	Window 3002127,yes,no
+	window_yes
+		Warp 0,1500,27,82
+	window_no
+	

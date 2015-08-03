@@ -1,0 +1,44 @@
+#捞亥飘 抛胶飘
+#贸澜栏肺 炼扒捞 老摹茄 喉废阑 贸府茄促
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+
+########## 芭措 皋扁丛 器惑 ##########
+block Item 18431 >= 6 && Item 18432 >= 6 && Item 18433 >= 6 && Item 18434 >= 6 && Group == 1
+	#炼扒：厩苛焊胶闭４辆幅 乐绰 版快
+	#绊付况 惑阑 临霸!
+	Window 13037,OK
+
+	#----- 扩档快 OK捞绊 后 酒捞袍捞 ０牢 版快 -----#
+	Window_OK itemspace == 0
+	#家瘤前捞 啊垫 谩绢.
+	EndWindow 13012
+
+	#器惑：
+	Window_OK itemspace >= 0
+	Killitem 18431,6
+	Killitem 18432,6
+	Killitem 18433,6
+	Killitem 18434,6
+	#器惑（救傈 何明·芭措 皋扁狼 传拱·芭措 皋扁狼 陛聪·芭措 皋扁狼 荐堪）
+	GiveLeak1Item(18470%1$1,18471%2$1,18472%2$1,18473%1$1)
+	LeaveGroup
+	Warp 0,300,626,209
+
+
+########## 唱公槽·清磐 捞寇狼 流诀狼 版快 ##########
+
+#block  Group >= 2 && SkillLevel 225 < 2 || Group >= 2 && SkillLevel 226 < 2
+	#炼扒：弊缝捞绊 2疙 捞84惑捞绊（滴疙掳 器窃）胶懦 饭骇１捞搁
+	#EndWindow 13058
+
+
+########## 唱公槽·清磐 流诀捞绊 荤成/国格 胶懦 饭骇２捞惑狼 版快 ##########
+block JobAncestry == 450 && Group >= 1 || JobAncestry == 460 && Group >= 1#|| SkillLevel 225 >= 2 && Group >= 1 || SkillLevel 226 >= 2 && Group >= 1 
+	Window 13033,NEXT
+
+	#唱慧 闭阑 器裙秦 客拎.
+	Window 13034,YES,NO
+
+	#----- 扩档快 Y13503ES

@@ -1,0 +1,226 @@
+#
+#厘侥荤 扼羔扼
+#
+
+
+
+###　八流牢捞搁　###
+block Job >= 202 && Job <= 207 && Item 16242 == 1 && StampCount 16242 == 2
+	Window 21775,Next
+#\n\n
+	Window 21776,Yes,No
+		Window_No
+		Window_Yes Item 18966 >= 1
+			KillItem 18966,1
+			GiveRecipe 59
+#\n\n
+			Endwindow 21777
+		Window_Yes
+			Endwindow 21875
+
+###　档尝流牢捞搁　###
+block Job >= 212 && Job <= 217 && Item 16242 == 1 && StampCount 16242 == 2
+	Window 21775,Next
+#\n\n
+	Window 21776,Yes,No
+		Window_No
+		Window_Yes Item 18966 >= 1
+			KillItem 18966,1
+			GiveRecipe 119
+#\n\n
+			Endwindow 21777
+		Window_Yes
+			Endwindow 21875
+
+###　芒流牢捞搁　###
+block Job >= 222 && Job <= 227 && Item 16242 == 1 && StampCount 16242 == 2
+	Window 21775,Next
+#\n\n
+	Window 21776,Yes,No
+		Window_No
+		Window_Yes Item 18966 >= 1
+			KillItem 18966,1
+			GiveRecipe 179
+#\n\n
+			Endwindow 21777
+		Window_Yes
+			Endwindow 21875
+
+###　劝流牢捞搁　###
+block Job >= 232 && Job <= 237 && Item 16242 == 1 && StampCount 16242 == 2
+	Window 21775,Next
+#\n\n
+	Window 21776,Yes,No
+		Window_No
+		Window_Yes Item 18966 >= 1
+			KillItem 18966,1
+			GiveRecipe 239
+#\n\n
+			Endwindow 21777
+		Window_Yes
+			Endwindow 21875
+
+###　瘤莆捞流牢捞搁　###
+block Job >= 242 && Job <= 247 && Item 16242 == 1 && StampCount 16242 == 2
+	Window 21775,Next
+#\n\n
+	Window 21776,Yes,No
+		Window_No
+		Window_Yes Item 18966 >= 1
+			KillItem 18966,1
+			GiveRecipe 299
+#\n\n
+			Endwindow 21777
+		Window_Yes
+			Endwindow 21875
+
+###　何皋尔流牢捞搁　###
+block Job >= 252 && Job <= 257 && Item 16242 == 1 && StampCount 16242 == 2
+	Window 21775,Next
+#\n\n
+	Window 21776,Yes,No
+		Window_No
+		Window_Yes Item 18966 >= 1
+			KillItem 18966,1
+			GiveRecipe 359
+#\n\n
+			Endwindow 21777
+		Window_Yes
+			Endwindow 21875
+
+###　唱捞橇流牢捞搁　###
+block Job >= 262 && Job <= 267 && Item 16242 == 1 && StampCount 16242 == 2
+	Window 21775,Next
+#\n\n
+	Window 21776,Yes,No
+		Window_No
+		Window_Yes Item 18966 >= 1
+			KillItem 18966,1
+			GiveRecipe 419
+#\n\n
+			Endwindow 21777
+		Window_Yes
+			Endwindow 21875
+
+###　捧备流牢捞搁　###
+block Job >= 272 && Job <= 277 && Item 16242 == 1 && StampCount 16242 == 2
+	Window 21775,Next
+#\n\n
+	Window 21776,Yes,No
+		Window_No
+		Window_Yes Item 18966 >= 1
+			KillItem 18966,1
+			GiveRecipe 479
+#\n\n
+			Endwindow 21777
+		Window_Yes
+			Endwindow 21875
+
+###　葛磊流牢捞搁　###
+block Job >= 282 && Job <= 287 && Item 16242 == 1 && StampCount 16242 == 2
+	Window 21775,Next
+#\n\n
+	Window 21776,Yes,No
+		Window_No
+		Window_Yes Item 18966 >= 1
+			KillItem 18966,1
+			GiveRecipe 539
+#\n\n
+			Endwindow 21777
+		Window_Yes
+			Endwindow 21875
+
+###　癌渴流牢捞搁　###
+block Job >= 292 && Job <= 297 && Item 16242 == 1 && StampCount 16242 == 2
+	Window 21775,Next
+#\n\n
+	Window 21776,Yes,No
+		Window_No
+		Window_Yes Item 18966 >= 1
+			KillItem 18966,1
+			GiveRecipe 599
+#\n\n
+			Endwindow 21777
+		Window_Yes
+			Endwindow 21875
+
+###　渴流牢捞搁　###
+block Job >= 302 && Job <= 307 && Item 16242 == 1 && StampCount 16242 == 2
+	Window 21775,Next
+#\n\n
+	Window 21776,Yes,No
+		Window_No
+		Window_Yes Item 18966 >= 1
+			KillItem 18966,1
+			GiveRecipe 659
+#\n\n
+			Endwindow 21777
+		Window_Yes
+			Endwindow 21875
+
+###　肺宏流牢捞搁　###
+block Job >= 312 && Job <= 317 && Item 16242 == 1 && StampCount 16242 == 2
+	Window 21775,Next
+#\n\n
+	Window 21776,Yes,No
+		Window_No
+		Window_Yes Item 18966 >= 1
+			KillItem 18966,1
+			GiveRecipe 718
+#\n\n
+			Endwindow 21777
+		Window_Yes
+			Endwindow 21875
+
+###　何明流牢捞搁　###
+block Job >= 322 && Job <= 327 && Item 16242 == 1 && StampCount 16242 == 2
+	Window 21775,Next
+#\n\n
+	Window 21776,Yes,No
+		Window_No
+		Window_Yes Item 18966 >= 1
+			KillItem 18966,1
+			GiveRecipe 779
+#\n\n
+			Endwindow 21777
+		Window_Yes
+			Endwindow 21875
+
+###　备滴流牢捞搁　###
+block Job >= 332 && Job <= 337 && Item 16242 == 1 && StampCount 16242 == 2
+	Window 21775,Next
+#\n\n
+	Window 21776,Yes,No
+		Window_No
+		Window_Yes Item 18966 >= 1
+			KillItem 18966,1
+			GiveRecipe 839
+#\n\n
+			Endwindow 21777
+		Window_Yes
+			Endwindow 21875
+
+###　规菩流牢捞搁　###
+block Job >= 342 && Job <= 347 && Item 16242 == 1 && StampCount 16242 == 2
+	Window 21775,Next
+#\n\n
+	Window 21776,Yes,No
+		Window_No
+		Window_Yes Item 18966 >= 1
+			KillItem 18966,1
+			GiveRecipe 899
+#\n\n
+			Endwindow 21777
+		Window_Yes
+			Endwindow 21875
+
+###　流牢 捞寇扼搁　###
+block Item 16242 == 1 && StampCount 16242 == 2
+#
+	Endwindow 21775
+
+###
+block
+#\n\n　瘤陛 弊赤客狼 矫埃阑 榴扁绊 乐促备.\n　何殴捞聪鳖 规秦窍瘤 富酒拎.
+	Endwindow 21774
+

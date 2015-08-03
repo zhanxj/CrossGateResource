@@ -1,0 +1,90 @@
+#寇公 何厘包 胶鸥
+
+block ItemSpace < 2
+	EndWindow 10000
+
+block Item16386 == 1
+       	Window 22427,NEXT
+	EndWindow 22428
+
+#郡俊辑 努府绢茄 版快
+block EndEvent 113 == 1
+	EndEvent 52 = 1
+	NowEvent 113 = 0
+	EndEvent 113 = 0
+	NowEvent 128 = 0
+	EndEvent 128 = 0
+	CheckTitle
+	GiveItem 16386
+	GiveLeak1Item 18983,5
+
+#鄂俊辑 努府绢茄 版快
+block EndEvent 114 == 1
+	EndEvent 60 = 1
+	NowEvent 114 = 0
+	EndEvent 114 = 0
+	NowEvent 128 = 0
+	EndEvent 128 = 0
+	CheckTitle
+	GiveItem 16386
+	GiveLeak1Item 18983,5
+
+#老馆栏肺 努府绢茄 版快
+block EndEvent 129 == 1
+	NowEvent 129 = 0
+	EndEvent 129 = 0
+	NowEvent 128 = 0
+	EndEvent 128 = 0
+	GiveLeak1Item 18983,5
+
+#郡俊辑 涅胶飘 柳青 吝
+block NowEvent 113 == 1
+	EndWindow 22430,OK
+
+#鄂俊辑 涅胶飘 柳青 吝
+block NowEvent 114 == 1
+	EndWindow 22431,OK
+
+#老馆栏肺 涅胶飘 柳青 吝
+block NowEvent 129 == 1
+	EndWindow 22432,OK
+
+#郡 ７殿阑 啊瘤绊 乐促
+block EndEvent 51 == 1
+	Window 22433,Yes,No
+		Window_No
+			EndWindow 22434,OK
+		Window_Yes
+			Window 22435,Next
+			Window 22436,Next
+			Window 22437,Next
+			Window 22438,OK
+				Window_OK
+				NowEvent 113 = 1
+				SystemMessage 4208
+#鄂 ７殿阑 啊瘤绊 乐促
+block EndEvent 59 == 1
+	Window 22433,Yes,No
+		Window_No
+			EndWindow 22434,OK
+		Window_Yes
+			Window 22435,Next
+			Window 22436,Next
+			Window 22437,Next
+			Window 22438,OK
+				Window_OK
+				NowEvent 114 = 1
+				SystemMessage 4208
+#
+block
+	Window 22433,Yes,No
+		Window_No
+			EndWindow 22434,OK
+		Window_Yes
+			Window 22435,Next
+			Window 22436,Next
+			Window 22437,Next
+			Window 22438,OK
+				Window_OK
+				NowEvent 129 = 1
+				SystemMessage 4208

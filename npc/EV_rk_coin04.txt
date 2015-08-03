@@ -1,0 +1,10 @@
+#
+#烤 悼傈 背券 饭捞飘 埃魄
+#
+
+block
+	Window 22020,Next
+	Window 22021,Next
+	Window 22140,Next
+	EndWindow 22141,OK
+

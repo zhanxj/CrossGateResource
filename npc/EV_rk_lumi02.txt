@@ -1,0 +1,8 @@
+#内凡ⅱ风固呈胶　包家
+#捍荤 付榴
+
+block
+	Window 22357,YES,NO
+		Window_NO
+		Window_Yes
+			Warp 0,43000,476,526

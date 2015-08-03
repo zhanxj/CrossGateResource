@@ -1,0 +1,31 @@
+#捞亥飘 抛胶飘
+#贸澜栏肺 炼扒捞 老摹茄 喉废阑 贸府茄促
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+
+########## 乔酒聪胶飘　##########
+
+block Item 18486 >=1
+
+	EndWindow 13154
+
+block Item 18487 >=1 || Havetitle == 90 
+
+	EndWindow 13157
+
+
+block 
+
+	Window 13148,NEXT
+	Window 13149,OK
+
+	Window_OK itemspace == 0
+	#家瘤前捞 啊垫 瞒 乐绢.
+	EndWindow 13153
+
+	#器惑：
+	Window_OK itemspace >= 0
+	GiveItem 18486
+
+

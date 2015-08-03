@@ -1,0 +1,21 @@
+#坷父狼 巩瘤扁
+
+#坷父狼 了辑甫 啊瘤绊 乐促
+block Item 16440 >= 1
+	Window 23187,OK
+		Window_OK
+			Encount 2|0,33601,25,25||0|||||0|20045|||||||||
+#
+block
+		Window 23188,Yes,No
+			Window_Yes
+				Window 23189,OK
+					Window_OK
+						LeaveGroup
+						Warp 0,33000,468,381
+			Window_No
+				Window 23190,OK
+					Window_OK
+						LeaveGroup
+						Warp 0,33000,468,381
+

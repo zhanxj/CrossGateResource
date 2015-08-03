@@ -1,0 +1,14 @@
+#
+#措辨
+#
+
+
+block
+
+		CheckTitle
+		EndWindow 4020001,OK
+
+
+
+
+

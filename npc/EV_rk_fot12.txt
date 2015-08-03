@@ -1,0 +1,6 @@
+#FOT巩力５
+
+block
+#
+	EndWindow 21720,OK
+

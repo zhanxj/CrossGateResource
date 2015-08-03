@@ -1,0 +1,16 @@
+#农风风
+
+鄂 绕７殿 秒垫饶
+block EndEvent 112 == 1
+	EndWindow 22194,OK
+
+#鄂 绕７殿 柳青 吝
+block NowEvent 112 == 1
+	EndWindow 22195,OK
+
+#鄂 绕８殿 啊瘤绊 乐促
+block EndEvent 58 == 1
+	EndWindow 22196,OK
+
+block
+	EndWindow 22197,OK

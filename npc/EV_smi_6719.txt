@@ -1,0 +1,25 @@
+#捞亥飘 抛胶飘
+#贸澜栏肺 炼扒捞 老摹茄 喉废阑 贸府茄促
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+
+########## 档力府农（窍骇 厘肺）##########
+block 
+	#
+	Window 13092,YES,NO
+
+	#匙狼 版快#
+	Window_YES
+	Window 13093,NEXT
+	#Window_OK
+	Window 13094,NEXT
+	#Window_OK
+	EndWindow 13095
+
+	#酒聪坷狼 版快#
+	Window_NO
+	EndWindow 13096
+
+
+

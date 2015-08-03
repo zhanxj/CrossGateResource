@@ -1,0 +1,46 @@
+#################
+#	内唱捞具	#
+#################
+
+
+
+####颊芭匡阑 啊瘤绊 乐阑 锭####
+block HaveItem == 19671
+	#措荤４
+	Window 990258,OK
+############################
+
+####豪力牢屈阑 啊瘤绊 乐阑 锭####
+block  HaveItem == 19672
+	#措荤14
+	Window 990268,OK,CANCEL
+	#\n\n　颊芭匡, 捻付固俊霸 扒匙拎夸. 肋 何殴秦!!
+	Window_OK nowtime == 0 || nowtime == 1
+		#况橇
+		warp 0,777,90,90
+	#OK捞绊 历翅~广捞扼搁
+	Window_OK nowtime == 2 || nowtime == 3
+		#豪力牢屈 哗狙变促
+		KillItem 19672,1
+##############################
+
+####弊 捞寇####
+block
+	#措荤１
+	Window 990255,Yes,No
+		#YES穿福绊 酒捞袍 茄 厚绢乐栏搁
+		Window_Yes ItemSpace != 0
+			#胶固饭俊霸 焊郴绰 祈瘤GET
+			GiveItem 19671,1
+			#措荤２
+			EndWindow 990256
+		#YES捞绊 酒捞袍 鄂俊 后 镑捞 绝阑 锭
+		Window_Yes ItemSpace == 0
+			#措荤15
+			EndWindow 990270
+		#NO穿福搁
+		Window_No
+			#措荤３
+			EndWindow 990257
+################
+

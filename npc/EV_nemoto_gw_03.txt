@@ -1,0 +1,65 @@
+#GW炔陛悼奔
+#扁充前 魄概盔「叼弊鸥」
+
+## 姐臂扼胶甫 家瘤
+block Item 607737 >= 1
+	EndWindow "\n\n　坷坷, 叼弊瘤肺狼 档矫遏篮 弥绊促.\n　辣疙林 付寂辑 扁盒档 亮绊,\n　凯缴洒 老秦杭鳖!"
+
+## 「叼弊鸥俊霸 焊郴绰 档矫遏」阑 2俺 捞惑 家瘤
+block Item 622000 >= 2
+	Window "\n\n　磊匙, 叼弊瘤肺狼 档矫遏阑 爱绊 乐焙?\n　窍瘤父, 弊犯霸 腹篮 扒 捞惑茄吧.\n　啊楼肺 朝 加捞妨 窍瘤父 绢覆 绝瘤!\n　国肺, 郴啊 促 冈绢林付!",OK
+	Window_OK
+		KillItemall 622000
+Endblock
+## 「叼弊鸥俊霸 焊郴绰 档矫遏」1俺 家瘤
+block Item 622000 == 1
+	Window "\n\n　弊, 弊扒 叼弊瘤肺啊 父电 档矫遏!?\n　老何磐 爱促 林妨绊 柯 扒啊?\n　捞芭, 绊缚焙.\n　档矫 荤恩甸篮 牢沥赣府 绝促绊 甸菌绰单,\n　磊迟 付澜揪啊 馒窍焙. 咯扁俊 贱捞 乐促搁\n　弥绊老刨单, 酒聪 弊巴焊促\n　翠肥肺 捞吧 临膊.",OK
+
+## 牢亥配府俊 后沫捞 绝促
+	Window_OK Itemspace == 0
+		EndWindow "\n\n　咙沫捞 菜 蛮 巴 鞍焙.\n　临霸 乐栏聪, 沥府窍绊 客."
+## 叼弊鸥狼 肯厘阑 霖促
+	Window_OK Item 622000 == 1
+		KillItemall 622000
+		GiveLeak1Item 18671,1
+Endblock
+
+## 「距侩 辣疙林」甫 2俺 捞惑 家瘤
+block Item 622001 >= 2
+	Window "\n\n　磊匙, 距侩 辣疙林甫 爱绊 乐焙?\n　窍瘤父, 弊 券惑狼 贱捞 弊犯霸 腹篮 扒\n　捞惑窍焙. 啊楼肺 朝 加捞妨 窍瘤付\n　绢覆 绝瘤!\n　国肺, 郴啊 傈何 付寂林付!",OK
+	Window_OK
+		KillItemall 622001
+Endblock
+## 「距侩 辣疙林」甫 1俺 家瘤
+block Item 622001 == 1
+	Window "\n\n　弊, 弊扒 券惑狼 贱, 距侩 辣疙林!?\n　牢埃甸篮 扒碍俊 亮促搁辑\n　肋档 付脚促瘤父, 快府甸篮\n　备且 荐档 绝绰 绊鞭林啊 酒囱啊.",NEXT
+	Window "\n\n　俊? 叼弊固啊 唱茄抛??\n　绊缚焙. 咯扁鳖瘤 啊廉促拎辑,\n　磊匙 馒窍绊 亮篮 荤恩捞焙.\n　郴 皑荤狼 付澜阑 罐酒林霸.",OK
+
+## 牢亥配府俊 后沫捞 绝促
+	Window_OK Itemspace == 0
+		EndWindow "\n\n　咙沫捞 菜 蛮 巴 鞍焙.\n　林绊 酵篮 霸 乐栏聪, 沥府 粱 窍绊 客."
+## 捞固 姐臂扼胶甫 爱绊 乐促
+	Window_OK Item 607737 >= 1
+		EndWindow "\n\n　卡? 捞固 扒匙玲菌唱."
+## 姐臂扼胶甫 霖促
+	Window_OK Item 622001 == 1
+		KillItemall 622001
+		GiveLeak1Item 607737,1
+Endblock
+
+##　虐 酒捞袍 阂家瘤
+block
+	Window 21198,YES,NO
+## 捣捞 葛磊恩
+	Window_YES Gold < 90
+		EndWindow "\n\n　捣 绝栏搁 救 迫酒."
+## YES急琶秦辑 捣捞 登搁 叼弊鸥狼 绕厘阑 霖促
+	Window_YES ItemSpace != 0
+		AddGold -90
+		Giveitem 18671
+## 酒捞袍 啊垫曼
+	Window_YES
+		EndWindow "\n\n　爱绊 酵栏搁 酒捞袍沫阑 沥府秦扼."
+	Window_NO
+Endblock
+

@@ -1,0 +1,24 @@
+#
+#剐府
+#
+
+#乃狼 疙窃 墨款飘啊 ３捞惑狼 版快
+block Item 16239 == 1 && StampCount 16239 >= 3
+	EndWindow 21843
+
+#乃狼 祈瘤甫 啊瘤绊 乐促搁
+block Item 16244 == 1
+	EndWindow 21842
+
+##颇扼绊肺何磐 柯 祈瘤甫 啊瘤绊 乐促搁
+block Item 18982 >= 1
+	Window 21563,Next
+	Window 21564,Next
+	Window 21842,OK
+		Window_OK
+			KillItemall 18982
+			GiveItem 16244
+
+block
+	EndWindow 21562
+

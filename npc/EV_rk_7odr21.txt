@@ -1,0 +1,4 @@
+#部贺 激付
+
+block
+	EndWindow 22232,OK

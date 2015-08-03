@@ -1,0 +1,70 @@
+
+block
+
+
+
+
+
+
+			if LocalCount8 == 5
+
+				LocalCount8 = random 2,0
+
+				if LocalCount8 == 1
+
+
+
+					LocalCount8 = 5
+
+
+
+#					EndWindow "\n\n　传 菊狼 涵尔俊 墩妨乐绰 悼奔捞\n　烤朝 葫角肺 烹秦乐绢."
+					EndWindow 3006904
+
+
+
+				else
+
+					LocalCount8 = 5
+					
+
+#					EndWindow "\n\n　悼奔 救狼 葫角俊\n　烤朝狼 焊粮侩扁啊 冻绢廉 乐瘤父\n　疾阂府 凯搁 困氰秦."
+					EndWindow 3006905
+
+
+
+				endif
+
+
+
+			else
+
+
+				LocalCount8 = 2
+
+#				Window "\n\n　绢扼, 捞繁 镑俊\n　脚扁窍焙.",next
+				Window 3006906,next
+
+
+#				EndWindow "\n\n　寸脚档 葫角蜡利 沤氰牢啊?"
+				EndWindow 3006907
+
+
+
+
+
+			endif
+
+
+
+
+
+
+
+
+
+
+
+
+
+

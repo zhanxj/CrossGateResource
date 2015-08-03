@@ -1,0 +1,29 @@
+#归锋己 巩瘤扁(15572)
+#
+
+block EndEvent 38 == 1
+	Window 21458,OK
+	Window_OK
+		LeaveGroup
+		KillItem 18780
+		GiveItem 18903
+		Warp 0,15579,25,35
+
+block Item 18887 >= 1
+#\n\n　捞巴篮 己具狼 祈瘤肺焙夸.
+#\n　捞 顶俊 荤绰 荤恩甸俊霸 捞具扁甫 甸栏哥 倒酒促虫嚼聪鳖?
+#\n　瘤陛档 函窃绝绰 搬狼啊 乐促搁 菊栏肺 唱酒啊辑 快府甸狼 厘阑 父唱矾 啊绞矫坷.
+#\n\n　登倒酒坷绰 巴篮 倾遏登瘤 臼嚼聪促.
+#
+	Window 21409,YES,NO
+	Window_YES
+		KillItem 18780
+		KillItem 18885
+		KillItem 18887
+		GiveItem 18903
+		LeaveGroup
+		Warp 0,15579,25,35
+	Window_NO
+block
+#\n\n　酒流 咯扁甫 瘤唱啊霸 且 荐绰 绝嚼聪促.\n\n　ˇ面盒洒 捞 顶阑 焊哥 倒酒促聪绞矫坷.
+	EndWindow 21410

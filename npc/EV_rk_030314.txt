@@ -1,0 +1,90 @@
+#2003拳捞飘 单捞
+#采蝶绰 贾饭捞蜡
+
+#3.15 捞饶绰 迫瘤 臼绰促
+block CheckRealTime 2005/03/15,00:00:00 == 1
+#block CheckRealTime 2005/02/24,15:00:00 == 1
+	EndWindow 21937,OK
+
+#咯己 某腐磐甫 屁败辰促
+block BBImage >= 100250 && BBImage <= 100423
+	EndWindow 22038,OK
+block BBImage >= 105250 && BBImage <= 105423
+	EndWindow 22038,OK
+block BBImage >= 106250 && BBImage <= 106423
+	EndWindow 22038,OK
+
+#窍踞 偏赋捞扼绊 惯攫茄 版快
+block StrCmpChat==4031
+	Window 22111,Yes,No
+		Window_No
+			EndWindow 21941,OK
+		Window_Yes ItemSpace == 0
+			EndWindow 15258,OK
+		Window_Yes Gold <= 999
+			EndWindow 21942,OK
+		Window_Yes
+			Window 22110,OK
+				Window_OK
+					AddGold -1000
+					GiveItem 16339
+#颇鄂 偏赋捞扼绊 惯攫茄 版快
+block StrCmpChat==4032
+	Window 22112,Yes,No
+		Window_No
+			EndWindow 21941,OK
+		Window_Yes ItemSpace == 0
+			EndWindow 15258,OK
+		Window_Yes Gold <= 999
+			EndWindow 21942,OK
+		Window_Yes
+			Window 22110,OK
+				Window_OK
+					AddGold -1000
+					GiveItem 16340
+#八篮 偏赋捞扼绊 惯攫茄 版快
+block StrCmpChat==4033
+	Window 22113,Yes,No
+		Window_No
+			EndWindow 21941,OK
+		Window_Yes ItemSpace == 0
+			EndWindow 15258,OK
+		Window_Yes Gold <= 999
+			EndWindow 21942,OK
+		Window_Yes
+			Window 22110,OK
+				Window_OK
+					AddGold -1000
+					GiveItem 16341
+#弧埃 偏赋捞扼绊 惯攫茄 版快
+block StrCmpChat==4034
+	Window 22114,Yes,No
+		Window_No
+			EndWindow 21941,OK
+		Window_Yes ItemSpace == 0
+			EndWindow 15258,OK
+		Window_Yes Gold <= 299
+			EndWindow 21942,OK
+		Window_Yes
+			Window 22110,OK
+				Window_OK
+					AddGold -300
+					GiveItem 16342
+#畴鄂 偏赋捞扼绊 惯攫茄 版快
+block StrCmpChat==4035
+	Window 22115,Yes,No
+		Window_No
+			EndWindow 21941,OK
+		Window_Yes ItemSpace == 0
+			EndWindow 15258,OK
+		Window_Yes Gold <= 999
+			EndWindow 21942,OK
+		Window_Yes
+			Window 22110,OK
+				Window_OK
+					AddGold -1000
+					GiveItem 16343
+#
+block 
+	Window 22039,Next
+	EndWindow 22040,OK
