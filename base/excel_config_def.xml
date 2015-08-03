@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="GBK"?>
+<attributes_config_def>
+    <source_file name="NUMERICAL_VALUE" path="数值"/>
+    
+	<!-- 角色动画 -->
+	<attribute_config_def name="role_animation" sheetname="角色动画" file="NUMERICAL_VALUE">
+	    <param name="role_id" title="角色id" colnum="A"/>
+	    <param name="animation_global_id" title="动画全局编号" colnum="D"/>
+	    <param name="head_global_id" title="头像全局编号" colnum="F"/>
+	    <param name="sex" title="性别" colnum="I"/>
+	    <param name="page" title="页码" colnum="J"/>
+	</attribute_config_def>
+    
+	<!-- 图像资源 -->
+	<attribute_config_def name="image_resource" sheetname="图像资源" file="NUMERICAL_VALUE">
+	    <param name="version" title="版本号" colnum="A"/>
+	    <param name="type" title="类型" colnum="B"/>
+	    <param name="path" title="相对路径" colnum="C"/>
+	    <param name="suffix" title="版本后缀" colnum="D"/>
+	    <param name="colorPalette" title="调色板" colnum="E"/>
+	    <param name="readOnly" title="只读" colnum="F"/>
+	    <param name="name" title="版本名称" colnum="G"/>
+	</attribute_config_def>
+    
+	<!-- NPC类型 -->
+	<attribute_config_def name="npcTypes" sheetname="NPC类型" file="NUMERICAL_VALUE">
+	    <param name="id" title="ID" colnum="A"/>
+	    <param name="type" title="npc类型" colnum="B"/>
+	    <param name="class" title="对应类" colnum="C"/>
+	</attribute_config_def>
+    
+</attributes_config_def>

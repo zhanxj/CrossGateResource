@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <file dir="enemy" />
+    <file dir="chat" />
+    <file dir="item" />
+    <file dir="job" />
+    <file dir="mapAssist" />
+    <file dir="msg" />
+    <file dir="npc" />
+    <file dir="npcAssist" />
+    <file dir="security" />
+    <file dir="skill" />
+    <file dir="time" />
+    <file dir="title" />
+    <file dir="data" />
+    
+    <birthData unitType="5" hp="20" mp="20" attack="20" defend="20" agility="20" recover="100" mind="100" skillIds="73,74,150,160,170" birthBp="30" levelUpBp="4" />
+    <birthData unitType="3" hp="34" mp="0" attack="0" defend="0" agility="0" recover="100" mind="100" skillIds="" birthBp="0" levelUpBp="1" />
+    <birthData unitType="4" hp="34" mp="0" attack="0" defend="0" agility="0" recover="100" mind="100" skillIds="" birthBp="0" levelUpBp="1" />
+    
+    <option name="PK,CHAT,TEAM,MAIL,EXCHANGE,GUID,DOUBLE_EXP" defaultId="0,0,1,0,0,0,0">
+        <value id="0" name="close" />
+        <value id="1" name="open" />
+    </option>
+    <option name="BATTLE_LOCAL" defaultId="0">
+        <value id="0" name="back" />
+        <value id="1" name="front" />
+    </option>
+    <option name="LEFTTOP_PANEL" defaultId="0">
+        <value id="0" name="all" />
+        <value id="1" name="simple" />
+        <value id="2" name="hide" />
+    </option>
+    <option name="RIGHTTOP_PANEL, ACTION_PANEL, MINI_MAP" defaultId="0">
+        <value id="0" name="show" />
+        <value id="1" name="hide" />
+    </option>
+    <option name="CHAT_HEIGHT" defaultId="4">
+        <value id="0" name="1" />
+        <value id="1" name="2" />
+        <value id="2" name="3" />
+        <value id="3" name="4" />
+        <value id="4" name="5" />
+        <value id="5" name="6" />
+        <value id="6" name="7" />
+        <value id="7" name="8" />
+        <value id="8" name="9" />
+        <value id="9" name="10" />
+        <value id="10" name="11" />
+        <value id="11" name="12" />
+        <value id="12" name="13" />
+        <value id="13" name="14" />
+        <value id="14" name="15" />
+    </option>
+    <option name="CHAT_WIDTH" defaultId="4">
+        <value id="0" name="1" />
+        <value id="1" name="2" />
+        <value id="2" name="3" />
+        <value id="3" name="4" />
+        <value id="4" name="5" />
+        <value id="5" name="6" />
+        <value id="6" name="7" />
+        <value id="7" name="8" />
+        <value id="8" name="9" />
+        <value id="9" name="10" />
+        <value id="10" name="11" />
+        <value id="11" name="12" />
+        <value id="12" name="13" />
+        <value id="13" name="14" />
+        <value id="14" name="15" />
+        <value id="15" name="16" />
+        <value id="16" name="17" />
+        <value id="17" name="18" />
+        <value id="18" name="19" />
+        <value id="19" name="20" />
+        <value id="20" name="21" />
+        <value id="21" name="22" />
+        <value id="22" name="23" />
+        <value id="23" name="24" />
+        <value id="24" name="25" />
+        <value id="25" name="26" />
+    </option>
+    <option name="CHAT_RANGE" defaultId="0">
+        <value id="0" name="1" />
+        <value id="1" name="2" />
+        <value id="2" name="3" />
+        <value id="3" name="4" />
+        <value id="4" name="5" />
+    </option>
+    <option name="CHAT_COLOR" defaultId="0">
+        <value id="0" name="0,0,0,0" />
+        <value id="1" name="0,255,255,255" />
+        <value id="2" name="0,255,0,0" />
+        <value id="3" name="0,0,255,0" />
+        <value id="4" name="0,0,0,255" />
+        <value id="5" name="0,255,0,255" />
+        <value id="6" name="0,255,255,0" />
+        <value id="7" name="0,0,255,255" />
+    </option>
+    <option name="CHAT_SIZE" defaultId="0">
+        <value id="0" name="1" />
+        <value id="1" name="2" />
+        <value id="2" name="3" />
+    </option>
+    <option name="CHAT_SIZE" defaultId="0">
+        <value id="0" name="鼠标左键" />
+        <value id="1" name="ctrl+鼠标左键" />
+    </option>
+    <option name="MOUSE" defaultId="0">
+        <value id="0" name="游标1" />
+        <value id="1" name="游标2" />
+    </option>
+    <option name="HOTKEY" defaultId="0">
+        <value id="0" name="热键1" />
+        <value id="1" name="热键2" />
+    </option>
+    <option name="SCANNING_SYNCHRONOUS" defaultId="0">
+        <value id="0" name="同步" />
+        <value id="1" name="非同步" />
+    </option>
+    <option name="SCANNING" defaultId="0">
+        <value id="0" name="1" />
+        <value id="1" name="2" />
+        <value id="1" name="3" />
+    </option>
+    <option name="MUSIC_VOLUME,SOUND_VOLUME" defaultId="15">
+        <value id="0" name="1" />
+        <value id="1" name="2" />
+        <value id="2" name="3" />
+        <value id="3" name="4" />
+        <value id="4" name="5" />
+        <value id="5" name="6" />
+        <value id="6" name="7" />
+        <value id="7" name="8" />
+        <value id="8" name="9" />
+        <value id="9" name="10" />
+        <value id="10" name="11" />
+        <value id="11" name="12" />
+        <value id="12" name="13" />
+        <value id="13" name="14" />
+        <value id="14" name="15" />
+    </option>
+    <option name="SOUND" defaultId="0">
+        <value id="0" name="双声道" />
+        <value id="1" name="单声道" />
+    </option>
+    <option name="INFO_SOUND" defaultId="0">
+        <value id="0" name="打开" />
+        <value id="1" name="关闭" />
+    </option>
+    
+    <doubleExp dayTime="3600" refreshTime="06:00:00" limit="21600" />
+</root>
