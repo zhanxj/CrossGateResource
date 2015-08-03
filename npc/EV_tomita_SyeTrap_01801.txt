@@ -1,0 +1,95 @@
+#带怜 飘乏 by 配固鸥
+#
+#　　　溅扼焽家狼 啪 18摸(扁巩敌癌)
+
+###　3004859「贺贺 哆绰 阂蔫茄 蠢肠! 况橇 飘乏捞促!」
+###　3004860「魔措俊辑 捞惑茄 皑盟阑 蠢布促!」
+
+
+###　敲矾弊 胶困摹
+block Xpos >= 51 && Xpos <= 54 && Ypos == 97
+
+		If LocalFlag0 == 0
+
+			Message 3004860
+			LocalFlag0 = 1
+			EndBlock
+
+		endif
+
+
+
+###　飘乏(敲矾弊 乐绰 巴父)
+block Xpos >= 51 && Xpos <= 54 && Ypos == 101
+
+	If LocalFlag0 == 1
+
+		Message 3004859
+		LeaveGroup
+		Warp 0,59818,38,84
+		EndBlock
+
+	endif
+
+
+
+###　飘乏1(敲矾弊 蜡公 傍侩)
+block Xpos == 50 && Ypos >= 98 && Ypos <= 100
+
+	If LocalFlag0 == 1
+
+		Message 3004859
+		LeaveGroup
+		Warp 0,59818,110,83
+		EndBlock
+
+	else
+		Message 3004859
+		LeaveGroup
+		Warp 0,59818,125,120
+		EndBlock
+
+	endif
+
+
+
+###　飘乏2(敲矾弊 蜡公 傍侩)
+block Xpos == 50 && Ypos >= 94 && Ypos <= 96
+
+	If LocalFlag0 == 1
+
+		Message 3004859
+		LeaveGroup
+		Warp 0,59818,101,122
+		EndBlock
+
+	else
+		Message 3004859
+		LeaveGroup
+		Warp 0,59818,117,137
+		EndBlock
+
+	endif
+
+
+
+###　飘乏3(敲矾弊 蜡公 傍侩)
+block Xpos >= 51 && Xpos <= 54 && Ypos == 93
+
+	If LocalFlag0 == 1
+
+		Message 3004859
+		LeaveGroup
+		Warp 0,59818,110,135
+		EndBlock
+
+	else
+		Message 3004859
+		LeaveGroup
+		Warp 0,59818,121,73
+		EndBlock
+
+	endif
+
+
+

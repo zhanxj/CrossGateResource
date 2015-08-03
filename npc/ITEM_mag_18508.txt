@@ -1,0 +1,15 @@
+#
+#己炼 4
+#
+##############  ##############
+block
+#\n\n\n\n\n@c己炼甫 荤侩窍摆嚼聪鳖?
+	Window 15256,YES,NO
+	Window_YES Item 18508 >= 1
+	KillItem 18508,1,(15156)
+	LeaveGroup
+	#芭令 扼款靛 41摸栏肺
+	Warp 0,24049,24,23
+	Window_NO
+
+

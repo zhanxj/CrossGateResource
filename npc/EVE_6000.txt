@@ -1,0 +1,36 @@
+#ＮＰＣ：悼狼 凯艰 魄概牢
+#厘家：官 救虐葛俊 乐澜
+block StrCmpChat != 12000 || StrCmpChat == R
+##########  ##########
+	#\n\n　扁促府绊 乐菌绢. 寸脚 楷遏盔Ｂ瘤?
+	Window 12006,YES,NO
+##########  ##########
+	#\n\n　构!? 穿备衬 呈! 历府 啊!
+	Window_NO
+	Endwindow 12007
+##########  ##########
+	#\n\n　亮酒, 弊烦 鞠龋甫 富秦.
+	Window_YES
+	Endwindow 12008
+
+block StrCmpChat == 12000
+##########  ##########
+	#\n\n　滴格丛 弥绊!!\n　凯艰, 啊瘤绊 吭绢.\n　距加措肺 １０俺俊 １００Ｇ促. 宝满瘤?
+	Window 12001,YES,NO
+
+		Window_YES gold < 100
+			#\n\n　绢捞绢捞, 捣捞 何练秦. 愁府绰 芭扼搁 倒酒啊.
+			Endwindow 12003
+		Window_YES ItemSpace == 0
+			#\n\n　绢捞绢捞, 寸脚 歹 捞惑 啊龙 荐 绝阑刨单?
+			Endwindow 12004
+		Window_YES ItemSpace >= 1
+			AddGold -100
+			GiveLeak1Item 16000,10
+			#\n\n　捞霸 弊 拱扒捞促. 家吝洒 荤侩窍扼备.\n　坷具葫 弥绊!!
+			Endwindow 12005
+
+		Window_NO
+			#\n\n　鞘夸绝绰 扒啊? 捞惑茄 赤籍捞焙
+			Endwindow 12002
+

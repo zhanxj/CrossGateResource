@@ -1,0 +1,15 @@
+#
+#孺狼 狼瘤（孺狼 包巩）
+#
+
+##############  ##############
+block
+#\n\n\n\n@c　孺狼 狼瘤甫 荤侩窍摆嚼聪鳖?
+	Window 21328,YES,NO
+	Window_YES
+	KillItem 18781,1,(21329)
+	LeaveGroup
+	Warp 0,15563,13,9
+	Window_NO
+
+

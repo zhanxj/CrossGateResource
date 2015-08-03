@@ -1,0 +1,45 @@
+
+block
+
+
+	if Visitor == 0
+
+		if LocalCount30 == 0
+
+			if ItemSpace >= 1
+
+				SetVisitor +1
+				if nowtime == 3
+					LocalCount30 = 1
+				endif
+				GiveItem 607642,1
+#				EndWindow "\n\n　坷疵广狼 馆蛮 力5鼻阑 惯斑沁促!"
+				EndWindow 3007002
+
+			else
+
+#				EndWindow "\n\n　购啊 乐瘤父\n　家瘤前捞 啊垫 瞒辑 啊龙 荐 绝促."
+				EndWindow 3006999
+
+			endif
+
+		else
+		
+#		EndWindow "\n\n　胖 厚菌促."
+		EndWindow 3007000
+
+
+		endif
+
+
+	else
+
+#		EndWindow "\n\n　胖 厚菌促."
+		EndWindow 3007000
+
+
+	endif
+
+
+
+

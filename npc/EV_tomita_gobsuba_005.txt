@@ -1,0 +1,90 @@
+#绊喉赴狼 夸货　　ｂｙ　配固鸥
+#
+#　　　急拱啊霸（绊喉赴 刮拳笼）狼 鼻
+
+###　绊喉赴 刮拳笼阑 家瘤
+block Item_607908 >= 1
+	EndWindow 6330001
+
+
+
+###　刮拳笼 捞寇狼 急拱阑 家瘤
+block Item_607909 >= 1 || Item_607910 >= 1 || Item_607911 >= 1 || Item_607912 >= 1 || Item_607913 >= 1
+	EndWindow 6330002
+
+
+
+###　家飞狼 辉阑 １俺 家瘤
+block Item_607925 >= 1
+	Window 6330003,YES,NO
+
+		Window_YES
+			Window 6330004,OK
+
+				Window_OK Item_607925 >= 1 && ItemSpace >= 1
+					KillItem 607925,1
+					GiveItemEX 607908,1,"."
+
+				Window_OK Item_607925 >= 1
+					EndWindow 6330005
+
+				Window_OK
+					EndWindow 6330006
+
+		Window_NO
+			EndWindow 6330007
+
+
+
+###　吝荤 角靛甫 ３俺 家瘤
+block Item_607923 >= 3
+	Window 6330008,YES,NO
+
+		Window_YES
+			Window 6330009,OK
+
+				Window_OK Item_607923 >= 3 && ItemSpace >= 1
+					KillItem 607923,3
+					GiveItemEX 607908,1,"."
+
+				Window_OK Item_607923 >= 3
+					EndWindow 6330010
+
+				Window_OK
+					EndWindow 6330011
+
+		Window_NO
+			EndWindow 6330012
+
+
+
+###　窍荤 官林墨甫 ５俺 家瘤
+block Item_607924 >= 5
+	Window 6330013,YES,NO
+
+		Window_YES
+			Window 6330014,OK
+
+				Window_OK Item_607924 >= 5 && ItemSpace >= 1
+					KillItem 607924,5
+					GiveItemEX 607908,1,"."
+
+				Window_OK Item_607924 >= 5
+					EndWindow 6330015
+
+				Window_OK
+					EndWindow 6330016
+
+		Window_NO
+			EndWindow 6330017
+
+
+
+###　惑扁 酒捞袍阑 家瘤窍瘤 臼澜
+block
+	EndWindow 6330018
+
+
+
+
+

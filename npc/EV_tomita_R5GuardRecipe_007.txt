@@ -1,0 +1,42 @@
+#　R5松恶レシピ芹邵?エスト　ｂｙ　哨拍
+#
+#　　　コウル?ンの船
+
+###　ロ〖ブ喀客で侯喇ス?ルレ?ルが５笆惧
+block JobAncestry == 310 && SkillLevel_211 >= 5
+	Window "\n\n　おお、これはこれは、はるばる斌くから\n　ようこそおいでくださいましたな。\n　あなたになら、搭んでエゲリアの侯喇恕を\n　お兜えしますよ。\n　耽ったら、さっそく侯ってくださいねえ。",OK
+
+		Window_OK
+			GiveRecipe 684
+			LeaveGroup
+			Warp 0,59679,163,191
+
+
+
+###　ロ〖ブ喀客で侯喇ス?ルレ?ルが５踏塔
+block JobAncestry == 310
+	Window "\n\n　糠しいロ〖ブについてお兜えしたい丹积ちは\n　あるのですが、あなたの蜗はまだその拌に\n　茫していないのですよ。\n　いやあ、悸に荒前だ。",OK
+
+		Window_OK
+			LeaveGroup
+			Warp 0,59679,163,191
+
+
+
+###　ロ〖ブ喀客でない
+block
+	Window "\n\n　おや、お耽りになられるのですか々",YES,NO
+
+		Window_YES
+			Window "\n\n　では、庞面までお流りしましょう。\n　ごきげんよう、さようなら。",OK
+
+				Window_OK
+					LeaveGroup
+					Warp 0,59679,163,191
+
+		Window_NO
+			EndWindow "\n\n　そうですか。では、ごゆっくり。"
+
+
+
+

@@ -1,0 +1,21 @@
+#抛胶飘　迫饭镁　胶困摹狼 荤恩
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###########　酒公巴档 绝澜　##############
+block
+
+	Window 5920001,YES,NO
+
+        Window_YES
+			Window 5920002,OK
+				Window_OK
+				ChangePal 36,180
+				EndWindow5920003
+		
+		Window_NO
+			Window 5920004,OK
+				Window_OK
+				ChangePal 37,180
+				EndWindow5920005
+

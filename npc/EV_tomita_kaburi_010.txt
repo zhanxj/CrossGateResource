@@ -1,0 +1,46 @@
+#檬焊磊侩 镜 巴 涅胶飘　　ｂｙ　配固鸥
+#
+#　　　拳锐 酒付府酒狼 鼻
+
+###　墨橇墨橇狼 采（607701）阑 家瘤
+block Item_607701 >= 1
+	EndWindow 7130001
+
+
+
+###　目促鄂 墨橇墨橇狼 揪狙（607961）阑 家瘤
+block Item_607961 >= 1
+	Window 7130002,OK
+
+		Window_OK Item_607961 >= 1 && ItemSpace >= 1
+			KillItemAll 607961
+			GiveItemEX 607701,1,"."
+
+		Window_OK ItemSpace >= 1
+			EndWindow 7130003
+
+		Window_OK
+			EndWindow 7130004
+
+
+
+###　墨橇墨橇狼 揪狙（607955）阑 家瘤
+block Item_607955 >= 1
+	EndWindow 7130005
+
+
+
+###　扁功茄 辆磊（607953）阑 家瘤
+block Item_607953 >= 1
+	EndWindow 7130006
+
+
+
+###　惑扁 酒捞袍阑 家瘤窍瘤 臼澜
+block
+	EndWindow 7130007
+
+
+
+
+

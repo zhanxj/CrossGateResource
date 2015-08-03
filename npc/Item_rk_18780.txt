@@ -1,0 +1,15 @@
+#
+#归狼 狼瘤（归狼 包巩）
+#
+
+##############  ##############
+block
+#\n\n\n\n@c　归狼 狼瘤甫 荤侩窍摆嚼聪鳖?
+	Window 21326,YES,NO
+	Window_YES
+	KillItem 18780,1,(21327)
+	LeaveGroup
+	Warp 0,15561,13,9
+	Window_NO
+
+

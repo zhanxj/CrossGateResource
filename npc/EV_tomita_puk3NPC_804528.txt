@@ -1,0 +1,29 @@
+#PUK3 栋甸解茄 NPC　　ｂｙ　配固鸥
+#
+#　　　瘤扼狼 鼻
+
+###
+
+block
+
+	If NowTime == 0 || NowTime == 1
+		EndWindow 8010001
+		EndBlock
+
+	else
+		If NowTime == 2
+			EndWindow 8010002
+			EndBlock
+
+		else
+			EndWindow 8010003
+			EndBlock
+
+		endif
+
+	endif
+
+
+
+
+

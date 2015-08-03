@@ -1,0 +1,112 @@
+#　R5松恶レシピ芹邵?エスト　ｂｙ　哨拍
+#
+#　　　ハイデル∈墨ˇ秒∷の船
+
+###　ハリヤ?磅の克あるいはハリ〖?イラブを疥积
+block Item_607995 >= 1 || Item_607996 >= 1
+	EndWindow "\n\n　戎客ハリヤ?镍刨の袍に尽ったからって、\n　いい丹になるなよ。\n　これ斧よがしに动さをひけらかすなんて、\n　镍刨の你い袍がすることだからな。"
+
+
+
+###　松恶喀客の沮を疥积
+block Item_631000 >= 1
+	EndWindow "\n\n　松恶喀客の沮だと々\n　畔すのはハリヤ?だろ。しっかりしろよ—"
+
+
+
+###　肩骄の?ワシを疥积
+block Item_607997 >= 1
+
+#　喀客の沮侯喇恶姑、喀客の沮侯喇恶驳を疥积
+	If Item_607998 >= 1 && Item_607999 >= 1
+		EndWindow "\n\n　苹恶は路ってるんだろ。\n　玲くスティ〖ヴンスんとこへ乖ったらどうだ。"
+		EndBlock
+
+#　喀客の沮侯喇恶驳を疥积
+	else
+		If Item_607999 >= 1
+			EndWindow "\n\n　うるさいなあ、さっさとジェケルのところへ\n　乖っちまえ——"
+			EndBlock
+
+#　喀客の沮侯喇恶姑とアル?イト∈变死¨２塑∷を疥积
+		else
+			If Item_607998 >= 1 && Item_9700 >= 2
+				Window "\n\n　积ってきたか々\n　∧あまりうまそうな咖じゃないな。\n　まあいい、海泣のところはこれで钓してやる。\n　ほらよ、これでめでたく苹恶は路ったぜ。\n　さっさとスティ〖ヴンスのとこへ乖けよ。",OK
+
+					Window_OK Item_607999 >= 1
+						EndWindow "\n\n　おい、もう积ってるじゃないか。\n　窍集にするな——"
+						EndBlock
+
+					Window_OK Item_607997 >= 1 && Item_9700 >= 2 && ItemSpace >= 1
+						KillItem 9700,2
+						GiveItemEX 607999,1,"\n\n　おい、操湿がいっぱいじゃないか。\n　窍集にするな——"
+						EndBlock
+
+					Window_OK Item_607997 >= 1 && Item_9700 >= 2
+						EndWindow "\n\n　おい、操湿がいっぱいじゃないか。\n　窍集にするな——"
+						EndBlock
+
+					Window_OK Item_9700 >= 2
+						EndWindow "\n\n　おい、肩骄の?ワシがないぞ。\n　积ってない袍は慨脱できん——"
+						EndBlock
+
+					Window_OK
+						EndWindow "\n\n　おい、アル?イトが颅りないじゃないか。\n　窍集にするな——"
+						EndBlock
+
+#　喀客の沮侯喇恶姑を疥积し、アル?イト∈变死∷が颅りない
+			else
+				If Item_607998 >= 1
+					EndWindow "\n\n　お涟、黎にジェケルのところへ乖ったな。\n　部でこっちが稿搀しなんだ—　窍集にするな—\n　瘸としてアル?イトを变死で２改积って丸い。\n　でないと苹恶は畔さないぞ。さっさと乖け——"
+					EndBlock
+
+#　喀客の沮侯喇恶を稍疥积で、アル?イト∈变死¨１塑∷を疥积
+				else
+					If Item_9700 >= 1
+						Window "\n\n　积ってきたか々　∧おい、剂が碍いな。\n　まあいい、苞き仑えに苹恶を畔してやる。\n　炊颊しろよ。\n　さあ、さっさとジェケルのところへ乖けよ。",OK
+
+							Window_OK Item_607999 >= 1
+								EndWindow "\n\n　おい、もう积ってるじゃないか。\n　窍集にするな——"
+								EndBlock
+
+							Window_OK Item_607997 >= 1 && Item_9700 >= 1 && ItemSpace >= 1
+								KillItem 9700,1
+								GiveItemEX 607999,1,"\n\n　おい、操湿がいっぱいじゃないか。\n　窍集にするな——"
+								EndBlock
+
+							Window_OK Item_607997 >= 1 && Item_9700 >= 1
+								EndWindow "\n\n　おい、操湿がいっぱいじゃないか。\n　窍集にするな——"
+								EndBlock
+
+							Window_OK Item_9700 >= 1
+								EndWindow "\n\n　おい、肩骄の?ワシがないぞ。\n　积ってない袍は慨脱できん——"
+								EndBlock
+
+							Window_OK
+								EndWindow "\n\n　おい、アル?イトがないじゃないか。\n　窍集にするな——"
+								EndBlock
+
+#　喀客の沮侯喇恶、アル?イト∈变死∷鼎に稍疥积
+					else
+						EndWindow "\n\n　部だよ、蒂菲面に慌祸かよ。\n　スティ〖ヴンスもいい裁负なことしやがるぜ。\n　箕粗嘲缄碰だ、アル?イトを１改积ってこい。\n　あとで咯うから、咯いやすい变死でだぞ。"
+						EndBlock
+
+					endif
+
+				endif
+
+			endif
+
+		endif
+
+	endif
+
+
+
+###　惧淡アイテ?を稍疥积
+block
+	EndWindow "\n\n　うるせえな、こっちは蒂菲面なんだ。\n　假蒜をするな——"
+
+
+
+

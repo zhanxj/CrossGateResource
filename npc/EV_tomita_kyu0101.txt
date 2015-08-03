@@ -1,0 +1,19 @@
+#「钮胶抛 付阑」硅摹 NPC　ｂｙ配固鸥　⑧001
+#
+#　　　模例茄 咯青磊狼 鼻
+
+###　富阑 吧绢吭阑 锭
+
+block
+
+	Window 7400001,YES,NO
+
+		Window_YES
+			EndWindow 7400002
+
+		Window_NO
+			EndWindow 7400003
+
+EndBlock
+
+

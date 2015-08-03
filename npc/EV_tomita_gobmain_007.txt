@@ -1,0 +1,23 @@
+#绊喉赴狼 夸货　　ｂｙ　配固鸥
+#
+#　　　促坊狼 鼻
+
+###　罚待狼 措荤
+
+block
+	LocalCount2 = Random 2,0
+
+		If LocalCount2 == 1
+			EndWindow 6220001
+			EndBlock
+
+		else
+			EndWindow 6220002
+			EndBlock
+
+		endif
+
+
+
+
+

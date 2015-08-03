@@ -1,0 +1,22 @@
+#LV50 国捞厘家 涅胶飘　　ｂｙ　配固鸥
+#
+#　　　枚荐眠柳困盔A狼 鼻
+
+###　炼扒绝澜
+block
+	Window 7510001,YES,NO
+
+		Window_YES
+			Window 7510002,OK
+
+				Window_OK
+					LeaveGroup
+					Warp 0,59503,232,315
+
+		Window_NO
+			EndWindow 7510003
+
+
+
+
+

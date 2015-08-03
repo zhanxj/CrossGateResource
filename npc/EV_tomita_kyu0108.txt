@@ -1,0 +1,38 @@
+#抛胶飘 捞亥飘（钮胶抛 祈）　ｂｙ配固鸥　⑧001
+#
+#　　　俊扼狼 鼻
+
+###　快 努腐
+
+block  StrCmpChat == R
+
+	EndWindow 7470001
+
+
+###　坷翠
+
+block StrCmpChat != 3004911
+
+	EndWindow 7470002
+
+
+###　沥翠（啊瘤绊 乐栏搁 林瘤 臼绰促甫 眠啊）
+
+block StrCmpChat == 3004911
+
+	Window 7470003,OK
+
+		Window_OK Item_607902 >= 1
+			EndWindow 7470004
+
+		Window_OK ItemSpace >= 1 
+			GiveItem 607902,1
+			CheckTitle
+			EndWindow 7470005
+
+		Window_OK
+			EndWindow 7470006
+
+
+
+

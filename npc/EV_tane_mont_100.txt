@@ -1,0 +1,39 @@
+
+
+block Xpos == 142 && Ypos == 113
+
+#if nowtime == 3
+
+if globalFlag0 == 1
+
+
+
+
+		LocalCount0 = random 2,0
+
+		if LocalCount0 == 1 && ItemSpace >= 1
+
+#			Message 3006712
+
+			Window "\n\n　抗悔霸 乔绢乐绰 催狼厘钱阑 茄 价捞\n　混娄 勃菌促.",ok
+
+			Window_ok
+
+			GiveItem 607621,1
+
+			globalFlag0 = 0
+
+		else
+		
+			EndWindow 5080001,ok
+
+		
+		endif
+
+
+#endif
+
+endif
+
+
+

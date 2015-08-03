@@ -1,0 +1,72 @@
+/*
+副饭捞　boukenyado狼 荤恩
+措巩磊, 家巩磊狼 备喊篮 绝澜
+'_'绰 佬阑 锭 扒呈盾
+*/
+
+#include "./header/global0.h"
+
+block
+
+
+
+
+
+
+//			if LocalCount0 == 5
+
+//				LocalCount0 = random 1,0
+
+//				if LocalCount0 == 1
+
+//		２雀掳 捞饶
+
+
+					Window 5560001,next
+
+					EndWindow 5560002
+
+					LocalCount0 = 5
+
+/*
+				else
+
+
+					Window 5560003,next
+
+					EndWindow 5560004,next
+
+					LocalCount0 = 5
+
+				endif
+*/
+
+
+			else
+
+//			1雀掳
+
+				Window 5560005,next
+
+
+				EndWindow 5560006
+
+
+				LocalCount0 = 5
+
+
+			endif
+
+
+
+
+
+
+
+
+
+
+
+
+
+

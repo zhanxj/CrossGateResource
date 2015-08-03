@@ -1,0 +1,356 @@
+#檬焊磊侩 镜 巴 涅胶飘　　ｂｙ　配固鸥
+#
+#　　　采贸赤 聪内狼 鼻
+
+###　PUK3 家瘤窍瘤 臼澜
+block Trialflg < 8
+	EndWindow 7050001
+
+
+
+###　墨橇墨橇狼 采（607701）阑 家瘤
+block Item_607701 >= 1
+	EndWindow 7050002
+
+
+
+###　目促鄂 墨橇墨橇狼 揪狙（607961）阑 家瘤
+block Item_607961 >= 1
+
+##　饭骇１１捞惑
+	If Level > 10
+		EndWindow 7050003
+		EndBlock
+
+
+##　饭骇１０捞窍
+	else
+		Window 7050004,YES,NO
+
+			Window_YES Item_607961 >= 1
+				Window 7050005,OK
+
+					Window_OK Item_607961 >= 1
+						LeaveGroup
+						Warp 0,59526,189,108
+						EndBlock
+
+					Window_OK
+						EndWindow 7050006
+						EndBlock
+
+			Window_YES
+				EndWindow 7050007
+				EndBlock
+
+			Window_NO
+				EndWindow 7050008
+				EndBlock
+
+	endif
+
+
+
+###　咀眉厚丰 龋拳（柳楼）（607959）甫 家瘤
+block Item_607959 >= 1
+
+##　墨橇墨橇狼 揪狙阑 家瘤窍瘤 臼澜
+	If Item_607955 < 1
+		EndWindow 7050009
+		EndBlock
+
+
+##　墨橇墨橇狼 揪狙（607955）阑 家瘤窍绊, 饭骇１１捞惑
+	else
+		If Level > 10
+			Window 7050010,NEXT
+			Window 7050011,NEXT
+			Window 7050012,OK
+
+				Window_OK Item_607955 >= 1 && Item_607959 >= 1 && ItemSpace >= 1
+					KillItemAll 607955
+					KillItemAll 607959
+					GiveItemEX 607961,1,"."
+					EndBlock
+
+				Window_OK Item_607959 >= 1 && ItemSpace >= 1
+					EndWindow 7050013
+					EndBlock
+
+				Window_OK ItemSpace >= 1
+					EndWindow 7050014
+					EndBlock
+
+				Window_OK
+					EndWindow 7050015
+					EndBlock
+
+
+##　墨橇墨橇狼 揪狙（607955）阑 家瘤窍绊, 饭骇１０捞窍
+		else
+			Window 7050016,NEXT
+			Window 7050017,NEXT
+			Window 7050018,OK
+
+				Window_OK Item_607955 >= 1 && Item_607959 >= 1 && ItemSpace >= 1
+					KillItemAll 607955
+					KillItemAll 607959
+					GiveItemEX 607961,1,"."
+					EndBlock
+
+				Window_OK Item_607959 >= 1 && ItemSpace >= 1
+					EndWindow 7050019
+					EndBlock
+
+				Window_OK ItemSpace >= 1
+					EndWindow 7050020
+					EndBlock
+
+				Window_OK
+					EndWindow 7050021
+					EndBlock
+
+		endif
+
+	endif
+
+
+
+###　咀眉厚丰 龋拳（啊楼）（607960）甫 家瘤
+block Item_607960 >= 1
+
+	LocalCount0 = Random 3,0
+
+##　墨橇墨橇狼 揪狙阑 家瘤窍瘤 臼澜
+	If Item_607955 < 1
+		EndWindow 7050022
+		EndBlock
+
+
+##　墨橇墨橇狼 揪狙（607955）阑 家瘤（采厘侥１：607956）
+	else
+		If LocalCount0 == 1
+			Window 7050023,YES,NO
+
+				Window_YES Item_607955 >= 1 && Item_607960 >= 1 && ItemSpace >= 1
+					Window 7050024,OK
+
+						Window_OK Item_607955 >= 1 && Item_607960 >= 1 && ItemSpace >= 1
+							KillItemAll 607960
+							GiveItemEX 607956,1,"."
+							EndBlock
+
+						Window_OK Item_607960 >= 1 && ItemSpace >= 1
+							EndWindow 7050025
+							EndBlock
+
+						Window_OK ItemSpace >= 1
+							EndWindow 7050026
+							EndBlock
+
+						Window_OK
+							EndWindow 7050027
+							EndBlock
+
+					Window_YES Item_607960 >= 1 && ItemSpace >= 1
+						EndWindow 7050028
+						EndBlock
+
+					Window_YES ItemSpace >= 1
+						EndWindow 7050029
+						EndBlock
+
+					Window_YES
+						EndWindow 7050030
+						EndBlock
+
+					Window_NO
+						EndWindow 7050031
+						EndBlock
+
+
+##　墨橇墨橇狼 揪狙（607955）阑 家瘤（采厘侥２：607957）
+		else
+			If LocalCount0 == 2
+				Window 7050032,YES,NO
+
+					Window_YES Item_607955 >= 1 && Item_607960 >= 1 && ItemSpace >= 1
+						Window 7050033,OK
+
+							Window_OK Item_607955 >= 1 && Item_607960 >= 1 && ItemSpace >= 1
+								KillItemAll 607960
+								GiveItemEX 607957,1,"."
+								EndBlock
+
+							Window_OK Item_607960 >= 1 && ItemSpace >= 1
+								EndWindow 7050034
+								EndBlock
+
+							Window_OK ItemSpace >= 1
+								EndWindow 7050035
+								EndBlock
+
+							Window_OK
+								EndWindow 7050036
+								EndBlock
+
+						Window_YES Item_607960 >= 1 && ItemSpace >= 1
+							EndWindow 7050037
+							EndBlock
+
+						Window_YES ItemSpace >= 1
+							EndWindow 7050038
+							EndBlock
+
+						Window_YES
+							EndWindow 7050039
+							EndBlock
+
+						Window_NO
+							EndWindow 7050040
+							EndBlock
+
+
+
+##　墨橇墨橇狼 揪狙（607955）阑 家瘤（采厘侥３：607958）
+			else
+				Window 7050041,YES,NO
+
+					Window_YES Item_607955 >= 1 && Item_607960 >= 1 && ItemSpace >= 1
+						Window 7050042,OK
+
+							Window_OK Item_607955 >= 1 && Item_607960 >= 1 && ItemSpace >= 1
+								KillItemAll 607960
+								GiveItemEX 607958,1,"."
+								EndBlock
+
+							Window_OK Item_607960 >= 1 && ItemSpace >= 1
+								EndWindow 7050043
+								EndBlock
+
+							Window_OK ItemSpace >= 1
+								EndWindow 7050044
+								EndBlock
+
+							Window_OK
+								EndWindow 7050045
+								EndBlock
+
+						Window_YES Item_607960 >= 1 && ItemSpace >= 1
+							EndWindow 7050046
+							EndBlock
+
+						Window_YES ItemSpace >= 1
+							EndWindow 7050047
+							EndBlock
+
+						Window_YES
+							EndWindow 7050048
+							EndBlock
+
+						Window_NO
+							EndWindow 7050049
+							EndBlock
+
+			endif
+
+		endif
+
+	endif
+
+
+
+###　采厘侥（１）（607956）, 采厘侥（２）（607957）, 采厘侥（３）（607958）吝 窍唱甫 家瘤
+block Item_607956 >= 1 || Item_607957 >= 1 || Item_607958 >= 1
+
+##　墨橇墨橇狼 揪狙（607955）阑 家瘤
+	If Item_607955 >= 1
+		EndWindow 7050050
+		EndBlock
+
+
+##　墨橇墨橇狼 揪狙（607955）阑 家瘤窍瘤 臼澜
+	else
+		EndWindow 7050051
+		EndBlock
+
+	endif
+
+
+
+###　墨橇墨橇狼 揪狙（607955）阑 家瘤
+block Item_607955 >= 1
+
+	LocalCount1 = Random 3,0
+
+##　采厘侥（１）（607956）
+	If LocalCount1 == 1
+		Window 7050052,NEXT
+		Window 7050053,NEXT
+		Window 7050054,OK
+
+			Window_OK Item_607955 >= 1 && ItemSpace >= 1
+				GiveItemEX 607956,1,"."
+				EndBlock
+
+			Window_OK ItemSpace >= 1
+				EndWindow 7050055
+				EndBlock
+
+			Window_OK
+				EndWindow 7050056
+				EndBlock
+
+
+##　采厘侥（２）（607957）
+	else
+		If LocalCount1 == 2
+			Window 7050057,NEXT
+			Window 7050058,NEXT
+			Window 7050059,OK
+
+				Window_OK Item_607955 >= 1 && ItemSpace >= 1
+					GiveItemEX 607957,1,"."
+					EndBlock
+
+				Window_OK ItemSpace >= 1
+					EndWindow 7050060
+					EndBlock
+
+				Window_OK
+					EndWindow 7050061
+					EndBlock
+
+
+##　采厘侥（３）（607958）
+		else
+			Window 7050062,NEXT
+			Window 7050063,NEXT
+			Window 7050064,OK
+
+				Window_OK Item_607955 >= 1 && ItemSpace >= 1
+					GiveItemEX 607958,1,"."
+					EndBlock
+
+				Window_OK ItemSpace >= 1
+					EndWindow 7050065
+					EndBlock
+
+				Window_OK
+					EndWindow 7050066
+					EndBlock
+
+		endif
+
+	endif
+
+
+
+###　惑扁 酒捞袍阑 家瘤窍瘤 臼澜
+block
+	EndWindow 7050067
+
+
+
+
+

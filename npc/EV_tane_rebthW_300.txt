@@ -1,0 +1,353 @@
+#府滚胶 带怜　惑泵　wilbel wind 府滚胶 救狼 荤恩
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###########　酒公巴档 绝澜　##############
+
+block Item 9300 >= 1 || Item 9301 >= 1 || Item 9302 >= 1 || Item 9310 >= 1 || Item 9311 >= 1 || Item 9312 >= 1 || Item 9320 >= 1 || Item 9321 >= 1 || Item 9322 >= 1 || Item 9330 >= 1 || Item 9331 >= 1 || Item 9332 >= 1
+
+		EndWindow 3006611,OK
+
+block Group == 1 && Item 9342 >= 1 && Item 9392 >= 1
+
+#\n　酒绰 酒滴肺扼绊 阂府绰
+#\n　儡拌俊 带廉柳,
+#\n　绢蠢 脚开狼 归己狼 弊覆磊.
+	Window 3006037,NEXT
+
+
+#\n　呈狼 轿框篮,
+#\n　规陛 傈俊 肋 焊疽促.
+#\n　呈扼搁 郴 塞阑 荤侩且 荐 乐阑瘤档 葛福摆焙.
+	Window 3006038,NEXT
+
+
+
+#\n　付瘤阜栏肺 汞摆促.
+#\n　呈绰 塞阑 盔窍绰啊?
+
+	Window 3006039,YES,NO
+
+
+        Window_YES
+#\n　弊犯促搁 唱甫, 捞 脚狼 弊覆磊甫 拱府摹绊,
+
+		Window 3006063,OK
+
+		Window_ok Group != 1
+
+#\n\n　去磊辑 客扼
+
+			EndWindow 3006045
+
+
+			Window_OK
+
+
+			KillItemall 9392
+			KillItemall 9342
+			GiveItem 9332,1
+
+                              			Warp 0,59531,18,33
+
+
+
+		Window_NO
+#\n　蜡皑捞瘤父,
+#\n　弊巴捞 呈狼 狼瘤扼搁 绢驴 荐 绝焙.
+#\n　促矫 父唱扁甫 扁措窍绊 乐摆促!
+
+		Window 3006041,OK
+			Window_OK
+
+
+
+
+
+
+
+block Group == 1 && Item 9341 >= 1 && Item 9391 >= 1
+
+#\n　酒绰 酒滴肺扼绊 阂府绰
+#\n　儡拌俊 带廉柳,
+#\n　绢蠢 脚开狼 归己狼 弊覆磊.
+	Window 3006037,NEXT
+
+
+#\n　呈狼 轿框篮,
+#\n　规陛 傈俊 肋 焊疽促.
+#\n　呈扼搁 郴 塞阑 荤侩且 荐 乐阑瘤档 葛福摆焙.
+	Window 3006038,NEXT
+
+
+
+#\n　付瘤阜栏肺 汞摆促.
+#\n　呈绰 塞阑 盔窍绰啊?
+
+	Window 3006039,YES,NO
+
+
+        Window_YES
+#\n　弊犯促搁 唱甫, 捞 脚狼 弊覆磊甫 拱府摹绊,
+
+		Window 3006063,OK
+
+		Window_ok Group != 1
+
+#\n\n　去磊辑 客扼
+
+			EndWindow 3006045
+
+
+
+			Window_OK
+
+
+			KillItemall 9391
+			KillItemall 9341
+			GiveItem 9331,1
+
+                        			Warp 0,59531,18,33
+
+
+
+		Window_NO
+#\n　蜡皑捞瘤父,
+#\n　弊巴捞 呈狼 狼瘤扼搁 绢驴 荐 绝焙.
+#\n　促矫 父唱扁甫 扁措窍绊 乐摆促!
+
+		Window 3006041,OK
+			Window_OK
+
+
+
+
+
+
+
+block Group == 1 && Item 9340 >= 1 && Item 9390 >= 1
+
+#\n　酒绰 酒滴肺扼绊 阂府绰
+#\n　儡拌俊 带廉柳,
+#\n　绢蠢 脚开狼 归己狼 弊覆磊.
+	Window 3006037,NEXT
+
+
+#\n　呈狼 轿框篮,
+#\n　规陛 傈俊 肋 焊疽促.
+#\n　呈扼搁 郴 塞阑 荤侩且 荐 乐阑瘤档 葛福摆焙.
+	Window 3006038,NEXT
+
+
+
+#\n　付瘤阜栏肺 汞摆促.
+#\n　呈绰 塞阑 盔窍绰啊?
+
+	Window 3006039,YES,NO
+
+
+        Window_YES
+#\n　弊犯促搁 唱甫, 捞 脚狼 弊覆磊甫 拱府摹绊,
+
+		Window 3006063,OK
+
+		Window_ok Group != 1
+
+#\n\n　去磊辑 客扼
+
+			EndWindow 3006045
+
+
+			Window_OK
+
+
+			KillItemall 9390
+			KillItemall 9340
+			GiveItem 9330,1
+
+                         			Warp 0,59531,18,33
+
+
+		Window_NO
+#\n　蜡皑捞瘤父,
+#\n　弊巴捞 呈狼 狼瘤扼搁 绢驴 荐 绝焙.
+#\n　促矫 父唱扁甫 扁措窍绊 乐摆促!
+
+		Window 3006041,OK
+			Window_OK
+
+
+
+
+
+###########################################################
+
+block Group == 1 && Item 9342 >= 1
+
+#\n　酒绰 酒滴肺扼绊 阂府绰
+#\n　儡拌俊 带廉柳,
+#\n　绢蠢 脚开狼 归己狼 弊覆磊.
+	Window 3006037,NEXT
+
+
+#\n　呈狼 轿框篮,
+#\n　规陛 傈俊 肋 焊疽促.
+#\n　呈扼搁 郴 塞阑 荤侩且 荐 乐阑瘤档 葛福摆焙.
+	Window 3006038,NEXT
+
+
+
+#\n　付瘤阜栏肺 汞摆促.
+#\n　呈绰 塞阑 盔窍绰啊?
+
+	Window 3006039,YES,NO
+
+
+        Window_YES
+#\n　弊犯促搁 唱甫, 捞 脚狼 弊覆磊甫 拱府摹绊,
+#\n　磊扁 颊栏肺 框难零档废 窍扼!!
+		Window 3006040,OK
+
+
+		Window_ok Group != 1
+
+#\n\n　去磊辑 客扼
+
+			EndWindow 3006045
+
+
+			Window_OK
+
+		Encount 3|0,59713,69,52||0|||3006042||0|27232|||||||||
+
+
+
+
+
+#########give 9332
+
+
+		Window_NO
+#\n　蜡皑捞瘤父,
+#\n　弊巴捞 呈狼 狼瘤扼搁 绢驴 荐 绝焙.
+#\n　促矫 父唱扁甫 扁措窍绊 乐摆促!
+
+		Window 3006041,OK
+			Window_OK
+
+
+
+
+block Group == 1 && Item 9341 >= 1
+
+#\n　酒绰 酒滴肺扼绊 阂府绰
+#\n　儡拌俊 带廉柳,
+#\n　绢蠢 脚开狼 归己狼 弊覆磊.
+	Window 3006037,NEXT
+
+
+#\n　呈狼 轿框篮,
+#\n　规陛 傈俊 肋 焊疽促.
+#\n　呈扼搁 郴 塞阑 荤侩且 荐 乐阑瘤档 葛福摆焙.
+	Window 3006038,NEXT
+
+
+
+#\n　付瘤阜栏肺 汞摆促.
+#\n　呈绰 塞阑 盔窍绰啊?
+
+	Window 3006039,YES,NO
+
+
+        Window_YES
+#\n　弊犯促搁 唱甫, 捞 脚狼 弊覆磊甫 拱府摹绊,
+#\n　磊扁 颊栏肺 框难零档废 窍扼!!
+		Window 3006040,OK
+
+		Window_ok Group != 1
+
+#\n\n　去磊辑 客扼
+
+			EndWindow 3006045
+
+
+			Window_OK
+
+		Encount 3|0,59713,69,52||0|||3006042||0|27231|||||||||
+
+
+#########give 9331
+
+
+		Window_NO
+#\n　蜡皑捞瘤父,
+#\n　弊巴捞 呈狼 狼瘤扼搁 绢驴 荐 绝焙.
+#\n　促矫 父唱扁甫 扁措窍绊 乐摆促!
+
+		Window 3006041,OK
+			Window_OK
+
+
+
+
+block Group == 1 && Item 9340 >= 1
+
+#\n　酒绰 酒滴肺扼绊 阂府绰
+#\n　儡拌俊 带廉柳,
+#\n　绢蠢 脚开狼 归己狼 弊覆磊.
+	Window 3006037,NEXT
+
+
+#\n　呈狼 轿框篮,
+#\n　规陛 傈俊 肋 焊疽促.
+#\n　呈扼搁 郴 塞阑 荤侩且 荐 乐阑瘤档 葛福摆焙.
+	Window 3006038,NEXT
+
+
+
+#\n　付瘤阜栏肺 汞摆促.
+#\n　呈绰 塞阑 盔窍绰啊?
+
+	Window 3006039,YES,NO
+
+
+        Window_YES
+#\n　弊犯促搁 唱甫, 捞 脚狼 弊覆磊甫 拱府摹绊,
+#\n　磊扁 颊栏肺 框难零档废 窍扼!!
+		Window 3006040,OK
+
+		Window_ok Group != 1
+
+#\n\n　去磊辑 客扼
+
+			EndWindow 3006045
+
+
+
+			Window_OK
+
+		Encount 3|0,59713,69,52||0|||3006042||0|27230|||||||||
+
+
+	
+
+#########give 9330
+
+
+		Window_NO
+#\n　蜡皑捞瘤父,
+#\n　弊巴捞 呈狼 狼瘤扼搁 绢驴 荐 绝焙.
+#\n　促矫 父唱扁甫 扁措窍绊 乐摆促!
+
+		Window 3006041,OK
+			Window_OK
+
+
+block Group >= 2
+
+		EndWindow 3006045,OK
+
+
+block
+
+		EndWindow 3006043,OK

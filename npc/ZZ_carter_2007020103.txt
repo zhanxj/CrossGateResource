@@ -1,0 +1,17 @@
+#卡特编写2006.01.19    QQ：88621517
+
+block Item652228 >= 2
+        endevent85 = 1
+	EndEvent 125 = 1
+	CheckTitle
+	EndWindow 120150,OK
+
+block Item652227 >= 1
+	EndWindow 120231,OK
+
+block Item652228 == 1
+	KillItem 652228,1
+	GiveItem 652227,1
+
+block Item652228 != 1
+	EndWindow 120232

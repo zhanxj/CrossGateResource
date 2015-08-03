@@ -1,0 +1,48 @@
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###########　酒公巴档 绝澜　##############
+
+block 
+
+	LocalCount1 = random 5,0
+
+			if LocalCount1 == 1
+
+				Encount 2|||0|||||5|305182|||||||||
+
+			else
+			
+				if LocalCount1 == 2
+			
+			
+					Encount 2|||0|||||5|305181|||||||||
+			
+			
+				else
+					if LocalCount1 == 3
+
+
+						Encount 2|||0|||||5|305182|||||||||
+
+
+					else
+
+						if LocalCount1 == 4
+
+
+							Encount 2|0,59714,163,100||0|||||5|305181|||||||||
+
+
+						else
+
+							Encount 2|||0|||||5|305182|||||||||
+
+
+						endif
+					endif
+				endif
+			endif
+
+
+

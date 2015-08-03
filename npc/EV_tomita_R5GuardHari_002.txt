@@ -1,0 +1,67 @@
+#　R5松恶レシピ芹邵?エスト　ｂｙ　哨拍
+#
+#　　　リシュ〖の船
+
+###　ハリ〖?イラブを疥积
+block Item_607996 >= 1
+	EndWindow "\n\n　碍いけど、あんたとは厦をしたくないねえ。\n　部だか梦らないけど、妙が攻かないんだよ。"
+
+
+
+###　ハリヤ?磅の克を疥积
+block Item_607995 >= 1
+
+	If Item_607995 >= 2
+		EndWindow "\n\n　あんた、克攻きなのかい々　恃な捡蹋だねえ。"
+		EndBlock
+
+	else
+		If StampCount_607995 == 0
+			EndWindow "\n\n　绅荚饯乖をしているのかい々\n　拇灰に捐って、痰勉をするんじゃないよ。"
+			EndBlock
+
+		else
+			If StampCount_607995 == 1
+				Window "\n\n　戎客ハリヤ?々\n　へえ、いきなり尽砷を末まれるなんて、\n　阂岂だったねえ。\n　で、そのハリヤ?だけど、もしかして\n　こんな袍だったかい々",OK
+
+					Window_OK Item_607995 >= 2
+						EndWindow "\n\n　なんてね、ちょっとからかってみただけだよ。"
+						EndBlock
+
+					Window_OK Item_607995 == 1 && StampCount_607995 == 1
+						LeaveGroup
+						AddStampCount 607995,+1
+						Encount 3|0,59682,152,74||0|||||0|306040|||||||||
+						EndBlock
+
+					Window_OK Item_607995 == 1 && StampCount_607995 < 1
+						EndWindow "\n\n　なんてね、ちょっとからかってみただけだよ。"
+						EndBlock
+
+					Window_OK Item_607995 == 1 && StampCount_607995 > 1
+						EndWindow "\n\n　なんてね、ちょっとからかってみただけだよ。"
+						EndBlock
+
+					Window_OK
+						EndWindow "\n\n　なんてね、ちょっとからかってみただけだよ。"
+						EndBlock
+
+			else
+				EndWindow "\n\n　碍いけど、あんたとは厦をしたくないねえ。\n　部だか梦らないけど、妙が攻かないんだよ。"
+				EndBlock
+
+			endif
+
+		endif
+
+	endif
+
+
+
+###　惧淡アイテ?を稍疥积
+block
+	EndWindow "\n\n　绅达喀客たちに鲁いて、松恶喀客たちも\n　やって丸たみたいだね。\n　３霖にいるジェケルっていう蝗い蒜も、\n　その松恶喀客たちと簇犯があるみたい。\n　でも、部だか胺いにくい炊じだったねえ。"
+
+
+
+

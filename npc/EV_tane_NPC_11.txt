@@ -1,0 +1,27 @@
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+
+########## 弊缝阑 捞风绊 乐绰 版快 ##########
+block
+
+	Window 5420001,YES,NO
+
+		Window_YES checkskillslot >= 15
+
+				endWindow 5420002
+
+
+		Window_YES
+
+				Window 5420003,ok
+
+					Window_ok
+
+						addskillslot
+
+
+		Window_NO
+		
+				endWindow 5420004
+

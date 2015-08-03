@@ -1,0 +1,19 @@
+
+#
+#技饭匙 企尖等 力窜(脚格 菊) 况橇鼻
+#
+
+
+block JobRank >= 2 && HaveTitle == 61
+	Window 9050027,yes,no
+
+	Window_yes
+	Setdur 651116, -1
+	Warp 0,402,380,28
+	
+
+	Window_no
+
+
+block
+	EndWindow 9050031

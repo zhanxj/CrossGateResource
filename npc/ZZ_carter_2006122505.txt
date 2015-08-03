@@ -1,0 +1,60 @@
+#卡特制作。QQ88621517        2006.12.25
+
+
+
+########## 当物品620047刚好是20个的时候#####
+block petlevel 331181 >= 1 && Gold < 100000
+	EndWindow 120160
+
+########## 当物品620047刚好是20个的时候#####
+block petlevel 331182 >= 1 && Gold < 100000
+	EndWindow 120160
+
+########## 当物品620047刚好是20个的时候#####
+block petlevel 331183 >= 1 && Gold < 100000
+	EndWindow 120160
+
+
+########## 剑1#####
+block petlevel 331181 >= 1 && Gold >= 100000
+	Window 120164,YES,NO
+	Window_NO
+	EndWindow 120025,OK
+	Window_OK
+	Window_YES
+	Window 120161,OK
+	Window_OK
+	Killpeth 331181,1
+	AddGold -100000
+	GiveItem 652156,1
+
+########## 剑1#####
+block petlevel 331182 >= 1 && Gold >= 100000
+	Window 120164,YES,NO
+	Window_NO
+	EndWindow 120025,OK
+	Window_OK
+	Window_YES
+	Window 120161,OK
+	Window_OK
+	Killpeth 331182,1
+	AddGold -100000
+	GiveItem 652157,1
+
+########## 剑1#####
+block petlevel 331183 >= 1 && Gold >= 100000
+	Window 120164,YES,NO
+	Window_NO
+	EndWindow 120025,OK
+	Window_OK
+	Window_YES
+	Window 120161,OK
+	Window_OK
+	Killpeth 331183,1
+	AddGold -100000
+	GiveItem 652158,1
+
+
+############## 格子=20 ##############
+block ItemSpace >= 0
+	EndWindow 120165

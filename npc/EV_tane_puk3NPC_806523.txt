@@ -1,0 +1,26 @@
+#PUK3 栋甸解茄 NPC　　ｂｙ　鸥匙
+#
+#　　　亲父包府包A狼 鼻
+
+###
+
+block Trialflg == 8
+	Window 5580001,NEXT
+	Window 5580002,YES,NO
+
+		Window_NO
+
+		Window_YES Gold < 500
+			EndWindow 5580003
+
+		Window_YES
+			AddGold -500
+			LeaveGroup
+			Warp 0,59527,20,19
+
+
+
+block
+#\n\n　了价钦聪促父, 咯扁绰 泅犁 傍荤 吝涝聪促. 困氰窍骨肺 呈公 立辟窍瘤 富酒林绞矫坷.
+	EndWindow 15528,OK
+

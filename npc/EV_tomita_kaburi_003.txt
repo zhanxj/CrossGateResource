@@ -1,0 +1,247 @@
+#檬焊磊侩 镜 巴 涅胶飘　　ｂｙ　配固鸥
+#
+#　　　采贸赤 捞摹内狼 鼻
+
+###　PUK3家瘤窍瘤 臼澜
+block Trialflg < 8
+	EndWindow 7010001
+
+
+
+###　墨橇墨橇狼 采（607701）阑 家瘤
+block Item_607701 >= 1
+	EndWindow 7010002
+
+
+
+###　墨橇墨橇狼 揪狙（607955）阑 家瘤
+block Item_607955 >= 1
+
+##　饭骇１１捞惑
+	If Level > 10
+		Window 7010003,NEXT
+		EndWindow 7010004
+		EndBlock
+
+
+##　饭骇１０捞窍
+	else
+		Window 7010005,NEXT
+		EndWindow 7010006
+		EndBlock
+
+	endif
+
+
+
+###　漂力拱烹（607954）阑 咯矾 俺 家瘤
+block Item_607954 > 1
+	Window 7010007,OK
+
+		Window_OK Item_607954 > 1
+			KillItemAll 607954
+
+		Window_OK
+
+
+
+###　扁功茄 辆磊（607953）客 漂力拱烹（607954）阑 家瘤（胶牌橇０）
+block Item_607953>= 1 && Item_607954 == 1 && StampCount_607954 == 0
+	EndWindow 7010008
+
+
+
+###　扁功茄 辆磊（607953）客 漂力拱烹（607954）阑 家瘤（胶牌橇１）
+block Item_607953>= 1 && Item_607954 == 1 && StampCount_607954 == 1
+	EndWindow 7010009
+
+
+
+###　扁功茄 辆磊（607953）客 漂力拱烹（607954）阑 家瘤（胶牌橇２）
+block Item_607953>= 1 && Item_607954 == 1 && StampCount_607954 >= 2
+
+##　拱烹俊 剑狼 拱捞 淬变瘤 １０盒 坷滚
+	If ItemCreateTime_607954 > 10
+		Window 7010010,YES,NO
+
+			Window_YES Item_607954 > 1
+				Window 7010011,OK
+
+					Window_OK Item_607954 > 1
+						KillItemAll 607954
+						EndBlock
+
+					Window_OK
+						EndBlock
+
+			Window_YES Item_607954 == 1 && StampCount_607954 == 2
+				Window 7010012,OK
+
+					Window_OK Item_607954 > 1
+						EndWindow 7010013
+
+					Window_OK Item_607954 == 1 && StampCount_607954 == 2
+						AddStampCount 607954,-2
+						EndBlock
+
+					Window_OK Item_607954 == 1
+						EndWindow 7010014
+						EndBlock
+
+					Window_OK
+						EndWindow 7010015
+						EndBlock
+
+			Window_YES Item_607954 == 1
+				EndWindow 7010016
+				EndBlock
+
+			Window_YES
+				EndWindow 7010017
+				EndBlock
+
+			Window_NO Item_607954 >= 1
+				Window 7010018,OK
+
+					Window_OK Item_607954 >= 1
+						KillItemAll 607954
+						EndBlock
+
+					Window_OK
+						EndBlock
+
+			Window_NO
+				EndWindow 7010019
+						EndBlock
+
+
+##　拱烹俊 剑狼 拱捞 淬变瘤 １０盒 捞郴（饭骇１１捞惑）
+	else
+		If Level > 10
+			Window 7010020,NEXT
+			Window 7010021,YES,NO
+
+				Window_YES Item_607954 > 1
+					Window 7010022,OK
+
+						Window_OK Item_607954 > 1
+							KillItemAll 607954
+							EndBlock
+
+						Window_OK
+							EndBlock
+
+				Window_YES Item_607953 >= 1 && Item_607954 == 1 && StampCount_607954 == 2 && ItemCreateTime_607954 <= 10 && ItemSpace >= 1
+					KillItemAll 607953
+					KillItemAll 607954
+					GiveItemEX 607955,1,"."
+					EndBlock
+
+				Window_YES Item_607954 == 1 && StampCount_607954 == 2 && ItemCreateTime_607954 <= 10 && ItemSpace >= 1
+					EndWindow 7010023
+					EndBlock
+
+				Window_YES Item_607954 == 1 && ItemCreateTime_607954 <= 10 && ItemSpace >= 1
+					EndWindow 7010024
+					EndBlock
+
+				Window_YES Item_607954 == 1 && ItemSpace >= 1
+					EndWindow 7010025
+					EndBlock
+
+				Window_YES Item_607954 == 1
+					EndWindow 7010026
+					EndBlock
+
+				Window_YES
+					EndWindow 7010027
+					EndBlock
+
+				Window_NO
+					EndWindow 7010028
+
+
+##　拱烹俊 剑狼 拱捞 淬变瘤 １０盒 捞郴（饭骇１０捞窍）
+		else
+			Window 7010029,NEXT
+			Window 7010030,NEXT
+			Window 7010031,YES,NO
+
+				Window_YES Item_607954 > 1
+					Window 7010032,OK
+
+						Window_OK Item_607954 > 1
+							KillItemAll 607954
+							EndBlock
+
+						Window_OK
+							EndBlock
+
+				Window_YES Item_607953 >= 1 && Item_607954 == 1 && StampCount_607954 == 2 && ItemCreateTime_607954 <= 10 && ItemSpace >= 2
+					KillItemAll 607953
+					KillItemAll 607954
+					GiveItemEX 607955,1,"."
+					GiveItemEX 607687,1,"."
+					EndBlock
+
+				Window_YES Item_607954 == 1 && StampCount_607954 == 2 && ItemCreateTime_607954 <= 10 && ItemSpace >= 2
+					EndWindow 7010033
+					EndBlock
+
+				Window_YES Item_607954 == 1 && ItemCreateTime_607954 <= 10 && ItemSpace >= 2
+					EndWindow 7010034
+					EndBlock
+
+				Window_YES Item_607954 == 1 && ItemSpace >= 2
+					EndWindow 7010035
+					EndBlock
+
+				Window_YES Item_607954 == 1
+					EndWindow 7010036
+					EndBlock
+
+				Window_YES
+					EndWindow 7010037
+					EndBlock
+
+				Window_NO
+					EndWindow 7010038
+
+		endif
+
+	endif
+
+
+
+###　漂力拱烹（607954）父阑 家瘤（扁功茄 辆磊（607953）家瘤窍瘤 臼澜）
+block Item_607954 == 1 && Item_607953 < 1
+	EndWindow 7010039
+
+
+
+###　扁功茄 辆磊父阑 家瘤
+block Item_607953 >= 1
+	Window 7010040,NEXT
+	Window 7010041,NEXT
+	Window 7010042,NEXT
+	Window 7010043,OK
+
+		Window_OK Item_607953 >= 1 && ItemSpace >= 1
+			GiveItemEX 607954,1,"."
+
+		Window_OK ItemSpace < 1
+			EndWindow 7010044
+
+		Window_OK Item_607953 < 1
+			EndWindow 7010045
+
+
+
+###　惑扁 酒捞袍阑 家瘤窍瘤 臼澜
+block
+	EndWindow 7010046
+
+
+
+
+

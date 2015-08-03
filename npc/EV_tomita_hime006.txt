@@ -1,0 +1,44 @@
+#　泪 给 靛绰 剑狼 固赤　　ｂｙ　配固鸥
+#
+#　　　畴牢（浚爹）狼 鼻
+
+###　颇萍甫 捞风绊 乐促
+
+block Group >= 2
+
+	EndWindow 6850001
+
+
+###　捞绢傅阑 啊瘤绊 乐促
+
+block Item_603000 >= 1
+	EndWindow 6850002
+
+
+###　家瘤前俊 后 镑捞 乐促
+
+block ItemSpace >= 1
+	Window 6850003,OK
+
+		Window_OK Group < 2 && ItemSpace >= 1
+			GiveItemEX 603000,1,"."
+			Warp 0,59502,196,52
+
+		Window_OK ItemSpace >= 1
+			EndWindow 6850004
+
+		Window_OK
+			EndWindow 6850005
+
+
+###　家瘤前捞 啊垫 曼
+
+block
+	EndWindow 6850006
+
+
+EndBlock
+
+
+
+

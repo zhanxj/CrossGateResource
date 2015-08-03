@@ -1,0 +1,73 @@
+#卡特修改   QQ：88621517
+
+block endevent143 == 1 && endevent139 == 0
+	endevent85 = 1
+	EndEvent 125 = 1
+	EndWindow 120197,OK
+
+block endevent143 == 1 && endevent133 == 0
+	endevent85 = 1
+	EndEvent 125 = 1
+	EndWindow 120197,OK
+
+block endevent143 == 1 && endevent131 == 0
+	endevent85 = 1
+	EndEvent 125 = 1
+	EndWindow 120197,OK
+
+block endevent139 == 1 && endevent133 == 0
+	endevent85 = 1
+	EndEvent 125 = 1
+	EndWindow 120197,OK
+
+block endevent139 == 1 && endevent131 == 0
+	endevent85 = 1
+	EndEvent 125 = 1
+	EndWindow 120197,OK
+
+block endevent133 == 1 && endevent131 == 0
+	endevent85 = 1
+	EndEvent 125 = 1
+	EndWindow 120197,OK
+
+block EndEvent 125 == 1
+	EndWindow 120197,OK
+
+block Item658027 >= 1
+	KillItem 658027,1
+	leavegroup
+	Warp 0,1401,34,61
+
+block Item658028 >= 1
+	KillItem 658028,1
+	leavegroup
+	Warp 0,1401,34,61
+
+########## 带血和料理##########
+block drugdish != 0
+	Window 120175,YES,NO
+	Window_YES
+	Window 120176,OK
+	Window_OK
+	killdrugdish
+	leavegroup
+	Warp 0,1401,34,61
+	Window_NO
+	EndWindow 120025,OK
+
+
+########## 不带血和料理##########
+block drugdish == 0
+	Window 120175,YES,NO
+	Window_YES
+	Window 120176,OK
+	Window_OK
+	killdrugdish
+	leavegroup
+	Warp 0,1401,34,61
+	Window_NO
+	EndWindow 120025,OK
+
+
+
+

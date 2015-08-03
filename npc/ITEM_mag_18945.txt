@@ -1,0 +1,7 @@
+block Job >= 283 && Job <= 287
+	KillItem 18945,1,(15871)
+	GiveRecipe 502
+block
+#15872·\n\n\n\n@c捞 酒捞袍篮 槛访葛磊流牢 捞惑牢 盒父 荤侩且 荐 乐嚼聪促.
+	EndWindow 15872,OK
+

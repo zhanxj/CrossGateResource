@@ -1,0 +1,23 @@
+#卡特制作。QQ88621517        2006.12.25
+
+########## 当物品652143大于10个的时候#####
+block Item652153 >= 1 || Item652154 >= 1 || Item652155 >= 1 || Item652156 >= 1 || Item652157 >= 1 || Item652158 >= 1
+	EndWindow 120166
+
+########## 当物品652143大于10个的时候#####
+block Item652152 >= 1
+	EndWindow 120159
+
+########## 当物品652143大于10个的时候#####
+block Item652143 >= 10
+	Window 120158,YES,NO
+	Window_NO
+	EndWindow 120025,OK
+	Window_YES
+        KillItem 652143,10
+	GiveItem 652152,1
+	EndWindow 120156
+
+############## 格子=20 ##############
+block ItemSpace >= 0
+	EndWindow 120155

@@ -1,0 +1,4 @@
+#荐秦 扁雇 霸捞飘
+
+block XPos == 97 && YPos == 85 && PlayerAction 1
+	SystemMessage 21898

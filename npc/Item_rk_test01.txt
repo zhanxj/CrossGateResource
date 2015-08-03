@@ -1,0 +1,52 @@
+距惑磊600-20(19664)
+
+#捞 酒捞袍篮 距力荤啊 酒聪搁 镜 荐 绝嚼聪促.
+#block Item 19664 >= 2
+#	EndWindow 22900,OK
+
+#惑磊啊 啊垫 谩栏搁
+block Item 19664 == 1 && StampCount 19664 == 20
+	#LP雀汗距(600)阑 波郴摆嚼聪鳖?
+	Window 22901,Yes,No
+		Window_Yes ItemSpace == 0
+			EndWindow 10000
+		Window_Yes
+			#LP雀汗距(600)阑 波陈嚼聪促.
+			AddStampCount 19664,-1
+			GiveItem 15613,1,(22902)
+		Window_No
+
+#惑磊俊 酒流 咯蜡啊 乐促搁
+block Item 19664 == 1 && StampCount 19664 >=1 && StampCount 19664 <= 19
+	#LP雀汗距(600)阑 波郴摆嚼聪鳖?
+	Window 22901,Yes,No
+		Window_Yes ItemSpace == 0
+			EndWindow 10000
+		Window_Yes
+			#LP雀汗距(600)阑 波陈嚼聪促.
+			AddStampCount 19664,-1
+			GiveItem 15613,1,(22902)
+		Window_No
+		#LP雀汗距(600)阑 距惑磊俊 持摆嚼聪鳖?
+			Window 22903,Yes,No
+			Window_No
+			Window_Yes Item 15613 == 0
+				#措惑捞 登绰 酒捞袍阑 啊瘤绊 乐瘤 臼嚼聪促.
+				EndWindow 22905,OK
+			Window_Yes
+				#LP雀汗距(600)阑 距惑磊俊 持菌嚼聪促.
+				KillItem 15613,1,(22904)
+				AddStampCount 19664,1
+#晨厚啊 厚菌促搁
+block Item 19664 == 1 && StampCount 19664 == 0
+	#LP雀汗距(600)阑 距惑磊俊 持摆嚼聪鳖?
+	Window 22903,Yes,No
+		Window_No
+		#措惑捞 登绰 酒捞袍阑 啊瘤绊 乐瘤 臼嚼聪促.
+		Window_Yes Item 15613 == 0
+			EndWindow 22905,OK
+		Window_Yes
+			#LP雀汗距(600)阑 距惑磊俊 持菌嚼聪促.
+			KillItem 15613,1,(22904)
+			AddStampCount 19664,1
+

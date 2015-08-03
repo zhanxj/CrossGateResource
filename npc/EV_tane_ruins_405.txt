@@ -1,0 +1,123 @@
+
+
+
+
+block globalFlag43 == 1
+
+
+gotoF case1
+
+
+block globalFlag42 == 1
+
+*case1*
+
+		Window 5700001,next
+		
+		EndWindow 5700002
+
+
+
+
+block globalFlag39 == 1 && globalFlag10 == 1
+
+			window 5700003,next
+			
+			EndWindow 5700004
+
+
+
+
+block globalFlag38 == 1 && globalFlag10 == 1
+
+			window 5700005,next
+			
+			EndWindow 5700006
+
+
+
+
+block globalFlag37 == 1 && globalFlag10 == 1
+
+			window 5700007,next
+			
+			window 5700008,next
+			
+			window 5700009,next
+			
+			window 5700010,next
+
+			window 5700011,next
+
+			EndWindow 5700012
+
+
+
+
+block globalFlag36 == 1 && globalFlag10 == 1
+
+			window 5700013,next
+			
+			window 5700014,next
+			
+			EndWindow 5700015
+
+
+
+block globalFlag35 == 1 && globalFlag10 == 1
+
+			window 5700016,next
+			
+			window 5700017,next
+			
+			EndWindow 5700018
+
+
+
+block globalFlag32 == 1
+
+			window 5700019,next
+
+			
+			EndWindow 5700020
+
+
+
+block Item 607699 >= 1
+
+			EndWindow 5700021
+
+
+###
+
+
+block globalFlag10 == 1
+
+if Item 607671 >= 1
+
+
+	Window 5700022,next
+
+
+	EndWindow 5700023
+
+else
+
+
+	if LocalCount0 == 1 || LocalCount0 == 2 || LocalCount0 == 3
+
+		EndWindow 5700024
+
+	else
+
+		window 3006588,next
+
+		EndWindow 3006589,OK
+
+	endif
+endif
+
+
+block Item 14664 >= 1 && Item 14665 >= 1
+
+#\n\n鼋鼋砀.?.?隼砀旒??挢隼?隼蜢隼?鼋忝鼋忝\n鼋鼋?揲隼.?.?蟪隼?搋帚拮蝠隼?隼螓隼蝓鼋咿\n鼋鼋隼?隼?隼抟隼饧斐躅蝓躅?溧

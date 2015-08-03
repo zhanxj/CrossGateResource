@@ -1,0 +1,49 @@
+###ＧＭ涅胶飘侩 酒捞袍
+
+###　攫力扼档　###
+block
+	#\n\n　咯青狼 规（涝备）肺 况橇窍摆嚼聪鳖?
+	Window 11967,YES,NO
+
+	Window_YES
+	warp 0,5004,39,68
+
+	Window_NO
+	#\n\n　1锅（巢悼）带怜俊 啊摆嚼聪鳖?
+	Window 11968,YES,NO
+
+	Window_YES
+	warp 0,5004,48,53
+
+	Window_NO
+	#\n\n　2锅（合悼）带怜俊 啊摆嚼聪鳖?
+	Window 11969,YES,NO
+
+	Window_YES
+	warp 0,5004,48,41
+
+	Window_NO
+	#\n\n　3锅（合）带怜俊 啊摆嚼聪鳖?
+	Window 11970,YES,NO
+
+	Window_YES
+	warp 0,5004,39,38
+
+	Window_NO
+	#\n\n　4锅（合辑）带怜俊 啊摆嚼聪鳖?
+	Window 11971,YES,NO
+
+	Window_YES
+	warp 0,5004,29,41
+
+	Window_NO
+	#\n\n　5锅（巢辑）带怜俊 啊摆嚼聪鳖?
+	Window 11972,YES,NO
+
+	Window_YES
+	warp 0,5004,29,53
+
+	Window_NO
+	#\n\n　辆丰钦聪促.
+	EndWindow 11973
+

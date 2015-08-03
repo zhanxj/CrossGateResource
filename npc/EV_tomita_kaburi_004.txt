@@ -1,0 +1,70 @@
+#檬焊磊侩 镜 巴 涅胶飘　　ｂｙ　配固鸥
+#
+#　　　吝斥 客窍狼 鼻
+
+###　PUK3 家瘤窍瘤 臼澜
+block Trialflg < 8
+	EndWindow 7030001
+
+
+
+###　墨橇墨橇狼 揪狙（607955）阑 家瘤
+block Item_607955 >= 1
+	EndWindow 7030002
+
+
+
+###　漂力拱烹（607954）阑 咯矾 俺家瘤
+block Item_607954 >= 2
+	Window 7030003,OK
+
+		Window_OK Item_607954 >= 2
+			KillItemAll 607954
+
+		Window_OK
+
+
+
+###　扁功茄 辆磊（607953）客 漂力拱烹（607954）阑 家瘤（胶牌橇０）
+block Item_607953 >= 1 && Item_607954 == 1 && StampCount_607954 == 0
+	Window 7030004,NEXT
+	Window 7030005,NEXT
+	Window 7030006,OK
+
+		Window_OK Item_607954 >= 2
+			EndWindow 7030007
+
+		Window_OK Item_607953 >= 1 && Item_607954 == 1 && StampCount_607954 == 0
+			AddStampCount 607954,+1
+
+		Window_OK Item_607954 == 1 && StampCount_607954 == 0
+			EndWindow 7030008
+
+		Window_OK Item_607954 == 1
+			EndWindow 7030009
+
+		Window_OK
+			EndWindow 7030010
+
+
+
+###　扁功茄 辆磊（607953）客 漂力拱烹（607954）阑 家瘤（胶牌橇１肚绰２）
+block Item_607953 >= 1 && Item_607954 == 1 && StampCount_607954 >= 1
+	EndWindow 7030011
+
+
+
+###　漂力拱烹（607954）父阑 家瘤（扁功茄 辆磊（607953）家瘤窍瘤 臼澜）
+block Item_607954 == 1 && Item_607953 < 1
+	EndWindow 7030012
+
+
+
+###　惑扁 酒捞袍阑 家瘤窍瘤 臼澜
+block
+	EndWindow 7030013
+
+
+
+
+

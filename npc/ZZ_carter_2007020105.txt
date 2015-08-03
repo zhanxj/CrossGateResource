@@ -1,0 +1,52 @@
+#卡特编写2006.12.05，QQ：88621517
+
+########## 当物品栏小于1个空位##
+block ItemSpace < 1 || Petspace == 0
+	EndWindow 10000
+
+########## 兑换0 ####621000######
+block Item620034 >= 5 && Gold == 50
+        KillItem 620034,5
+	GiveItem 621000,1
+	EndWindow 120035
+
+########## 兑换1 ####621000######
+block Item620035 >= 1 && Gold == 100
+        KillItem 620035,1
+	GiveItem 16002,1
+	GiveItem 16001,1
+	GiveItem 19000,1
+	EndWindow 120035
+
+########## 兑换2 ####组312100######
+block Item620036 >= 2 && Gold == 2000
+        KillItem 620036,2
+        Givepet 312100
+	EndWindow 120035
+
+
+########## 兑换3 ######魔术师309000####
+block Item620036 >= 20 && Gold == 20000
+        KillItem 620036,20
+        Givepet 309000
+	EndWindow 120035
+
+
+########## 兑换4 #####海豚309400#####
+block Item620036 >= 40 && Gold == 40000
+        KillItem 620036,40
+        Givepet 309400
+	EndWindow 120035
+
+
+########## 兑换5 ######噩梦猫310300####
+block Item620036 >= 60 && Gold == 60000
+        KillItem 620036,60
+        Givepet 310300
+	EndWindow 120035
+
+
+########## 等级不等于1 ##########
+block Level >= 1
+        Window 120240,NEXT
+	EndWindow 120241

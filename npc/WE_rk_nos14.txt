@@ -1,0 +1,5 @@
+#畴胶其扼配胶 凯捍狼 刀扁
+
+block XPos >= 80 && XPos <= 99 && YPos >= 120 && YPos <= 139
+	SetLp -1
+

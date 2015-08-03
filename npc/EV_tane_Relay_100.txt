@@ -1,0 +1,67 @@
+#副饭捞　窍福付　1狼 荤恩
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+
+
+
+###########　副饭捞 吝　##############
+
+block Item 14630 >=1 && Item 14631 >=1 && ItemCreateTime 14630 > 10
+
+	KillItemall 14630
+	KillItemall 14631
+
+
+	EndWindow 3006120
+
+
+
+
+block Item 14630 >=1 && Item 14631 >=1 && ItemCreateTime 14630 <= 10
+
+
+
+
+
+
+	Window 3006118,ok
+
+	Window_ok
+	KillItemall 14631
+	GiveItem 14632,1
+
+
+
+
+block Item 14630 >=1
+
+	EndWindow 3006119
+
+
+###########　骂扼矫 乐澜　##############
+
+block Item 14639 >= 1
+
+
+		EndWindow 3006117,OK
+
+###########　骂扼矫 绝澜　##############
+
+block
+
+		Window 3006116,OK
+
+		Window_ok
+
+	Window_ok Item 14639 <= 0
+
+	GiveItem 14639,1
+	
+	Window_ok Item 14639 >= 1
+
+	endWindow 3006991
+
+
+
+

@@ -1,0 +1,325 @@
+#　采圭　俊府墨狼 荤恩
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+
+
+
+#block Item 14630 >= 1
+
+#		endWindow "\n\n　绢赣, \n　操拱芭府绊 乐栏搁, 踌酒滚妨, 采."
+
+
+#block Item 14631 >= 1
+
+
+#	if LocalCount2 != 10
+#		LocalCount1 = Random 4,0
+#		LocalCount2 = 10
+#	endif
+
+
+#	If LocalCount1 == 4
+
+#		Window "\n\n　坷, 老何矾 窍绊 乐绰 芭具?\n　坷府浚抛绢傅?\n　茄啊茄 荤恩捞焙?",next
+
+#		Window "\n\n　绢驴 荐 绝焙, \n　捞 倔澜栏肺 父电 采阑 林瘤.\n　３０盒捞搁 踌酒滚府聪鳖, \n　炼缴窍扼备.",next
+
+#		Window "\n\n　弊烦, 倔澜捞 踌酒滚府扁 傈俊\n　促澜 急拱阑 罐栏矾 啊扼备!\n　泪 给 靛绰 傍林丛狼 悼奔俊\n　悼奔 官聪啊 乐栏聪鳖 富具.",next
+
+#		Window "\n\n　弊 锭, 官聪俊霸 采阑 林绰 吧 镭瘤 富扼备.\n　犁趁阿秦林搁\n　促矫 ３０盒 啊霸 登聪鳖 富捞瘤.",ok
+
+
+#			Window_ok 14630 == 0
+
+#				endWindow "\n\n　绢捞, 曼啊刘篮?"
+
+#			Window_ok ItemSpace < 1
+
+#				endWindow "\n\n　家瘤前, 啊垫 谩绰单?"
+
+
+#			Window_ok
+
+#				GiveItem 14630,1
+
+
+#		EndBlock
+
+#	else
+#		EndWindow "\n\n　固救窍焙.\n　国结 前例捞具.\n　促弗 赤籍俊霸 拎滚啡绢. 采."
+#		EndBlock
+
+#	endif
+
+
+
+
+
+
+block Item 607621 >= 1
+
+		Window 4890001,next
+
+		Window 4890002,yes,no
+
+
+			Window_yes
+
+
+				Window 4890003,ok
+
+				Window_ok
+
+								KillItemall 607621
+								GiveItem 607687,1
+								
+
+			Window_yes Item 607621 == 0
+
+				gotoF case1
+
+			Window_no
+*case1*
+
+				EndWindow 4890004
+
+
+
+
+###########　傈盔　##############
+
+block Item 14641 >= 1 && Item 14653 >= 1  && globalFlag11 == 1 && globalFlag12 == 1 && globalFlag13 == 1 && globalFlag14 == 1 && StrCmpChat == R
+
+
+#\n\n　绢赣赣, \n　捞 包格狼 采促惯阑 唱俊霸?\n　绢赣, 炼槛茄 酒捞匙.\n　弊繁单, 鞠龋绰?
+
+	Window 3006466,NEXT
+
+
+	EndWindow 3006467
+
+###########　傈盔　##############
+block Item 14641 >= 1 && Item 14653 >= 1  && globalFlag11 == 1 && globalFlag12 == 1 && globalFlag13 == 1 && globalFlag14 == 1 && StrCmpChat == 3006481
+
+
+
+#\n\n　匙, 沥翠.\n　弊烦, 荤剧 臼绊 罐酒笛霸.
+
+	Window 3006469,NEXT
+
+
+
+#\n\n　绢赣赣, 荐绊啊 腹匙夸\n　磊概 傈盔俊霸 采促惯阑 林矾 柯 巴 鞍匙.\n　栏~澜, 荐绊窍继~绢夸.\n　磊, 捞芭, 惑·捞·俊·夸.
+
+	Window 3006472,NEXT
+
+	Window 3006473,ok
+	
+	window_ok
+
+		globalFlag11 = 0
+		globalFlag12 = 0
+		globalFlag13 = 0
+		globalFlag14 = 0
+
+	KillItemall 14641
+
+		KillItemall 14652
+		KillItemall 14650
+		KillItemall 14653
+		KillItemall 14651
+
+		GiveItem (14644%5,14645%10,14646%20,14647%40,14648%50)
+
+
+
+###########　傈盔　##############
+block Item 14641 >= 1 && Item 14653 >= 1  && globalFlag11 == 1 && globalFlag12 == 1 && globalFlag13 == 1 && globalFlag14 == 1 && StrCmpChat != 3006481
+
+#\n\n　绢~赣, 蜡~皑.\n　鞠龋啊 撇府匙.\n　弊烦, 罐阑 荐 绝绢.
+
+
+	endWindow 3006468,ok
+
+
+
+
+
+
+###########　硅崔 吝　嘎澜　##############
+block Item 14641 >= 1 && StrCmpChat == R
+
+#\n\n　绢赣赣, \n　捞 包格狼 采促惯阑 唱俊霸?\n　绢赣, 炼槛茄 酒捞匙.\n　弊繁单, 鞠龋绰?
+
+	Window 3006466,NEXT
+
+
+	EndWindow 3006467
+
+
+
+###########　硅崔 吝　嘎澜　##############
+block Item 14641 >= 1 && StrCmpChat == 3006481
+
+
+
+#\n\n　匙, 沥翠.\n　弊烦, 荤剧 臼绊 罐酒笛霸.
+
+	Window 3006469,NEXT
+
+
+
+
+
+#\n\n　弊烦, 捞锅俊绰 郴 何殴阑 甸绢拎?\n　快急, 捞 硅崔 墨靛, 啊廉.\n　捞 轰臂扼胶狼 采促惯阑\n　攫聪 技府墨俊霸 傈秦林瘤 臼摆绢?
+
+	Window 3006470,NEXT
+
+		window 3006463,ok
+
+#		window_ok Itemspace < 1
+
+#		endwindow 3006474
+
+		window_ok
+
+		globalFlag12 = 1
+
+	KillItemall 14641
+	KillItemall 14653
+
+		GiveItem 14651,1
+		GiveItem 14642,1
+
+#\n\n　临 锭狼 鞠龋绰, \n　快钧狼 采富捞具.\n　怠嘿咯辑 包格狼 采富篮\n　『唱捞甫 蠢长促』具.
+
+
+
+
+
+###########　硅崔 吝　撇覆　##############
+block Item 14641 >= 1 && StrCmpChat != 3006481
+
+
+#\n\n　 绢~赣, 蜡~皑.\n　鞠龋啊 撇府匙.\n　弊烦, 罐阑 荐 绝绢.
+
+
+	endWindow 3006468,ok
+
+
+###########　硅崔 吝　庆绢咙　##############
+block Item 14651 >= 1
+
+
+#\n\n　窍酒?\n　固酒啊 等 扒啊夸?
+
+
+		Endwindow 3006488
+
+
+###########　硅崔 吝　庆绢咙　##############
+block Item 14652 >= 1 || Item 14650 >= 1
+
+
+#\n\n　绢赣?\n　喊老捞焙? 捞繁 镑俊 荤恩捞 坷促聪.
+
+	Window 3006457,NEXT
+
+#\n\n　历扁, 寸脚?\n　穿唱尔, 泪~瘪, 愁瘤 臼阑贰?
+
+	Window 3006458,NEXT
+
+
+#\n\n　唱?\n　郴 捞抚篮 付过赤 付府墨.\n　付过家赤啊 酒聪具. 付过赤扼备.
+
+
+	Window 3006464,NEXT
+
+
+
+#\n\n　绢赣?绢赣 绢赣?\n　寸脚篮, 国结, \n　促弗 咯磊局客 愁绊 乐绰 芭具?
+
+	Window 3006461,NEXT
+
+
+#\n\n　历扁, 爹脚, \n　亮~篮芭,啊福媚 临·霸·夸.\n　包格狼 采富篮\n　『唱捞甫 蠢长促』扼备.
+
+
+		Endwindow 3006465
+
+
+
+
+###########　酒公巴档 绝澜　##############
+block 
+#
+#\n\n　绢赣?\n　喊老捞焙? 捞繁 镑俊 荤恩捞 坷促聪.
+
+	Window 3006457,NEXT
+
+#\n\n　历扁, 寸脚?\n　穿唱尔, 泪~瘪, 愁瘤 臼阑贰?
+
+	Window 3006458,NEXT
+
+
+#\n\n　唱?\n　郴 捞抚篮 付过赤 付府墨.\n　付过家赤啊 酒聪具. 付过赤扼备.
+
+
+	Window 3006464,NEXT
+
+#\n\n　历扁, \n　愁瘤臼阑贰?
+
+	Window 3006478,yes,no
+	
+	window_yes Itemspace >= 2
+
+#\n\n　绢赣~绢, 愁酒林绰 芭具~\n　扁慧 吧 ~
+
+		globalFlag11 = 0
+		globalFlag12 = 0
+		globalFlag13 = 0
+		globalFlag14 = 0
+
+		Window 3006460,NEXT
+
+#\n\n　弊烦 富捞瘤.\n　 快急, 捞 硅崔 墨靛, 啊廉.\n　捞 轰臂扼胶狼 采促惯阑\n　攫聪 技府墨俊霸 傈秦林瘤 臼摆绢?
+
+
+		Window 3006462,ok
+
+		window_ok
+
+		globalFlag12 = 1
+
+		GiveItem 14651,1
+		GiveItem 14642,1
+
+
+
+
+#\n\n　临 锭狼 鞠龋绰, \n　快钧狼 采富捞具.\n　怠嘿咯辑 包格狼 采富篮\n　『唱捞甫 蠢长促』具.
+
+		Endwindow 3006463
+
+	window_yes Itemspace < 2
+
+#\n\n　绢赣, \n　家瘤前捞 啊垫 蛮 巴 鞍匙.\n　蜡~皑.
+
+
+		Endwindow 3006474
+
+
+	window_no
+
+#\n\n　绢赣, 蜡~皑.\n　庆, 菩扁 绝绰~赤籍捞焙.
+
+		Endwindow 3006459
+
+
+
+
+
+
+
+

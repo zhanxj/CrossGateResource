@@ -1,0 +1,45 @@
+
+#烤 矫措甫 酒绰 磊
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+block globalFlag41 == 1
+
+
+			endwindow 4910001
+
+
+
+
+block globalFlag39 == 1
+
+gotoF case1
+
+
+block globalFlag38 == 1
+
+*case1*
+
+
+
+			window 4910002,next
+
+			window 4910003,next
+
+			window 4910004,next
+
+			window 4910005,next
+
+			endwindow 4910006
+
+
+
+block
+
+			GAwindow 4910007,next
+
+			GAendwindow 4910008
+
+
+
+

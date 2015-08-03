@@ -1,0 +1,43 @@
+
+
+block
+
+
+
+
+
+
+				LocalCount10 = random 2,0
+
+				if LocalCount10 == 1
+
+
+
+#					endWindow "\n\n　遣遣遣\n　遣仟操仟~"
+					endWindow 3006965
+
+
+
+				else
+
+
+
+#					endWindow "\n\n　	捏明, 捻明捻明~"
+					endWindow 3006966
+
+
+
+				endif
+
+
+
+
+
+
+
+
+
+
+
+
+

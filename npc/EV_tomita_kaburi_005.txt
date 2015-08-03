@@ -1,0 +1,142 @@
+#檬焊磊侩 镜 巴 涅胶飘　　ｂｙ　配固鸥
+#
+#　　　剑狼 叠 固档府狼 鼻
+
+###　PUK3家瘤窍瘤 臼澜
+block Trialflg < 8
+	EndWindow 7040001
+
+
+
+###　墨橇墨橇狼 揪狙（607955）阑 家瘤
+block Item_607955 >= 1
+	EndWindow 7040002
+
+
+
+###　漂力拱烹（607954）阑 咯矾 俺 家瘤
+block Item_607954 >= 2
+	Window 7040003,OK
+
+		Window_OK Item_607954 >= 2
+			KillItemAll 607954
+
+		Window_OK
+
+
+
+###　扁功茄 辆磊（607953）客 漂力拱烹（607954）阑 家瘤（胶牌橇０）
+block Item_607953 >= 1 && Item_607954 == 1 && StampCount_607954 == 0
+	EndWindow 7040004
+
+
+
+###　扁功茄 辆磊（607953）客 漂力拱烹（607954）阑 家瘤（胶牌橇１）
+block Item_607953 >= 1 && Item_607954 == 1 && StampCount_607954 == 1
+
+##　拱烹俊 蜡利狼 龋荐 拱捞 淬变瘤２０盒 坷滚
+	If ItemCreateTime_607954 > 20
+		Window 7040005,YES,NO
+
+			Window_YES Item_607954 >= 2
+				Window 7040006,OK
+
+					Window_OK Item_607954 >= 2
+						KillItemAll 607954
+						EndBlock
+
+					Window_OK
+						EndBlock
+
+			Window_YES Item_607954 == 1 && StampCount_607954 == 1
+				Window 7040007,OK
+
+					Window_OK Item_607954 >= 2
+						EndWindow 7040008
+						EndBlock
+
+					Window_OK Item_607954 == 1 && StampCount_607954 == 1
+						AddStampCount 607954,-1
+						EndBlock
+
+					Window_OK Item_607954 == 1
+						EndWindow 7040009
+						EndBlock
+
+					Window_OK
+						EndWindow 7040010
+						EndBlock
+
+			Window_YES Item_607954 == 1
+				EndWindow 7040011
+				EndBlock
+
+			Window_YES
+				EndWindow 7040012
+				EndBlock
+
+			Window_NO Item_607954 >= 1
+				Window 7040013,OK
+
+					Window_OK Item_607954 >= 1
+						KillItemAll 607954
+						EndBlock
+
+					Window_OK
+						EndBlock
+
+			Window_NO
+				EndWindow 7040014
+				EndBlock
+
+
+###　拱烹俊 蜡利狼 龋荐 拱捞 淬变瘤２０盒 捞郴
+	else
+		Window 7040015,NEXT
+		Window 7040016,NEXT
+		Window 7040017,OK
+
+			Window_OK Item_607954 >= 2
+				EndWindow 7040018
+				EndBlock
+
+			Window_OK Item_607953 >= 1 && Item_607954 == 1 && StampCount_607954 == 1
+				AddStampCount 607954,+1
+				EndBlock
+
+			Window_OK Item_607954 == 1 && StampCount_607954 == 1
+				EndWindow 7040019
+				EndBlock
+
+			Window_OK Item_607954 == 1
+				EndWindow 7040020
+				EndBlock
+
+			Window_OK
+				EndWindow 7040021
+				EndBlock
+
+		endif
+
+
+
+###　扁功茄 辆磊（607953）客 漂力拱烹（607954）阑 家瘤（胶牌橇２）
+block Item_607953 >= 1 && Item_607954 == 1 && StampCount_607954 == 2
+	EndWindow 7040022
+
+
+
+###　漂力拱烹（607954）阑 家瘤（扁功茄 辆磊（607953）家瘤窍瘤 臼澜）
+block Item_607954 == 1 && Item_607953 < 1
+	EndWindow 7040023
+
+
+
+###　惑扁 酒捞袍阑 家瘤窍瘤 臼澜
+block
+	EndWindow 7040024
+
+
+
+
+

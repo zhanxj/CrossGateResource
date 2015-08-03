@@ -1,0 +1,73 @@
+#『霉 缴何抚』　　ｂｙ　配固鸥
+#
+#　　　摹虐（ケ）狼 鼻
+
+###　疙窃阑 咯矾 俺 家瘤
+
+block Item_607904 >= 2
+	EndWindow 7760001
+
+
+
+###　疙窃阑 家瘤
+
+block Item_607904 == 1
+
+	If StampCount_607904 == 1 && Item_18233 >= 1
+		Window 7760002,YES,NO
+
+			Window_YES
+				Window 7760003,OK
+
+					Window_OK Item_607904 >= 2
+						EndWindow 7760004
+						EndBlock
+
+					Window_OK Item_607904 == 0
+						EndWindow 7760005
+						EndBlock
+
+					Window_OK Item_18233 >= 1
+						KillItem 18233,1
+						AddStampCount 607904,+1
+						EndBlock
+
+					Window_OK
+						EndWindow 7760006
+						EndBlock
+
+			Window_NO
+				EndWindow 7760007
+				EndBlock
+
+	else
+		If StampCount_607904 == 1
+			EndWindow 7760008
+			EndBlock
+
+		else
+			If StampCount_607904 == 2
+				EndWindow 7760009
+				EndBlock
+
+			else
+				EndWindow 7760010
+				EndBlock
+
+			endif
+
+		endif
+
+	endif
+
+
+
+###　疙窃 家瘤窍瘤 臼澜
+
+block
+	EndWindow 7760011
+
+
+
+
+

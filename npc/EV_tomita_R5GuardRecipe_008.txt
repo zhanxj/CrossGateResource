@@ -1,0 +1,42 @@
+#　R5松恶レシピ芹邵?エスト　ｂｙ　哨拍
+#
+#　　　テイシ〖の船
+
+###　筏喀客で侯喇ス?ルレ?ルが５笆惧
+block JobAncestry == 330 && SkillLevel_213 >= 5
+	Window "\n\n　エ〖?ンシュ〖?を侯りたいのね。\n　あなたほどの喀客なら、搭んで兜えるわ。\n　とにかく、?ンスでフィ〖バ〖するのに\n　これ笆惧の筏はないわよ。\n　侯って旺いてフィ〖バ〖フィ〖バ〖—",OK
+
+		Window_OK
+			GiveRecipe 804
+			LeaveGroup
+			Warp 0,59679,163,191
+
+
+
+###　筏喀客で侯喇ス?ルレ?ルが５踏塔
+block JobAncestry == 330
+	Window "\n\n　おニュ〖の筏を侯るには、あなたはちょっち\n　祷窖と沸赋が颅りないわね。\n　武たいようだけど、叫木してきてね。",OK
+
+		Window_OK
+			LeaveGroup
+			Warp 0,59679,163,191
+
+
+
+###　筏喀客でない
+block
+	Window "\n\n　脱祸は貉んだの々　ドロンする々",YES,NO
+
+		Window_YES
+			Window "\n\n　それじゃ、バッハハ×××イ——",OK
+
+				Window_OK
+					LeaveGroup
+					Warp 0,59679,163,191
+
+		Window_NO
+			EndWindow "\n\n　あらそう、こりゃまた己伍いたしましたっと。"
+
+
+
+

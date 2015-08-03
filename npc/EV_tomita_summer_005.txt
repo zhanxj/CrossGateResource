@@ -1,0 +1,30 @@
+#　荐犬力 带怜（备 咯抚规切 带怜）　　ｂｙ　配固鸥
+#
+#　　　惑绢脚 俊捞厚胶狼 鼻
+
+###　颇萍甫 捞风绊 乐绰 版快
+
+block Group > 1
+	EndWindow 8410001
+
+
+
+###　器惑荐咯
+
+block
+	Window 8410002,NEXT
+	Window 8410003,OK
+
+		Window_OK ItemSpace < 2
+			EndWindow 8410004
+
+		Window_OK
+			GiveItemEX 607941,1,"."
+			GiveItem(607928%90,607929%10)
+			LeaveGroup
+			Warp 0,59510,58,63
+
+
+
+
+

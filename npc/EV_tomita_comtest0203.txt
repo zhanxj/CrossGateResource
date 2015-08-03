@@ -1,0 +1,350 @@
+#酒捞袍 包访 脚 目盖靛 角氰　　ｂｙ　配固鸥
+#
+#　　　PHItem狼 鼻
+
+###　颇萍 傈盔狼 酒捞袍 鄂俊 乐绰 酒捞袍阑 犬牢
+
+###　快 努腐
+
+Block StrCmpChat == R
+	EndWindow 6090001
+
+
+###　５甫 涝仿
+
+Block StrCmpChat == 3004925 && Group >= 5
+
+	Window 6090002,OK
+
+		Window_OK Group >= 5
+
+			If PHItem 12,5 >= 4
+				EndWindow 6090003
+				EndBlock
+
+			else
+				If PHItem 12,5 == 3
+					EndWindow 6090004
+					EndBlock
+
+				else
+					IF PHItem 12,5 == 2
+						EndWindow 6090005
+						EndBlock
+
+					else
+						If PHItem 12,5 == 1
+							EndWindow 6090006
+							EndBlock
+
+						else
+							EndWindow 6090007
+							EndBlock
+
+						endif
+
+					endif
+
+				endif
+
+			endif
+
+
+		Window_OK
+			EndWindow 6090008
+
+
+Block StrCmpChat == 3004925
+
+	EndWindow 6090009
+
+
+
+###　４甫 涝仿
+
+Block StrCmpChat == 3004924 && Group >= 4
+
+	Window 6090010,OK
+
+		Window_OK Group >= 4
+
+			If PHItem 12,4 >= 4
+				EndWindow 6090011
+				EndBlock
+
+			else
+				If PHItem 12,4 == 3
+					EndWindow 6090012
+					EndBlock
+
+				else
+					IF PHItem 12,4 == 2
+						EndWindow 6090013
+						EndBlock
+
+					else
+						If PHItem 12,4 == 1
+							EndWindow 6090014
+							EndBlock
+
+						else
+							EndWindow 6090015
+							EndBlock
+
+						endif
+
+					endif
+
+				endif
+
+			endif
+
+
+		Window_OK
+			EndWindow 6090016
+
+
+Block StrCmpChat == 3004924
+
+	EndWindow 6090017
+
+
+
+###　３阑 涝仿
+
+Block StrCmpChat == 3004923 && Group >= 3
+
+	Window 6090018,OK
+
+		Window_OK Group >= 3
+
+			If PHItem 12,3 >= 4
+				EndWindow 6090019
+				EndBlock
+
+			else
+				If PHItem 12,3 == 3
+					EndWindow 6090020
+					EndBlock
+
+				else
+					IF PHItem 12,3 == 2
+						EndWindow 6090021
+						EndBlock
+
+					else
+						If PHItem 12,3 == 1
+							EndWindow 6090022
+							EndBlock
+
+						else
+							EndWindow 6090023
+							EndBlock
+
+						endif
+
+					endif
+
+				endif
+
+			endif
+
+
+		Window_OK
+			EndWindow 6090024
+
+
+Block StrCmpChat == 3004923
+
+	EndWindow 6090025
+
+
+
+###　２甫 涝仿
+
+Block StrCmpChat == 3004922 && Group >= 2
+
+	Window 6090026,OK
+
+		Window_OK Group >= 2
+
+			If PHItem 12,2 >= 4
+				EndWindow 6090027
+				EndBlock
+
+			else
+				If PHItem 12,2 == 3
+					EndWindow 6090028
+					EndBlock
+
+				else
+					IF PHItem 12,2 == 2
+						EndWindow 6090029
+						EndBlock
+
+					else
+						If PHItem 12,2 == 1
+							EndWindow 6090030
+							EndBlock
+
+						else
+							EndWindow 6090031
+							EndBlock
+
+						endif
+
+					endif
+
+				endif
+
+			endif
+
+
+		Window_OK
+			EndWindow 6090032
+
+
+Block StrCmpChat == 3004922
+
+	EndWindow 6090033
+
+
+
+###　１阑 涝仿
+
+Block StrCmpChat == 3004921
+
+	Window 6090034,OK
+
+		Window_OK
+
+			If PHItem 12,1 >= 4
+				EndWindow 6090035
+				EndBlock
+
+			else
+				If PHItem 12,1 == 3
+					EndWindow 6090036
+					EndBlock
+
+				else
+					IF PHItem 12,1 == 2
+						EndWindow 6090037
+						EndBlock
+
+					else
+						If PHItem 12,1 == 1
+							EndWindow 6090038
+							EndBlock
+
+						else
+							EndWindow 6090039
+							EndBlock
+
+						endif
+
+					endif
+
+				endif
+
+			endif
+
+
+
+###　０阑 涝仿
+
+Block StrCmpChat == 3004930
+
+	Window 6090040,OK
+
+		Window_OK
+
+			If PHItem 12,0 >= 4
+				EndWindow 6090041
+				EndBlock
+
+			else
+				If PHItem 12,0 == 3
+					EndWindow 6090042
+					EndBlock
+
+				else
+					IF PHItem 12,0 == 2
+						EndWindow 6090043
+						EndBlock
+
+					else
+						If PHItem 12,0 == 1
+							EndWindow 6090044
+							EndBlock
+
+						else
+							EndWindow 6090045
+							EndBlock
+
+						endif
+
+					endif
+
+				endif
+
+			endif
+
+
+
+###　胶农赋飘 瞒窜
+block
+
+block
+
+
+
+###　２锅掳狼 荤恩阑 眉农
+
+Block Group >= 2
+
+	Window 6090046,OK
+
+		Window_OK Group < 2
+			EndWindow 6090047
+
+		Window_OK Group >= 2 && PHItem 12,2 >= 4
+			EndWindow 6090048
+
+		Window_OK Group >= 2 && PHItem 12,2 == 3
+			EndWindow 6090049
+
+		Window_OK Group >= 2 && HItem 12,2 == 2
+			EndWindow 6090050
+
+		Window_OK Group >= 2 && PHItem 12,2 == 1
+			EndWindow 6090051
+
+		Window_OK Group >= 2
+			EndWindow 6090052
+
+Block
+
+	Window 6090053,OK
+
+		Window_OK Group >= 2 && PHItem 12,2 >= 4
+			EndWindow 6090054
+
+		Window_OK Group >= 2 && PHItem 12,2 == 3
+			EndWindow 6090055
+
+		Window_OK Group >= 2 && HItem 12,2 == 2
+			EndWindow 6090056
+
+		Window_OK Group >= 2 && PHItem 12,2 == 1
+			EndWindow 6090057
+
+		Window_OK Group >= 2
+			EndWindow 6090058
+
+		Window_OK
+
+
+
+
+

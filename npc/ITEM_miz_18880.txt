@@ -1,0 +1,35 @@
+#
+#府橇 器飘（阁胶　３窜拌）
+#
+
+##############　酒流 捞福促　#################
+#夯规侩
+block Itemcreatetime 18880 <= 2880
+#叼滚弊侩
+#block Itemcreatetime 18880 <= 2
+
+	EndWindow 206117,OK
+
+##############  迭 嘎促　##############
+#夯规侩
+block Itemcreatetime 18880 >= 2881 && Itemcreatetime 18880 <= 10080
+#叼滚弊侩
+#block Itemcreatetime 18880 >= 3 && Itemcreatetime 18880 <= 5
+
+	Window 206120,OK
+	Window_OK
+	KillItem 18880,1,(206111)
+	Encount 3|||0|||||0|20013|||||||||
+
+##############　词菌促　################
+#夯规侩
+block Itemcreatetime 18880 >= 10081
+#叼滚弊侩
+#block Itemcreatetime 18880 >= 6
+
+	Window 206116,OK
+	Window_OK
+	KillItem 18880,1,(206113)
+
+
+

@@ -1,0 +1,38 @@
+#窍捞 饭骇侩 俺炼档 by 配固鸥
+#
+#　　　俺炼扁包狼 鼻
+
+###　喉风 宏府靛 矫距阑 家瘤
+block Item_631007 >= 1
+	EndWindow "\n\n　弊 矫距 富牢单, 矫埃 力茄篮 绝绢档,\n　林狼窍霸.\n　绢骂灯电 惑措规篮, 决没 抄气窍聪鳖 富具."
+
+
+
+###　惑扁 酒捞袍阑 阂家瘤
+block
+	Window "\n\n　绢捞 磊匙, 何殴 窍唱 甸绢林瘤 臼摆唱.\n　捞 距阑 救率狼 阁胶磐俊霸 傈秦玲栏搁 窍绰单.\n　荤角 郴啊 流诀 啊具窍绰 芭瘤父,\n　赤籍甸苞绰 荤捞啊 救亮酒辑 富具.\n　甸绢临刨啊?",YES,NO
+
+		Window_YES Item_631007 >= 1
+			EndWindow "\n\n　绢扼, 捞固 爱绊 乐垒酒.\n　狙! 弊繁啊, 捞固 傈秦林菌备唱."
+
+		Window_YES ItemSpace >= 1
+			Window "\n\n　沥富 绊付况.\n　捞霸 傈秦临 距, 喉风 宏府靛 矫距捞促.\n　啊瓷茄 弧府 傈秦拎.",OK
+
+				Window_OK Item_631007 >= 1
+					EndWindow "绢扼, 捞固 爱绊 乐垒酒.\n　狙! 弊繁啊, 捞固 傈秦林菌备唱."
+
+				Window_OK ItemSpace >= 1
+					GiveItemEX 631007,1,"."
+
+				Window_OK
+					EndWindow "\n\n　历繁, 家瘤前俊 后沫捞 绝垒酒.\n　且 荐 绝焙, 促弗 荤恩茄抛 何殴秦具摆焙."
+
+		Window_YES
+			EndWindow "\n\n　历繁, 家瘤前俊 后沫捞 绝垒酒.\n　且 荐 绝焙, 促弗 荤恩茄抛 何殴秦具摆焙."
+
+		Window_NO
+			EndWindow "\n\n　且 荐 绝焙.\n　构, 促弗 荤恩俊霸 富秦毫具瘤."
+
+
+
+

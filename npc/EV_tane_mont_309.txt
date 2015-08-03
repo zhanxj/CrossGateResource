@@ -1,0 +1,14 @@
+
+block
+
+
+
+
+#	Window "\n\n　悼青 胶懦 付胶磐 歹固涝聪促.",ok
+	Window 3006967,ok
+
+
+	Window_ok
+
+
+

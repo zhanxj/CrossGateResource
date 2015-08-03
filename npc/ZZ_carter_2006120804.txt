@@ -1,0 +1,44 @@
+#卡特编写2006.12.05，QQ：88621517
+
+########## 当物品栏小于1个空位##
+block Petspace == 0
+	EndWindow 10000
+	
+
+########## 20.652109兑换精灵##########
+block Item652109 >= 1
+	Window 120066,YES,NO
+	Window_YES
+	KillItem 652109,1
+	Givepet 331153
+	GiveItem 652134,1
+	EndWindow 120036
+	Window_NO
+		Window 120067,YES,NO
+		Window_YES
+		KillItem 652109,1
+		Givepet 331152
+		GiveItem 652134,1
+		EndWindow 120036,OK
+		Window_NO
+                        Window 120068,YES,NO
+		        Window_YES
+		        KillItem 652109,1
+		        Givepet 331150
+			GiveItem 652134,1
+		        EndWindow 120036,OK
+		        Window_NO
+                                Window 120069,YES,NO
+		                Window_YES
+		                KillItem 652109,1
+		                Givepet 331151
+				GiveItem 652134,1
+		                EndWindow 120036,OK
+		                Window_NO
+                                EndWindow 120044
+
+
+########## 当无任务兑换物品的时候##
+block ItemSpace >= 1
+	EndWindow 120109
+	

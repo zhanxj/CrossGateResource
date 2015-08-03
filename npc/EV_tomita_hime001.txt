@@ -1,0 +1,46 @@
+#　泪 给 靛绰 剑狼 固赤　　ｂｙ　配固鸥
+#
+#　　　带怜栏肺 朝妨焊郴绰 畴牢狼 鼻
+
+###　捞绢傅阑 啊瘤绊 乐绰 版快
+
+block Item_603000 >= 1
+	EndWindow 6790001
+
+
+###　颇萍甫 捞风绊 乐绰 版快
+
+block Group >= 2
+	EndWindow 6790002
+
+
+###　窜刀栏肺 富阑 扒 版快
+
+block
+	Window 6790003,YES,NO
+
+		Window_YES Group < 2 && Item_603000 == 0
+			ShapeNext 14578
+			Window 6790004,OK
+
+				Window_OK Group < 2
+					Warp 0,59715,245,123
+
+				Window_OK
+					EndWindow 6790005
+
+		Window_YES Group < 2
+			EndWindow 6790006
+
+		Window_YES
+			EndWindow 6790007
+
+		Window_NO
+			EndWindow 6790008
+
+
+EndBlock
+
+
+
+

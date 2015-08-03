@@ -1,0 +1,243 @@
+#荤沥飞窍泵　立荐贸狼 荤恩
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###########　酒公巴档 绝澜　##############
+
+
+
+block globalFlag41 == 1 && Item 620028 >= 1
+
+	window 5620001,next
+
+	endwindow 5620002
+
+
+block ItemSpace <= 0
+
+
+	Window 3006073,yes,no
+
+		Window_yes
+
+#\n\n　弊烦, 寸脚狼 农府胶呕苞 背券秦辑\n　窍疵狼 坷宏甫 靛府摆嚼聪促.
+
+
+			Window 3006075,next
+
+
+
+#\n\n　弊烦, 炼缴窍绞矫坷.
+
+			EndWindow 3006099,OK
+
+
+		Window_no
+
+			EndWindow 3006074,OK
+
+
+block Item 9200 >= 1 || Item 9201 >= 1 || Item 9202 >= 1 || Item 9203 >= 1 || Item 9204 >= 1 || Item 9205 >= 1 || Item 9206 >= 1 || Item 9207 >= 1 || Item 9208 >= 1 || Item 9209 >= 1 || Item 9210 >= 1 || Item 9211 >= 1 || Item 9212 >= 1 || Item 9213 >= 1 || Item 9214 >= 1 || Item 9215 >= 1 || Item 9216 >= 1 || Item 9217 >= 1 || Item 9218 >= 1 || Item 9219 >= 1 || Item 9220 >= 1 || Item 9221 >= 1 || Item 9222 >= 1 || Item 9223 >= 1 || Item 9224 >= 1 || Item 9225 >= 1 || Item 9226 >= 1 || Item 9227 >= 1 || Item 9228 >= 1 || Item 9229 >= 1 || Item 9230 >= 1 || Item 9231 >= 1 || Item 9232 >= 1 || Item 9233 >= 1 || Item 9234 >= 1 || Item 9235 >= 1 || Item 9236 >= 1 || Item 9237 >= 1 || Item 9238 >= 1 || Item 9239 >= 1 || Item 9240 >= 1
+
+
+
+
+
+
+		EndWindow 3006088,OK
+
+
+
+
+
+
+
+
+###########　lv1 to lv2　##############
+block Item 9300 >= 1 || Item 9310 >= 1 || Item 9320 >= 1 || Item 9330 >= 1
+
+
+#\n\n　寸脚篮 捞固\n　沥飞狼 刘钎甫 啊瘤绊 拌矫焙夸?\n　歹宽歹 沥飞狼 啊龋甫 官扼绞聪鳖?
+
+
+	Window 3006089,yes,no
+
+		Window_yes
+
+#\n\n　弊烦, 寸脚狼 坷宏客 背券秦辑\n　窍疵狼 坷宏甫 靛府摆嚼聪促.
+
+
+
+			Window 3006090,yes,no
+
+				Window_yes
+
+
+
+
+
+#\n\n　矫访狼 夸碍篮\n　瘤陛鳖瘤客 悼老钦聪促.
+
+					Window 3006091,next
+
+
+#\n\n　弊烦, 炼缴窍绞矫坷.
+
+
+					Window 3006078,OK
+
+						Window_ok
+
+					KillItem 9300,1
+					KillItem 9310,1
+					KillItem 9320,1
+					KillItem 9330,1
+
+					GiveItem 9341,1
+
+
+				Window_no
+
+#\n\n　弊犯嚼聪鳖.\n　沥飞脚篮, 攫力唱\n　寸脚阑 扁促府绊 乐嚼聪促.
+
+					EndWindow 3006074,OK
+
+		Window_no
+
+			EndWindow 3006074,OK
+
+
+###########　lv2 to lv3　##############
+block Item 9301 >= 1 || Item 9311 >= 1 || Item 9321 >= 1 || Item 9331 >= 1
+
+
+
+#\n\n　寸脚篮 捞固\n　沥飞狼 刘钎甫 啊瘤绊 拌矫焙夸?\n　歹宽歹 沥飞狼 啊龋甫 官扼绞聪鳖?
+
+
+	Window 3006089,yes,no
+
+		Window_yes
+
+#\n\n　弊烦, 寸脚狼 坷宏客 背券秦辑\n　窍疵狼 坷宏甫 靛府摆嚼聪促.
+
+
+
+			Window 3006090,yes,no
+
+				Window_yes
+
+
+
+
+#\n\n　矫访狼 夸碍篮\n　瘤陛鳖瘤客 悼老钦聪促.
+
+					Window 3006091,next
+
+
+#\n\n　弊烦, 炼缴窍绞矫坷.
+
+
+					Window 3006078,OK
+
+				window_ok
+				
+					KillItem 9301,1
+					KillItem 9311,1
+					KillItem 9321,1
+					KillItem 9331,1
+
+					GiveItem 9342,1
+
+
+
+				Window_no
+
+#\n\n　弊犯嚼聪鳖.\n　沥飞脚篮, 攫力唱\n　寸脚阑 扁促府绊 乐嚼聪促.
+
+					EndWindow 3006074,OK
+
+		Window_no
+
+			EndWindow 3006074,OK
+
+
+
+
+###########　lv3 to upper　##############
+
+block Item 9302 >= 1 || Item 9312 >= 1 || Item 9322 >= 1 || Item 9332 >= 1
+
+
+#\n\n　寸脚篮, 捞固 面盒茄 啊龋甫\n　沥飞脚俊霸辑 罐绊 乐嚼聪促.
+
+
+
+	Window 3006092,next
+
+#\n\n　泪矫 缴脚阑 啊扼旧洒绊,\n　货肺款 窜拌甫 措厚窍绰 巴捞 亮摆瘤夸.
+
+
+	EndWindow 3006093,OK
+
+
+###########　lv1 to upper　##############
+
+block
+
+#\n\n　沥飞狼 泅脚,『府·滚胶』狼 塞阑\n　官扼绞聪鳖?
+
+	Window 3006073,yes,no
+
+		Window_yes
+
+#\n\n　弊烦, 寸脚狼 农府胶呕苞 背券秦辑\n　窍疵狼 坷宏甫 靛府摆嚼聪促.
+
+
+			Window 3006075,yes,no
+
+				Window_yes
+
+
+
+
+
+#\n\n　捞 坷宏 绝捞绰\n　沥飞狼 康开俊绰 哎 荐 绝嚼聪促.
+
+					Window 3006076,next
+
+
+#\n\n　捞巴篮, 寸脚阑\n　沥飞狼 康开栏肺 捞掺绰 巴苞 窃簿\n　沥飞狼 矫访阑 肯荐窍脚 刘芭,\n　沥飞狼 刘钎甫 罐酒甸老 弊俯涝聪促.
+
+					Window 3006077,next
+
+
+#\n\n　弊烦, 炼缴窍绞矫坷.
+
+
+					Window 3006078,OK
+
+
+					Window_ok Item 9200 >= 1 || Item 9201 >= 1 || Item 9202 >= 1 || Item 9203 >= 1 || Item 9204 >= 1 || Item 9205 >= 1 || Item 9206 >= 1 || Item 9207 >= 1 || Item 9208 >= 1 || Item 9209 >= 1 || Item 9210 >= 1 || Item 9211 >= 1 || Item 9212 >= 1 || Item 9213 >= 1 || Item 9214 >= 1 || Item 9215 >= 1 || Item 9216 >= 1 || Item 9217 >= 1 || Item 9218 >= 1 || Item 9219 >= 1 || Item 9220 >= 1 || Item 9221 >= 1 || Item 9222 >= 1 || Item 9223 >= 1 || Item 9224 >= 1 || Item 9225 >= 1 || Item 9226 >= 1 || Item 9227 >= 1 || Item 9228 >= 1 || Item 9229 >= 1 || Item 9230 >= 1 || Item 9231 >= 1 || Item 9232 >= 1 || Item 9233 >= 1 || Item 9234 >= 1 || Item 9235 >= 1 || Item 9236 >= 1 || Item 9237 >= 1 || Item 9238 >= 1 || Item 9239 >= 1 || Item 9240 >= 1
+
+					ENDWindow 3006088
+
+					window_ok Itemspace <= 0
+					ENDWindow 3006099
+
+
+					Window_ok
+					GiveItem 9340,1
+
+
+				Window_no
+
+#\n\n　弊犯嚼聪鳖.\n　沥飞脚篮, 攫力唱\n　寸脚阑 扁促府绊 乐嚼聪促.
+
+					EndWindow 3006074,OK
+
+		Window_no
+
+			EndWindow 3006074,OK
+
+

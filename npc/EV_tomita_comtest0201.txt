@@ -1,0 +1,27 @@
+#酒捞袍 包访 脚 目盖靛 角氰　　ｂｙ　配固鸥
+#
+#　　　HItem狼 鼻
+
+###　PC窍唱俊 措秦辑 酒捞袍 鄂狼 酒捞袍父阑 犬牢钦聪促
+
+block
+	Window 6070001,OK
+
+		Window_OK HItem 12 >= 4
+			EndWindow 6070002
+
+		Window_OK HItem 12 == 3
+			EndWindow 6070003
+
+		Window_OK HItem 12 == 2
+			EndWindow 6070004
+
+		Window_OK Hitem 12 == 1
+			EndWindow 6070005
+
+		Window_OK
+			EndWindow 6070006
+
+
+
+

@@ -1,0 +1,22 @@
+#卡特主线任务   接任务NPC  01
+
+block ItemSpace < 2
+	EndWindow 10000
+
+
+############## 接任务 ##############
+block ItemSpace >= 2
+	Window 120199,NEXT
+	Window 120200,NEXT
+	Window 120201,NEXT
+	Window 120202,YES,NO
+	Window_NO
+	EndWindow 120205,OK
+	Window_YES
+	Window 120203,NEXT
+	GiveItem 652196,1
+	GiveItem 652197,1
+	Window 120204,OK
+	Window_OK
+        LeaveGroup
+	Warp 0,6781,81,82

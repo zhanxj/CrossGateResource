@@ -1,0 +1,5 @@
+#荐秦 凯捍狼 刀扁
+
+block XPos >= 368 && XPos <= 387 && YPos >= 63 && YPos <= 82
+	SetLp -1
+

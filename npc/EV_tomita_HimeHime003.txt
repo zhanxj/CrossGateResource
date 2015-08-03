@@ -1,0 +1,60 @@
+#扼捞靛 胶懦 裙垫 涅胶飘　　ｂｙ　配固鸥
+#
+#　　　宏坊促狼 鼻
+
+###　洒皋洒皋窜狼 烹青菩胶甫 家瘤
+block Item_607968 >= 1
+	EndWindow 6890001
+
+
+
+###　积魂拌捞绊 烹青菩胶甫 家瘤窍瘤 臼澜（１）
+block Job >= 200 && Job < 430
+	Window 6890002,NEXT
+	Window 6890003,OK
+
+		Window_OK Item_607968 >= 1
+			EndWindow 6890004
+
+		Window_OK ItemSpace >= 1
+			GiveItemEX 607968,1,"."
+
+		Window_OK
+			EndWindow 6890005
+
+
+
+###　积魂拌捞绊 烹青菩胶甫 家瘤窍瘤 臼澜（２）
+block Job >= 450 && Job < 480
+	Window 6890006,NEXT
+	Window 6890007,OK
+
+		Window_OK Item_607968 >= 1
+			EndWindow 6890008
+
+		Window_OK ItemSpace >= 1
+			GiveItemEX 607968,1,"."
+
+		Window_OK
+			EndWindow 6890009
+
+
+
+###　傈捧拌捞绊 烹青菩胶甫 家瘤窍瘤 臼澜
+block
+	Window 6890010,NEXT
+	Window 6890011,OK
+
+		Window_OK Item_607968 >= 1
+			EndWindow 6890012
+
+		Window_OK ItemSpace >= 1
+			GiveItemEX 607968,1,"."
+
+		Window_OK
+			EndWindow 6890013
+
+
+
+
+

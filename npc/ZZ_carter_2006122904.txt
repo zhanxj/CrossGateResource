@@ -1,0 +1,384 @@
+#卡特编写2006.12.05，QQ：88621517
+
+########## 当物品栏小于1个空位##
+block ItemSpace < 1
+	EndWindow 10000
+
+
+########## 6黄 ##########
+block Item652159 >= 10  && Gold == 400
+        KillItem 652159,10
+	GiveItem 13635,1
+	EndWindow 120167
+########## 7黄##########
+block Item652159 >= 20  && Gold == 401
+        KillItem 652159,20
+	GiveItem 13636,1
+	EndWindow 120167
+
+
+########## 6绿 ##########
+block Item652159 >= 10  && Gold == 300
+        KillItem 652159,10
+	GiveItem 13655,1
+	EndWindow 120167
+########## 7绿##########
+block Item652159 >= 20  && Gold == 301
+        KillItem 652159,20
+	GiveItem 13656,1
+	EndWindow 120167
+
+
+########## 6紫 ##########
+block Item652159 >= 15  && Gold == 200
+        KillItem 652159,15
+	GiveItem 13665,1
+	EndWindow 120167
+########## 7紫 ##########
+block Item652159 >= 30  && Gold == 201
+        KillItem 652159,30
+	GiveItem 13666,1
+	EndWindow 120167
+
+########## 6骑 ##########
+block Item652159 >= 20  && Gold == 100
+        KillItem 652159,20
+	GiveItem 13625,1
+	EndWindow 120167
+########## 7骑 ##########
+block Item652159 >= 50  && Gold == 101
+        KillItem 652159,50
+	GiveItem 13626,1
+	EndWindow 120167
+
+########## 1级 ##########
+block Item13600 >= 1  && Gold == 1
+        KillItem 13600,1
+	GiveItem 652159,1
+	EndWindow 120036
+
+block Item13610 >= 1  && Gold == 1
+        KillItem 13610,1
+	GiveItem 652159,1
+	EndWindow 120036
+
+block Item13620 >= 1  && Gold == 1
+        KillItem 13620,1
+	GiveItem 652159,1
+	EndWindow 120036
+
+block Item13630 >= 1  && Gold == 1
+        KillItem 13630,1
+	GiveItem 652159,1
+	EndWindow 120036
+
+block Item13640 >= 1  && Gold == 1
+        KillItem 13640,1
+	GiveItem 652159,1
+	EndWindow 120036
+
+block Item13650 >= 1  && Gold == 1
+        KillItem 13650,1
+	GiveItem 652159,1
+	EndWindow 120036
+
+block Item13660 >= 1  && Gold == 1
+        KillItem 13660,1
+	GiveItem 652159,1
+	EndWindow 120036
+
+block Item13670 >= 1  && Gold == 1
+        KillItem 13670,1
+	GiveItem 652159,1
+	EndWindow 120036
+
+########## 2级 ##########
+block Item13601 >= 1  && Gold == 2
+        KillItem 13601,1
+	GiveItem 652159,2
+	EndWindow 120036
+
+block Item13611 >= 1  && Gold == 2
+        KillItem 13611,1
+	GiveItem 652159,2
+	EndWindow 120036
+
+block Item13621 >= 1  && Gold == 2
+        KillItem 13621,1
+	GiveItem 652159,2
+	EndWindow 120036
+
+block Item13631 >= 1  && Gold == 2
+        KillItem 13631,1
+	GiveItem 652159,2
+	EndWindow 120036
+
+block Item13641 >= 1  && Gold == 2
+        KillItem 13641,1
+	GiveItem 652159,2
+	EndWindow 120036
+
+block Item13651 >= 1  && Gold == 2
+        KillItem 13651,1
+	GiveItem 652159,2
+	EndWindow 120036
+
+block Item13661 >= 1  && Gold == 2
+        KillItem 13661,1
+	GiveItem 652159,2
+	EndWindow 120036
+
+block Item13671 >= 1  && Gold == 2
+        KillItem 13671,1
+	GiveItem 652159,2
+	EndWindow 120036
+
+########## 3级 ##########
+block Item13602 >= 1  && Gold == 3
+        KillItem 13602,1
+	GiveItem 652159,3
+	EndWindow 120036
+
+block Item13612 >= 1  && Gold == 3
+        KillItem 13612,1
+	GiveItem 652159,3
+	EndWindow 120036
+
+block Item13622 >= 1  && Gold == 3
+        KillItem 13622,1
+	GiveItem 652159,3
+	EndWindow 120036
+
+block Item13632 >= 1  && Gold == 3
+        KillItem 13632,1
+	GiveItem 652159,3
+	EndWindow 120036
+
+block Item13642 >= 1  && Gold == 3
+        KillItem 13642,1
+	GiveItem 652159,3
+	EndWindow 120036
+
+block Item13652 >= 1  && Gold == 3
+        KillItem 13652,1
+	GiveItem 652159,3
+	EndWindow 120036
+
+block Item13662 >= 1  && Gold == 3
+        KillItem 13662,1
+	GiveItem 652159,3
+	EndWindow 120036
+
+block Item13672 >= 1  && Gold == 3
+        KillItem 13672,1
+	GiveItem 652159,3
+	EndWindow 120036
+
+########## 4级 ##########
+block Item13603 >= 1  && Gold == 4
+        KillItem 13603,1
+	GiveItem 652159,4
+	EndWindow 120036
+
+block Item13613 >= 1  && Gold == 4
+        KillItem 13613,1
+	GiveItem 652159,4
+	EndWindow 120036
+
+block Item13623 >= 1  && Gold == 4
+        KillItem 13623,1
+	GiveItem 652159,4
+	EndWindow 120036
+
+block Item13633 >= 1  && Gold == 4
+        KillItem 13633,1
+	GiveItem 652159,4
+	EndWindow 120036
+
+block Item13643 >= 1  && Gold == 4
+        KillItem 13643,1
+	GiveItem 652159,4
+	EndWindow 120036
+
+block Item13653 >= 1  && Gold == 4
+        KillItem 13653,1
+	GiveItem 652159,4
+	EndWindow 120036
+
+block Item13663 >= 1  && Gold == 4
+        KillItem 13663,1
+	GiveItem 652159,4
+	EndWindow 120036
+
+block Item13673 >= 1  && Gold == 4
+        KillItem 13673,1
+	GiveItem 652159,4
+	EndWindow 120036
+
+########## 5级 ##########
+block Item13604 >= 1  && Gold == 5
+        KillItem 13604,1
+	GiveItem 652159,5
+	EndWindow 120036
+
+block Item13614 >= 1  && Gold == 5
+        KillItem 13614,1
+	GiveItem 652159,5
+	EndWindow 120036
+
+block Item13624 >= 1  && Gold == 5
+        KillItem 13624,1
+	GiveItem 652159,5
+	EndWindow 120036
+
+block Item13634 >= 1  && Gold == 5
+        KillItem 13634,1
+	GiveItem 652159,5
+	EndWindow 120036
+
+block Item13644 >= 1  && Gold == 5
+        KillItem 13644,1
+	GiveItem 652159,5
+	EndWindow 120036
+
+block Item13654 >= 1  && Gold == 5
+        KillItem 13654,1
+	GiveItem 652159,5
+	EndWindow 120036
+
+block Item13664 >= 1  && Gold == 5
+        KillItem 13664,1
+	GiveItem 652159,5
+	EndWindow 120036
+
+block Item13674 >= 1  && Gold == 5
+        KillItem 13674,1
+	GiveItem 652159,5
+	EndWindow 120036
+
+########## 6级 ##########
+block Item13605 >= 1  && Gold == 6
+        KillItem 13605,1
+	GiveItem 652159,6
+	EndWindow 120036
+
+block Item13615 >= 1  && Gold == 6
+        KillItem 13615,1
+	GiveItem 652159,6
+	EndWindow 120036
+
+block Item13625 >= 1  && Gold == 6
+        KillItem 13625,1
+	GiveItem 652159,6
+	EndWindow 120036
+
+block Item13635 >= 1  && Gold == 6
+        KillItem 13635,1
+	GiveItem 652159,6
+	EndWindow 120036
+
+block Item13645 >= 1  && Gold == 6
+        KillItem 13645,1
+	GiveItem 652159,6
+	EndWindow 120036
+
+block Item13655 >= 1  && Gold == 6
+        KillItem 13655,1
+	GiveItem 652159,6
+	EndWindow 120036
+
+block Item13665 >= 1  && Gold == 6
+        KillItem 13665,1
+	GiveItem 652159,6
+	EndWindow 120036
+
+block Item13675 >= 1  && Gold == 6
+        KillItem 13675,1
+	GiveItem 652159,6
+	EndWindow 120036
+
+########## 7级 ##########
+block Item13606 >= 1  && Gold == 7
+        KillItem 13606,1
+	GiveItem 652159,8
+	EndWindow 120036
+
+block Item13616 >= 1  && Gold == 7
+        KillItem 13616,1
+	GiveItem 652159,8
+	EndWindow 120036
+
+block Item13626 >= 1  && Gold == 7
+        KillItem 13626,1
+	GiveItem 652159,8
+	EndWindow 120036
+
+block Item13636 >= 1  && Gold == 7
+        KillItem 13636,1
+	GiveItem 652159,8
+	EndWindow 120036
+
+block Item13646 >= 1  && Gold == 7
+        KillItem 13646,1
+	GiveItem 652159,8
+	EndWindow 120036
+
+block Item13656 >= 1  && Gold == 7
+        KillItem 13656,1
+	GiveItem 652159,8
+	EndWindow 120036
+
+block Item13666 >= 1  && Gold == 7
+        KillItem 13666,1
+	GiveItem 652159,8
+	EndWindow 120036
+
+block Item13676 >= 1  && Gold == 7
+        KillItem 13676,1
+	GiveItem 652159,8
+	EndWindow 120036
+
+
+########## 8级 ##########
+block Item13607 >= 1  && Gold == 8
+        KillItem 13607,1
+	GiveItem 652159,10
+	EndWindow 120036
+
+block Item13617 >= 1  && Gold == 8
+        KillItem 13617,1
+	GiveItem 652159,10
+	EndWindow 120036
+
+block Item13627 >= 1  && Gold == 8
+        KillItem 13627,1
+	GiveItem 652159,10
+	EndWindow 120036
+
+block Item13637 >= 1  && Gold == 8
+        KillItem 13637,1
+	GiveItem 652159,10
+	EndWindow 120036
+
+block Item13647 >= 1  && Gold == 8
+        KillItem 13647,1
+	GiveItem 652159,10
+	EndWindow 120036
+
+block Item13657 >= 1  && Gold == 8
+        KillItem 13657,1
+	GiveItem 652159,10
+	EndWindow 120036
+
+block Item13667 >= 1  && Gold == 8
+        KillItem 13667,1
+	GiveItem 652159,10
+	EndWindow 120036
+
+block Item13677 >= 1  && Gold == 8
+        KillItem 13677,1
+	GiveItem 652159,10
+	EndWindow 120036
+########## 等级不等于1 ##########
+block Level >= 1
+	EndWindow 120166

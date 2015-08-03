@@ -1,0 +1,42 @@
+硅 ＮＰＣ 抛胶飘
+#贸澜栏肺 炼扒捞 老摹茄 喉废阑 贸府茄促
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+########## 滚傈２啊 酒囱 版快 ##########
+#block TrialFlg < 5
+#	Window "寸脚篮 郴副 荐啊 绝嚼聪促.",OK
+#	Window_OK
+
+########## 硅(1)俊辑 郴副 荐 乐绰 版快 ##########
+block ShipCharDown1 == 1
+	#郴府摆嚼聪鳖?
+	Window 8990001,YES,NO
+
+	#匙肺 柳楼肺 郴副 荐 乐绰 版快
+	Window_YES ShipCharDown1 == 1
+		#硅俊辑 郴赴促
+		ShipCharDown1
+
+	#匙肺 郴副 荐 绝菌带 版快
+	Window_YES
+		#郴府瘤 给沁嚼聪促
+		Window 8990002,OK
+		Window_OK
+
+	#郴府瘤 臼绰促
+	Window_NO
+
+########## 硅(1)啊 菊栏肺 １盒 固父俊 涝亲窍绰 版快 ##########
+block ShipGetStopTime1 < 60
+	#梆 涝亲钦聪促
+	Window 8990003,OK
+	Window_OK
+
+########## 硅(1)俊辑 郴副 荐 绝绰 版快 ##########
+block
+	#？盒 饶俊 涝亲钦聪促
+	Window 8990004,OK
+	Window_OK
+
+

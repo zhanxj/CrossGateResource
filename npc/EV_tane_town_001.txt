@@ -1,0 +1,37 @@
+#副饭捞　篮青　厚辑
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+
+#######################
+
+block
+
+	endWindow 3002119
+
+
+#	Window 3002119,next
+
+
+
+#	Window 3002120,yes,no
+#		Window_yes
+
+#					Window 3002121,ok
+
+#					window_ok skilllevel 215 < 1 
+
+#					EndWindow "\n\n　绢扼,\n　炼府 胶懦阑\n　啊瘤绊 拌矫瘤 臼篮 巴 鞍焙夸."
+
+#					Window_ok
+
+#					Giverecipe 947
+
+
+
+#		Window_no
+
+#		EndWindow 3002122
+
+
+

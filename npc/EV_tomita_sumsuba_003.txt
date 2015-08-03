@@ -1,0 +1,71 @@
+#　荐犬力 带怜（备 咯抚规切 带怜：辑宏Ａ）　　ｂｙ　配固鸥
+#
+#　　　档付轨 荤成 疙牢狼 鼻
+
+###　官困 档付轨阑 家瘤
+
+block Item_607931 >= 1
+	EndWindow 8470001
+
+
+
+###　待阂 帮距阑 咯矾 俺 家瘤
+
+block Item_607934 >= 2
+	EndWindow 8470002
+
+
+
+###　待阂 帮距阑 １俺家瘤（涝荐饶１０盒 固父）
+
+block Item_607934 == 1 && ItemCreateTime_607934 < 10
+	EndWindow 8470003
+
+
+
+###　待阂 帮距阑 １俺家瘤（涝荐饶１０盒 捞惑 版苞）
+
+block Item_607934 == 1 && ItemCreateTime_607934 >= 10
+	Window 8470004,OK
+
+		Window_OK Item_607934 >= 2
+			EndWindow 8470005
+
+		Window_OK Item_607934 == 1 && ItemCreateTime_607934 < 10
+			EndWindow 8470006
+
+		Window_OK Item_607934 == 1 && ItemCreateTime_607934 >= 10 && ItemSpace >= 1
+			KillItemAll 607934
+			GiveItemEX 607931,1,"."
+
+		Window_OK ItemSpace >= 1
+			EndWindow 8470007
+
+		Window_OK
+			EndWindow 8470008
+
+
+
+###　官困 档付轨狼 馆 积备捞
+
+block Item_607932 >= 1
+	EndWindow 8470009
+
+
+
+###　疆 滴何甫 家瘤
+
+block Item_607933 >= 1
+	EndWindow 8470010
+
+
+
+###　惑扁 酒捞袍阑 家瘤窍瘤 臼澜
+
+block
+	EndWindow 8470011
+
+
+
+
+

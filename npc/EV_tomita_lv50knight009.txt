@@ -1,0 +1,58 @@
+#LV50国捞厘家 涅胶飘　　ｂｙ　配固鸥
+#
+#　　　扁荤 农贰橇飘狼 鼻
+
+###　赣唱刚 喊狼 馆瘤（607965）甫 家瘤
+block Item_607965 >= 1
+	GAWindow 7610001,NEXT
+	GAWindow 7610002,NEXT
+	GAWindow 7610003,OK
+
+		Window_OK Item_607965 >= 1
+			KillItemAll 607965,(3004831)
+			Encount 3|0,59715,192,18||0|||||0|305222|||||||||
+
+		Window_OK
+			GAWindow 7610004,OK
+
+
+
+###　八狼 格吧捞（607964）甫 家瘤
+block Item_607964 >= 1
+	GAWindow 7610005,NEXT
+	GAWindow 7610006,OK
+
+
+
+###　刀荐府 朝俺狼 迫骂（607963）甫 家瘤
+block Item_607963 >= 1
+	GAWindow 7610007,OK
+
+
+
+###　惑扁 酒捞袍阑 家瘤窍瘤 臼澜
+block
+	GAWindow 7610008,NEXT
+	GAWindow 7610009,YES,NO
+
+		Window_YES ItemSpace >= 1
+			GAWindow 7610010,OK
+
+				Window_OK ItemSpace >= 1
+					GiveItemEX 607963,1,"."
+
+				Window_OK
+					GAWindow 7610011,OK
+
+		Window_YES
+			GAWindow 7610012,OK
+
+		Window_NO
+			GAWindow 7610013,OK
+
+
+
+
+
+
+

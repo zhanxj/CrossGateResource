@@ -1,0 +1,10 @@
+block Job >= 200 && Job <= 367
+	KillItem 652229,1
+	GiveRecipe 24
+	GiveRecipe 21
+	GiveRecipe 20
+	GiveRecipe 25
+	GiveRecipe 26
+	GiveRecipe 23
+block
+	EndWindow 15872,OK

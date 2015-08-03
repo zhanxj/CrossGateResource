@@ -1,0 +1,85 @@
+#窍捞 饭骇侩 俺炼档 by 配固鸥
+#
+#　　　困捍狼 鼻
+
+###　某稠器甫 家瘤
+block Item_607724 >= 1
+
+	If Level < 60
+		Window "\n\n　弊 农扼款阑 磊扁 塞栏肺 涝荐沁唱?\n　弊犯瘤 臼促搁, 倒妨林绰 霸 亮酒.\n　蓖傍篮 绢掉 毫档 角仿何练捞匙.\n　弊贰档, 快府 楷捍厘 绕访阑 罐阑 刨啊?",YES,NO
+
+			Window_YES
+				Window "\n\n　公葛茄 急琶捞肺焙.\n　绢驴 荐 绝焙, 啊焊霸.",OK
+
+					Window_OK
+						LeaveGroup
+						Warp 0,59750,57,154
+						EndBlock
+
+			Window_NO
+				EndWindow "\n\n　泅疙茄 魄窜捞促."
+				EndBlock
+
+	else
+		Window "\n\n　庆靛 某稠阑 爱绊 乐促搁,\n　角仿篮 辆捞茄厘 瞒捞.\n　角仿磊绰 快措且 荐 观俊.\n　涝措刘 蜡公俊 惑包绝捞 甸绢坷霸.",OK
+
+			Window_OK
+				LeaveGroup
+				Warp 0,59750,57,154
+				EndBlock
+
+	endif
+
+
+
+###　侩捍何措 涝措刘阑 家瘤
+block Item_631002 >= 1
+
+	If Level < 60
+		Window "\n\n　侩捍何措 涝措刘篮 爱绊 乐绰 淀 茄单,\n　贾流洒 蓖傍篮 角仿何练捞具.\n　格见捞 酒滨瘤 臼唱?\n　弊贰档 绕访阑 罐摆绰啊?",YES,NO
+
+			Window_YES Item_631002 >= 1
+				Window "\n\n　阿坷沁促搁, 且 荐 绝瘤. 啊焊霸.",OK
+
+					Window_OK Item_631002 >= 1
+						KillItemAll 631002
+						LeaveGroup
+						Warp 0,59750,57,154
+						EndBlock
+
+					Window_OK
+						EndWindow "\n\n　澜, 涝措刘捞 绝垒酒.\n　甸绢哎 荐 绝绢."
+						EndBlock
+
+			Window_YES
+				EndWindow "\n\n　澜, 涝措刘捞 绝垒酒.\n　甸绢哎 荐 绝绢."
+				EndBlock
+
+			Window_NO
+				EndWindow "\n\n　笼沥包 唱府绰 酒公茄抛唱 涝措刘阑\n　唱床林绊 乐绰扒啊.\n　曼唱, 绢贸备聪啊 绝焙."
+				EndBlock
+
+	else
+		Window "\n\n　救狼 绕访篮 决拜窍瘤父, 弊吧 斑诞郴具\n　力措肺等 困捍捞促. 磊, 艾促坷霸!",OK
+
+			Window_OK Item_631002 >= 1
+				KillItemAll 631002
+				LeaveGroup
+				Warp 0,59750,57,154
+				EndBlock
+
+			Window_OK
+				EndWindow "\n\n　澜, 涝措刘捞 绝垒酒.\n　甸绢哎 荐 绝绢."
+				EndBlock
+
+	endif
+
+
+
+###惑扁 酒捞袍阑 阂家瘤
+block
+	EndWindow "\n\n　咯变 包拌磊 捞寇 免涝陛瘤促.\n　绢辑 波廉!!"
+
+
+
+

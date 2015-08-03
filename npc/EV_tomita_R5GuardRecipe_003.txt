@@ -1,0 +1,42 @@
+#　R5松恶レシピ芹邵?エスト　ｂｙ　哨拍
+#
+#　　　ジ〖ンの船
+
+###　解喀客で侯喇ス?ルレ?ルが５笆惧
+block JobAncestry == 340 && SkillLevel_214 >= 5
+	Window "\n\n　解喀客としての沸赋は浇尸なようね。\n　ぜひ、讳のウルリヒシ〖ルドの侯喇恕を\n　脖えていってほしいわ。\n　しっかり片の面に癸みこむのよ。",OK
+
+		Window_OK
+			GiveRecipe 864
+			LeaveGroup
+			Warp 0,59679,163,191
+
+
+
+###　解喀客で侯喇ス?ルレ?ルが５踏塔
+block JobAncestry == 340
+	Window "\n\n　讳の糠しい解について梦るには、ちょっと\n　沸赋稍颅みたいよ。\n　もっと寿动してから丸てちょうだい。",OK
+
+		Window_OK
+			LeaveGroup
+			Warp 0,59679,163,191
+
+
+
+###　解喀客でない
+block
+	Window "\n\n　解喀客じゃないわね。脱祸は貉んだの々",YES,NO
+
+		Window_YES
+			Window "\n\n　じゃ、翠舶の叫庚まで流るわ。バイバイ—",OK
+
+				Window_OK
+					LeaveGroup
+					Warp 0,59679,163,191
+
+		Window_NO
+			EndWindow "\n\n　じゃ、黎に脱祸を貉ませてきなさいよ。"
+
+
+
+

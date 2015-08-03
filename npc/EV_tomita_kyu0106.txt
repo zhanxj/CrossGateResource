@@ -1,0 +1,17 @@
+#抛胶飘 捞亥飘（钮胶抛 祈）　ｂｙ配固鸥　⑧001
+#
+#　　　俊馆胶狼 鼻
+
+###　富阑 吧绢吭阑 锭
+block
+	Window 7450001,YES,NO
+		Window_YES
+			Window 7450002,NEXT
+			EndWindow 7450003
+
+		Window_NO
+			EndWindow 7450004
+
+
+
+

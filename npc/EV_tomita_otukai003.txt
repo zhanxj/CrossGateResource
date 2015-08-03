@@ -1,0 +1,43 @@
+#『霉 缴何抚』　　ｂｙ　配固鸥
+#
+#　　　橇扼厚坷狼 鼻
+
+###　疙窃阑 咯矾 俺 家瘤
+
+block Item_607904 >= 2
+	EndWindow 7730001
+
+
+
+###　疙窃阑 家瘤
+
+block Item_607904 == 1
+
+	If StampCount_607904 == 0
+		EndWindow 7730002
+		EndBlock
+
+	else
+		If StampCount_607904 == 1
+			EndWindow 7730003
+			EndBlock
+
+		else
+			EndWindow 7730004
+			EndBlock
+
+		endif
+
+	endif
+
+
+
+###　疙窃阑 家瘤窍瘤 臼澜
+
+block
+	EndWindow 7730005
+
+
+
+
+

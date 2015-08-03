@@ -1,0 +1,15 @@
+#
+#归狼 扁撅（归狼 力窜）
+#
+
+##############  ##############
+block
+#\n\n\n\n@c　归狼 扁撅阑 荤侩窍摆嚼聪鳖?
+	Window 21241,YES,NO
+	Window_YES
+	KillItem 18766,1,(21246)
+	LeaveGroup
+	Warp 0,15540,24,24
+	Window_NO
+
+

@@ -1,0 +1,58 @@
+#　R5松恶レシピ芹邵?エスト　ｂｙ　哨拍
+#
+#　　　ハッシュの船
+
+###　ハリ〖?イラブを疥积
+block Item_607996 >= 1
+	EndWindow "\n\n　矾にはどこかで柴ったような丹がするなあ。\n　しかも、あまり紊い淡脖じゃなさそうだぞ。\n　そんな幅なことは蛔い叫したくないから、\n　羹こうへ乖ってくれないか々"
+
+
+
+###　ハリヤ?磅の克を疥积
+block Item_607995 >= 1
+
+	If Item_607995 >= 2
+		EndWindow "\n\n　矾は克が攻きなのかい々\n　たくさん积ってて烫球いものでもないと\n　蛔うけどねえ。"
+		EndBlock
+
+	else
+
+		If StampCount_607995 == 0
+			Window "\n\n　１霖に戎客がいて、そいつと里ったって々\n　∧∧もしかしてその戎客っていうのは、\n　こんな袍じゃなかったかい々",OK
+
+				Window_OK Item_607995 >= 2
+					EndWindow "\n\n　な〖んてね。鹃锰、鹃锰。"
+					EndBlock
+
+				Window_OK Item_607995 == 1 && StampCount_607995 == 0
+					LeaveGroup
+					AddStampCount 607995,+1
+					Encount 3|0,59680,99,209||0|||||0|306040|||||||||
+					EndBlock
+
+				Window_OK Item_607995 == 1 && StampCount_607995 >= 1
+					EndWindow "\n\n　な〖んてね。鹃锰、鹃锰。"
+					EndBlock
+
+				Window_OK
+					EndWindow "\n\n　な〖んてね。鹃锰、鹃锰。"
+					EndBlock
+
+		else
+
+			EndWindow "\n\n　矾にはどこかで柴ったような丹がするなあ。\n　しかも、あまり紊い淡脖じゃなさそうだぞ。\n　そんな幅なことは蛔い叫したくないから、\n　羹こうへ乖ってくれないか々"
+			EndBlock
+
+		endif
+
+	endif
+
+
+
+###　惧淡アイテ?を稍疥积
+block
+	EndWindow "\n\n　ここにいると、スティ〖ヴンスって客のことを\n　よく使かれるんだけど、铜叹な客なのかい々\n　いちいち批えるのに辱れちゃったから、\n　３霖にいるって、厂に弓めてくれないかな。"
+
+
+
+

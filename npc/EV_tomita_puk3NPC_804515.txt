@@ -1,0 +1,39 @@
+#PUK3栋甸解茄 NPC by 配固鸥
+#
+#　　　咯空狼 鼻
+
+###　侩捍何措 涝措刘阑 家瘤
+block Item_631002 >= 1
+	EndWindow "\n\n\n\n@cˇˇˇˇˇˇ。"
+
+
+
+###　[Enter]虐 涝仿
+block StrCmpChat == R
+	EndWindow "\n\n\n\n@cˇˇˇˇˇˇ。"
+
+
+
+###　鞠龋「蜡福弊」甫 涝仿
+block StrCmpChat == 3004895
+	Window "\n\n\n\n@cˇˇˇˇˇˇˇ—",OK
+
+		Window_OK Item_631002 >= 1
+			EndWindow "\n\n\n\n@cˇˇˇ々"
+
+		Window_OK ItemSpace >= 1
+			GiveItemEX 631002,1,"."
+
+		Window_OK
+			EndWindow "\n\n\n\n@cˇˇˇ々"
+
+
+
+###　惑扁 捞寇狼 版快
+block
+	EndWindow "\n\n\n\n@cˇˇˇˇˇˇ。"
+
+
+
+
+

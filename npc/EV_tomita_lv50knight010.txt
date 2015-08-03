@@ -1,0 +1,18 @@
+#LV50国捞厘家 涅胶飘　　ｂｙ　配固鸥
+#
+#　　　悼奔狼 荤成槽狼 鼻
+
+###　炼扒 绝澜
+block
+	GAWindow 7630001,NEXT
+	GAWindow 7630002,NEXT
+	GAWindow 7630003,NEXT
+	GAWindow 7630004,OK
+
+		Window_OK
+			Warp 0,59503,231,317
+
+
+
+
+

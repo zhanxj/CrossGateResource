@@ -1,0 +1,109 @@
+#卡特修改   QQ：88621517
+block EndEvent 125 == 1
+	EndWindow 120197,OK
+
+block Item652217 >= 1 && Gold >= 50000
+	Window 120224,OK
+	Window_OK
+	AddGold -50000
+	LeaveGroup
+	Warp 0,33114,26,38
+
+block Item652218 >= 1 && Gold >= 50000
+	Window 120224,OK
+	Window_OK
+	AddGold -50000
+	LeaveGroup
+	Warp 0,33114,26,38
+
+block Item652219 >= 1 && Gold >= 50000
+	Window 120224,OK
+	Window_OK
+	AddGold -50000
+	LeaveGroup
+	Warp 0,33114,26,38
+
+block Item652220 >= 1 && Gold >= 50000
+	Window 120224,OK
+	Window_OK
+	AddGold -50000
+	LeaveGroup
+	Warp 0,33114,26,38
+
+block Item652221 >= 1 && Gold >= 50000
+	Window 120224,OK
+	Window_OK
+	AddGold -50000
+	LeaveGroup
+	Warp 0,33114,26,38
+
+block Item652222 >= 1 && Gold >= 50000
+	Window 120224,OK
+	Window_OK
+	AddGold -50000
+	LeaveGroup
+	Warp 0,33114,26,38
+
+block Item652223 >= 1 && Gold >= 50000
+	Window 120224,OK
+	Window_OK
+	AddGold -50000
+	LeaveGroup
+	Warp 0,33114,26,38
+
+block Item652224 >= 1 && Gold >= 50000
+	Window 120224,OK
+	Window_OK
+	AddGold -50000
+	LeaveGroup
+	Warp 0,33114,26,38
+
+block Item652225 >= 1 && Gold >= 50000
+	Window 120224,OK
+	Window_OK
+	AddGold -50000
+	LeaveGroup
+	Warp 0,33114,26,38
+
+block Item652226 >= 1 && Gold >= 50000
+	Window 120224,OK
+	Window_OK
+	AddGold -50000
+	LeaveGroup
+	Warp 0,33114,26,38
+
+block	Job == 434 &&  Gold >= 300000
+	AddGold -300000
+	Warp 0,33114,26,38
+
+block	Job == 444 &&  Gold >= 300000
+	AddGold -300000
+	Warp 0,33114,26,38
+
+block	Job == 434
+	EndWindow 120198
+
+block	Job == 444
+	EndWindow 120198
+
+block Item16378 >= 5 && Item16379 >= 5 && Item652195 >= 1
+	KillItem 16378,5
+	KillItem 16379,5
+	LeaveGroup
+	Warp 0,33114,26,38
+
+block Item16378 >= 5 && Item16379 >= 5 && Item18596 >= 1
+	KillItem 16378,5
+	KillItem 16379,5
+	KillItem 18596,5
+	GiveItem 652195,1
+	LeaveGroup
+	Warp 0,33114,26,38
+
+########## 结婚对话 ##########
+block ItemSpace >= 0
+	Window 120185,YES,NO
+	Window_YES
+	EndWindow 120186
+	Window_NO
+	EndWindow 120187

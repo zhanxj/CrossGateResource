@@ -1,0 +1,91 @@
+#副饭捞　窍福付　6狼 荤恩
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+
+
+
+###########　副饭捞 吝　##############
+
+block Item 14630 >=1 && Item 14636 >=1 && ItemCreateTime 14630 > 10
+
+#\n\n　绢扼扼, 国结 踌酒滚啡匙ˇˇ
+
+	KillItemall 14630
+	KillItemall 14636
+
+	EndWindow 3006160
+
+
+
+
+block Item 14630 >=1 && Item 14636 >=1 && ItemCreateTime 14630 <= 10
+
+
+	Window 3006151,next
+
+	Window 3006152,next
+
+	Window 3006153,next
+
+	Window 3006154,next
+
+	Window 3006155,next
+
+
+	Window 3006156,ok
+
+	Window_ok
+
+	KillItemall 14636
+	GiveItem 14637,1
+
+#\n\n　亮酒, ＯＫ!\n　促澜, ２龋肺 辑笛矾~
+
+
+
+
+block Item 14630 >=1
+
+#\n\n　酒~撇妨~\n　唱绰 霉锅掳!!
+
+	Window 3006157,next
+
+	Window 3006158,next
+
+
+	EndWindow 3006159
+
+
+###########　骂扼矫 乐澜　##############
+
+block Item 14639 >= 1
+
+#\n\n　匙匙,\n　副饭捞 攫聪１龋抗夸.
+
+
+
+		EndWindow 3006150,OK
+
+###########　骂扼矫 绝澜　##############
+
+block
+
+#\n\n　辨靛俊 甸绢啊 乐绢?\n　捞 霸烙 救 秦杭贰?\n　沥农飘·窍福付狼 盒荐 菊俊辑\n　立荐甫 罐绊乐绢
+
+		Window 3006148,next
+
+		Window 3006149,OK
+
+	Window_ok Item 14639 <= 0
+
+	GiveItem 14639,1
+	
+	Window_ok Item 14639 >= 1
+
+	endWindow 3006991
+
+
+
+
+

@@ -1,0 +1,91 @@
+
+
+
+block LocalCount2 == 10
+
+	Window 5130001,next
+
+	Window 5130002,next
+
+	Window 5130003,ok
+
+		Window_ok
+
+			CheckTitle
+
+block
+
+
+
+
+
+
+			if LocalCount0 == 5
+
+				LocalCount0 = random 2,0
+
+				if LocalCount0 == 1
+
+					LocalCount0 = 5
+
+
+#					Window "\n\n　酒抚翠焙, 览.",next
+					Window 3006933,next
+
+
+#					EndWindow "\n\n　弊扒\n　酒抚促奎绢."
+					EndWindow 3006934
+
+
+
+
+				else
+					LocalCount0 = 5
+
+
+#					Window "\n\n　催狼厘钱捞 捞浇阑 何弗促\n　阜 乔绢抄, 绊款 酒魔狼 采捞.",next
+					Window 3006935,next
+
+
+#					EndWindow "\n\n　窍瘤父 捞 付阑俊辑绰,\n　催狼厘钱阑 颊俊 持阑 荐 绝焙夸ˇˇ"
+					EndWindow 3006936
+
+
+
+				endif
+
+
+
+			else
+
+					LocalCount0 = 5
+
+
+#				Window "\n\n　唱绰\n　咯扁辑 券惑 鞍篮\n　捞浇狼 促府甫 夯 利捞 乐绢夸.",next
+				Window 3006937,next
+
+#				Window "\n\n　阜 乔绢抄\n　绊款 催狼厘钱捞\n　阜 郴赴 捞浇阑 葛酒辑ˇˇ",next
+				Window 3006938,next
+
+
+#				EndWindow "\n\n　酒魔寝混俊 馆娄馆娄\n　公瘤俺贸烦 蝴唱绰\n　厕贸烦 酒抚促款ˇˇ"
+				EndWindow 3006939
+
+
+
+
+			endif
+
+
+
+
+
+
+
+
+
+
+
+
+
+

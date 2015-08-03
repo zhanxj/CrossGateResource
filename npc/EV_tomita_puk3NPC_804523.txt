@@ -1,0 +1,24 @@
+#PUK3 栋甸解茄 NPC　　ｂｙ　配固鸥
+#
+#　　　惑牢 咙狼 鼻
+
+###
+
+block
+
+	LocalCount4 = Random 2,0
+
+	If LocalCount4 == 1
+		EndWindow 7960001
+		EndBlock
+
+	else
+		EndWindow 7960002
+		EndBlock
+
+	endif
+
+
+
+
+

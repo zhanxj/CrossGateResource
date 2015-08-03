@@ -1,0 +1,23 @@
+#「钮胶抛 付阑」硅摹 NPC　ｂｙ配固鸥　⑧001
+#
+#　　　怪芭胶狼 鼻
+
+###　富阑 吧绢吭阑 锭
+
+block
+
+	LocalCount0 = Random 2,0
+
+	If LocalCount0 == 1
+		EndWindow 7420001
+		EndBlock
+
+	else
+		EndWindow 7420002
+		EndBlock
+
+	endif
+
+
+
+

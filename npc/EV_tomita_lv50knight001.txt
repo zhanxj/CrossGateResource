@@ -1,0 +1,107 @@
+#LV50国捞厘家 涅胶飘　　ｂｙ　配固鸥
+#
+#　　　悼奔狼 荤成槽狼 鼻
+
+###　敲饭捞绢狼 饭骇捞 50捞惑
+block Level >= 50
+
+#　饭骇70捞惑
+	If Level >= 70
+		Window 7500001,YES,NO
+
+			Window_YES Gold >= 2000
+				Window 7500002,OK
+
+					Window_OK Gold >= 2000
+						AddGold -2000
+						LeaveGroup
+						Warp 0,59715,297,215
+						EndBlock
+
+					Window_OK
+						EndWindow 7500003
+						EndBlock
+
+			Window_YES
+				EndWindow 7500004
+				EndBlock
+
+			Window_NO
+				EndWindow 7500005
+				EndBlock
+
+#　饭骇60~69
+	else
+		If Level >= 60
+			Window 7500006,YES,NO
+
+				Window_YES Gold >= 700
+					Window 7500007,OK
+
+						Window_OK Gold >= 700
+							AddGold -700
+							LeaveGroup
+							Warp 0,59715,297,215
+							EndBlock
+
+						Window_OK
+							EndWindow 7500008
+							EndBlock
+
+				Window_YES
+					EndWindow 7500009
+					EndBlock
+
+				Window_NO
+					EndWindow 7500010
+					EndBlock
+
+#　饭骇50~59
+		else
+			Window 7500011,YES,NO
+
+				Window_YES Gold >= 500
+					Window 7500012,OK
+
+						Window_OK Gold >= 500
+							AddGold -500
+							LeaveGroup
+							Warp 0,59715,297,215
+							EndBlock
+
+						Window_OK
+							EndWindow 7500013
+							EndBlock
+
+				Window_YES
+					EndWindow 7500014
+					EndBlock
+
+				Window_NO
+					EndWindow 7500015
+					EndBlock
+
+		endif
+
+	endif
+
+
+
+###　敲饭捞绢狼 饭骇捞 50固父
+block
+	Window 7500016,YES,NO
+
+		Window_YES
+			Window 7500017,OK
+
+				Window_OK
+					LeaveGroup
+					Warp 0,59715,301,220
+
+		Window_NO
+			EndWindow 7500018
+
+
+
+
+

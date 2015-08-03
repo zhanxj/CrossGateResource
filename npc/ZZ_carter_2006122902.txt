@@ -1,0 +1,13 @@
+#卡特编写2006.12.30，QQ：88621517
+
+
+########## 制作说明 ##########
+block ItemSpace >= 1
+        Window 120172,NEXT
+	Window 120173,NEXT
+	EndWindow 120174
+
+	
+
+
+

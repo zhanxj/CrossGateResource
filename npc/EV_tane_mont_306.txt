@@ -1,0 +1,69 @@
+
+
+block
+
+
+
+
+
+
+			if LocalCount4 == 5
+
+				LocalCount4 = random 2,0
+
+				if LocalCount4 == 1
+
+			LocalCount4 = 5
+
+
+#					EndWindow "\n\n　唱, 魂狼 版摹甫 官扼焊绰 吧 亮酒秦.\n　窍风 辆老, 拌~~加."
+					EndWindow 3006960
+
+
+					LocalCount0 = 4
+
+
+
+				else
+
+			LocalCount4 = 5
+
+
+
+
+#					EndWindow "\n\n　唱, 魂俊辑 荤绰 霸 亮酒.\n　钙林捍捞扁档 窍备."
+					EndWindow 3006961
+
+
+
+
+				endif
+
+
+
+			else
+
+
+			LocalCount4 = 5
+
+#				EndWindow "\n\n　糠 魂 困俊\n　啊~阐 碍且 巴 鞍篮 荤恩捞 乐绢."
+				EndWindow 3007006
+
+
+	
+
+			endif
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,170 @@
+#扼捞靛 胶懦 裙垫 捞亥飘　　ｂｙ　配固鸥
+#
+#　　　窍府具付 背包（累篮 规）狼 鼻
+
+###　扼捞靛 背嚼何甫 咯矾 俺 家瘤
+block Item_607969 > 1
+	Window 7660001,OK
+
+		Window_OK
+			LeaveGroup
+			Warp 0,59526,184,132
+
+
+
+###　扼捞靛 背嚼何甫 １烹 家瘤窍绊, 胶牌橇啊『13』
+block Item_607969 == 1 && StampCount_607969 == 13
+
+	If Item_9431 >= 1
+		Window 7660002,NEXT
+		Window 7660003,NEXT
+		Window 7660004,OK
+
+			Window_OK Item_607969 > 1
+				EndWindow 7660005
+				EndBlock
+
+			Window_OK Item_607969 == 1 && StampCount_607969 == 13 && Item_9431 >= 1
+				AddStampCount 607969,+1
+				LeaveGroup
+				Warp 0,59526,181,83
+				EndBlock
+
+			Window_OK Item_607969 == 1 && StampCount_607969 == 13
+				EndWindow 7660006
+				EndBlock
+
+			Window_OK Item_607969 == 1
+				EndWindow 7660007
+				EndBlock
+
+			Window_OK
+				EndWindow 7660008
+				EndBlock
+
+	else
+		If Item_9421 >= 1
+			Window 7660009,NEXT
+			Window 7660010,NEXT
+			Window 7660011,OK
+
+				Window_OK Item_607969 > 1
+					EndWindow 7660012
+					EndBlock
+
+				Window_OK Item_607969 == 1 && StampCount_607969 == 13 && Item_9421 >= 1
+					AddStampCount 607969,+1
+					LeaveGroup
+					Warp 0,59526,181,83
+					EndBlock
+
+				Window_OK Item_607969 == 1 && StampCount_607969 == 13
+					EndWindow 7660013
+					EndBlock
+
+				Window_OK Item_607969 == 1
+					EndWindow 7660014
+					EndBlock
+
+				Window_OK
+					EndWindow 7660015
+					EndBlock
+
+		else
+			If Item_9411 >= 1
+				Window 7660016,NEXT
+				Window 7660017,NEXT
+				Window 7660018,OK
+
+					Window_OK Item_607969 > 1
+						EndWindow 7660019
+						EndBlock
+
+					Window_OK Item_607969 == 1 && StampCount_607969 == 13 && Item_9411 >= 1
+						AddStampCount 607969,+1
+						LeaveGroup
+						Warp 0,59526,181,83
+						EndBlock
+
+					Window_OK Item_607969 == 1 && StampCount_607969 == 13
+						EndWindow 7660020
+						EndBlock
+
+					Window_OK Item_607969 == 1
+						EndWindow 7660021
+						EndBlock
+
+					Window_OK
+						EndWindow 7660022
+						EndBlock
+
+			else
+				If Item_9401 >= 1
+					Window 7660023,NEXT
+					Window 7660024,NEXT
+					Window 7660025,OK
+
+						Window_OK Item_607969 > 1
+							EndWindow 7660026
+							EndBlock
+
+						Window_OK Item_607969 == 1 && StampCount_607969 == 13 && Item_9401 >= 1
+							AddStampCount 607969,+1
+							LeaveGroup
+							Warp 0,59526,181,83
+							EndBlock
+
+						Window_OK Item_607969 == 1 && StampCount_607969 == 13
+							EndWindow 7660027
+							EndBlock
+
+						Window_OK Item_607969 == 1
+							EndWindow 7660028
+							EndBlock
+
+						Window_OK
+							EndWindow 7660029
+							EndBlock
+
+					else
+						Window 7660030,OK
+
+							Window_OK
+								LeaveGroup
+								Warp 0,59526,184,132
+								EndBlock
+
+					endif
+
+				endif
+
+			endif
+
+		endif
+
+	endif
+
+
+
+###　扼捞靛 背嚼何甫 １烹 家瘤窍绊, 胶牌橇啊 惑扁 捞寇
+block Item_607969 == 1
+	Window "\n\n　栏澜, 呈绰 荐丰八沥狼 荐氰积捞垒酒.\n　咯扁绰 包拌磊 捞寇 免涝陛瘤促.\n　倒酒啊!!",OK
+
+		Window_OK
+			LeaveGroup
+			Warp 0,59526,184,132
+
+
+
+###　惑扁 酒捞袍阑 家瘤窍瘤 臼澜
+block
+	Window 7660031,OK
+
+		Window_OK
+			LeaveGroup
+			Warp 0,59526,184,132
+
+
+
+
+

@@ -1,0 +1,25 @@
+#卡特编写2006.12.05，QQ：88621517
+
+########## 当有道具圣诞袜的时候##
+block Item652202 >= 1
+	EndWindow 120145
+block Item652203 >= 1
+	EndWindow 120145
+block Item652204 >= 1
+	EndWindow 120145
+
+########## 当道具栏小于1个空位##
+block ItemSpace == 0
+	EndWindow 10000
+
+########## 当栏小于1个空位##
+block Level >= 95
+	GiveItem 652202,1
+
+block Level >= 65
+	GiveItem 652203,1
+
+block Level < 65
+	GiveItem 652204,1
+
+

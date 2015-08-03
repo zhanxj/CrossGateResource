@@ -1,0 +1,31 @@
+#　泪 给 靛绰 剑 加狼 固赤　　ｂｙ　配固鸥
+#
+#　　　畴颇狼 鼻
+
+###　罚待狼 措荤
+
+block
+
+	LocalCount1 = Random 3,0
+
+	If LocalCount1 == 1
+		EndWindow 6870001
+		EndBlock
+
+	else
+		If LocalCount1 == 2
+			EndWindow 6870002
+			EndBlock
+
+		else
+
+			EndWindow 6870003
+			EndBlock
+
+		endif
+
+	endif
+
+
+
+

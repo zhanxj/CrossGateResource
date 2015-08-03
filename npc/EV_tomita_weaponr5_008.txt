@@ -1,0 +1,104 @@
+#　籍角狼 磨泅　　ｂｙ　配固鸥
+#
+#　　　臂沸狼 鼻
+
+###　瘤莆捞流牢捞绊 瘤莆捞累己 胶懦饭骇捞 ５捞惑
+
+block JobAncestry == 240 && SkillLevel_204 >= 5
+
+
+#　颇鄂 戎浇阑 家瘤
+	If Item_607951 >= 1
+		EndWindow 8710001
+		EndBlock
+
+
+#　郴拳痢配客 荐蜡唱公（２０俺）甫 家瘤
+	else
+
+		If Item_607948 >= 1 && Item_10100 >= 20
+			Window 8710002,NEXT
+			Window 8710003,OK
+
+				Window_OK Item_607948 >= 1 && Item_10100 >= 20 && ItemSpace >= 1
+					KillItemAll 607948
+					KillItem 10100,20
+					GiveItemEX 607951,1,"."
+					EndBlock
+
+				Window_OK Item_607948 >= 1 && Item_10100 >= 20
+					EndWindow 8710004
+					EndBlock
+
+				Window_OK Item_607948 >= 1
+					EndWindow 8710005
+					EndBlock
+
+				Window_OK
+					EndWindow 8710006
+					EndBlock
+
+
+#　郴拳痢配绰 家瘤窍绊 乐瘤父, 荐蜡唱公啊 何练
+		else
+
+			If Item_607948 >= 1
+				EndWindow 8710007
+				EndBlock
+
+
+#　林巩辑甫 家瘤
+			else
+
+				If Item_607942 >= 1
+					EndWindow 8710008
+					EndBlock
+
+
+#　惑扁 酒捞袍阑 家瘤窍绊 乐瘤 臼澜
+				else
+					Window 8710009,YES,NO
+
+						Window_YES
+							Window 8710010,NEXT
+							Window 8710011,OK
+
+								Window_OK ItemSpace >= 1
+									GiveItemEX 607942,1,"."
+									EndBlock
+
+								Window_OK
+									EndWindow 8710012
+									EndBlock
+
+						Window_NO
+							EndWindow 8710013
+							EndBlock
+
+
+				endif
+
+			endif
+
+		endif
+
+	endif
+
+
+
+###　瘤莆捞流牢捞瘤父 瘤莆捞累己 胶懦饭骇捞 ５固父
+
+block JobAncestry == 240
+	EndWindow 8710014
+
+
+
+###　瘤莆捞流牢捞 酒聪促
+
+block
+	EndWindow 8710015
+
+
+
+
+

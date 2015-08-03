@@ -1,0 +1,19 @@
+
+block
+
+
+
+
+#	Window "\n\n　惑鞭流 付胶磐狼 歹固涝聪促.",next
+	Window 3006996,next
+
+
+#	Window "\n\n　窍拌肺 倒酒啊摆嚼聪鳖?",ok
+	Window 3006997,ok
+
+
+	Window_ok
+
+		warp 0,59503,147,125
+
+

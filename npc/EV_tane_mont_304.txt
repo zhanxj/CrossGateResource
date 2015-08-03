@@ -1,0 +1,77 @@
+
+
+block
+
+
+
+
+
+
+			if LocalCount20 == 5
+
+				LocalCount20 = random 1,0
+
+				if LocalCount20 == 1
+					LocalCount20 = 5
+
+
+#					Window "\n\n　咯扁 付拱甸俊霸绰\n　快府甸捞 肋 鸥捞福绊 乐瘤父\n　规缴篮 陛拱捞促.",next
+					Window 3006947,next
+
+
+#					EndWindow "\n\n　赤籍甸篮 绢叼鳖瘤唱 『傈捧侩』捞聪鳖.\n　ˇˇ阂街茄 赤籍甸捞具."
+					EndWindow 3006948
+
+
+
+
+				else
+
+					LocalCount20 = 5
+
+#					Window "\n\n　脚篮, 付拱捞唱 快府甸阑\n　啊罕霸 父甸绢郴瘤父 富捞瘤.",next
+					Window 3006949,next
+
+
+#					EndWindow "\n\n　父甸绢瘤绰 率篮, 弊 唱抚措肺\n　决没 塞甸绢."
+					EndWindow 3006950
+
+					LocalCount0 = 5
+
+
+				endif
+
+
+
+			else
+					LocalCount20 = 5
+
+#				Window "\n\n　捞 付阑俊 乐绰 付拱篮\n　公辑况窍瘤 臼酒档 蹬.",next
+				Window 3006951,next
+
+
+#				Window "\n\n　赤籍甸篮, 林牢阑 肋给 父抄 巴 挥捞具.",next
+				Window 3006953,next
+
+#				EndWindow "\n\n　咯扁辑 快府甸俊霸 虐况瘤绰 赤籍甸篮 唱篮 祈捞瘤."
+				EndWindow 3007003
+
+
+				LocalCount20 = 5
+
+
+			endif
+
+
+
+
+
+
+
+
+
+
+
+
+
+

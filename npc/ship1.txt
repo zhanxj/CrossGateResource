@@ -1,0 +1,36 @@
+#亲备 ＮＰＣ 抛胶飘
+#贸澜栏肺 炼扒捞 老摹茄 喉废阑 贸府茄促
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+########## 滚傈２啊 酒囱 版快 ##########
+#block TrialFlg < 5
+#	Window "寸脚篮 呕 荐啊 绝嚼聪促.",OK
+#	Window_OK
+
+########## 硅(1)啊 亲备(10)俊 乐绰 版快 ##########
+block ShipCharTake1,10 == 1
+	#鸥摆嚼聪鳖?
+	Window 9000001,YES,NO
+
+	#匙肺 柳楼肺 呕 荐 乐绰 版快
+	Window_YES ShipCharTake1,10 == 1
+		#硅俊 藕促
+		ShipCharTake1,10
+
+	#匙肺 呕 荐 绝菌带 版快
+	Window_YES
+		#鸥扁俊 词菌嚼聪促
+		Window 9000002,OK
+		Window_OK
+
+	#鸥瘤 臼绰促
+	Window_NO
+
+########## 硅(1)啊 亲备(10)俊 绝绰 版快 ##########
+block
+	#？盒 饶俊 涝亲钦聪促
+	Window 9000003,OK
+	Window_OK
+
+

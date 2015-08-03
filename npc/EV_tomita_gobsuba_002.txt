@@ -1,0 +1,54 @@
+#绊喉赴狼 夸货　　ｂｙ　配固鸥
+#
+#　　　具胶狼 鼻
+
+###　漂喊快措菩胶Ａ甫 家瘤
+block Item_607915 >= 1
+	EndWindow 6300001
+
+
+
+###　绊喉赴 辑器磐 刘疙辑甫 家瘤
+block Item_607914 >= 1
+	EndWindow 6300002
+
+
+
+###　绊喉赴 何利阑 家瘤
+block Item_607913 >= 1
+	EndWindow 6300003
+
+
+
+###　乔扁酒 捞寇狼 急拱阑 家瘤
+block Item_607908 >= 1 || Item_607909 >= 1 || Item_607910 >= 1 || Item_607911 >= 1 || Item_607912 >= 1
+	EndWindow 6300004
+
+
+
+###　辟公乞啊钎甫 家瘤
+block Item_607907 >= 1
+	EndWindow 6300005
+
+
+
+###　漂喊快措菩胶Ｂ甫 家瘤
+block Item_607916 >= 1
+	EndWindow 6300006
+
+
+
+###　快措涝厘鼻阑 家瘤
+block Item_607917 >= 1
+	EndWindow 6300007
+
+
+
+###　惑扁 酒捞袍阑 家瘤窍瘤 臼澜
+block
+	EndWindow 6300008
+
+
+
+
+

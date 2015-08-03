@@ -1,0 +1,112 @@
+#　R5松恶レシピ芹邵?エスト　ｂｙ　哨拍
+#
+#　　　ジェケル∈图数ˇ屉∷の船
+
+###　ハリヤ?磅の克あるいはハリ〖?イラブを疥积
+block Item_607995 >= 1 || Item_607996 >= 1
+	EndWindow "\n\n　戎客ハリヤ?镍刨の袍に尽ったからって、\n　いい丹になるなよ。\n　これ斧よがしに动さをひけらかすなんて、\n　镍刨の你い袍がすることだからな。"
+
+
+
+###　松恶喀客の沮を疥积
+block Item_631000 >= 1
+	EndWindow "\n\n　松恶喀客の沮だと々\n　畔すのはハリヤ?だろ。しっかりしろよ—"
+
+
+
+###　肩骄の?ワシを疥积
+block Item_607997 >= 1
+
+#　喀客の沮侯喇恶姑、喀客の沮侯喇恶驳の尉数を疥积
+	IF Item_607998 >= 1 && Item_607999 >= 1
+		EndWindow "\n\n　苹恶は路ってるんだろ。\n　玲くスティ〖ヴンスんとこへ乖ったらどうだ。"
+		EndBlock
+
+#　喀客の沮侯喇恶姑を疥积
+	else
+		If Item_607998 >= 1
+			EndWindow "\n\n　うるさいなあ、さっさとハイデルのところへ\n　乖っちまえ——"
+			EndBlock
+
+#　喀客の沮侯喇恶驳とぐみの腾∈10塑笆惧∷を疥积
+		else
+			If Item_607999 >= 1 && Item_10100 >= 10
+				Window "\n\n　积ってきたか々\n　∧磊り庚が花ッ—　霓とぎで缠叉をするだろ。\n　まあ、あんたじゃこの镍刨か。\n　苹恶は畔すけど、いい丹になるなよ。",OK
+
+					Window_OK Item_607998 >= 1
+						EndWindow "\n\n　おい、もう积ってるじゃないか。\n　窍集にするな——"
+						EndBlock
+
+					Window_OK Item_607997 >= 1 && Item_10100 >= 10 && ItemSpace >= 1
+						KillItem 10100,10
+						GiveItemEX 607998,1,"\n\n　おい、操湿がいっぱいじゃないか。\n　窍集にするな——"
+						EndBlock
+
+					Window_OK Item_607997 >= 1 && Item_10100 >= 10
+						EndWindow "\n\n　おい、操湿がいっぱいじゃないか。\n　窍集にするな——"
+						EndBlock
+
+					Window_OK Item_10100 >= 10
+						EndWindow "\n\n　おい、肩骄の?ワシがないぞ。积ってない袍は慨脱できん——"
+						EndBlock
+
+					Window_OK
+						EndWindow "\n\n　おい、ぐみの腾が颅りないじゃないか。窍集にするな——"
+						EndBlock
+
+#　喀客の沮侯喇恶驳を疥积
+			else
+				If Item_607999 >= 1
+					EndWindow "\n\n　お涟、黎にハイデルのところへ乖ったな。\n　部でこっちが稿搀しなんだ—　窍集にするな—\n　瘸として、ぐみの腾を１０塑积って丸い。\n　でないと苹恶は畔さないぞ。さっさと乖け——"
+					EndBlock
+
+#　喀客の沮侯喇恶を稍疥积でぐみの腾∈５塑笆惧∷を疥积
+				else
+					If Item_10100 >= 5
+						Window "\n\n　积ってきたか々　∧おい、剂が碍いな。\n　まあいい、苞き仑えに苹恶を畔してやるよ。\n　炊颊しろよ。",OK
+
+							Window_OK Item_607998 >= 1
+								EndWindow "\n\n　おい、もう积ってるじゃないか。\n　窍集にするな——"
+								EndBlock
+
+							Window_OK Item_607997 >= 1 && Item_10100 >= 5 && ItemSpace >= 1
+								KillItem 10100,5
+								GiveItemEX 607998,1,"\n\n　おい、操湿がいっぱいじゃないか。\n　窍集にするな——"
+								EndBlock
+
+							Window_OK Item_607997 >= 1 && Item_10100 >= 5
+								EndWindow "\n\n　おい、操湿がいっぱいじゃないか。\n　窍集にするな——"
+								EndBlock
+
+							Window_OK Item_10100 >= 5
+								EndWindow "\n\n　おい、肩骄の?ワシがないぞ。\n　积ってない袍は慨脱できん——"
+								EndBlock
+
+							Window_OK
+								EndWindow "\n\n　おい、ぐみの腾が颅りないじゃないか。\n　窍集にするな——"
+								EndBlock
+
+#　喀客の侯喇恶を稍疥积でぐみの腾が５塑踏塔
+					else
+						EndWindow "\n\n　松恶喀客の沮を侯るための苹恶がほしい々\n　缄ぶらで哭」しいな。\n　ほしかったら、ぐみの腾を５塑积って丸い。\n　どうするって、霓とぎに蝗うんだよ—\n　さっさと乖け——"
+						EndBlock
+
+					endif
+
+				endif
+
+			endif
+
+		endif
+
+	endif
+
+
+
+###　惧淡アイテ?を稍疥积
+block
+	EndWindow "\n\n　うるせえな、こっちは蒂菲面なんだ。\n　假蒜をするな——"
+
+
+
+

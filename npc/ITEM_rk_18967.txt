@@ -1,0 +1,15 @@
+#
+#崔狼 馆瘤
+#
+
+block EndEvent 104 == 1
+	EndWindow 21880,OK
+
+#７老 器厘阑 荐咯 罐疽促搁（Now104啊 ON）
+block NowEvent 104 == 1
+	EndEvent 104 = 1
+	CheckTitle
+	KillItem 18967,1,(21879)
+
+block
+	EndWindow 21880,OK

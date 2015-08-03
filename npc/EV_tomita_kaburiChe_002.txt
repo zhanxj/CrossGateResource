@@ -1,0 +1,162 @@
+#檬缴磊侩 镜 巴 涅胶飘　　ｂｙ　配固鸥
+#
+#　　　傈汲狼 巢磊（眉农侩 NPC）狼 鼻
+
+###　漂力拱烹阑 家瘤窍瘤 臼澜
+block Item_607954 < 1
+	EndWindow 6970001
+
+
+
+###　快 努腐
+block StrCmpChat == R
+	EndWindow 6970002
+
+
+
+###　盲泼 涝仿「０」
+block StrCmpChat == 3004930
+	If Item_607954 >= 2
+		EndWindow 6970003
+		EndBlock
+
+	else
+		If Item_607954 == 1 && StampCount_607954 == 0
+			EndWindow 6970004
+			EndBlock
+
+		else
+			If Item_607954 == 1 && StampCount_607954 == 1
+				Window 6970005,OK
+
+					Window_OK
+						AddStampCount 607954,-1
+						EndBlock
+
+			else
+				If Item_607954 == 1 && StampCount_607954 == 2
+					Window 6970006,OK
+
+						Window_OK
+							AddStampCount 607954,-2
+							EndBlock
+
+				else
+					If Item_607954 == 1 && StampCount_607954 > 2
+						EndWindow 6970007
+						EndBlock
+
+					else
+						EndWindow 6970008
+						EndBlock
+
+					endif
+
+				endif
+
+			endif
+
+		endif
+
+	endif
+
+
+
+###　盲泼 涝仿「１」
+block StrCmpChat == 3004921
+	If Item_607954 >= 2
+		EndWindow 6970009
+		EndBlock
+
+	else
+		If Item_607954 == 1 && StampCount_607954 == 0
+			Window 6970010,OK
+
+				Window_OK
+					AddStampCount 607954,+1
+					EndBlock
+
+		else
+			If Item_607954 == 1 && StampCount_607954 == 1
+				EndWindow 6970011
+				EndBlock
+
+			else
+				If Item_607954 == 1 && StampCount_607954 == 2
+					Window 6970012,OK
+
+						Window_OK
+							AddStampCount 607954,-1
+							EndBlock
+
+				else
+					If Item_607954 == 1 && StampCount_607954 > 2
+						EndWindow 6970013
+						EndBlock
+
+					else
+						EndWindow 6970014
+						EndBlock
+
+					endif
+
+				endif
+
+			endif
+
+		endif
+
+	endif
+
+
+
+###　盲泼 涝仿「２」
+block StrCmpChat == 3004922
+	If Item_607954 >= 2
+		EndWindow 6970015
+		EndBlock
+
+	else
+		If Item_607954 == 1 && StampCount_607954 == 0
+			Window 6970016,OK
+
+				Window_OK
+					AddStampCount 607954,+2
+					EndBlock
+
+		else
+			If Item_607954 == 1 && StampCount_607954 == 1
+				Window 6970017,OK
+
+					Window_OK
+						AddStampCount 607954,+1
+						EndBlock
+
+			else
+				If Item_607954 == 1 && StampCount_607954 == 2
+					EndWindow 6970018
+					EndBlock
+
+				else
+					If Item_607954 == 1 && StampCount_607954 > 2
+						EndWindow 6970019
+						EndBlock
+
+					else
+						EndWindow 6970020
+						EndBlock
+
+					endif
+
+				endif
+
+			endif
+
+		endif
+
+	endif
+
+
+
+
+

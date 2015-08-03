@@ -1,0 +1,93 @@
+#３林斥 扁充 ＧＭ 捞亥飘　　ｂｙ　配固鸥
+#
+#　　　农风力飘狼 鼻
+
+#####　2004斥7岿26老 捞饶
+
+###　扁充焊籍阑 家瘤
+#block CheckRealTime 2004/7/16,14:00:00 == 1 && Item_16387 >= 1
+block CheckRealTime 2004/7/26,00:00:00 == 1 && Item_16387 >= 1
+
+	EndWindow 6030001
+
+
+
+###　扁充前背券鼻阑 家瘤
+#block CheckRealTime 2004/7/16,14:00:00 == 1 && Item_18774 >= 1
+block CheckRealTime 2004/7/26,00:00:00 == 1 && Item_18774 >= 1
+
+	Window 6030002,YES,NO
+
+		Window_YES
+			Window 6030003,OK
+
+				Window_OK Item_16387 >= 1
+					EndWindow 6030004
+
+				Window_OK Item_18774 >= 1 && ItemSpace >= 1
+					KillItemAll 18774
+					GiveItemEX 16387,1,"."
+
+				Window_OK ItemSpace >= 1
+					EndWindow 6030005
+
+				Window_OK
+					EndWindow 6030006
+
+		Window_NO
+			EndWindow 6030007
+
+
+
+###　令虐聪狼 付捞农甫 家瘤
+#block CheckRealTime 2004/7/16,14:00:00 == 1 && Item_607926 >= 1
+block CheckRealTime 2004/7/26,00:00:00 == 1 && Item_607926 >= 1
+
+	Window 6030008,NEXT
+
+	EndWindow 6030009
+
+
+
+###　惑扁 酒捞袍阑 家瘤窍瘤 臼澜
+#block CheckRealTime 2004/7/16,14:00:00 == 1
+block CheckRealTime 2004/7/26,00:00:00 == 1
+
+	EndWindow 6030010
+
+
+
+
+
+#####　2004斥7岿26老 捞傈
+
+###　扁充前背券鼻阑 家瘤
+block Item_18774 >= 1
+	EndWindow 6030011
+
+
+
+###　扁充前背券鼻阑 家瘤窍瘤 臼澜
+block
+	Window 6030012,YES,NO
+
+		Window_YES
+			Window 6030013,OK
+
+				Window_OK Item_18774 >= 1
+					EndWindow 6030014
+
+				Window_OK ItemSpace >= 1
+					GiveItemEX 18774,1,"."
+
+				Window_OK
+					EndWindow 6030015
+
+
+		Window_NO
+			EndWindow 6030016
+
+
+
+
+

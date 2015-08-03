@@ -1,0 +1,62 @@
+#『霉 缴何抚』　　ｂｙ　配固鸥
+#
+#　　　胆腐狼 鼻
+
+###　风坷弊狼 疙窃阑 咯矾 俺 家瘤
+
+block Item_607904 >= 2
+	EndWindow 7690001
+
+
+
+###　风坷弊狼 疙窃阑 家瘤
+
+block Item_607904 == 1
+
+	If StampCount_607904 == 0
+		EndWindow 7690002
+		EndBlock
+
+	else
+		If StampCount_607904 >= 5
+			EndWindow 7690003
+			EndBlock
+
+		else
+			EndWindow 7690004
+			EndBlock
+
+		endif
+
+	endif
+
+
+
+###　风坷弊俊霸 焊郴绰 祈瘤阑 家瘤
+
+block Item_607903 >= 1
+	EndWindow 7690005
+
+
+
+###　笛 促 啊瘤绊 乐瘤 臼促
+
+block
+	Window 7690006,YES,NO
+
+		Window_YES
+			Window 7690007,OK
+
+				Window_OK ItemSpace >= 1
+					GiveItemEX 607903,1,"."
+
+				Window_OK
+					EndWindow 7690008
+
+		Window_NO
+			EndWindow 7690009
+
+
+
+
+

@@ -1,0 +1,75 @@
+#『霉 缴何抚』　　ｂｙ　配固鸥
+#
+#　　　农府胶鸥狼 鼻
+
+###　疙窃阑 咯矾 俺 家瘤
+
+block Item_607904 >= 2
+	EndWindow 7800001
+
+
+
+###　疙窃阑 家瘤
+
+block Item_607904 == 1
+
+	If StampCount_607904 == 4 && Item_12001 >= 5 && Item_12406 >= 5 && Item_12802 >= 5 && Item_12805 >= 5 && Item_12823 >= 3
+		EndWindow 7800002
+		EndBlock
+
+	else
+		If StampCount_607904 == 4
+			EndWindow 7800003
+			EndBlock
+
+		else
+			If StampCount_607904 == 3
+				EndWindow 7800004
+				EndBlock
+
+			else
+				If StampCount_607904 == 2
+					Window 7800005,OK
+
+						Window_OK Item_607904 >= 2
+							EndWindow 7800006
+							EndBlock
+
+						Window_OK Item_607904 == 1
+							AddStampCount 607904,+1
+							EndBlock
+
+						Window_OK
+							EndWindow 7800007
+							EndBlock
+
+				else
+					If StampCount_607904 >= 5
+						EndWindow 7800008
+						EndBlock
+
+					else
+						EndWindow 7800009
+						EndBlock
+
+					endif
+
+				endif
+
+			endif
+
+		endif
+
+	endif
+
+
+
+###　疙窃 家瘤窍瘤 臼澜
+
+block
+	EndWindow 7800010
+
+
+
+
+

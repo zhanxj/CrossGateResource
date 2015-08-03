@@ -1,0 +1,26 @@
+#家匡 坷宏 坷歹
+#15552	磊巩狼 己盲 涝备 合率栏肺 况橇
+
+#
+
+block Item 18783 == 1
+#\n\n\n\n@c家匡 坷宏 坷歹甫 荤侩窍摆嚼聪鳖?
+	Window 21341,YES,NO
+	Window_YES Item 18783 == 1
+	KillItem 18783,1,(21342)
+	LeaveGroup
+	Warp 0,15552,14,14
+	Window_YES
+	Window_NO
+
+#block
+#\n\n\n\n@c~~阑 荤侩窍摆嚼聪鳖?
+#	Window 15540,YES,NO
+#	Window_YES Item 18779 == 1
+#	SetDur 18779,-1
+#	Warp 0,1000,81,88
+
+#	Window_YES
+#	Window_NO
+
+

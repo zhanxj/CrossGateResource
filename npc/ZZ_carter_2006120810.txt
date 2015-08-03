@@ -1,0 +1,31 @@
+#卡特编写2006.12.05，QQ：88621517
+
+########## 当物品栏小于1个空位##
+block Petspace == 0
+	EndWindow 10000
+	
+
+########## 300兑换652115##########
+block Item652115 >= 1
+	Window 120082,YES,NO
+	Window_YES
+	KillItem 120082,1
+	GiveItem 652134,1
+	Givepet 331163
+	EndWindow 120036
+	Window_NO
+		Window 120083,YES,NO
+		Window_YES
+		KillItem 652115,1
+		GiveItem 652134,1
+		Givepet 331164
+		EndWindow 120036,OK
+		Window_NO
+		EndWindow 120044
+	
+########## 当无任务兑换物品的时候##
+block ItemSpace >= 1
+	EndWindow 120109
+	
+
+

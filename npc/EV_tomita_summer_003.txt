@@ -1,0 +1,22 @@
+#　荐犬力 带怜（备 咯抚规切 带怜）　　ｂｙ　配固鸥
+#
+#　　　备龋 厚撇狼 鼻
+
+###　烹惑 甘栏肺 倒酒埃促
+
+block
+	Window 8380001,YES,NO
+
+		Window_YES
+			Window 8380002,OK
+
+				Window_OK
+					Warp 0,59510,58,63
+
+		Window_NO
+			EndWindow 8380003
+
+
+
+
+

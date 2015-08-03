@@ -1,0 +1,23 @@
+#　荐犬力 带怜（堪啊魄）　　ｂｙ　配固鸥
+#
+#　　　钢府 焊绰 瘤捞瘤狼 鼻
+
+###　富阑 扒促
+
+block
+	Window 8350001,YES,NO
+
+		Window_YES
+			Window 8350002,NEXT
+			Window 8350003,NEXT
+			Window 8350004,NEXT
+			Window 8350005,NEXT
+			EndWindow 8350006
+
+		Window_NO
+			EndWindow 8350007
+
+
+
+
+

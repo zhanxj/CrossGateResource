@@ -1,0 +1,769 @@
+#　R5松恶レシピ芹邵?エスト　ｂｙ　哨拍
+#
+#　　　スティ〖ヴンスの船
+
+###　ハリヤ?磅の克あるいはハリ〖?イラブを疥积
+block Item_607995 >= 1 || Item_607996 >= 1
+	EndWindow "\n\n　ハリヤ?さんと尽砷したようだね。\n　もし矾が松恶喀客なら、そういうことは\n　やめた数がいいと蛔うよ。\n　糠しい松恶の侯り数を梦る喀客たちのところへ\n　流り葡けてくれるのは、揉なんだからね。"
+
+
+
+###　初喀客でス?ルレ?ルが５笆惧
+block JobAncestry == 270 && SkillLevel_207 >= 5
+
+#　松恶喀客の沮を疥积
+	If Item_631000 >= 1
+		EndWindow "\n\n　矾の积っている松恶喀客の沮を戎客に畔せば、\n　松恶喀客たちのところへ乖くことができるよ。\n　磋磨って紊い松恶を侯ってくれよ。"
+		EndBlock
+
+#　肩骄の?ワシ、喀客の沮侯喇恶姑、喀客の沮侯喇恶驳を疥积
+	else
+		If Item_607997 >= 1 && Item_607998 >= 1 && Item_607999 >= 1
+			Window "\n\n　苹恶が路ったようだね。\n　じゃあ、络缔ぎで松恶喀客の沮を侯るよ。",OK
+
+				Window_OK Item_631000 >= 1
+					EndWindow "\n\n　あれ、もう积ってたんだ。\n　じゃあ、侯る涩妥はないね。"
+					EndBlock
+
+				Window_OK Item_607997 >= 1 && Item_607998 >= 1 && Item_607999 >= 1 && ItemSpace >= 1
+					KillItemAll 607997
+					KillItemAll 607998
+					KillItemAll 607999
+					GiveItemEX 631000,1,"\n\n　せっかく侯っても、操湿に鄂きがないと\n　畔せないよ。腊妄してほしいな。"
+					EndBlock
+
+				Window_OK Item_607997 >= 1 && Item_607998 >= 1 && Item_607999 >= 1
+					EndWindow "\n\n　せっかく侯っても、操湿に鄂きがないと\n　畔せないよ。腊妄してほしいな。"
+					EndBlock
+
+				Window_OK Item_607998 >= 1 && Item_607999 >= 1
+					EndWindow "\n\n　あれ、肩骄の?ワシがないよ。\n　稼り湿を己くす客に沮を畔したくないな。"
+					EndBlock
+
+				Window_OK Item_607999 >= 1
+					EndWindow "\n\n　あれ、苹恶が颅りないよ。\n　松恶喀客の沮は、苹恶が路ってないと\n　侯れないんだ。"
+					EndBlock
+
+				Window_OK
+					EndWindow "\n\n　あれ、苹恶が颅りないよ。\n　松恶喀客の沮は、苹恶が路ってないと\n　侯れないんだ。"
+					EndBlock
+
+#　肩骄の?ワシ、喀客の沮侯喇恶姑を疥积
+		else
+			If Item_607997 >= 1 && Item_607998 >= 1
+				EndWindow "\n\n　松恶喀客の沮は、姑驳尉数の苹恶が路わないと\n　侯れないんだ。\n　姑を积つジェケルはこの妈３霖のどこかに、\n　驳を积つハイデルは妈５霖のどこかにいるよ。"
+				EndBlock
+
+#　肩骄の?ワシ、喀客の沮侯喇恶驳を疥积
+			else
+				If Item_607997 >= 1 && Item_607999 >= 1
+					EndWindow "\n\n　松恶喀客の沮は、姑驳尉数の苹恶が路わないと\n　侯れないんだ。\n　姑を积つジェケルはこの妈３霖のどこかに、\n　驳を积つハイデルは妈５霖のどこかにいるよ。"
+					EndBlock
+
+#　肩骄の?ワシのみを疥积
+				else
+					If Item_607997 >= 1
+						EndWindow "\n\n　苹恶を积っているジェケルとハイデルは、\n　この翠舶のどこかにいるんだ。\n　それぞれから苹恶を减け艰ってきておくれよ。"
+						EndBlock
+
+#　惧淡アイテ?を稍疥积
+					else
+						Window "\n\n　糠しい松恶の侯り数が梦りたくて丸たのかい々\n　うん、矾だったら岂なく浆评できるよ。\n　じゃあ、∪松恶喀客の沮∩を畔そうかな。\n　これをハリヤ?さんに斧せれば∧∧",NEXT
+						Window "\n\n　あれ、ないぞ。链婶芹っちゃったみたいだ。\n　でも络炬勺、すぐに侯ってあげるよ。\n　そこでちょっと完まれてほしいんだけど、\n　蝗い蒜に吐けた苹恶を艰ってきてくれないか々",NEXT
+						Window "\n\n　蝗い蒜は、ジェケルとハイデルと咐うんだ。\n　これを积っていれば、蝗い蒜たちも矾が\n　部の脱で丸たのかわかるはず。\n　じゃあ、完んだよ。",OK
+
+							Window_OK Item_607997 >= 1
+								EndWindow "\n\n　あれ、もう积ってたんだ。\n　じゃあ、もう畔す涩妥はないね。"
+								EndBlock
+
+							Window_OK ItemSpace >= 1
+								GiveItemEX 607997,1,"\n\n　操湿に鄂きがないと畔せないよ。\n　腊妄してほしいな。"
+								EndBlock
+
+							Window_OK
+								EndWindow "\n\n　操湿に鄂きがないと畔せないよ。\n　腊妄してほしいな。"
+								EndBlock
+
+					endif
+
+				endif
+
+			endif
+
+		endif
+
+	endif
+
+
+
+###　初喀客だがス?ルレ?ルが５踏塔
+block JobAncestry == 270
+	EndWindow "\n\n　糠しい松恶の侯り数が梦りたくて丸たのかい々\n　荒前だけど、矾はまだその祷窖を浆评できる\n　レ?ルに茫していないよ。\n　もう警し咆蜗が涩妥だね。"
+
+
+
+###　斯灰喀客でス?ルレ?ルが５笆惧
+block JobAncestry == 280 && SkillLevel_208 >= 5
+
+#　松恶喀客の沮を疥积
+	If Item_631000 >= 1
+		EndWindow "\n\n　矾の积っている松恶喀客の沮を戎客に畔せば、\n　松恶喀客たちのところへ乖くことができるよ。\n　磋磨って紊い松恶を侯ってくれよ。"
+		EndBlock
+
+#　肩骄の?ワシ、喀客の沮侯喇恶姑、喀客の沮侯喇恶驳を疥积
+	else
+		If Item_607997 >= 1 && Item_607998 >= 1 && Item_607999 >= 1
+			Window "\n\n　苹恶が路ったようだね。\n　じゃあ、络缔ぎで松恶喀客の沮を侯るよ。",OK
+
+				Window_OK Item_631000 >= 1
+					EndWindow "\n\n　あれ、もう积ってたんだ。\n　じゃあ、侯る涩妥はないね。"
+					EndBlock
+
+				Window_OK Item_607997 >= 1 && Item_607998 >= 1 && Item_607999 >= 1 && ItemSpace >= 1
+					KillItemAll 607997
+					KillItemAll 607998
+					KillItemAll 607999
+					GiveItemEX 631000,1,"\n\n　せっかく侯っても、操湿に鄂きがないと\n　畔せないよ。腊妄してほしいな。"
+					EndBlock
+
+				Window_OK Item_607997 >= 1 && Item_607998 >= 1 && Item_607999 >= 1
+					EndWindow "\n\n　せっかく侯っても、操湿に鄂きがないと\n　畔せないよ。腊妄してほしいな。"
+					EndBlock
+
+				Window_OK Item_607998 >= 1 && Item_607999 >= 1
+					EndWindow "\n\n　あれ、肩骄の?ワシがないよ。\n　稼り湿を己くす客に沮を畔したくないな。"
+					EndBlock
+
+				Window_OK Item_607999 >= 1
+					EndWindow "\n\n　あれ、苹恶が颅りないよ。\n　松恶喀客の沮は、苹恶が路ってないと\n　侯れないんだ。"
+					EndBlock
+
+				Window_OK
+					EndWindow "\n\n　あれ、苹恶が颅りないよ。\n　松恶喀客の沮は、苹恶が路ってないと\n　侯れないんだ。"
+					EndBlock
+
+#　肩骄の?ワシ、喀客の沮侯喇恶姑を疥积
+		else
+			If Item_607997 >= 1 && Item_607998 >= 1
+				EndWindow "\n\n　松恶喀客の沮は、姑驳尉数の苹恶が路わないと\n　侯れないんだ。\n　姑を积つジェケルはこの妈３霖のどこかに、\n　驳を积つハイデルは妈５霖のどこかにいるよ。"
+				EndBlock
+
+#　肩骄の?ワシ、喀客の沮侯喇恶驳を疥积
+			else
+				If Item_607997 >= 1 && Item_607999 >= 1
+					EndWindow "\n\n　松恶喀客の沮は、姑驳尉数の苹恶が路わないと\n　侯れないんだ。\n　姑を积つジェケルはこの妈３霖のどこかに、\n　驳を积つハイデルは妈５霖のどこかにいるよ。"
+					EndBlock
+
+#　肩骄の?ワシのみを疥积
+				else
+					If Item_607997 >= 1
+						EndWindow "\n\n　苹恶を积っているジェケルとハイデルは、\n　この翠舶のどこかにいるんだ。\n　それぞれから苹恶を减け艰ってきておくれよ。"
+						EndBlock
+
+#　惧淡アイテ?を稍疥积
+					else
+						Window "\n\n　糠しい松恶の侯り数が梦りたくて丸たのかい々\n　うん、矾だったら岂なく浆评できるよ。\n　じゃあ、∪松恶喀客の沮∩を畔そうかな。\n　これをハリヤ?さんに斧せれば∧∧",NEXT
+						Window "\n\n　あれ、ないぞ。链婶芹っちゃったみたいだ。\n　でも络炬勺、すぐに侯ってあげるよ。\n　そこでちょっと完まれてほしいんだけど、\n　蝗い蒜に吐けた苹恶を艰ってきてくれないか々",NEXT
+						Window "\n\n　蝗い蒜は、ジェケルとハイデルと咐うんだ。\n　これを积っていれば、蝗い蒜たちも矾が\n　部の脱で丸たのかわかるはず。\n　じゃあ、完んだよ。",OK
+
+							Window_OK Item_607997 >= 1
+								EndWindow "\n\n　あれ、もう积ってたんだ。\n　じゃあ、もう畔す涩妥はないね。"
+								EndBlock
+
+							Window_OK ItemSpace >= 1
+								GiveItemEX 607997,1,"\n\n　操湿に鄂きがないと畔せないよ。\n　腊妄してほしいな。"
+								EndBlock
+
+							Window_OK
+								EndWindow "\n\n　操湿に鄂きがないと畔せないよ。\n　腊妄してほしいな。"
+								EndBlock
+
+					endif
+
+				endif
+
+			endif
+
+		endif
+
+	endif
+
+
+
+###　斯灰喀客だがス?ルレ?ルが５踏塔
+block JobAncestry == 280
+	EndWindow "\n\n　糠しい松恶の侯り数が梦りたくて丸たのかい々\n　荒前だけど、矾はまだその祷窖を浆评できる\n　レ?ルに茫していないよ。\n　もう警し咆蜗が涩妥だね。"
+
+
+
+###　郴喀客でス?ルレ?ルが５笆惧
+block JobAncestry == 290 && SkillLevel_209 >= 5
+
+#　松恶喀客の沮を疥积
+	If Item_631000 >= 1
+		EndWindow "\n\n　矾の积っている松恶喀客の沮を戎客に畔せば、\n　松恶喀客たちのところへ乖くことができるよ。\n　磋磨って紊い松恶を侯ってくれよ。"
+		EndBlock
+
+#　肩骄の?ワシ、喀客の沮侯喇恶姑、喀客の沮侯喇恶驳を疥积
+	else
+		If Item_607997 >= 1 && Item_607998 >= 1 && Item_607999 >= 1
+			Window "\n\n　苹恶が路ったようだね。\n　じゃあ、络缔ぎで松恶喀客の沮を侯るよ。",OK
+
+				Window_OK Item_631000 >= 1
+					EndWindow "\n\n　あれ、もう积ってたんだ。\n　じゃあ、侯る涩妥はないね。"
+					EndBlock
+
+				Window_OK Item_607997 >= 1 && Item_607998 >= 1 && Item_607999 >= 1 && ItemSpace >= 1
+					KillItemAll 607997
+					KillItemAll 607998
+					KillItemAll 607999
+					GiveItemEX 631000,1,"\n\n　せっかく侯っても、操湿に鄂きがないと\n　畔せないよ。腊妄してほしいな。"
+					EndBlock
+
+				Window_OK Item_607997 >= 1 && Item_607998 >= 1 && Item_607999 >= 1
+					EndWindow "\n\n　せっかく侯っても、操湿に鄂きがないと\n　畔せないよ。腊妄してほしいな。"
+					EndBlock
+
+				Window_OK Item_607998 >= 1 && Item_607999 >= 1
+					EndWindow "\n\n　あれ、肩骄の?ワシがないよ。\n　稼り湿を己くす客に沮を畔したくないな。"
+					EndBlock
+
+				Window_OK Item_607999 >= 1
+					EndWindow "\n\n　あれ、苹恶が颅りないよ。\n　松恶喀客の沮は、苹恶が路ってないと\n　侯れないんだ。"
+					EndBlock
+
+				Window_OK
+					EndWindow "\n\n　あれ、苹恶が颅りないよ。\n　松恶喀客の沮は、苹恶が路ってないと\n　侯れないんだ。"
+					EndBlock
+
+#　肩骄の?ワシ、喀客の沮侯喇恶姑を疥积
+		else
+			If Item_607997 >= 1 && Item_607998 >= 1
+				EndWindow "\n\n　松恶喀客の沮は、姑驳尉数の苹恶が路わないと\n　侯れないんだ。\n　姑を积つジェケルはこの妈３霖のどこかに、\n　驳を积つハイデルは妈５霖のどこかにいるよ。"
+				EndBlock
+
+#　肩骄の?ワシ、喀客の沮侯喇恶驳を疥积
+			else
+				If Item_607997 >= 1 && Item_607999 >= 1
+					EndWindow "\n\n　松恶喀客の沮は、姑驳尉数の苹恶が路わないと\n　侯れないんだ。\n　姑を积つジェケルはこの妈３霖のどこかに、\n　驳を积つハイデルは妈５霖のどこかにいるよ。"
+					EndBlock
+
+#　肩骄の?ワシのみを疥积
+				else
+					If Item_607997 >= 1
+						EndWindow "\n\n　苹恶を积っているジェケルとハイデルは、\n　この翠舶のどこかにいるんだ。\n　それぞれから苹恶を减け艰ってきておくれよ。"
+						EndBlock
+
+#　惧淡アイテ?を稍疥积
+					else
+						Window "\n\n　糠しい松恶の侯り数が梦りたくて丸たのかい々\n　うん、矾だったら岂なく浆评できるよ。\n　じゃあ、∪松恶喀客の沮∩を畔そうかな。\n　これをハリヤ?さんに斧せれば∧∧",NEXT
+						Window "\n\n　あれ、ないぞ。链婶芹っちゃったみたいだ。\n　でも络炬勺、すぐに侯ってあげるよ。\n　そこでちょっと完まれてほしいんだけど、\n　蝗い蒜に吐けた苹恶を艰ってきてくれないか々",NEXT
+						Window "\n\n　蝗い蒜は、ジェケルとハイデルと咐うんだ。\n　これを积っていれば、蝗い蒜たちも矾が\n　部の脱で丸たのかわかるはず。\n　じゃあ、完んだよ。",OK
+
+							Window_OK Item_607997 >= 1
+								EndWindow "\n\n　あれ、もう积ってたんだ。\n　じゃあ、もう畔す涩妥はないね。"
+								EndBlock
+
+							Window_OK ItemSpace >= 1
+								GiveItemEX 607997,1,"\n\n　操湿に鄂きがないと畔せないよ。\n　腊妄してほしいな。"
+								EndBlock
+
+							Window_OK
+								EndWindow "\n\n　操湿に鄂きがないと畔せないよ。\n　腊妄してほしいな。"
+								EndBlock
+
+					endif
+
+				endif
+
+			endif
+
+		endif
+
+	endif
+
+
+
+###　郴喀客だがス?ルレ?ルが５踏塔
+block JobAncestry == 290
+	EndWindow "\n\n　糠しい松恶の侯り数が梦りたくて丸たのかい々\n　荒前だけど、矾はまだその祷窖を浆评できる\n　レ?ルに茫していないよ。\n　もう警し咆蜗が涩妥だね。"
+
+
+
+###　绳喀客でス?ルレ?ルが５笆惧
+block JobAncestry == 300 && SkillLevel_210 >= 5
+
+#　松恶喀客の沮を疥积
+	If Item_631000 >= 1
+		EndWindow "\n\n　矾の积っている松恶喀客の沮を戎客に畔せば、\n　松恶喀客たちのところへ乖くことができるよ。\n　磋磨って紊い松恶を侯ってくれよ。"
+		EndBlock
+
+#　肩骄の?ワシ、喀客の沮侯喇恶姑、喀客の沮侯喇恶驳を疥积
+	else
+		If Item_607997 >= 1 && Item_607998 >= 1 && Item_607999 >= 1
+			Window "\n\n　苹恶が路ったようだね。\n　じゃあ、络缔ぎで松恶喀客の沮を侯るよ。",OK
+
+				Window_OK Item_631000 >= 1
+					EndWindow "\n\n　あれ、もう积ってたんだ。\n　じゃあ、侯る涩妥はないね。"
+					EndBlock
+
+				Window_OK Item_607997 >= 1 && Item_607998 >= 1 && Item_607999 >= 1 && ItemSpace >= 1
+					KillItemAll 607997
+					KillItemAll 607998
+					KillItemAll 607999
+					GiveItemEX 631000,1,"\n\n　せっかく侯っても、操湿に鄂きがないと\n　畔せないよ。腊妄してほしいな。"
+					EndBlock
+
+				Window_OK Item_607997 >= 1 && Item_607998 >= 1 && Item_607999 >= 1
+					EndWindow "\n\n　せっかく侯っても、操湿に鄂きがないと\n　畔せないよ。腊妄してほしいな。"
+					EndBlock
+
+				Window_OK Item_607998 >= 1 && Item_607999 >= 1
+					EndWindow "\n\n　あれ、肩骄の?ワシがないよ。\n　稼り湿を己くす客に沮を畔したくないな。"
+					EndBlock
+
+				Window_OK Item_607999 >= 1
+					EndWindow "\n\n　あれ、苹恶が颅りないよ。\n　松恶喀客の沮は、苹恶が路ってないと\n　侯れないんだ。"
+					EndBlock
+
+				Window_OK
+					EndWindow "\n\n　あれ、苹恶が颅りないよ。\n　松恶喀客の沮は、苹恶が路ってないと\n　侯れないんだ。"
+					EndBlock
+
+#　肩骄の?ワシ、喀客の沮侯喇恶姑を疥积
+		else
+			If Item_607997 >= 1 && Item_607998 >= 1
+				EndWindow "\n\n　松恶喀客の沮は、姑驳尉数の苹恶が路わないと\n　侯れないんだ。\n　姑を积つジェケルはこの妈３霖のどこかに、\n　驳を积つハイデルは妈５霖のどこかにいるよ。"
+				EndBlock
+
+#　肩骄の?ワシ、喀客の沮侯喇恶驳を疥积
+			else
+				If Item_607997 >= 1 && Item_607999 >= 1
+					EndWindow "\n\n　松恶喀客の沮は、姑驳尉数の苹恶が路わないと\n　侯れないんだ。\n　姑を积つジェケルはこの妈３霖のどこかに、\n　驳を积つハイデルは妈５霖のどこかにいるよ。"
+					EndBlock
+
+#　肩骄の?ワシのみを疥积
+				else
+					If Item_607997 >= 1
+						EndWindow "\n\n　苹恶を积っているジェケルとハイデルは、\n　この翠舶のどこかにいるんだ。\n　それぞれから苹恶を减け艰ってきておくれよ。"
+						EndBlock
+
+#　惧淡アイテ?を稍疥积
+					else
+						Window "\n\n　糠しい松恶の侯り数が梦りたくて丸たのかい々\n　うん、矾だったら岂なく浆评できるよ。\n　じゃあ、∪松恶喀客の沮∩を畔そうかな。\n　これをハリヤ?さんに斧せれば∧∧",NEXT
+						Window "\n\n　あれ、ないぞ。链婶芹っちゃったみたいだ。\n　でも络炬勺、すぐに侯ってあげるよ。\n　そこでちょっと完まれてほしいんだけど、\n　蝗い蒜に吐けた苹恶を艰ってきてくれないか々",NEXT
+						Window "\n\n　蝗い蒜は、ジェケルとハイデルと咐うんだ。\n　これを积っていれば、蝗い蒜たちも矾が\n　部の脱で丸たのかわかるはず。\n　じゃあ、完んだよ。",OK
+
+							Window_OK Item_607997 >= 1
+								EndWindow "\n\n　あれ、もう积ってたんだ。\n　じゃあ、もう畔す涩妥はないね。"
+								EndBlock
+
+							Window_OK ItemSpace >= 1
+								GiveItemEX 607997,1,"\n\n　操湿に鄂きがないと畔せないよ。\n　腊妄してほしいな。"
+								EndBlock
+
+							Window_OK
+								EndWindow "\n\n　操湿に鄂きがないと畔せないよ。\n　腊妄してほしいな。"
+								EndBlock
+
+					endif
+
+				endif
+
+			endif
+
+		endif
+
+	endif
+
+
+
+###　绳喀客だがス?ルレ?ルが５踏塔
+block JobAncestry == 300
+	EndWindow "\n\n　糠しい松恶の侯り数が梦りたくて丸たのかい々\n　荒前だけど、矾はまだその祷窖を浆评できる\n　レ?ルに茫していないよ。\n　もう警し咆蜗が涩妥だね。"
+
+
+
+###　ロ〖ブ喀客でス?ルレ?ルが５笆惧
+block JobAncestry == 310 && SkillLevel_211 >= 5
+
+#　松恶喀客の沮を疥积
+	If Item_631000 >= 1
+		EndWindow "\n\n　矾の积っている松恶喀客の沮を戎客に畔せば、\n　松恶喀客たちのところへ乖くことができるよ。\n　磋磨って紊い松恶を侯ってくれよ。"
+		EndBlock
+
+#　肩骄の?ワシ、喀客の沮侯喇恶姑、喀客の沮侯喇恶驳を疥积
+	else
+		If Item_607997 >= 1 && Item_607998 >= 1 && Item_607999 >= 1
+			Window "\n\n　苹恶が路ったようだね。\n　じゃあ、络缔ぎで松恶喀客の沮を侯るよ。",OK
+
+				Window_OK Item_631000 >= 1
+					EndWindow "\n\n　あれ、もう积ってたんだ。\n　じゃあ、侯る涩妥はないね。"
+					EndBlock
+
+				Window_OK Item_607997 >= 1 && Item_607998 >= 1 && Item_607999 >= 1 && ItemSpace >= 1
+					KillItemAll 607997
+					KillItemAll 607998
+					KillItemAll 607999
+					GiveItemEX 631000,1,"\n\n　せっかく侯っても、操湿に鄂きがないと\n　畔せないよ。腊妄してほしいな。"
+					EndBlock
+
+				Window_OK Item_607997 >= 1 && Item_607998 >= 1 && Item_607999 >= 1
+					EndWindow "\n\n　せっかく侯っても、操湿に鄂きがないと\n　畔せないよ。腊妄してほしいな。"
+					EndBlock
+
+				Window_OK Item_607998 >= 1 && Item_607999 >= 1
+					EndWindow "\n\n　あれ、肩骄の?ワシがないよ。\n　稼り湿を己くす客に沮を畔したくないな。"
+					EndBlock
+
+				Window_OK Item_607999 >= 1
+					EndWindow "\n\n　あれ、苹恶が颅りないよ。\n　松恶喀客の沮は、苹恶が路ってないと\n　侯れないんだ。"
+					EndBlock
+
+				Window_OK
+					EndWindow "\n\n　あれ、苹恶が颅りないよ。\n　松恶喀客の沮は、苹恶が路ってないと\n　侯れないんだ。"
+					EndBlock
+
+#　肩骄の?ワシ、喀客の沮侯喇恶姑を疥积
+		else
+			If Item_607997 >= 1 && Item_607998 >= 1
+				EndWindow "\n\n　松恶喀客の沮は、姑驳尉数の苹恶が路わないと\n　侯れないんだ。\n　姑を积つジェケルはこの妈３霖のどこかに、\n　驳を积つハイデルは妈５霖のどこかにいるよ。"
+				EndBlock
+
+#　肩骄の?ワシ、喀客の沮侯喇恶驳を疥积
+			else
+				If Item_607997 >= 1 && Item_607999 >= 1
+					EndWindow "\n\n　松恶喀客の沮は、姑驳尉数の苹恶が路わないと\n　侯れないんだ。\n　姑を积つジェケルはこの妈３霖のどこかに、\n　驳を积つハイデルは妈５霖のどこかにいるよ。"
+					EndBlock
+
+#　肩骄の?ワシのみを疥积
+				else
+					If Item_607997 >= 1
+						EndWindow "\n\n　苹恶を积っているジェケルとハイデルは、\n　この翠舶のどこかにいるんだ。\n　それぞれから苹恶を减け艰ってきておくれよ。"
+						EndBlock
+
+#　惧淡アイテ?を稍疥积
+					else
+						Window "\n\n　糠しい松恶の侯り数が梦りたくて丸たのかい々\n　うん、矾だったら岂なく浆评できるよ。\n　じゃあ、∪松恶喀客の沮∩を畔そうかな。\n　これをハリヤ?さんに斧せれば∧∧",NEXT
+						Window "\n\n　あれ、ないぞ。链婶芹っちゃったみたいだ。\n　でも络炬勺、すぐに侯ってあげるよ。\n　そこでちょっと完まれてほしいんだけど、\n　蝗い蒜に吐けた苹恶を艰ってきてくれないか々",NEXT
+						Window "\n\n　蝗い蒜は、ジェケルとハイデルと咐うんだ。\n　これを积っていれば、蝗い蒜たちも矾が\n　部の脱で丸たのかわかるはず。\n　じゃあ、完んだよ。",OK
+
+							Window_OK Item_607997 >= 1
+								EndWindow "\n\n　あれ、もう积ってたんだ。\n　じゃあ、もう畔す涩妥はないね。"
+								EndBlock
+
+							Window_OK ItemSpace >= 1
+								GiveItemEX 607997,1,"\n\n　操湿に鄂きがないと畔せないよ。\n　腊妄してほしいな。"
+								EndBlock
+
+							Window_OK
+								EndWindow "\n\n　操湿に鄂きがないと畔せないよ。\n　腊妄してほしいな。"
+								EndBlock
+
+					endif
+
+				endif
+
+			endif
+
+		endif
+
+	endif
+
+
+
+###　ロ〖ブ喀客だがス?ルレ?ルが５踏塔
+block JobAncestry == 310
+	EndWindow "\n\n　糠しい松恶の侯り数が梦りたくて丸たのかい々\n　荒前だけど、矾はまだその祷窖を浆评できる\n　レ?ルに茫していないよ。\n　もう警し咆蜗が涩妥だね。"
+
+
+
+###　ブ〖ツ喀客でス?ルレ?ルが５笆惧
+block JobAncestry == 320 && SkillLevel_212 >= 5
+
+#　松恶喀客の沮を疥积
+	If Item_631000 >= 1
+		EndWindow "\n\n　矾の积っている松恶喀客の沮を戎客に畔せば、\n　松恶喀客たちのところへ乖くことができるよ。\n　磋磨って紊い松恶を侯ってくれよ。"
+		EndBlock
+
+#　肩骄の?ワシ、喀客の沮侯喇恶姑、喀客の沮侯喇恶驳を疥积
+	else
+		If Item_607997 >= 1 && Item_607998 >= 1 && Item_607999 >= 1
+			Window "\n\n　苹恶が路ったようだね。\n　じゃあ、络缔ぎで松恶喀客の沮を侯るよ。",OK
+
+				Window_OK Item_631000 >= 1
+					EndWindow "\n\n　あれ、もう积ってたんだ。\n　じゃあ、侯る涩妥はないね。"
+					EndBlock
+
+				Window_OK Item_607997 >= 1 && Item_607998 >= 1 && Item_607999 >= 1 && ItemSpace >= 1
+					KillItemAll 607997
+					KillItemAll 607998
+					KillItemAll 607999
+					GiveItemEX 631000,1,"\n\n　せっかく侯っても、操湿に鄂きがないと\n　畔せないよ。腊妄してほしいな。"
+					EndBlock
+
+				Window_OK Item_607997 >= 1 && Item_607998 >= 1 && Item_607999 >= 1
+					EndWindow "\n\n　せっかく侯っても、操湿に鄂きがないと\n　畔せないよ。腊妄してほしいな。"
+					EndBlock
+
+				Window_OK Item_607998 >= 1 && Item_607999 >= 1
+					EndWindow "\n\n　あれ、肩骄の?ワシがないよ。\n　稼り湿を己くす客に沮を畔したくないな。"
+					EndBlock
+
+				Window_OK Item_607999 >= 1
+					EndWindow "\n\n　あれ、苹恶が颅りないよ。\n　松恶喀客の沮は、苹恶が路ってないと\n　侯れないんだ。"
+					EndBlock
+
+				Window_OK
+					EndWindow "\n\n　あれ、苹恶が颅りないよ。\n　松恶喀客の沮は、苹恶が路ってないと\n　侯れないんだ。"
+					EndBlock
+
+#　肩骄の?ワシ、喀客の沮侯喇恶姑を疥积
+		else
+			If Item_607997 >= 1 && Item_607998 >= 1
+				EndWindow "\n\n　松恶喀客の沮は、姑驳尉数の苹恶が路わないと\n　侯れないんだ。\n　姑を积つジェケルはこの妈３霖のどこかに、\n　驳を积つハイデルは妈５霖のどこかにいるよ。"
+				EndBlock
+
+#　肩骄の?ワシ、喀客の沮侯喇恶驳を疥积
+			else
+				If Item_607997 >= 1 && Item_607999 >= 1
+					EndWindow "\n\n　松恶喀客の沮は、姑驳尉数の苹恶が路わないと\n　侯れないんだ。\n　姑を积つジェケルはこの妈３霖のどこかに、\n　驳を积つハイデルは妈５霖のどこかにいるよ。"
+					EndBlock
+
+#　肩骄の?ワシのみを疥积
+				else
+					If Item_607997 >= 1
+						EndWindow "\n\n　苹恶を积っているジェケルとハイデルは、\n　この翠舶のどこかにいるんだ。\n　それぞれから苹恶を减け艰ってきておくれよ。"
+						EndBlock
+
+#　惧淡アイテ?を稍疥积
+					else
+						Window "\n\n　糠しい松恶の侯り数が梦りたくて丸たのかい々\n　うん、矾だったら岂なく浆评できるよ。\n　じゃあ、∪松恶喀客の沮∩を畔そうかな。\n　これをハリヤ?さんに斧せれば∧∧",NEXT
+						Window "\n\n　あれ、ないぞ。链婶芹っちゃったみたいだ。\n　でも络炬勺、すぐに侯ってあげるよ。\n　そこでちょっと完まれてほしいんだけど、\n　蝗い蒜に吐けた苹恶を艰ってきてくれないか々",NEXT
+						Window "\n\n　蝗い蒜は、ジェケルとハイデルと咐うんだ。\n　これを积っていれば、蝗い蒜たちも矾が\n　部の脱で丸たのかわかるはず。\n　じゃあ、完んだよ。",OK
+
+							Window_OK Item_607997 >= 1
+								EndWindow "\n\n　あれ、もう积ってたんだ。\n　じゃあ、もう畔す涩妥はないね。"
+								EndBlock
+
+							Window_OK ItemSpace >= 1
+								GiveItemEX 607997,1,"\n\n　操湿に鄂きがないと畔せないよ。\n　腊妄してほしいな。"
+								EndBlock
+
+							Window_OK
+								EndWindow "\n\n　操湿に鄂きがないと畔せないよ。\n　腊妄してほしいな。"
+								EndBlock
+
+					endif
+
+				endif
+
+			endif
+
+		endif
+
+	endif
+
+
+
+###　ブ〖ツ喀客だがス?ルレ?ルが５踏塔
+block JobAncestry == 320
+	EndWindow "\n\n　糠しい松恶の侯り数が梦りたくて丸たのかい々\n　荒前だけど、矾はまだその祷窖を浆评できる\n　レ?ルに茫していないよ。\n　もう警し咆蜗が涩妥だね。"
+
+
+
+###　筏喀客でス?ルレ?ルが５笆惧
+block JobAncestry == 330 && SkillLevel_213 >= 5
+
+#　松恶喀客の沮を疥积
+	If Item_631000 >= 1
+		EndWindow "\n\n　矾の积っている松恶喀客の沮を戎客に畔せば、\n　松恶喀客たちのところへ乖くことができるよ。\n　磋磨って紊い松恶を侯ってくれよ。"
+		EndBlock
+
+#　肩骄の?ワシ、喀客の沮侯喇恶姑、喀客の沮侯喇恶驳を疥积
+	else
+		If Item_607997 >= 1 && Item_607998 >= 1 && Item_607999 >= 1
+			Window "\n\n　苹恶が路ったようだね。\n　じゃあ、络缔ぎで松恶喀客の沮を侯るよ。",OK
+
+				Window_OK Item_631000 >= 1
+					EndWindow "\n\n　あれ、もう积ってたんだ。\n　じゃあ、侯る涩妥はないね。"
+					EndBlock
+
+				Window_OK Item_607997 >= 1 && Item_607998 >= 1 && Item_607999 >= 1 && ItemSpace >= 1
+					KillItemAll 607997
+					KillItemAll 607998
+					KillItemAll 607999
+					GiveItemEX 631000,1,"\n\n　せっかく侯っても、操湿に鄂きがないと\n　畔せないよ。腊妄してほしいな。"
+					EndBlock
+
+				Window_OK Item_607997 >= 1 && Item_607998 >= 1 && Item_607999 >= 1
+					EndWindow "\n\n　せっかく侯っても、操湿に鄂きがないと\n　畔せないよ。腊妄してほしいな。"
+					EndBlock
+
+				Window_OK Item_607998 >= 1 && Item_607999 >= 1
+					EndWindow "\n\n　あれ、肩骄の?ワシがないよ。\n　稼り湿を己くす客に沮を畔したくないな。"
+					EndBlock
+
+				Window_OK Item_607999 >= 1
+					EndWindow "\n\n　あれ、苹恶が颅りないよ。\n　松恶喀客の沮は、苹恶が路ってないと\n　侯れないんだ。"
+					EndBlock
+
+				Window_OK
+					EndWindow "\n\n　あれ、苹恶が颅りないよ。\n　松恶喀客の沮は、苹恶が路ってないと\n　侯れないんだ。"
+					EndBlock
+
+#　肩骄の?ワシ、喀客の沮侯喇恶姑を疥积
+		else
+			If Item_607997 >= 1 && Item_607998 >= 1
+				EndWindow "\n\n　松恶喀客の沮は、姑驳尉数の苹恶が路わないと\n　侯れないんだ。\n　姑を积つジェケルはこの妈３霖のどこかに、\n　驳を积つハイデルは妈５霖のどこかにいるよ。"
+				EndBlock
+
+#　肩骄の?ワシ、喀客の沮侯喇恶驳を疥积
+			else
+				If Item_607997 >= 1 && Item_607999 >= 1
+					EndWindow "\n\n　松恶喀客の沮は、姑驳尉数の苹恶が路わないと\n　侯れないんだ。\n　姑を积つジェケルはこの妈３霖のどこかに、\n　驳を积つハイデルは妈５霖のどこかにいるよ。"
+					EndBlock
+
+#　肩骄の?ワシのみを疥积
+				else
+					If Item_607997 >= 1
+						EndWindow "\n\n　苹恶を积っているジェケルとハイデルは、\n　この翠舶のどこかにいるんだ。\n　それぞれから苹恶を减け艰ってきておくれよ。"
+						EndBlock
+
+#　惧淡アイテ?を稍疥积
+					else
+						Window "\n\n　糠しい松恶の侯り数が梦りたくて丸たのかい々\n　うん、矾だったら岂なく浆评できるよ。\n　じゃあ、∪松恶喀客の沮∩を畔そうかな。\n　これをハリヤ?さんに斧せれば∧∧",NEXT
+						Window "\n\n　あれ、ないぞ。链婶芹っちゃったみたいだ。\n　でも络炬勺、すぐに侯ってあげるよ。\n　そこでちょっと完まれてほしいんだけど、\n　蝗い蒜に吐けた苹恶を艰ってきてくれないか々",NEXT
+						Window "\n\n　蝗い蒜は、ジェケルとハイデルと咐うんだ。\n　これを积っていれば、蝗い蒜たちも矾が\n　部の脱で丸たのかわかるはず。\n　じゃあ、完んだよ。",OK
+
+							Window_OK Item_607997 >= 1
+								EndWindow "\n\n　あれ、もう积ってたんだ。\n　じゃあ、もう畔す涩妥はないね。"
+								EndBlock
+
+							Window_OK ItemSpace >= 1
+								GiveItemEX 607997,1,"\n\n　操湿に鄂きがないと畔せないよ。\n　腊妄してほしいな。"
+								EndBlock
+
+							Window_OK
+								EndWindow "\n\n　操湿に鄂きがないと畔せないよ。\n　腊妄してほしいな。"
+								EndBlock
+
+					endif
+
+				endif
+
+			endif
+
+		endif
+
+	endif
+
+
+
+###　筏喀客だがス?ルレ?ルが５踏塔
+block JobAncestry == 330
+	EndWindow "\n\n　糠しい松恶の侯り数が梦りたくて丸たのかい々\n　荒前だけど、矾はまだその祷窖を浆评できる\n　レ?ルに茫していないよ。\n　もう警し咆蜗が涩妥だね。"
+
+
+
+###　解喀客でス?ルレ?ルが５笆惧
+block JobAncestry == 340 && SkillLevel_214 >= 5
+
+#　松恶喀客の沮を疥积
+	If Item_631000 >= 1
+		EndWindow "\n\n　矾の积っている松恶喀客の沮を戎客に畔せば、\n　松恶喀客たちのところへ乖くことができるよ。\n　磋磨って紊い松恶を侯ってくれよ。"
+		EndBlock
+
+#　肩骄の?ワシ、喀客の沮侯喇恶姑、喀客の沮侯喇恶驳を疥积
+	else
+		If Item_607997 >= 1 && Item_607998 >= 1 && Item_607999 >= 1
+			Window "\n\n　苹恶が路ったようだね。\n　じゃあ、络缔ぎで松恶喀客の沮を侯るよ。",OK
+
+				Window_OK Item_631000 >= 1
+					EndWindow "\n\n　あれ、もう积ってたんだ。\n　じゃあ、侯る涩妥はないね。"
+					EndBlock
+
+				Window_OK Item_607997 >= 1 && Item_607998 >= 1 && Item_607999 >= 1 && ItemSpace >= 1
+					KillItemAll 607997
+					KillItemAll 607998
+					KillItemAll 607999
+					GiveItemEX 631000,1,"\n\n　せっかく侯っても、操湿に鄂きがないと\n　畔せないよ。腊妄してほしいな。"
+					EndBlock
+
+				Window_OK Item_607997 >= 1 && Item_607998 >= 1 && Item_607999 >= 1
+					EndWindow "\n\n　せっかく侯っても、操湿に鄂きがないと\n　畔せないよ。腊妄してほしいな。"
+					EndBlock
+
+				Window_OK Item_607998 >= 1 && Item_607999 >= 1
+					EndWindow "\n\n　あれ、肩骄の?ワシがないよ。\n　稼り湿を己くす客に沮を畔したくないな。"
+					EndBlock
+
+				Window_OK Item_607999 >= 1
+					EndWindow "\n\n　あれ、苹恶が颅りないよ。\n　松恶喀客の沮は、苹恶が路ってないと\n　侯れないんだ。"
+					EndBlock
+
+				Window_OK
+					EndWindow "\n\n　あれ、苹恶が颅りないよ。\n　松恶喀客の沮は、苹恶が路ってないと\n　侯れないんだ。"
+					EndBlock
+
+#　肩骄の?ワシ、喀客の沮侯喇恶姑を疥积
+		else
+			If Item_607997 >= 1 && Item_607998 >= 1
+				EndWindow "\n\n　松恶喀客の沮は、姑驳尉数の苹恶が路わないと\n　侯れないんだ。\n　姑を积つジェケルはこの妈３霖のどこかに、\n　驳を积つハイデルは妈５霖のどこかにいるよ。"
+				EndBlock
+
+#　肩骄の?ワシ、喀客の沮侯喇恶驳を疥积
+			else
+				If Item_607997 >= 1 && Item_607999 >= 1
+					EndWindow "\n\n　松恶喀客の沮は、姑驳尉数の苹恶が路わないと\n　侯れないんだ。\n　姑を积つジェケルはこの妈３霖のどこかに、\n　驳を积つハイデルは妈５霖のどこかにいるよ。"
+					EndBlock
+
+#　肩骄の?ワシのみを疥积
+				else
+					If Item_607997 >= 1
+						EndWindow "\n\n　苹恶を积っているジェケルとハイデルは、\n　この翠舶のどこかにいるんだ。\n　それぞれから苹恶を减け艰ってきておくれよ。"
+						EndBlock
+
+#　惧淡アイテ?を稍疥积
+					else
+						Window "\n\n　糠しい松恶の侯り数が梦りたくて丸たのかい々\n　うん、矾だったら岂なく浆评できるよ。\n　じゃあ、∪松恶喀客の沮∩を畔そうかな。\n　これをハリヤ?さんに斧せれば∧∧",NEXT
+						Window "\n\n　あれ、ないぞ。链婶芹っちゃったみたいだ。\n　でも络炬勺、すぐに侯ってあげるよ。\n　そこでちょっと完まれてほしいんだけど、\n　蝗い蒜に吐けた苹恶を艰ってきてくれないか々",NEXT
+						Window "\n\n　蝗い蒜は、ジェケルとハイデルと咐うんだ。\n　これを积っていれば、蝗い蒜たちも矾が\n　部の脱で丸たのかわかるはず。\n　じゃあ、完んだよ。",OK
+
+							Window_OK Item_607997 >= 1
+								EndWindow "\n\n　あれ、もう积ってたんだ。\n　じゃあ、もう畔す涩妥はないね。"
+								EndBlock
+
+							Window_OK ItemSpace >= 1
+								GiveItemEX 607997,1,"\n\n　操湿に鄂きがないと畔せないよ。\n　腊妄してほしいな。"
+								EndBlock
+
+							Window_OK
+								EndWindow "\n\n　操湿に鄂きがないと畔せないよ。\n　腊妄してほしいな。"
+								EndBlock
+
+					endif
+
+				endif
+
+			endif
+
+		endif
+
+	endif
+
+
+
+###　解喀客だがス?ルレ?ルが５踏塔
+block JobAncestry == 340
+	EndWindow "\n\n　糠しい松恶の侯り数が梦りたくて丸たのかい々\n　荒前だけど、矾はまだその祷窖を浆评できる\n　レ?ルに茫していないよ。\n　もう警し咆蜗が涩妥だね。"
+
+
+
+###　松恶喀客ではない
+block 
+	EndWindow "\n\n　矾がもし糠松恶を滇める松恶喀客に柴ったら、\n　ここで奶乖沮が缄に掐ると帕えてほしいな。\n　あまり梦られていないみたいなんでね。"
+
+
+
+

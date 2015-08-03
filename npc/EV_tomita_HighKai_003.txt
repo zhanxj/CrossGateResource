@@ -1,0 +1,39 @@
+#窍捞 饭骇 侩 俺炼档 by 配固鸥
+#
+#　　　背访厘狼 鼻
+
+###　某稠器甫 家瘤
+block Item_607724 >= 1
+	GAWindow "\n\n　蓖傍俊霸 咯扁 绕访篮 歹 捞惑 鞘夸 绝绢.\n　倒酒啊绰 霸 绢锭?",YES,NO
+
+		Window_YES
+			GAWindow "\n\n　澜, 脚捍 凉诀捞焙.\n　角傈俊辑狼 劝距阑 扁措窍瘤.",OK
+
+				Window_OK
+					Warp 0,59505,228,157
+
+		Window_NO
+			GAWindow "\n\n　弊繁啊. 撅瘤肺 给窍霸 且 鉴 绝瘤.\n　父练且 父怒 绕访阑 拌加秦档 亮酒.",OK
+
+				Window_OK
+
+
+
+###　惑扁 酒捞袍阑 阂家瘤
+block
+	GAWindow "\n\n　绕访阑 肛眠绊 唱啊绊 酵篮啊?",YES,NO
+
+		Window_YES
+			GAWindow "\n\n　公辑况脸唱. 绢辑 唱啊!",OK
+
+				Window_OK
+					Warp 0,59505,228,157
+
+		Window_NO
+			GAWindow "\n\n　弊犯促搁 救栏肺 柳青窍档废.\n　角仿 刘柳俊 瘤抚辨捞鄂 绝促.\n　坷肺瘤 轿快绊 轿况 唱啊绰 芭促!",OK
+
+				Window_OK
+
+
+
+

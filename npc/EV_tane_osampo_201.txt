@@ -1,0 +1,77 @@
+
+
+block
+
+				Window 5540001,next
+
+				Window 5540002,yes,no
+
+				Window_yes Item 607621 == 0
+
+*case1*
+					EndWindow 5540003
+
+				Window_yes
+				
+					Window 5540004,ok
+
+
+						Window_ok Item 607621 == 0
+						
+							gotoB case1
+
+						Window_ok 
+						
+							killitemall 607621
+							GiveItem (13601%9,13641%9,13661%9,607680%2,607685%1)
+							Warp 0,59524,79,91
+
+
+
+				Window_no
+
+					EndWindow 5540005
+
+
+#block
+
+#				LocalCount0 = random 2,0
+
+#				if LocalCount0 == 1
+
+
+#						Window "\n\n　柳蓖窍焙, 牢埃牢啊.\n　府悸 赤籍捞\n　单府绊 客霖 芭具?",next
+
+
+#						Window "\n\n　构, 捞 付阑俊档\n　倔付 乐栏搁 牢埃捞\n　付澜措肺 坷霸 瞪 芭具.",next
+
+#						EndWindow "\n\n　弊 锭俊绰 其府飘档\n　粱歹 鳖呕胶反瘤 臼霸 登摆瘤."
+
+#				else
+
+
+#						Window "\n\n　弊 赤籍狼 塞篮\n　捞 技拌俊 棵 磊拜捞 乐绰 赤籍俊霸 观俊\n　佃瘤臼芭电?\n　宝满摆绢?",next
+
+
+#						Window "\n\n　弊扒 弊犯绊\n　酒贰 技拌俊 倒酒啊摆唱?",yes,no
+
+
+#						Window_yes
+#							Warp 0,59501,116,151
+
+#						Window_no
+#						EndWindow "\n\n　粱歹 辟贸甫 笛矾焊绊 哎刨啊?"
+						
+
+#				endif
+
+
+
+
+
+
+
+
+
+
+

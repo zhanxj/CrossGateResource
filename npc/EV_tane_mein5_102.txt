@@ -1,0 +1,37 @@
+
+#烤 矫措甫 酒绰 磊
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+
+block globalFlag41 == 1
+
+
+	window 4970001,next
+
+	window 4970002,ok
+
+	window_ok
+
+		LeaveGroup
+
+		KillItem 9310,1
+		KillItem 9311,1
+		KillItem 9312,1
+
+		warp 0,59725,57,146
+
+
+
+
+block
+
+	GAwindow 4970003,next
+
+	GAwindow 4970004,ok
+
+	window_ok
+
+		warp 0,59537,92,76
+
+

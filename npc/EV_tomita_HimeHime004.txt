@@ -1,0 +1,69 @@
+#扼捞靛 胶懦 裙垫 涅胶飘　　ｂｙ　配固鸥
+#
+#　　　内府唱狼 鼻
+
+###　积魂拌捞绊 洒皋洒皋窜狼 烹青菩胶甫 家瘤（１）
+block Item_607968 >= 1 && Job >= 200 && Job < 430
+	EndWindow 6910001
+
+
+
+###　积魂拌捞绊 洒皋洒皋窜狼 烹青菩胶甫 家瘤（２）
+block Item_607968 >= 1 && Job >= 450 && Job < 480
+	EndWindow 6910002
+
+
+
+###　傈捧拌捞绊 洒皋洒皋窜狼 烹青菩胶甫 家瘤
+block Item_607968 >= 1
+	EndWindow 6910003
+
+
+
+###　积魂拌捞绊 烹青菩胶甫 家瘤窍瘤 臼澜（１）
+block Job >= 200 && Job < 430
+	Window 6910004,OK
+
+		Window_OK Item_607968 >= 1
+			EndWindow 6910005
+
+		Window_OK ItemSpace >= 1
+			GiveItemEX 607968,1,"."
+
+		Window_OK
+			EndWindow 6910006
+
+
+
+###　积魂拌捞绊 烹青菩胶甫 家瘤窍瘤 臼澜（２）
+block Job >= 450 && Job < 480
+	Window 6910007,OK
+
+		Window_OK Item_607968 >= 1
+			EndWindow 6910008
+
+		Window_OK ItemSpace >= 1
+			GiveItemEX 607968,1,"."
+
+		Window_OK
+			EndWindow 6910009
+
+
+
+###　傈捧拌捞绊 烹青菩胶甫 家瘤窍瘤 臼澜
+block
+	Window 6910010,OK
+
+		Window_OK Item_607968 >= 1
+			EndWindow 6910011
+
+		Window_OK ItemSpace >= 1
+			GiveItemEX 607968,1,"."
+
+		Window_OK
+			EndWindow 6910012
+
+
+
+
+

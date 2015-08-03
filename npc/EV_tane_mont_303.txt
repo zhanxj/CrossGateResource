@@ -1,0 +1,78 @@
+
+
+block
+
+
+
+
+
+
+			if LocalCount1 == 5
+
+				LocalCount0 = random 2,0
+
+				if LocalCount1 == 1
+
+					LocalCount1 = 5
+
+
+#					Window "\n\n　捞 付阑, 救傈.\n　快府甸, 炼侩洒 混 挥.",next
+					Window 3006940,next
+
+
+#					EndWindow "\n\n　付拱, 俺唱 绊剧捞 鞍篮 巴.\n　快府甸捞 肋 鸥捞福搁, 唱慧 窿, 救 秦."
+					EndWindow 3006941
+
+
+
+				else
+
+					LocalCount1 = 5
+
+
+#					Window "\n\n　档噶模 辨靛狼 府内, 酒付档 咯扁肺 柯促.",next
+					Window 3006942,next
+
+
+#					EndWindow "\n\n　窍瘤父, 父唱档\n　弊 赤籍, 倒酒坷瘤绰 臼酒."
+					EndWindow 3006943
+
+
+
+
+				endif
+
+
+
+			else
+
+#				Window "\n\n　咯扁绰,\n　剧何葛甫 酪芭唱, 剧何葛俊霸辑 档噶模\n　辨靛 阁胶磐狼 付阑.",next
+				Window 3006944,next
+
+
+#				Window "\n\n　快府甸, 捞力, 脚开俊绰 倒酒哎 荐 绝绢.\n　咯扁辑 炼侩洒 混 芭具.",next
+				Window 3006945,next
+
+
+#				EndWindow "\n\n　快府甸, 唱篮 祈.\n　例噶秦辑 付拱捞 等 赤籍档 乐绢."
+				EndWindow 3006946
+
+
+				LocalCount1 = 5
+
+
+			endif
+
+
+
+
+
+
+
+
+
+
+
+
+
+

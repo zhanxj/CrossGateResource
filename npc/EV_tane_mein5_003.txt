@@ -1,0 +1,44 @@
+
+#烤 矫措甫 酒绰 磊
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+block globalFlag42 == 1
+
+
+
+
+
+block globalFlag39 == 1 && XPos == 133 && YPos == 74 && Group == 1
+
+
+	GAwindow 4940001,ok
+
+	window_ok globalFlag39 == 1 && XPos == 133 && YPos == 74 && Group == 1
+	
+	GAglobalFlag41 = 1
+
+	Encount 3|||0|||||0|305190|||||||||
+
+
+
+block globalFlag38 == 1 && XPos == 133 && YPos == 74 && Group == 1
+
+
+
+	GAwindow 4940002,ok
+
+	window_ok globalFlag38 == 1 && XPos == 133 && YPos == 74 && Group == 1
+	
+	GAglobalFlag41 = 1
+
+	Encount 3|||0|||||0|305190|||||||||
+
+
+block
+
+
+
+
+
+

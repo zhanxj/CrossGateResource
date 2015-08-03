@@ -1,0 +1,160 @@
+#　荐犬力 带怜（备 咯抚规切 带怜：辑宏Ｂ）　　ｂｙ　配固鸥
+#
+#　　　坷邦脚狼 荤磊狼 鼻
+
+###　措浅累狼 拌矫甫 家瘤
+
+block Item_607940 >= 1
+	EndWindow 8510001
+
+
+
+###　浅累狼 拌矫甫 家瘤
+
+block Item_607939 >= 1
+	EndWindow 8510002
+
+
+
+###　鉴固澜剧 逛国饭甫 咯矾 俺 家瘤
+
+block Item_607938 >= 2
+	EndWindow 8510003
+
+
+
+###　鉴固澜剧 逛国饭甫 １俺家瘤（涝荐饶１０盒 固父）
+
+block Item_607938 == 1 && ItemCreateTime_607938 < 10
+	EndWindow 8510004
+
+
+
+###　鉴固澜剧 逛国饭甫 １俺家瘤（涝荐饶１０盒 捞惑 版苞）
+block Item_607938 == 1 && ItemCreateTime_607938 >= 10
+
+	If Item_607936 >= 1
+		Window 8510005,OK
+
+			Window_OK Item_607938 >= 2
+				EndWindow 8510006
+				EndBlock
+
+			Window_OK Item_607938 == 1 && ItemCreateTime_607938 < 10
+				EndWindow 8510007
+				EndBlock
+
+			Window_OK Item_607938 == 1 && ItemCreateTime_607938 >= 10 && Item_607936 >= 1 && ItemSpace >= 1
+				KillItemAll 607938
+				KillItemAll 607936
+				GiveItemEX 607940,1,"."
+				EndBlock
+
+			Window_OK Item_607938 == 1 && Item_607936 >= 1
+				EndWindow 8510008
+				EndBlock
+
+			Window_OK Item_607938 == 1
+				EndWindow 8510009
+				EndBlock
+
+			Window_OK
+				EndWindow 8510010
+				EndBlock
+
+	else
+		EndWindow 8510011
+		EndBlock
+
+	endif
+
+
+
+###　绊俺狼 荐力 版窜阑 咯矾 俺 家瘤
+
+block Item_607937 >= 2
+	EndWindow 8510012
+
+
+
+###　绊俺狼 荐力 版窜阑 １俺家瘤（涝荐饶１０盒 固父）
+
+block Item_607937 == 1 && ItemCreateTime_607937 < 10
+	EndWindow 8510013
+
+
+
+###　绊俺狼 荐力 版窜阑 １俺家瘤（涝荐饶１０盒捞惑 版苞）
+
+block Item_607937 == 1 && ItemCreateTime_607937 >= 10
+
+	If Item_607936 >= 1
+		Window 8510014,OK
+
+			Window_OK Item_607937 >= 2
+				EndWindow 8510015
+				EndBlock
+
+			Window_OK Item_607937 == 1 && ItemCreateTime_607937 < 10
+				EndWindow 8510016
+				EndBlock
+
+			Window_OK Item_607937 == 1 && ItemCreateTime_607937 >= 10 && Item_607936 >= 1 && ItemSpace >= 1
+				KillItemAll 607937
+				KillItemAll 607936
+				GiveItemEX 607939,1,"."
+				EndBlock
+
+			Window_OK Item_607937 >= 1 && Item_607936 >= 1
+				EndWindow 8510017
+				EndBlock
+
+			Window_OK Item_607937 >= 1
+				EndWindow 8510018
+				EndBlock
+
+			Window_OK
+				EndWindow 8510019
+				EndBlock
+
+	else
+		EndWindow 8510020
+		EndBlock
+
+	endif
+
+
+
+###　坷邦脚狼 拌矫甫 家瘤
+
+block Item_607936 >= 1
+	EndWindow 8510021
+
+
+
+###　傍剧固甫 家瘤
+
+block Item_607935 >= 1
+	Window 8510022,OK
+
+		Window_OK Item_607935 >= 1 && ItemSpace >= 1
+			KillItemAll 607935
+			GiveItemEX 607936,1,"."
+
+		Window_OK Item_607935 >= 1
+			EndWindow 8510023
+
+		Window_OK
+			EndWindow 8510024
+
+
+
+###　惑扁 酒捞袍阑 家瘤窍瘤 臼澜
+
+block
+	EndWindow 8510025
+
+
+
+
+

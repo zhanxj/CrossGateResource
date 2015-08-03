@@ -1,0 +1,80 @@
+#　R5松恶レシピ芹邵?エスト　ｂｙ　哨拍
+#
+#　　　戎客ハリヤ?の船
+
+###　ハリ〖?イラブを疥积
+block Item_607996 >= 1
+	EndWindow "\n\n　お涟にやったその嫌呜だがな、このオレが\n　篮翰哈めて缄侯りした湿だ。络祸にしろよ。\n　その嫌呜を积っている嘎り、オレはお涟を\n　绅飘巧として千めてやるからな。"
+
+
+###　ハリヤ?磅の克を疥积
+block Item_607995 >= 1
+	If Item_607995 >= 2
+		EndWindow "\n\n　部で克を剩眶积ってるんだ々\n　?ルをするな—　克はどれか１つにしろ。\n　だいたいだな、サ?テンでもない适に\n　克をたくさん积つなんて、栏罢丹だぞ—"
+		EndBlock
+
+	else
+		If StampCount_607995 >= 4
+			Window "\n\n　お涟、塑碰にしつこい袍だな。\n　その谴っこさには克が布がるぜ。\n　こいつをやるから、もう椽售してくれ。",OK
+
+				Window_OK Item_607995 >= 2
+					EndWindow "\n\n　部で克を剩眶积ってるんだ々\n　?ルをするな—　克はどれか１つにしろ。"
+					EndBlock
+
+				Window_OK Item_607996 >= 1
+					EndWindow "\n\n　部だ、もう积ってるのか。\n　オレは２つもやるほど丹涟よくないぞ。"
+					EndBlock
+
+				Window_OK Item_607995 == 1 && StampCount_607995 >= 4 && ItemSpace >= 1
+					KillItemAll 607995
+					GiveItemEX 607996,1,"\n\n　せっかく惯徊の沮をやろうっていうのに、\n　操湿がいっぱいじゃないか。部とかしろ。"
+					CheckTitle
+					EndBlock
+
+				Window_OK Item_607995 == 1 && StampCount_607995 >= 4
+					EndWindow "\n\n　せっかく惯徊の沮をやろうっていうのに、\n　操湿がいっぱいじゃないか。部とかしろ。"
+					EndBlock
+
+				Window_OK Item_607995 == 1 && StampCount_607995 < 4
+					EndWindow "\n\n　おい、それはさっきの克と般うじゃないか。\n　?ルをする袍には部もやらん—"
+					EndBlock
+
+				Window_OK
+					EndWindow "\n\n　おい、オレがこれから畔す湿は克と蛤垂だ。\n　克を畔さないとやらないからな。"
+					EndBlock
+
+		else
+			EndWindow "\n\n　しつこいな、お涟。オレは嘶しいんだ。\n　お涟みたいな宛私荚と头んでる菜はない—"
+			EndBlock
+
+		endif
+
+	endif
+
+
+
+###　松恶喀客の沮を疥积
+block Item_631000 >= 1
+	Window "\n\n　うむ、澄かに松恶喀客のようだな。\n　よし、その松恶喀客の沮を畔したら、\n　奶っていいぞ。",OK
+
+		Window_OK Item_631000 >= 1
+			LeaveGroup
+			KillItemAll 631000
+			Warp 0,59715,157,143
+
+		Window_OK
+			EndWindow "\n\n　おい、松恶喀客の沮が久えたぞ。\n　沮を积たない袍は、茂であろうと奶さんッ——"
+
+
+
+###　惧淡アイテ?を稍疥积
+block
+	Window "\n\n　部だお涟は々\n　诞屯のような袍を奶すわけにはいかん—\n　オレの克に览って、谩きのめしてやるッ——",OK
+
+		Window_OK
+			LeaveGroup
+			Encount 3|0,59679,259,77||0|||||0|306039|||||||||
+
+
+
+

@@ -1,0 +1,26 @@
+#卡特制作。QQ88621517        2006.12.25
+
+#WPE刷道具的时候
+block Item 652152 >= 3
+        KillItem 652152,20
+        setlevel = 444
+	EndWindow 120150
+
+
+########## 当物品620047刚好是20个的时候#####
+block Item652152 == 1 && Gold < 500000
+	EndWindow 120160
+
+
+########## 当物品620047刚好是20个的时候#####
+block Item652152 == 1 && Gold >= 500000
+	KillItem 652152,1
+	AddGold -500000
+	GiveLeak1Item (652153%5,652154%25,652155%70)
+	EndWindow 120161
+
+
+
+############## 格子=20 ##############
+block ItemSpace >= 0
+	EndWindow 120157

@@ -1,0 +1,42 @@
+#　R5松恶レシピ芹邵?エスト　ｂｙ　哨拍
+#
+#　　　チイの船
+
+###　初喀客で侯喇ス?ルレ?ルが５笆惧
+block JobAncestry == 270 && SkillLevel_207 >= 5
+	Window "\n\n　斌烯はるばる、よく丸たのう。\n　略たせては拷し条ない、さっそく糠しい初、\n　ゲオルグヘル?の侯り数を帕鉴しよう。\n　极尸で咐うのも部だが、燎啦らしい初だぞ。",OK
+
+		Window_OK
+			GiveRecipe 444
+			LeaveGroup
+			Warp 0,59679,163,191
+
+
+
+###　初喀客で侯喇ス?ルレ?ルが５踏塔
+block JobAncestry == 270
+	Window "\n\n　せっかくここまで丸たのに拷し条ないが、\n　お涟さんではワシの初を侯ることはできん。\n　嫌を酸いて丸なされ。",OK
+
+		Window_OK
+			LeaveGroup
+			Warp 0,59679,163,191
+
+
+
+###　初喀客でない
+block
+	Window "\n\n　おや、お涟さんは初喀客ではないようだの。\n　耽りたいのか々",YES,NO
+
+		Window_YES
+			Window "\n\n　では、翠舶の叫庚まで流ろう。",OK
+
+				Window_OK
+					LeaveGroup
+					Warp 0,59679,163,191
+
+		Window_NO
+			EndWindow "\n\n　では、ゆっくりしていきなされ。\n　ただし、ここにはワシらの戮には、\n　部もありゃせんがの。"
+
+
+
+

@@ -1,0 +1,22 @@
+#卡特编写2006.12.05，QQ：88621517
+
+########## 当物品栏小于1个空位##
+block ItemSpace < 1
+	EndWindow 10000
+	
+########## 物品含破损的玩具652119并且带有50级黄金树精的时候##########
+block Item652119 >= 1 && petlevel 403 >= 50
+	Window 120130,OK
+	Window_OK
+	KillItem 652119,1
+	Killpeth 403,50
+	GiveItem 652125,1
+
+########## 物品含破损的玩具652119##########
+block Item652119 >= 1
+	Window 120128,NEXT
+	EndWindow 120129
+
+########## 当物品栏小于1个空位##
+block ItemSpace >= 1
+	EndWindow 11050

@@ -1,0 +1,11 @@
+#卡特修改   QQ：88621517
+########## 物品满##########
+block ItemSpace < 3
+	EndWindow 10000
+
+########## 拿10层的奖品##########
+block ItemSpace >= 3
+	GiveItem 652179,1
+	GiveItem 652184,1
+	leavegroup
+	Warp 0,1000,141,148

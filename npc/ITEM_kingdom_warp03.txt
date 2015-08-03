@@ -1,0 +1,18 @@
+
+#
+#蝴捞 啊府虐绰 辨(腮皋福挪飘 付阑 观) 况橇鼻
+#
+
+
+block
+	Window 9050023,yes,no
+
+	Window_yes
+	Setdur 651112, -1
+	Warp 0,59505,201,18
+	
+
+	Window_no
+
+
+

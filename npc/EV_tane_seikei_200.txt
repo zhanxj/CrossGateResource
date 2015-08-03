@@ -1,0 +1,42 @@
+#烤 矫措甫 酒绰 磊
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+
+
+
+
+
+block  Item 607681 >= 1
+
+
+		Window 5730001,yes,no
+
+
+			window_yes Item 607681 == 0
+
+				EndWindow 5730002
+
+			window_yes
+
+				Window 5730003,ok
+				
+				window_ok
+
+					GiveItem 607684,1
+
+			window_no
+
+				EndWindow 5730004
+
+
+block
+
+
+
+		EndWindow 5730005
+
+
+
+
+

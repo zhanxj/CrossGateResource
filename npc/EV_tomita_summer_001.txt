@@ -1,0 +1,61 @@
+#　荐犬力 带怜（备 咯抚规切 带怜）　　ｂｙ　配固鸥
+#
+#　　　巩瘤扁 绊胶飘１狼 鼻
+
+###　颇萍甫 捞风绊 乐绰 版快
+
+block Group >= 2
+	EndWindow 8360001
+
+
+
+###　悼狼 凯艰, 归狼 凯艰, 孺狼 凯艰 吝 酒公芭唱 30俺 捞惑
+
+block Item_16000 >= 30 || Item_16001 >= 30 || Item_16002 >= 30
+		EndWindow 8360002
+		EndBlock
+
+
+
+###　 悼狼 凯艰, 归狼 凯艰, 孺狼 凯艰 吝 绢恫 巴档 30俺 固父
+
+block 
+	Window 8360003,YES,NO
+
+		Window_YES Group >= 2
+			EndWindow 8360004
+
+		Window_YES Item 16000 >= 30
+			EndWindow 8360005
+
+		Window_YES Item 16001 >= 30
+			EndWindow 8360006
+
+		Window_YES Item 16002 >= 30
+			EndWindow 8360007
+
+		Window_YES
+			Window 8360008,OK
+
+				Window_OK Group >= 2
+					EndWindow 8360009
+
+				Window_OK Item 16000 >= 30
+					EndWindow 8360010
+
+				Window_OK Item 16001 >= 30
+					EndWindow 8360011
+
+				Window_OK Item 16002 >= 30
+					EndWindow 8360012
+
+				Window_OK
+					Encount 3|0,59715,170,52||0|||||0|305151|||||||||
+
+		Window_NO
+			EndWindow 8360013
+
+
+
+
+

@@ -1,0 +1,53 @@
+#扼捞靛 胶懦 裙垫 涅胶飘　　ｂｙ　配固鸥
+#
+#　　　促捞酒唱狼 鼻
+
+###　洒皋洒皋窜狼 烹青菩胶甫 咯矾 俺 家瘤
+block Item_607968 > 1
+	Window 6930001,OK
+
+		Window_OK Item_607968 >= 1
+			KillItemAll 607968,(3004849)
+
+		Window_OK
+
+
+
+###　洒皋洒皋窜狼 烹青菩胶（胶牌橇３捞惑）甫 家瘤
+block Item_607968 == 1 && StampCount_607968 >= 3
+	Window 6930002,OK
+
+		Window_OK Item_607968 >= 1
+			KillItemAll 607968,(3004849)
+
+		Window_OK
+
+
+
+###　洒皋洒皋窜狼 烹青菩胶（胶牌橇２）甫 家瘤
+block Item_607968 == 1 && StampCount_607968 == 2
+	EndWindow 6930003
+
+
+
+###　洒皋洒皋窜狼 烹青菩胶（胶牌橇１）甫 家瘤
+block Item_607968 == 1 && StampCount_607968 == 1
+	EndWindow 6930004
+
+
+
+###　洒皋洒皋窜狼 烹青菩胶（胶牌橇０）甫 家瘤
+block Item_607968 == 1 && StampCount_607968 == 0
+	EndWindow 6930005
+
+
+
+###　惑扁 酒捞袍阑 家瘤窍瘤 臼澜
+block
+	Window 6930006,NEXT
+	EndWindow 6930007
+
+
+
+
+

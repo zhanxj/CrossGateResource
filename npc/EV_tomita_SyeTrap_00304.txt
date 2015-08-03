@@ -1,0 +1,45 @@
+#带怜 飘乏 by 配固鸥
+#
+#　　　溅扼焽家狼 啪 3摸(胶困摹 况橇)
+
+###　3004859「贺贺 哆绰 阂蔫茄 蠢肠! 况橇 飘乏捞促!」
+###　3004860「魔措俊辑 扁功茄 皑盟阑 蠢布促!」
+
+
+
+###　胶困摹
+block Xpos == 111 && Ypos == 85
+
+	If LocalFlag1 == 0
+
+		Message 3004860
+		LocalFlag1 = 1
+
+	endif
+
+
+
+###　况橇１
+block Xpos == 111 && Ypos == 84
+
+	If LocalFlag1 == 1
+
+		Message 3004859
+		Warp 0,59803,53,73
+
+	endif
+
+
+
+###　况橇２
+block Xpos == 111 && Ypos == 86
+
+	If LocalFlag1 == 1
+
+		Message 3004859
+		Warp 0,59803,53,73
+
+	endif
+
+
+

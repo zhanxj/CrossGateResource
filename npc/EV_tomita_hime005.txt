@@ -1,0 +1,49 @@
+#　泪 给 靛绰 剑狼 固赤　　ｂｙ　配固鸥
+#
+#　　　焊胶（酒捞袍 扒驰）狼 鼻
+
+###　颇萍甫 捞风绊 乐促
+
+block Group >= 2
+
+	EndWindow 6830001
+
+
+###　牢屈阑 家瘤
+
+block Item_607900 >= 1
+	Window 6830002,OK
+
+		Window_OK Item_607900 >= 1
+			Warp 0,59715,239,133
+
+		Window_OK
+
+
+###　家瘤前俊 后 镑捞 乐促
+
+block ItemSpace >= 1
+	Window 6830003,OK
+
+		Window_OK ItemSpace >= 1 && Group < 2
+			GiveItemEX 607900,1,"."
+			Warp 0,59715,239,133
+
+		Window_OK Group >= 2
+			EndWindow 6830004
+
+		Window_OK
+			EndWindow 6830005
+
+
+###　家瘤前捞 啊垫 曼
+
+block
+	EndWindow 6830006
+
+
+EndBlock
+
+
+
+

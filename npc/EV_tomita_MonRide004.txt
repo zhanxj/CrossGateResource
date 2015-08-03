@@ -1,0 +1,32 @@
+#扼捞靛 胶懦 裙垫 捞亥飘　　ｂｙ　配固鸥
+#
+#　　　背嚼家 家厘狼 鼻
+
+###　胶懦“扼捞歹”甫 家瘤
+block SkillLevel_1009 >= 1
+	Window 7680001,OK
+
+		Window_OK
+			LeaveGroup
+			Warp 0,59526,181,83
+
+
+
+###　惑扁 胶懦甫 家瘤窍瘤 臼澜
+block
+	Window 7680002,YES,NO
+
+		Window_YES
+			Window 7680003,OK
+
+				Window_OK
+					LeaveGroup
+					Warp 0,59526,214,81
+
+		Window_NO
+			EndWindow 7680004
+
+
+
+
+

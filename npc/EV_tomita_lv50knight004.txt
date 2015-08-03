@@ -1,0 +1,28 @@
+#LV50国捞厘家 涅胶飘　　ｂｙ　配固鸥
+#
+#　　　葛氰磊 氰喉狼 鼻
+
+###　嚼扁蛮 己成（607962）阑 家瘤
+block Item_607962 >= 1
+	EndWindow 7530001
+
+
+
+###　惑扁 酒捞袍阑 家瘤窍瘤 臼澜
+block
+	LocalCount6 = Random 2,0
+
+	If LocalCount6 == 1
+		EndWindow 7530002
+		EndBlock
+
+	else
+		EndWindow 7530003
+		EndBlock
+
+	endif
+
+
+
+
+

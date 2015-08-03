@@ -1,0 +1,36 @@
+#捞亥飘 抛胶飘
+#贸澜栏肺 炼扒捞 老摹茄 喉废阑 贸府茄促
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+
+
+########## 辨蠕力厚 ##########
+
+block luck == 1
+
+	KillItem 18480,1,(13130)
+	GiveItem 18485
+
+block luck == 2
+
+	KillItem 18480,1,(13130)
+	GiveItem 18484
+
+block luck == 3
+
+	KillItem 18480,1,(13130)
+	GiveItem 18483
+
+block luck == 4
+
+	KillItem 18480,1,(13130)
+	GiveItem 18482
+block luck == 5
+
+	KillItem 18480,1,(13130)
+	GiveItem 18481
+
+
+
+

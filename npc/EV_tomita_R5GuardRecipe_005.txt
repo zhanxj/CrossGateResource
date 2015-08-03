@@ -1,0 +1,42 @@
+#　R5松恶レシピ芹邵?エスト　ｂｙ　哨拍
+#
+#　　　チュアの船
+
+###　斯灰喀客で侯喇ス?ルレ?ルが５笆惧
+block JobAncestry == 280 && SkillLevel_208 >= 5
+	Window "\n\n　オ〖シュハットの侯り数を梦りたいんだろ。\n　叫し浪しみなんかしないから、奥看しなよ。\n　そのかわり、たくさん侯って??を铜叹に\n　してくれよな。",OK
+
+		Window_OK
+			GiveRecipe 504
+			LeaveGroup
+			Warp 0,59679,163,191
+
+
+
+###　斯灰喀客で侯喇ス?ルレ?ルが５踏塔
+block JobAncestry == 280
+	Window "\n\n　碍いけど、??の糠しい斯灰の侯り数は\n　兜えられないな。\n　踏较な客に兜えたら、删冉が布がるからね。\n　耽って、嫌を酸いてきなよ。",OK
+
+		Window_OK
+			LeaveGroup
+			Warp 0,59679,163,191
+
+
+
+###　斯灰喀客でない
+block
+	Window "\n\n　??は??に脱はないよ。\n　それとも、耽りたいとか々",YES,NO
+
+		Window_YES
+			Window "\n\n　そう。斯灰喀客じゃなくったって、\n　流るくらいはしてあげるよ。じゃあ。",OK
+
+				Window_OK
+					LeaveGroup
+					Warp 0,59679,163,191
+
+		Window_NO
+			EndWindow "\n\n　ふ〖ん、じゃあ、戮の客に碰たった数が\n　いいんじゃないの。"
+
+
+
+

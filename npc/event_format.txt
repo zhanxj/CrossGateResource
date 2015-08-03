@@ -1,0 +1,140 @@
+≯喉废
+	block 炼扒巩
+		炼扒捞 老摹茄 喉废阑 贸府茄促.
+		炼扒捞 绝绰 版快绰 公炼扒.
+
+≯炼扒巩栏肺 荤侩且 荐 乐绰 扁龋
+	==, !=, >, >=, <, <=, ||, &&
+
+≯炼扒巩栏肺 荤侩且 荐 乐绰 眉农 亲格
+	·level 炼扒 n
+		饭骇
+	·lp 炼扒 n
+		洒飘 器牢飘
+	·fp 炼扒 n
+		器胶 器牢飘
+	·gold 炼扒 n
+		家瘤陛
+	·imagetype 炼扒 n
+		葛嚼（0:GIRL 1:BOY 2:CHILDBOY 3:CHILDGIRL 4:MAN 5:WOMAN 6:OLDMAN 7:DOG）
+	·job 炼扒 n
+		流诀ＩＤ
+	·nowevent??? 炼扒 n
+		???捞亥飘 吝 橇贰弊
+	·endevent??? 炼扒 n
+		???捞亥飘 辆丰 橇贰弊
+	·haveitem 炼扒 n
+		n酒捞袍阑 啊瘤绊 乐绰啊（炼扒篮==牢啊!=）
+	·haveleak0item 炼扒 n
+		皑沥 傈狼 n酒捞袍阑 啊瘤绊 乐绰啊（炼扒篮==牢啊!=）
+	·haveleak1item 炼扒 n
+		皑沥 饶狼 n酒捞袍阑 啊瘤绊 乐绰啊（炼扒篮==牢啊!=）
+	·itemspace 炼扒 n
+		后 酒捞袍 鄂荐
+	·item??? 炼扒 n
+		Item???狼 俺荐
+	·leak0item??? 炼扒 n
+		皑沥 傈狼 Item???狼 俺荐
+	·leak1item 炼扒 n
+		皑沥 饶狼 Item???狼 俺荐
+	·stackitemspace???炼扒 n
+		皑沥 饶狼 StackItem???狼 后荐
+	·group 炼扒 n
+		颇萍狼 荤恩荐
+	·rank 炼扒 n
+		流诀狼 珐农（0:Ｄ珐农 1:Ｃ珐农 2:Ｂ珐农 3:Ａ珐农 4:Ｓ珐农１ 5:Ｓ珐农２ 6:Ｓ珐农３）
+	·skilllevel ???炼扒 n
+		胶懦ＩＤ
+	·petspace 炼扒 n
+		后 脐 鄂荐
+	·petlevel??? 炼扒 n
+		???脐狼 饭骇
+	·strcmpchat 炼扒 n
+		盲泼苞 皋矫瘤ｎ狼 厚背（炼扒篮==牢啊!=）
+	·strstrchat 炼扒 n
+		皋矫瘤ｎ俊 盲泼捞 器窃登绰啊（炼扒篮==牢啊!=）
+	·charm 炼扒 n
+		概仿
+	·HaveTitle 炼扒 n
+		莫龋
+	·bimage 炼扒 n
+		措碍狼 拳惑锅龋
+	·bbimage 炼扒 n
+		泅犁狼 拳惑锅龋
+	·metamocount 炼扒 n
+		函脚吝狼 矫埃
+	·trueimage 炼扒 n
+		函脚傈狼 拳惑锅龋
+	·maxlp 炼扒 n
+		弥措 眉仿
+	·maxfp 炼扒 n
+		弥措器胶 器牢飘
+	·fame 炼扒 n
+		疙己
+	·jobrank 炼扒 n
+		流诀珐农
+	·weapon 炼扒 n
+		厘厚吝狼 公扁
+	·nowtime 炼扒 n
+		矫埃（0:酒魔ⅵ沥坷  1:沥坷ⅵ历翅  2:历翅ⅵ具埃  3:具埃ⅵ酒魔）
+
+≯青困 郴侩
+	·message n
+		盲泼扩档快俊 皋矫瘤 钎矫
+	·nowevent??? n
+		???捞亥飘 吝 橇贰弊 函版（n篮 ０捞唱 １）
+	·endevent??? n
+		???捞亥飘 辆丰 橇贰弊 函版（n篮 ０捞唱 １）
+	·giveitem n1, n2
+		n1酒捞袍阑 n2俺 扒迟促（n2积帆矫绰 １）
+		(n1%犬伏, n1%犬伏ˇ)肺 罚待（犬伏积帆矫绰 １）
+	·giveleak0item n1, n2
+		皑沥 傈狼 酒捞袍 扒迟促（n2积帆矫绰 １）
+		(n1%犬伏, n1%犬伏ˇ)肺 罚待（犬伏积帆矫绰 １）
+	·giveleak1item n1, n2
+		皑沥 饶狼 酒捞袍 扒迟促（n2积帆矫绰 １）
+		(n1%犬伏, n1%犬伏ˇ)肺 罚待（犬伏积帆矫绰 １）
+	·givestackitem n1, n2
+		皑沥 饶狼 胶盼 酒捞袍 扒迟促（n2积帆矫绰 １）
+		(n1%犬伏, n1%犬伏ˇ)肺 罚待（犬伏积帆矫绰 １）
+	·killitem n1, n2
+		n1酒捞袍阑 n2俺昏力 （n2积帆矫绰 １）
+	·killleak0item n
+		皑沥 傈狼 n1酒捞袍阑 n2俺昏力 （n2积帆矫绰 １）
+	·killleak1item n
+		皑沥 饶狼 n1酒捞袍阑 n2俺昏力 （n2积帆矫绰 １）
+	·addgoldlevel n
+		饭骇】n榜靛 啊魂
+	·addgold n
+		榜靛 啊魂（-n 肺 皑魂）
+	·setlevel
+		固荤侩
+	·warp n1, n2, n3, n4
+		况橇（甘ＩＤ, 敲肺矾ＩＤ, Ｘ谅钎, Ｙ谅钎）
+	·givepet n
+		脐扒迟促
+		(n, 犬伏, n, 犬伏ˇ)肺 罚待
+	·killpeth n1, n2
+		n2饭骇 捞惑狼 n1脐阑 昏力 （n2积帆矫绰 １）
+	·killpetl n1, n2
+		n2饭骇 捞窍狼 n1脐阑 昏力 （n2积帆矫绰 ９９９９）
+	·window n, 滚瓢
+		皋矫瘤ｎ狼 裹侩 扩档快阑 凯绊, 
+		措览窍绰 扼骇肺 痢橇茄促（滚瓢篮 OK, CANCEL, NEXT, PREV, YES, NO）
+	·endwindow　n, 滚瓢
+		皋矫瘤ｎ狼 裹侩扩档快阑 凯绊 辆丰茄促（滚瓢篮 OK, CANCEL, NEXT, PREV, YES, NO）
+	·setcharm n
+		概仿啊魂（+n栏肺 啊魂, -n肺 皑魂, n栏肺 流立措涝 ）
+	·setdur n1, n2
+		n1酒捞袍狼 郴备档 啊魂（+n2栏肺 啊魂, -n2肺 皑魂, n2栏肺 流立措涝 ）
+
+
+≯扩档快 扼骇
+	·Window_OK 炼扒 n
+		裹侩扩档快俊辑 ＯＫ啊 努腐登菌阑 锭 
+	·Window_YES 炼扒 n
+		裹侩扩档快俊辑 ＹＥＳ啊 努腐登菌阑 锭 
+	·Window_NO 炼扒 n
+		裹侩扩档快俊辑 ＮＯ啊 努腐登菌阑 锭 
+
+

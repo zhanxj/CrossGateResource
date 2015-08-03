@@ -1,0 +1,115 @@
+#『霉 缴何抚』　　ｂｙ　配固鸥
+#
+#　　　摹虐（グ）狼 鼻
+
+###　快 努腐
+
+Block StrCmpChat == R
+
+	If Item_607904 >= 2
+		EndWindow 7740001
+		EndBlock
+
+	else
+		If Item_607904 == 1 && StampCount_607904 == 0
+			EndWindow 7740002
+			EndBlock
+
+		else
+			If Item_607904 == 1 && StampCount_607904 == 1
+				EndWindow 7740003
+				EndBlock
+
+
+			else
+				If Item_607904 == 1
+					EndWindow 7740004
+					EndBlock
+
+				else
+					EndWindow 7740005
+					EndBlock
+
+				endif
+
+			endif
+
+		endif
+
+	endif
+
+
+
+###　盲泼 涝仿 沥翠（橇扼厚坷）
+
+Block StrCmpChat == 3004912
+
+	If Item_607904 >= 2
+		EndWindow 7740006
+		EndBlock
+
+	else
+		If Item_607904 == 1 && StampCount_607904 == 0
+			Window 7740007,OK
+
+				Window_OK Item_607904 >= 2
+					EndWindow 7740008
+					EndBlock
+
+				Window_OK Item_607904 == 1
+					AddStampCount 607904,+1
+					EndBlock
+
+				Window_OK
+					EndWindow 7740009
+					EndBlock
+
+
+		else
+			If Item_607904 == 1
+				EndWindow 7740010
+				EndBlock
+
+			else
+				EndWindow 7740011
+				EndBlock
+
+			endif
+
+		endif
+
+	endif
+
+
+
+###　盲泼 涝仿 坷翠
+Block StrCmpChat != 3004912
+
+	If Item_607904 >= 2
+		EndWindow 7740012
+		EndBlock
+
+	else
+		If Item_607904 == 1 && StampCount_607904 == 0
+			EndWindow 7740013
+			EndBlock
+
+		else
+			If Item_607904 == 1
+				EndWindow 7740014
+				EndBlock
+
+			else
+				EndWindow 7740015
+				EndBlock
+
+			endif
+
+		endif
+
+	endif
+
+
+
+
+

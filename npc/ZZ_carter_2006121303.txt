@@ -1,0 +1,21 @@
+#卡特编写2006.12.05，QQ：88621517
+
+########## 当物品栏小于1个空位##
+block ItemSpace < 1
+	EndWindow 10000
+	
+########## 物品含破损的玩具652119##########
+block Item652119 >= 1
+	EndWindow 120127
+
+########## 物品含姐姐的信物652136 ##########
+block Item652136 >= 1
+	Window 120124,NEXT
+	KillItem 652136,1
+	GiveItem 652119,1
+	Window 120125,NEXT
+	EndWindow 120126
+
+########## 当物品栏小于1个空位##
+block ItemSpace >= 1
+	EndWindow 10674

@@ -1,0 +1,22 @@
+#绊喉赴狼 夸货　　ｂｙ　配固鸥
+#
+#　　　海农（焊胶：搬富Ｂ）狼 鼻
+
+###　柳惑绊归
+
+block
+	Window 6270001,NEXT
+	Window 6270002,NEXT
+	Window 6270003,NEXT
+	Window 6270004,NEXT
+	Window 6270005,NEXT
+	Window 6270006,OK
+
+		Window_OK
+			LeaveGroup
+			Warp 0,59502,180,87
+
+
+
+
+

@@ -1,0 +1,19 @@
+#卡特主线任务   接任务NPC  01
+
+############## 接任务 ##############
+block Item652196 == 1 && Item652197 == 1
+	Window 120207,NEXT
+	changepal 15,180
+	Window 120208,NEXT
+	Window 120209,NEXT
+	Window 120210,NEXT
+	Window 120211,YES,NO
+	Window_NO
+	EndWindow 120207,OK
+	Window_YES
+        LeaveGroup
+	Warp 0,6781,1,1
+
+############## 接任务 ##############
+block Item652196 == 0
+	EndWindow 120206

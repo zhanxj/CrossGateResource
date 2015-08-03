@@ -1,0 +1,62 @@
+#辨阁 乔府 背券 NPC　　ｂｙ　配固鸥
+#
+#　　　官操扁 酒历揪狼 鼻
+
+###　措函（家）阑 40俺 家瘤
+block Item_608000 >= 40
+	Window 6110001,YES,NO
+
+		Window_YES Item_608000 >= 40 && ItemSpace >= 1
+			KillItem 608000,40
+			GiveItemEX 608700,1,"."
+
+		Window_YES Item_608000 >= 40
+			EndWindow 6110002
+
+		Window_YES
+			EndWindow 6110003
+
+		Window_NO
+			EndWindow 6110004
+
+
+
+###　措函（吝）阑 20俺 家瘤
+block Item_608100 >= 20
+	Window 6110005,YES,NO
+
+		Window_YES Item_608100 >= 20 && ItemSpace >= 1
+			KillItem 608100,20
+			GiveItemEX 608700,1,"."
+
+		Window_YES Item_608100 >= 20
+			EndWindow 6110006
+
+		Window_YES
+			EndWindow 6110007
+
+		Window_NO
+			EndWindow 6110008
+
+
+
+###　措函（措）阑 20俺 家瘤
+block Item_608200 >= 20
+	Window 6110009,YES,NO
+
+		Window_YES Item_608200 >= 20 && ItemSpace >= 1
+			KillItem 608200,20
+			GiveItemEX 608700,1,"."
+
+		Window_YES Item_608200 >= 20
+			EndWindow 6110010
+
+		Window_YES
+			EndWindow 6110011
+
+		Window_NO
+			EndWindow 6110012
+
+
+
+###　呔牙

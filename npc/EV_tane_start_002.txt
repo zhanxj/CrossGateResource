@@ -1,0 +1,63 @@
+
+block Item 602000 == 0 && Item 602600 == 0
+
+#if Ypos >= 79
+
+#		LocalFlag1 = 0
+
+#endif
+
+#if Xpos >= 51 && Xpos <= 57 && Ypos >= 72 && Ypos <= 78 && Item 602000 == 0 && Item 602600 == 0
+#	if LocalFlag1 == 0
+
+#		LocalFlag1 = 1
+
+
+#		endwindow "\n\n　寸脚篮 酒流\n　捞 菊栏肺 唱酒啊急 救邓聪促."
+
+#		Play_SE 260,320,240
+#		shapenext 103011
+
+
+#	endif
+
+#endif
+
+if Xpos == 54 && Ypos == 75 && Item 602000 == 0 && Item 602600 == 0
+
+
+
+		endwindow 5770001
+
+
+
+
+endif
+
+
+
+block Item 602000 >= 1 && Item 602600 >= 1
+
+#if Ypos >= 79
+
+#		LocalFlag1 = 0
+
+#endif
+
+
+if Xpos == 54 && Ypos == 75 && Item 602000 >= 1 && Item 602600 >= 1
+
+
+
+
+			LeaveGroup
+			warp 0,59740,143,74
+
+
+endif
+
+
+
+
+
+

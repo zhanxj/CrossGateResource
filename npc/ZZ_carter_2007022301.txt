@@ -1,0 +1,24 @@
+
+###判断是否为圣骑职业 如果是 传送入房间内 方便晋级###
+block job >= 181 && job <= 186
+	Window 120268,OK
+	Window_OK
+	LeaveGroup
+	warp 0,1182,8,15
+
+###判断是否拥有任务道具和骑士推荐信 18103推荐信 18449为钢骑### 
+block Item 652126 >= 1
+	Window 120266,yes,no
+	Window_YES
+	LeaveGroup
+	warp 0,1182,8,15
+	Window_NO
+	EndWindow 120265,OK
+
+
+block
+	Window 120263,yes,no
+	Window_NO
+	EndWindow 120265,OK
+	Window_YES
+	EndWindow 120264,OK

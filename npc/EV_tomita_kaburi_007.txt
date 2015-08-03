@@ -1,0 +1,189 @@
+#檬焊磊侩 镜 巴 涅胶飘　　ｂｙ　配固鸥
+#
+#　　　采且赣聪 摹家狼 鼻
+
+###　PUK3 家瘤窍瘤 臼澜
+block Trialflg < 8
+	EndWindow 7070001
+
+
+
+###　目促鄂 墨橇墨橇狼 揪狙（607961）阑 家瘤
+block Item_607961 >= 1
+	EndWindow 7070002
+
+
+
+###　采厘侥（１）（607956）阑 家瘤
+block Item_607956 >= 1
+
+##　墨橇墨橇狼 揪狙（607955）阑 家瘤
+	If Item_607955 >= 1
+		Window 7070003,YES,NO
+
+			Window_YES Item_607955 >= 1 && Item_607956 >= 1 && ItemSpace >= 1
+				Window 7070004,OK
+
+					Window_OK Item_607955 >= 1 && Item_607956 >= 1 && ItemSpace >= 1
+						KillItemAll 607956
+						GiveItemEX 607959,1,"."
+						EndBlock
+
+					Window_OK Item_607956 >= 1 && ItemSpace >= 1
+						EndWindow 7070005
+						EndBlock
+
+					Window_OK ItemSpace >= 1
+						EndWindow 7070006
+						EndBlock
+
+					Window_OK
+						EndWindow 7070007
+						EndBlock
+
+			Window_YES Item_607956 >= 1 && ItemSpace >= 1
+				EndWindow 7070008
+				EndBlock
+
+			Window_YES ItemSpace >= 1
+				EndWindow 7070009
+				EndBlock
+
+			Window_YES
+				EndWindow 7070010
+				EndBlock
+
+			Window_NO
+				EndWindow 7070011
+				EndBlock
+
+
+###　墨橇墨橇狼 揪狙（607955）阑 家瘤窍瘤 臼澜
+	else
+		EndWindow 7070012
+		EndBlock
+
+	endif
+
+
+
+###　采厘侥（２）（607957）阑 家瘤
+block Item_607957 >= 1
+
+##　墨橇墨橇狼 揪狙（607955）阑 家瘤
+	If Item_607955 >= 1
+		Window 7070013,YES,NO
+
+			Window_YES Item_607955 >= 1 && Item_607957 >= 1 && ItemSpace >= 1
+				Window 7070014,OK
+
+					Window_OK Item_607955 >= 1 && Item_607957 >= 1 && ItemSpace >= 1
+						KillItemAll 607957
+						GiveItemEX 607960,1,"."
+						EndBlock
+
+					Window_OK Item_607957 >= 1 && ItemSpace >= 1
+						EndWindow 7070015
+						EndBlock
+
+					Window_OK ItemSpace >= 1
+						EndWindow 7070016
+						EndBlock
+
+					Window_OK
+						EndWindow 7070017
+						EndBlock
+
+			Window_YES Item_607957 >= 1 && ItemSpace >= 1
+				EndWindow 7070018
+				EndBlock
+
+			Window_YES ItemSpace >= 1
+				EndWindow 7070019
+				EndBlock
+
+			Window_YES
+				EndWindow 7070020
+				EndBlock
+
+			Window_NO
+				EndWindow 7070021
+				EndBlock
+
+
+###　墨橇墨橇狼 揪狙（607955）阑 家瘤窍瘤 臼澜
+	else
+		EndWindow 7070022
+		EndBlock
+
+	endif
+
+
+
+###　采厘侥（３）（607958）阑 家瘤
+block Item_607958 >= 1
+
+##　墨橇墨橇狼 揪狙（607955）阑 家瘤
+	If Item_607955 >= 1
+		Window 7070023,YES,NO
+
+			Window_YES Item_607955 >= 1 && Item_607958 >= 1 && ItemSpace >= 1
+				Window 7070024,OK
+
+					Window_OK Item_607955 >= 1 && Item_607958 >= 1 && ItemSpace >= 1
+						KillItemAll 607958
+						GiveItemEX 607960,1,"."
+						EndBlock
+
+					Window_OK Item_607958 >= 1 && ItemSpace >= 1
+						EndWindow 7070025
+						EndBlock
+
+					Window_OK ItemSpace >= 1
+						EndWindow 7070026
+						EndBlock
+
+					Window_OK
+						EndWindow 7070027
+						EndBlock
+
+			Window_YES Item_607958 >= 1 && ItemSpace >= 1
+				EndWindow 7070028
+				EndBlock
+
+			Window_YES ItemSpace >= 1
+				EndWindow 7070029
+				EndBlock
+
+			Window_YES
+				EndWindow 7070030
+				EndBlock
+
+			Window_NO
+				EndWindow 7070031
+				EndBlock
+
+
+###　墨橇墨橇狼 揪狙（607955）阑 家瘤窍瘤 臼澜
+	else
+		EndWindow 7070032
+		EndBlock
+
+	endif
+
+
+
+###　墨橇墨橇狼 揪狙（607955）阑 家瘤
+block Item_607955 >= 1
+	EndWindow 7070033
+
+
+
+###　惑扁 酒捞袍阑 家瘤窍瘤 臼澜
+block
+	EndWindow 7070034
+
+
+
+
+

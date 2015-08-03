@@ -1,0 +1,44 @@
+#　籍角狼 磨泅　　ｂｙ　配固鸥
+#
+#　　　纳捞内快狼 鼻
+
+###　芒流牢捞绊 芒累己 胶懦饭骇捞 ５捞惑
+block JobAncestry == 220 && SkillLevel_202 >= 5
+	Window 8780001,OK
+
+		Window_OK
+			GiveRecipe 144
+			LeaveGroup
+			Warp 0,59679,163,191
+
+
+
+###　芒流牢捞瘤父 芒累己 胶懦饭骇捞 ５固父
+block JobAncestry == 220
+	Window 8780002,OK
+
+		Window_OK
+			LeaveGroup
+			Warp 0,59679,163,191
+
+
+
+
+###　芒流牢捞 酒聪促
+block
+	Window 8780003,YES,NO
+
+		Window_YES
+			Window 8780004,OK
+
+				Window_OK
+					LeaveGroup
+					Warp 0,59679,163,191
+
+		Window_NO
+			EndWindow 8780005
+
+
+
+
+

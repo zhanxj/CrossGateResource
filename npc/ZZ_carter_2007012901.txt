@@ -1,0 +1,90 @@
+#卡特编写2006.12.05，QQ：88621517
+
+block endevent143 == 1 && endevent139 == 0
+	KillItem 652202,20
+	endevent85 = 1
+	EndEvent 125 = 1
+
+block endevent143 == 1 && endevent133 == 0
+	KillItem 652202,20
+	endevent85 = 1
+	EndEvent 125 = 1
+
+block endevent143 == 1 && endevent131 == 0
+	KillItem 652202,20
+	endevent85 = 1
+	EndEvent 125 = 1
+
+block endevent139 == 1 && endevent133 == 0
+	KillItem 652202,20
+	endevent85 = 1
+	EndEvent 125 = 1
+
+block endevent139 == 1 && endevent131 == 0
+	KillItem 652202,20
+	endevent85 = 1
+	EndEvent 125 = 1
+
+block endevent133 == 1 && endevent131 == 0
+	KillItem 652202,20
+	endevent85 = 1
+	EndEvent 125 = 1
+
+########## 当有2样道具的时候##
+block Item652202 >= 2
+	KillItem 652202,20
+	endevent85 = 1
+	EndEvent 125 = 1
+block Item652203 >= 2
+	KillItem 652203,20
+	endevent85 = 1
+	EndEvent 125 = 1
+block Item652204 >= 2
+	KillItem 652204,20
+        endevent85 = 1
+	EndEvent 125 = 1
+
+########## 当道具栏小于1个空位##
+block ItemSpace < 6
+	EndWindow 10000
+
+########## 兑换##
+block Item652202 == 1 && endevent139 != 1
+	KillItem 652202,1
+	GiveItem 652207,1
+	GiveItem 652206,1
+	Giveleak1Item (652200%80,652201%20)
+	Giveleak1Item (18771%25,18804%25,18932%25,18960%25)
+	Giveleak1Item (13609%5,13619%25,13629%1,13639%5,13649%20,13659%30,13669%2,13679%20)
+
+block Item652202 == 1 && endevent143 == 1
+	KillItem 652202,1
+	GiveItem 652207,1
+	GiveItem 652206,1
+	Giveleak1Item (652200%80,652201%20)
+	Giveleak1Item (18771%25,18804%25,18932%25,18960%25)
+	Giveleak1Item (13609%5,13619%25,13629%1,13639%5,13649%20,13659%30,13669%2,13679%20)
+
+block Item652202 == 1 && endevent139 == 1
+	KillItem 652202,1
+	GiveItem 652208,1
+	GiveItem 652207,1
+	GiveItem 652206,1
+	Giveleak1Item (652200%80,652201%20)
+	Giveleak1Item (18771%25,18804%25,18932%25,18960%25)
+	Giveleak1Item (13609%5,13619%25,13629%1,13639%5,13649%20,13659%30,13669%2,13679%20)
+
+block Item652203 == 1
+	KillItem 652203,1
+	GiveItem 652207,1
+	GiveItem 652206,1
+	Giveleak1Item (652200%80,652201%20)
+	Giveleak1Item (18771%25,18804%25,18932%25,18960%25)
+
+block Item652204 == 1
+	KillItem 652204,1
+	GiveItem 652205,1
+
+########## 当道具栏小于1个空位##
+block ItemSpace >= 0
+	EndWindow 120166

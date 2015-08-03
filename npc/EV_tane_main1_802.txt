@@ -1,0 +1,22 @@
+
+block Xpos == 167 && Ypos == 92
+
+
+#	window "\n\n　悼奔狼 弥窍摸俊 倒酒啊摆嚼聪鳖?",yes,no
+
+	window 4710001,yes,no
+
+		window_yes
+
+#			warp 0,59707,252,182
+
+			warp 0,59502,150,131
+
+		window_no
+
+
+
+
+
+
+

@@ -1,0 +1,109 @@
+#檬焊磊侩 镜 巴 涅胶飘　　ｂｙ　配固鸥
+#
+#　　　具胶狼 鼻
+
+###　PUK3 家瘤窍瘤 臼澜
+block Trialflg < 8
+	Window 7000001,NEXT
+	EndWindow 7000002
+
+
+
+###　墨橇墨橇狼 采（607701）阑 家瘤
+block Item_607701 >= 1
+	EndWindow 7000003
+
+
+
+###　目促鄂 墨橇墨橇狼 揪狙（607961）阑 家瘤
+block Item_607961 >= 1
+
+##　饭骇１１捞惑
+	If Level > 10
+		EndWindow 7000004
+		EndBlock
+
+
+##　饭骇１０捞窍
+	else
+		Window 7000005,NEXT
+		EndWindow 7000006
+		EndBlock
+
+	endif
+
+
+
+###　墨橇墨橇狼 揪狙（607955）阑 家瘤
+block Item_607955 >= 1
+
+##　饭骇１１捞惑
+	If Level > 10
+		Window 7000007,NEXT
+		EndWindow 7000008
+		EndBlock
+
+
+##　饭骇１０捞窍
+	else
+		Window 7000009,NEXT
+		EndWindow 7000010
+		EndBlock
+
+	endif
+
+
+
+###　扁功茄 辆磊（607953）阑 家瘤
+block Item_607953 >= 1
+
+##　饭骇１１捞惑
+	If Level > 10
+		EndWindow 7000011
+		EndBlock
+
+
+##　饭骇１０捞窍
+	else
+		EndWindow 7000012
+		EndBlock
+
+	endif
+
+
+
+###　目促鄂 拱绊扁狼 厚疵（18208）阑 家瘤
+block Item_18208 >= 1
+	Window 7000013,NEXT
+	EndWindow 7000014
+
+
+
+###　超矫狼 冈捞？（18183）阑 家瘤
+block Item_18183 >= 1
+	Window 7000015,NEXT
+	EndWindow 7000016
+
+
+
+###　规匡？（18185）阑 家瘤
+block Item_18185 >= 1
+	Window 7000017,NEXT
+	EndWindow 7000018
+
+
+
+###　绊剧捞 器裙侩狼 积急？（18184）阑 家瘤
+block Item_18184 >= 1
+	EndWindow 7000019
+
+
+
+###　惑扁 酒捞袍阑 家瘤窍瘤 臼澜
+block
+	EndWindow 7000020
+
+
+
+
+

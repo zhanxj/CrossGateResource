@@ -1,0 +1,11 @@
+#卡特编写2006.12.05，QQ：88621517
+
+block EndEvent 125 == 1
+	Window 120256,OK
+	Window_OK
+	GiveItem 652247,1
+
+
+block EndEvent 125 == 0
+        endevent85 = 1
+	EndEvent 125 = 1

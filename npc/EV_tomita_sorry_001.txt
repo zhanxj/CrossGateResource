@@ -1,0 +1,78 @@
+#厘扁 痢八 荤苞 NPC　　ｂｙ　配固鸥
+#
+#　　　空泵厚辑包狼 鼻
+
+#####　2004掖8昱18祉 捞饶
+
+###　侩狼 葛贰甫 家瘤
+#block CheckRealTime 2004/8/9,20:50:00 == 1 && Item_16426 >= 1
+block CheckRealTime 2004/8/18,00:00:00 == 1 && Item_16426 >= 1
+
+	EndWindow 8330001
+
+
+
+
+###　侩狼 葛贰背券鼻阑 家瘤
+#block CheckRealTime 2004/8/9,20:50:00 == 1 && Item_607930 >= 1
+block CheckRealTime 2004/8/18,00:00:00 == 1 && Item_607930 >= 1
+
+	Window 8330002,YES,NO
+
+		Window_YES
+			Window 8330003,OK
+
+				Window_OK Item_16426 >= 1
+					EndWindow 8330004
+
+				Window_OK Item_607930 >= 1 && ItemSpace >= 1
+					KillItemAll 607930
+					GiveItemEX 16426,1,"."
+
+				Window_OK ItemSpace >= 1
+					EndWindow 8330005
+
+				Window_OK
+					EndWindow 8330006
+
+		Window_NO
+			EndWindow 8330007
+
+
+
+###　惑扁 酒捞袍阑 家瘤窍瘤 臼澜
+#block CheckRealTime 2004/8/9,20:50:00 == 1
+block CheckRealTime 2004/8/18,00:00:00 == 1
+
+	EndWindow 8330008
+
+
+
+
+
+#####　2004掖8昱18祉 捞傈
+
+###　侩狼 葛贰背券鼻阑 家瘤
+block Item_607930 >= 1
+	EndWindow 8330009
+
+
+
+###　侩狼 葛贰背券鼻阑 家瘤窍瘤 臼澜
+block
+	Window 8330010,NEXT
+	Window 8330011,OK
+
+		Window_OK Item_607930 >= 1
+			EndWindow 8330012
+
+		Window_OK ItemSpace >= 1
+			GiveItemEX 607930,1,"."
+
+		Window_OK
+			EndWindow 8330013
+
+
+
+
+

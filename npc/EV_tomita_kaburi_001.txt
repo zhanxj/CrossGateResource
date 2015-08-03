@@ -1,0 +1,297 @@
+#檬焊磊侩 镜 巴 涅胶飘　　ｂｙ　配固鸥
+#
+#　　　屈丛狼 鼻
+
+###　PUK3 家瘤窍瘤 臼澜
+block Trialflg < 8
+	EndWindow 6980001
+
+
+
+###　墨橇墨橇狼 采（607701）阑 家瘤
+block Item_607701 >= 1
+	EndWindow 6980002
+
+
+
+###　目促鄂 墨橇墨橇狼 揪狙（607961）阑 家瘤
+block Item_607961 >= 1
+
+##　饭骇１１捞惑
+	If Level > 10
+		EndWindow 6980003
+		EndBlock
+
+
+##　饭骇１０捞窍捞绊, 踌祸 秋镐（18195）阑 ５俺 捞惑家瘤
+	else
+		If Item_18195 >= 5
+			Window 6980004,YES,NO
+
+				Window_YES Item_607961 >= 1 && Item_18195 >= 5
+					Window 6980005,NEXT
+					Window 6980006,OK
+
+						Window_OK Item_607961 >= 1 && Item_18195 >= 5
+							KillItem 18195,5
+							LeaveGroup
+							Warp 0,59526,189,108
+							EndBlock
+
+						Window_OK Item_18195 >= 5
+							EndWindow 6980007
+							EndBlock
+
+						Window_OK
+							EndWindow 6980008
+							EndBlock
+
+				Window_YES Item_18195 >= 5
+					EndWindow 6980009
+					EndBlock
+
+				Window_YES
+					EndWindow 6980010
+					EndBlock
+
+				Window_NO
+					EndWindow 6980011
+					EndBlock
+
+
+##　饭骇１０捞窍捞绊 惑扁 捞寇
+		else
+			Window 6980012,NEXT
+			EndWindow 6980013
+			EndBlock
+
+		endif
+
+	endif
+
+
+
+###　墨橇墨橇狼 揪狙（607955）阑 家瘤
+block Item_607955 >= 1
+
+##　饭骇１１捞惑
+	If Level > 10
+		EndWindow 6980014
+		EndBlock
+
+
+##　饭骇１０捞窍捞绊, 踌祸 秋镐阑 ３俺 捞惑家瘤
+	else
+		If Item_18195 >= 3
+			Window 6980015,YES,NO
+
+				Window_YES Item_607955 >= 1 && Item_18195 >= 3
+					Window 6980016,NEXT
+					Window 6980017,OK
+
+						Window_OK Item_607955 >= 1 && Item_18195 >= 3
+							KillItem 18195,3
+							LeaveGroup
+							Warp 0,59524,80,136
+							EndBlock
+
+						Window_OK Item_18195 >= 3
+							EndWindow 6980018
+							EndBlock
+
+						Window_OK
+							EndWindow 6980019
+							EndBlock
+
+				Window_YES Item_18195 >= 3
+					EndWindow 6980020
+					EndBlock
+
+				Window_YES
+					EndWindow 6980021
+					EndBlock
+
+				Window_NO
+					EndWindow 6980022
+					EndBlock
+
+
+##　饭骇１０捞窍捞绊 惑扁 捞寇
+		else
+			Window 6980023,NEXT
+			EndWindow 6980024
+			EndBlock
+
+		endif
+
+	endif
+
+
+
+###　扁功茄 辆磊（607953）甫 家瘤
+block Item_607953 >= 1
+
+##　饭骇１１捞惑
+	If Level > 10
+		Window 6980025,NEXT
+		EndWindow 6980026
+		EndBlock
+
+
+##　饭骇１０捞窍捞绊, 踌祸 秋镐阑 １俺 捞惑家瘤
+	else
+		If Item_607953 >= 1 && Item_18195 >= 1
+			Window 6980027,YES,NO
+
+				Window_YES Item_607953 >= 1 && Item_18195 >= 1
+					Window 6980028,NEXT
+					Window 6980029,OK
+
+						Window_OK Item_607953 >= 1 && Item_18195 >= 1
+							KillItem 18195,1
+							LeaveGroup
+							Warp 0,59520,122,103
+							EndBlock
+
+						Window_OK Item_18195 >= 1
+							EndWindow 6980030
+							EndBlock
+
+						Window_OK
+							EndWindow 6980031
+							EndBlock
+
+				Window_YES Item_18195 >= 1
+					EndWindow 6980032
+					EndBlock
+
+				Window_YES
+					EndWindow 6980033
+					EndBlock
+
+				Window_NO
+					EndWindow 6980034
+					EndBlock
+
+
+##　饭骇１０捞窍捞绊 惑扁 捞寇
+		else
+			Window 6980035,NEXT
+			Window 6980036,NEXT
+			EndWindow 6980037
+			EndBlock
+
+		endif
+
+	endif
+
+
+
+###　目促鄂 拱绊扁狼 厚疵（18208）阑 家瘤
+block Item_18208 >= 1
+
+##　饭骇１１捞惑
+	If Level > 10
+		Window 6980038,OK
+
+			Window_OK Item_18208 >= 1 && Gold >= 500 && ItemSpace >= 1
+				KillItem 18208,1
+				AddGold -500
+				GiveItemEX 607953,1,"."
+				EndBlock
+
+			Window_OK Item_18208 >= 1 && Gold >= 500
+				EndWindow 6980039
+				EndBlock
+
+			Window_OK Gold >= 500
+				EndWindow 6980040
+				EndBlock
+
+			Window_OK
+				EndWindow 6980041
+				EndBlock
+
+
+##　饭骇１０捞窍
+	else
+		Window 6980042,OK
+
+			Window_OK Item_18208 >= 1 && ItemSpace >= 1
+				KillItem 18208,1
+				GiveItemEX 607953,1,"."
+				EndBlock
+
+			Window_OK Item_18208 >= 1
+				EndWindow 6980043
+				EndBlock
+
+			Window_OK
+				EndWindow 6980044
+				EndBlock
+
+	endif
+
+
+
+###　超矫狼 冈捞？（18183）阑 家瘤
+block Item_18183 >= 1
+	Window 6980045,NEXT
+	EndWindow 6980046
+
+
+
+###　规匡？（18185）阑 家瘤
+block Item_18185 >= 1
+	Window 6980047,NEXT
+	EndWindow 6980048
+
+
+
+###　绊剧捞 器裙侩狼 拱绊扁？（18184）阑 家瘤
+block Item_18184 >= 1
+	Window 6980049,NEXT
+	EndWindow 6980050
+
+
+
+###　惑扁酒捞袍阑 家瘤窍瘤 臼澜
+block
+
+##　饭骇１１捞惑
+	If Level > 10
+		Window 6980051,YES,NO
+
+			Window_YES
+				Window 6980052,NEXT
+				Window 6980053,NEXT
+				Window 6980054,NEXT
+				EndWindow 6980055
+				EndBlock
+
+			Window_NO
+				EndWindow 6980056
+				EndBlock
+
+
+##　饭骇１０捞窍
+	else
+		Window 6980057,NEXT
+		Window 6980058,YES,NO
+
+			Window_YES
+				Window 6980059,NEXT
+				Window 6980060,NEXT
+				EndWindow 6980061
+				EndBlock
+
+			Window_NO
+				EndWindow 6980062
+				EndBlock
+
+	endif
+
+
+
+
+

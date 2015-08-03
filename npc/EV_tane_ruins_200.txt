@@ -1,0 +1,62 @@
+#皋牢　蜡利　瞒??耔嘴仔?
+#措巩磊, 家巩磊狼 备喊篮 绝澜
+#'_'绰 佬阑 锭 扒呈盾
+
+###########　酒公巴档 绝澜　##############
+
+
+
+block Item 620029 >= 1 && petlevel 300002 == 1
+
+	Window 5680001,YES,NO
+
+	Window_NO
+
+		EndWindow 5680002
+
+	Window_YES  Item 620029 >= 1 && petlevel 300002 == 1
+
+		Window 5680003,YES,NO
+
+
+			Window_NO
+
+				EndWindow 5680004
+
+
+			Window_YES  Item 620029 >= 1 && petlevel 300002 == 1
+
+				Window 5680005,ok
+
+					Window_ok  Item 620029 >= 1 && petlevel 300002 == 1
+
+							KillItem 620029,1
+
+							KillPetl 300002,1
+
+							GivePet 300005
+
+
+
+
+block Item 620029 >= 1
+
+
+	window 5680006,next
+
+
+	endwindow 5680007
+
+
+
+block globalFlag36 == 1 && globalFlag10 == 1
+
+			window 5680008,next
+
+			endwindow 5680009
+
+
+
+block globalFlag10 == 1
+
+#\n\n　坷, 磊匙牢啊?\n　???

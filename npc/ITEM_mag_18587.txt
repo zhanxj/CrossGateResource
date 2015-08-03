@@ -1,0 +1,14 @@
+#
+#柳缴 檬内
+#
+
+##############  ##############
+block
+#\n\n\n\n\n@c檬妮复阑 冈摆嚼聪鳖?
+#	Window ,YES,NO
+#	Window_YES
+	KillItem 18587,(15268)
+	SetCharm +15
+#	Window_NO
+
+

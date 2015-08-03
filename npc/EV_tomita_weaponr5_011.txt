@@ -1,0 +1,43 @@
+#　籍角狼 磨泅　　ｂｙ　配固鸥
+#
+#　　　罢技虐狼 鼻
+
+###　八流牢捞绊 八累己 胶懦饭骇捞 ５捞惑
+block JobAncestry == 200 && SkillLevel_200 >= 5
+	Window 8770001,OK
+
+		Window_OK
+			GiveRecipe 24
+			LeaveGroup
+			Warp 0,59679,163,191
+
+
+
+###　八流牢捞瘤父 八累己 胶懦饭骇捞 ５固父
+block JobAncestry == 200
+	Window 8770002,OK
+
+		Window_OK
+			LeaveGroup
+			Warp 0,59679,163,191
+
+
+
+
+###　八流牢捞 酒聪促
+block
+	Window 8770003,YES,NO
+		Window_YES
+			Window 8770004,OK
+
+				Window_OK
+					LeaveGroup
+					Warp 0,59679,163,191
+
+		Window_NO
+			EndWindow 8770005
+
+
+
+
+

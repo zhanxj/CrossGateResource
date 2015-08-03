@@ -1,0 +1,30 @@
+#啊锐狼 蓖吧捞
+#孺狼 泵傈 吝埃瘤痢栏肺 况橇
+
+#蓖吧捞狼 Dur捞 ２捞惑捞搁
+
+block Item 16423 >= 2
+	EndWindow 22979
+
+block Item 16423 == 1 && ItemDur 16423 >= 2
+#\n\n\n\n@c啊锐狼 蓖吧捞甫 荤侩窍摆嚼聪鳖?
+	Window 22978,YES,NO
+	Window_YES Item 16423 == 1
+	SetDur 16423,-1
+	LeaveGroup
+	Warp 0,51004,18,23
+	Window_YES
+	Window_NO
+
+#蓖吧捞狼 Dur捞 1捞搁
+block
+#\n\n\n\n@c啊锐狼 蓖吧捞甫 荤侩窍摆嚼聪鳖?
+	Window 22978,YES,NO
+	Window_YES Item 16423 == 1
+	KillItem 16423,1,(4414)
+	LeaveGroup
+	Warp 0,51004,18,23
+	Window_YES
+	Window_NO
+
+

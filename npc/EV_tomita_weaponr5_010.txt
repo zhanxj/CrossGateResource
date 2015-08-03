@@ -1,0 +1,185 @@
+#　籍角狼 磨泅　　ｂｙ　配固鸥
+#
+#　　　档备痢狼 鼻
+
+###　况橇侩 酒捞袍阑 家瘤
+
+block Item_607950 >= 1 || Item_607951 >= 1
+	EndWindow 8750001
+
+
+
+###　葛风, 唱公噶摹, 砰, 健磊风, 何瘤菠捞, 郴拳痢配, 鞠馆荐 吝 公均捞电 家瘤
+
+block Item_607943 >= 1 || Item_607944 >= 1 || Item_607945 >= 1 || Item_607946 >= 1 || Item_607947 >= 1 || Item_607948 >= 1 || Item_607949 >= 1
+
+	EndWindow 8750002
+
+
+
+###　林巩辑甫 家瘤
+
+block Item_607942 >= 1
+
+
+#　八流牢狼 版快
+	If JobAncestry == 200
+		Window 8750003,OK
+
+			Window_OK Item_607942 >= 1 && ItemSpace >= 1
+				KillItemAll 607942
+				GiveItemEX 607943,1,"."
+				EndBlock
+
+			Window_OK Item_607942 >= 1
+				EndWindow 8750004
+				EndBlock
+
+			Window_OK
+				EndWindow 8750005
+				EndBlock
+
+
+#　芒流牢狼 版快
+	else
+		If JobAncestry == 220
+			Window 8750006,OK
+
+				Window_OK Item_607942 >= 1 && ItemSpace >= 1
+					KillItemAll 607942
+					GiveItemEX 607944,1,"."
+					EndBlock
+
+				Window_OK Item_607942 >= 1
+					EndWindow 8750007
+					EndBlock
+
+				Window_OK
+					EndWindow 8750008
+					EndBlock
+
+
+#　档尝流牢狼 版快
+		else
+			If JobAncestry == 210
+				Window 8750009,OK
+
+					Window_OK Item_607942 >= 1 && ItemSpace >= 1
+						KillItemAll 607942
+						GiveItemEX 607945,1,"."
+						EndBlock
+
+					Window_OK Item_607942 >= 1
+						EndWindow 8750010
+						EndBlock
+
+					Window_OK
+						EndWindow 8750011
+						EndBlock
+
+
+#　何皋尔流牢狼 版快
+			else
+				If JobAncestry == 250
+					Window 8750012,OK
+
+						Window_OK Item_607942 >= 1 && ItemSpace >= 1
+							KillItemAll 607942
+							GiveItemEX 607946,1,"."
+							EndBlock
+
+						Window_OK Item_607942 >= 1
+							EndWindow 8750013
+							EndBlock
+
+						Window_OK
+							EndWindow 8750014
+							EndBlock
+
+
+#　唱捞橇流牢狼 版快
+				else
+					If JobAncestry == 260
+						Window 8750015,OK
+
+							Window_OK Item_607942 >= 1 && ItemSpace >= 1
+								KillItemAll 607942
+								GiveItemEX 607947,1,"."
+								EndBlock
+
+							Window_OK Item_607942 >= 1
+								EndWindow 8750016
+								EndBlock
+
+							Window_OK
+								EndWindow 8750017
+								EndBlock
+
+
+#　瘤莆捞流牢狼 版快
+					else
+						If JobAncestry == 240
+							Window 8750018,OK
+
+								Window_OK Item_607942 >= 1 && ItemSpace >= 1
+									KillItemAll 607942
+									GiveItemEX 607948,1,"."
+									EndBlock
+
+								Window_OK Item_607942 >= 1
+									EndWindow 8750019
+									EndBlock
+
+								Window_OK
+									EndWindow 8750020
+									EndBlock
+
+
+#　劝流牢狼 版快
+						else
+							If JobAncestry == 230
+								Window 8750021,OK
+
+									Window_OK Item_607942 >= 1 && ItemSpace >= 1
+										KillItemAll 607942
+										GiveItemEX 607949,1,"."
+										EndBlock
+
+									Window_OK Item_607942 >= 1
+										EndWindow 8750022
+										EndBlock
+
+									Window_OK
+										EndWindow 8750023
+										EndBlock
+
+#　惑扁 捞寇狼 流诀
+							else
+								EndWindow 8750024
+								EndBlock
+
+
+							endif
+
+						endif
+
+					endif
+
+				endif
+
+			endif
+
+		endif
+
+	endif
+
+
+
+###　惑扁 酒捞袍阑 家瘤窍瘤 臼澜
+block
+	EndWindow 8750025
+
+
+
+
+

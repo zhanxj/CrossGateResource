@@ -1,0 +1,67 @@
+#　R5松恶レシピ芹邵?エスト　ｂｙ　哨拍
+#
+#　　　ヤ〖シュの船
+
+###　ハリ〖?イラブを疥积
+block Item_607996 >= 1
+	EndWindow "\n\n　奢いよう、あっち乖ってくれよう。"
+
+
+
+###　ハリヤ?磅の克を疥积
+block Item_607995 >= 1
+
+	If Item_607995 >= 2
+		EndWindow "\n\n　そんなに克を积って、サ?テンにでも\n　なるつもりなのか々"
+		EndBlock
+
+	else
+		If StampCount_607995 < 2
+			EndWindow "\n\n　モンス?〖と里うのって、恫くない々\n　おれも动くなりたいなあ。"
+			EndBlock
+
+		else
+			If StampCount_607995 == 2
+				Window "\n\n　ここでサ?テンの步け湿と里ったって々\n　?ジなの、その厦。\n　それってもしかして、こんな袍だった々",OK
+
+					Window_OK Item_607995 >= 2
+						EndWindow "\n\n　って、背に疯まってるだろ。\n　灰丁にだまされるなよな。"
+						EndBlock
+
+					Window_OK Item_607995 == 1 && StampCount_607995 == 2
+						LeaveGroup
+						AddStampCount 607995,+1
+						Encount 3|0,59684,129,157||0|||||0|306040|||||||||
+						EndBlock
+
+					Window_OK Item_607995 == 1 && StampCount_607995 < 2
+						EndWindow "\n\n　って、背に疯まってるだろ。\n　灰丁にだまされるなよな。"
+						EndBlock
+
+					Window_OK Item_607995 == 1 && StampCount_607995 > 2
+						EndWindow "\n\n　って、背に疯まってるだろ。\n　灰丁にだまされるなよな。"
+						EndBlock
+
+					Window_OK
+						EndWindow "\n\n　って、背に疯まってるだろ。\n　灰丁にだまされるなよな。"
+						EndBlock
+
+			else
+				EndWindow "\n\n　奢いよう、あっち乖ってくれよう。"
+				EndBlock
+
+			endif
+
+		endif
+
+	endif
+
+
+
+###　惧淡アイテ?を稍疥积
+block
+	EndWindow "\n\n　あのさ、３霖にジェケル、５霖にハイデルって\n　蝗い蒜がいるんだよ。\n　だけど、盟っぽくなったり谨っぽくなったり、\n　あいつら部か恃なんだ。"
+
+
+
+

@@ -1,0 +1,22 @@
+#卡特编写2006.12.05，QQ：88621517
+
+########## 物品有卢比信物的时候，进入以下流程： ##########
+block Item652102 >= 2
+	KillItem 652102,20
+	KillItem 652105,20
+	EndEvent 125 = 1
+	CheckTitle
+	EndWindow 120027
+
+########## 物品有卢比信物的时候，进入以下流程： ##########
+block Item652102 == 1
+	KillItem 652102,20
+	KillItem 652105,20
+	GiveItem 39545,1
+	KillItem 652102,20
+	KillItem 652105,20
+	EndWindow 120027
+		
+########## 物品不含任何物品，进入以下流程： ##########
+block ItemSpace >= 0
+	EndWindow 2502

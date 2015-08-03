@@ -1,0 +1,16 @@
+#　阁胶磐啊 救 棱腮促NPC　ｂｙ　配固鸥
+#
+#　　　阁胶磐 清磐 付荤狼 鼻
+
+###　救 棱囚
+
+block
+	Window 6950001,NEXT
+
+	Window 6950002,NEXT
+
+	EndWindow 6950003
+
+
+
+

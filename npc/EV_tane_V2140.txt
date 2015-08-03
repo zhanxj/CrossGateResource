@@ -1,0 +1,261 @@
+#
+#苞磊啊霸 酒剐府酒（2004掖ver.）
+#
+
+###　3/14 0:00:01 捞傈捞搁　###
+block CheckRealTime 2005/3/14,00:00:01 == 0
+#block CheckRealTime 2005/2/24,15:00:01 == 0
+	if  Item 16339 >= 1 || Item 16340 >= 1 || Item 16341 >= 1 || Item 16342 >= 1 || Item 16343 >= 1
+
+		EndWindow 5980001,OK
+
+	else
+	
+		EndWindow 5980002,OK
+
+	endif
+
+
+#窍踞 偏赋阑 啊瘤绊 乐促搁
+block Item 16339 >= 1
+	Window 22116,Next
+	Window 22121,OK
+		Window_OK Item 16339 >= 1
+		KillItem 16339,1
+		GiveItem 16345,1
+		Window_OK
+#颇鄂 偏赋阑 啊瘤绊 乐促搁
+block Item 16340 >= 1
+	Window 22117,Next
+	Window 22121,OK
+		Window_OK Item 16340 >= 1
+		KillItem 16340,1
+		GiveItem 16346,1
+		#GiveItem 607744,1
+		Window_OK
+#八篮 偏赋阑 啊瘤绊 乐促搁
+block Item 16341 >= 1
+	Window 22118,Next
+	Window 22121,OK
+		Window_OK Item 16341 >= 1
+		KillItem 16341,1
+		GiveItem 16344,1
+		Window_OK
+#弧埃 偏赋阑 啊瘤绊 乐促搁
+block Item 16342 >= 1
+	Window 22119,Next
+	Window 22121,OK
+		Window_OK Item 16342 >= 1
+		KillItem 16342,1
+		GiveItem 19655,1
+		Window_OK
+#畴鄂 偏赋阑 啊瘤绊 乐促搁
+block Item 16343 >= 1
+	Window 22120,Next
+	Window 22121,OK
+		Window_OK Item 16343 >= 1
+		KillItem 16343,1
+		GiveItem (16347$3)
+		Window_OK
+
+block
+		EndWindow 5980003,OK
+
+
+
+###　2/15 0:00:01 捞饶扼搁　###
+#block CheckRealTime 2005/2/15,00:00:01 == 1
+#block CheckRealTime 2005/2/7,15:00:01 == 1
+
+
+
+		EndWindow 21937,OK
+
+###　巢己 某腐磐扼搁　###
+#block BBImage >= 100000 && BBImage <= 100173
+#\n\n　固救秦夸.\n　捞 檬妮复篮 咯磊酒捞父 混 荐 乐绢夸.
+#	EndWindow 15257,OK
+#block BBImage >= 105000 && BBImage <= 105173
+#\n\n　固救秦夸.\n　捞 檬妮复篮 咯磊酒捞父 混 荐 乐绢夸.
+#	EndWindow 15257,OK
+#block BBImage >= 106000 && BBImage <= 106173
+#\n\n　固救秦夸.\n　捞 檬妮复篮 咯磊酒捞父 混 荐 乐绢夸.
+#	EndWindow 15257,OK
+#
+###　「狼府 檬内」扼绊 惯攫茄 版快　###
+#block StrCmpChat==21969
+#	Window 21940,Yes,No
+#		Window_No
+#			EndWindow 21941,OK
+#		Window_Yes ItemSpace == 0
+#			EndWindow 15258,OK
+#		Window_Yes Gold <= 99
+#			EndWindow 21942,OK
+#		Window_Yes
+#			Window 15262,OK
+#				Window_OK
+#					AddGold -100
+#					GiveItem 18586
+
+###　「柳缴 檬内」扼绊 惯攫茄 版快　###
+#block StrCmpChat==21970
+#	Window 21943,Yes,No
+#		Window_No
+#			EndWindow 15265,OK
+#		Window_Yes ItemSpace == 0
+#			EndWindow 15258,OK
+#		Window_Yes Gold <= 1999
+#			EndWindow 21942,OK
+#		Window_Yes
+#			Window 21944,OK
+#				Window_OK
+#					AddGold -2000
+#					GiveItem 18587
+
+###　「阜苞磊痢 檬内」扼绊 惯攫茄 版快　###
+#block StrCmpChat==21972
+#	Window 21945,Yes,No
+#		Window_No
+#			EndWindow 15265,OK
+#		Window_Yes ItemSpace == 0
+#			EndWindow 15258,OK
+#		Window_Yes Gold <= 9
+#			EndWindow 21942,OK
+#		Window_Yes
+#			Window 21946,OK
+#				Window_OK
+#					AddGold -10
+#					GiveItem 16303
+
+###　「荐力 檬内」扼绊 惯攫茄 版快　###
+#block StrCmpChat==21971
+#	Window 21947,Yes,No
+#		Window_No
+#			EndWindow 15265,OK
+#		Window_Yes ItemSpace <= 5
+#			EndWindow 21975,OK
+#		Window_Yes Gold <= 799
+#			EndWindow 21942,OK
+#		Window_Yes
+#			Window 21948,OK
+#				Window_OK
+#					AddGold -800
+#					GiveItem 16308
+#					GiveItem 12400,20
+#					GiveItem 12411,10
+#					GiveItem 12404,20
+#					GiveItem 16309,10
+#					GiveItem 16310,20
+
+###　「绊鞭 檬内」扼绊 惯攫茄 版快　###
+#block StrCmpChat==21973
+#	Window 21949,Yes,No
+#		Window_No
+#			EndWindow 15265,OK
+#		Window_Yes ItemSpace == 0
+#			EndWindow 15258,OK
+#		Window_Yes Gold <= 19999
+#			EndWindow 21942,OK
+#		Window_Yes
+#			Window 21966,OK
+#				Window_OK
+#					AddGold -20000
+#					GiveItem 16305
+
+###　「决没 概款 檬内」扼绊 惯攫茄 版快　###
+#block StrCmpChat==21974
+#	Window 21967,Yes,No
+#		Window_No
+#			EndWindow 15265,OK
+#		Window_Yes ItemSpace == 0
+#			EndWindow 15258,OK
+#		Window_Yes Gold <= 199
+#			EndWindow 21942,OK
+#		Window_Yes
+#			Window 21968,OK
+#				Window_OK
+#					AddGold -200
+#					GiveItem 16306
+###　弊 寇狼 版快（咯己 某腐磐肺 富阑 扒 版快）###
+#block
+#	Window 21938,Next
+#	EndWindow 21939,OK
+
+
+### ￠2002ver.###
+
+##############  ##############
+#block BBImage >= 100000 && BBImage <= 100173
+#\n\n　固救秦夸.\n　捞 檬妮复篮 咯磊酒捞父 混 荐 乐绢夸.
+#	EndWindow 15257,OK
+
+#block BBImage >= 105000 && BBImage <= 105173
+#\n\n　固救秦夸.\n　捞 檬妮复篮 咯磊酒捞父 混 荐 乐绢夸.
+#	EndWindow 15257,OK
+
+#block BBImage >= 106000 && BBImage <= 106173
+#\n\n　固救秦夸.\n　捞 檬妮复篮 咯磊酒捞父 混 荐 乐绢夸.
+#	EndWindow 15257,OK
+#
+##############  ##############
+#block ItemSpace == 0
+#\n\n　捞繁, 家瘤前捞 啊垫 蛮 葛剧捞具.
+#	EndWindow 15258,OK
+#
+##############  ##############
+#block 
+#\n\n　咯扁辑绰 惯坊鸥牢 单捞鳖瘤狼 漂喊茄沥惑前栏肺 檬妮复阑 迫绊 乐绢夸. 狼府 檬内客 柳缴 檬内狼 滴 啊瘤啊 乐瘤夸. 把葛剧篮 笛 促 度鞍瘤父, 瓤苞绰 傈囚 撇妨夸.
+#	Window 15259,NEXT
+#\n\n　狼府 檬内绰 1俺 100Gold. FP啊 炼陛 雀汗蹬夸. 沥富肺 狼府扼绰 蠢肠老鳖夸.\n　弊府绊 柳缴 檬内啊 1俺 2000Gold. 啊拜篮 厚轿瘤父, 辈厘茄 瓤苞啊 乐绢夸.\n　酒, 弊犯瘤. 笛 促 皑沥窍瘤 臼栏搁 狼府牢瘤 柳缴牢瘤 舅 荐 绝霸 登绢 乐栏聪鳖 炼缴窍技#夸! 狼府牢单 柳缴阑 霖促电瘤, 柳缴牢单 狼府甫 霖促电啊 窍搁ˇˇ唱绰 氓烙 给 廉夸ˇˇ
+#	Window 15260,NEXT
+#\n\n　寸脚捞 盔窍绰 扒 狼府 檬内？
+#	Window 15261,YES,NO
+#	Window_YES ItemSpace == 0
+#\n\n　绢赣赣, 家瘤前捞 啊垫 蛮 巴 鞍焙夸.
+#	EndWindow 15258,OK
+#	Window_YES BBImage >= 100250 && BBImage <= 100423 && Gold >= 100
+#	AddGold -100
+#	GiveItem 18586
+#
+#	Window_YES BBImage >= 105250 && BBImage <= 105423 && Gold >= 100
+#	AddGold -100
+#	GiveItem 18586
+#
+#	Window_YES BBImage >= 106250 && BBImage <= 106423 && Gold >= 100
+#	AddGold -100
+#	GiveItem 18586
+#
+#\n\n　坷纳捞~. 牢埃包拌绰 吝夸茄 芭烈. 磊夸, 狼府 檬内. 亲惑 脚技瘤绊 乐绰 弊 荤恩俊霸 林技夸.
+#	EndWindow 15262,OK
+#	Window_YES
+#\n\n　绢扼扼. 狼府 檬内绰 1俺 100Gold俊夸. 弊犯霸 厚轿瘤 臼促绊 积阿窍绰单~?\n　100Gold霖厚登搁肚 客夸.
+#	EndWindow 15263,OK
+#	Window _NO
+#\n\n　客快!! 柳缴 檬内啊 鞘夸窍焙夸! 农栏~! 龙捧唱匙夸! 寸脚狼 付澜捞 傈秦瘤搁 亮摆绢夸.\n　1俺 2000Gold牢单 宝满摆烈?
+#	Window 15264,YES,NO
+#	Window_NO
+#\n\n　绢赣, 蜡皑捞匙夸. 亮篮 荤恩 茫酒辑 肚 客夸.
+#	EndWindow 15265,OK
+#	Window_YES ItemSpace == 0
+#\n\n　绢赣赣, 家瘤前捞 啊垫 蛮 巴 鞍焙夸.
+#	EndWindow 15258,OK
+#	Window_YES BBImage >= 100250 && BBImage <= 100423 && Gold >= 2000
+#	AddGold -2000
+#	GiveItem 18587
+#
+#	Window_YES BBImage >= 105250 && BBImage <= 105423 && Gold >= 2000
+#	AddGold -2000
+#	GiveItem 18587
+
+#	Window_YES BBImage >= 106250 && BBImage <= 106423 && Gold >= 2000
+#	AddGold -2000
+#	GiveItem 18587
+
+#\n\n　磊夸, 捞霸 柳缴 檬内. 把葛剧捞 狼府 檬内客 鞍栏聪鳖 炼缴秦夸.\n　酒! 弊犯瘤! 捞 柳缴 檬内, 呈公 坷贰 焊粮秦滴搁 磅莆捞啊 浇绢辑 冈阑 荐 绝霸 登聪鳖 弧府 靛技夸. 惯坊鸥牢 单捞甫 逞扁搁 瓤苞狼 焊刘篮 且 荐 绝绢夸.
+#	EndWindow 15266,OK
+#	Window_YES
+#\n\n　荤尔俊 啊拜篮 嘿老 荐 绝绢夸! 2000Gold扼搁 沥富 轿烈!\n　捣捞 霖厚登搁 肚 坷技夸~
+#	EndWindow 15269,OK
+
+
+

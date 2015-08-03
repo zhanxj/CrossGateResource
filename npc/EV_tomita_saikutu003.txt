@@ -1,0 +1,119 @@
+#『盲奔 飘扼捞局浇沸』　　ｂｙ　配固鸥
+#
+#　　　拌盔 虐捻狼 鼻
+
+###　浚飘府 刘阑 咯矾 俺 家瘤
+block Item_607905 >= 2
+	EndWindow 8280001
+
+
+
+###　堡何捞促
+
+#　浚飘府 刘 家瘤
+block JobAncestry == 470 && Item_607905 == 1
+
+	If StampCount_607905 == 0
+		EndWindow 8280002
+		EndBlock
+
+
+	else
+		If StampCount_607905 >= 2
+			Window 8280003,NEXT
+			EndWindow 8280004
+			EndBlock
+
+
+		else
+			If StampCount_607905 == 1 && ItemCreateTime_607905 > 60
+				Window 8280005,OK
+
+					Window_OK Item_607905 >= 1
+						KillItemAll 607905
+						EndBlock
+
+					Window_OK
+						EndBlock
+
+
+			else
+				If StampCount_607905 == 1 && ItemCreateTime_607905 <= 60 && Item_6434 >= 1
+
+					Window 8280006,YES,NO
+
+						Window_YES
+							Window 8280007,NEXT
+							Window8280008,OK
+
+								Window_OK Item_607905 >= 2
+									EndWindow 8280009
+									EndBlock
+
+								Window_OK Item_607905 == 1
+									AddStampCount 607905,+1
+									EndBlock
+
+								Window_OK
+									EndWindow 8280010
+									EndBlock
+
+						Window_NO
+							Window 8280011,OK
+
+								Window_OK ItemSpace >= 1 && Item_607905 >= 1
+									KillItemAll 607905
+									GiveItemEX 15200,1,"."
+									EndBlock
+
+								Window_OK Item_607905 >= 1
+									EndWindow 8280012
+									EndBlock
+
+								Window_OK
+									EndWindow 8280013
+									EndBlock
+
+
+				else
+					Window 8280014,YES,NO
+
+						Window_YES
+							Window 8280015,OK
+
+								Window_OK Item_607905 >= 1
+									KillItemAll 607905
+									EndBlock
+
+								Window_OK
+									EndBlock
+
+						Window_NO
+							EndWindow 8280016
+							EndBlock
+
+
+				endif
+
+			endif
+
+		endif
+
+	endif
+
+
+
+#　浚飘府 刘 家瘤窍瘤 臼澜 
+block JobAncestry == 470
+
+	EndWindow 8280017
+
+
+
+###　堡何啊 酒聪促
+block
+	EndWindow 8280018
+
+
+
+

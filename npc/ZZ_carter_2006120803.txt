@@ -1,0 +1,136 @@
+#卡特编写2006.12.05，QQ：88621517
+
+########## 当物品栏小于3个空位##########
+block ItemSpace < 2 || Gold >= 975000
+	EndWindow 10000
+	
+
+##########652108.1兑换水龙##########
+block Item652108 >= 1
+	Window 120094,YES,NO
+	Window_YES
+	KillItem 652108,1
+	GiveItem 250,1
+	GiveItem 652134,1
+	AddGold 25000
+	EndWindow 120036
+	Window_NO
+		Window 120095,YES,NO
+		Window_YES
+		KillItem 652108,1
+		GiveItem 255,1
+		GiveItem 652134,1
+		AddGold 25000
+		EndWindow 120036,OK
+		Window_NO
+                        Window 120096,YES,NO
+		        Window_YES
+		        KillItem 652108,1
+		        GiveItem 260,1
+			GiveItem 652134,1
+			AddGold 25000
+		        EndWindow 120036,OK
+		        Window_NO
+                                Window 120097,YES,NO
+		                Window_YES
+		                KillItem 652108,1
+		                GiveItem 265,1
+				GiveItem 652134,1
+				AddGold 25000
+		                EndWindow 120036,OK
+		                Window_NO
+				        Window 120098,YES,NO
+				        Window_YES
+				        KillItem 652108,1
+				        GiveItem 270,1
+					GiveItem 652134,1
+					AddGold 25000
+				        EndWindow 120036,OK
+				        Window_NO
+				                Window 120099,YES,NO
+				                Window_YES
+				                KillItem 652108,1
+				                GiveItem 245,1
+						GiveItem 652134,1
+						AddGold 25000
+				                EndWindow 120036,OK
+				                Window_NO
+							Window 120100,YES,NO
+							Window_YES
+							KillItem 652108,1
+							GiveItem 240,1
+							GiveItem 652134,1
+							AddGold 25000
+							EndWindow 120036,OK
+							Window_NO
+								Window 120101,YES,NO
+								Window_YES
+								KillItem 652108,1
+								GiveItem 235,1
+								GiveItem 652134,1
+								AddGold 25000
+								EndWindow 120036,OK
+								Window_NO
+                                                                        Window 120102,YES,NO
+                                                                        Window_YES
+                                                                        KillItem 652108,1
+                                                                        GiveItem 200,1
+									GiveItem 652134,1
+									AddGold 25000
+                                                                        EndWindow 120036
+                                                                        Window_NO
+                                                                        	Window 120103,YES,NO
+                                                                        	Window_YES
+	                                                                        KillItem 652108,1
+                                                                        	GiveItem 205,1
+										GiveItem 652134,1
+										AddGold 25000
+                                                                        	EndWindow 120036,OK
+                                                                        	Window_NO
+                                                                                        Window 120104,YES,NO
+                                                                                        Window_YES
+                                                                                        KillItem 652108,1
+                                                                                        GiveItem 210,1
+											GiveItem 652134,1
+											AddGold 25000
+                                                                                        EndWindow 120036,OK
+                                                                                        Window_NO
+                                                                                                Window 120105,YES,NO
+                                                                                                Window_YES
+                                                                                                KillItem 652108,1
+                                                                                                GiveItem 215,1
+												GiveItem 652134,1
+												AddGold 25000
+                                                                                                EndWindow 120036,OK
+                                                                                                Window_NO
+				                                                                        Window 120106,YES,NO
+				                                                                        Window_YES
+				                                                                        KillItem 652108,1
+				                                                                        GiveItem 220,1
+													GiveItem 652134,1
+													AddGold 25000
+				                                                                        EndWindow 120036,OK
+				                                                                        Window_NO
+				                                                                                Window 120107,YES,NO
+				                                                                                Window_YES
+				                                                                                KillItem 652108,1
+				                                                                                GiveItem 225,1
+														GiveItem 652134,1
+														AddGold 25000
+				                                                                                EndWindow 120036,OK
+				                                                                                Window_NO
+							                                                                Window 120108,YES,NO
+							                                                                Window_YES
+							                                                                KillItem 652108,1
+							                                                                GiveItem 230,1
+															GiveItem 652134,1
+															AddGold 25000
+							                                                                EndWindow 120036,OK
+							                                                                Window_NO
+							                                                                EndWindow 120044
+
+
+########## 当无任务兑换物品的时候##
+block ItemSpace >= 1
+	EndWindow 120109
+	
