@@ -153,7 +153,7 @@ block
 
 	Window_yes Item 14631 >= 1
 
-		endWindow 5630027\n　曼啊刘.
+		endWindow 5630027#\n　曼啊刘.
 
 	Window_yes ItemSpace == 0
 

@@ -1,11 +1,11 @@
 block 
 	Window 777741,YES,NO
 	
-	\n\n ÒªÇ®²»?
+#	\n\n ÒªÇ®ï¿½ï¿½?
 
 	Window_YES
 	AddGold 1000000
 	
 	Window_NO
-	\n\n Éµ×ÓÒ»¸ö~
+#	\n\n Éµï¿½ï¿½Ò»ï¿½ï¿½~
 	EndWindow 777742

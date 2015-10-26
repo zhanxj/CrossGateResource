@@ -10,7 +10,7 @@ block Item 18256 == 0
 
 	Window 20591,OK
 	Window_OK
-	 Warp 0,1496.15,7
+	 Warp 0,1496,15,7
 
 ########  ###########
 block 

@@ -4,7 +4,7 @@
 ########## 公贱荤狼 版快 ##########
 block Job >= 131 && Job <= 137
 #\n\n　甸绢啊绊 酵篮啊?
-	Window 14546,YES.NO
+	Window 14546,YES,NO
 	Window_YES Job >= 131 && Job <= 137 && Group == 1
 	Warp 0,3352,9,16
 	Window_YES Job >= 131 && Job <= 137 && Group != 1

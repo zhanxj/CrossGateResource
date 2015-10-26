@@ -1,6 +1,6 @@
 #农风风
 
-鄂 绕７殿 秒垫饶
+#鄂 绕７殿 秒垫饶
 block EndEvent 112 == 1
 	EndWindow 22194,OK
 
