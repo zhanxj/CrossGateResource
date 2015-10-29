@@ -393,7 +393,7 @@ block Item_607907 == 1 && StampCount_607907 == 14
 				EndWindow 6320067
 				EndBlock
 
-			Window_OK Item_607907 == 1 && StampCoun_607907t == 14 && Item_607908 >= 1
+			Window_OK Item_607907 == 1 && StampCount_607907 == 14 && Item_607908 >= 1
 				KillItemAll 607908
 				AddStampCount 607907,-6
 				EndBlock

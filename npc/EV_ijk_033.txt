@@ -12,21 +12,21 @@ block job < 460 || job >= 470
 
 
 ########## 流诀捞 超矫槽捞绊 拱绊扁 11600阑 啊瘤绊 乐瘤 臼篮 版快 ##########
-block job >= 460 && job < 470 && Leak1Item11600 == 0
+block job >= 460 && job < 470 && Leak1Item_11600 == 0
 
 	#11600 拱绊扁啊 炼陛档 超捞瘤 臼酒.\n捞措肺扼搁 荐揪俊霸 瘤霸 登绰单!
 	EndWindow 10799
 
 
 ########## 流诀捞 超矫槽捞绊 拱绊扁 11600阑 啊瘤绊 乐绰 版快 ##########
-block job >= 460 && job < 470 && Leak1Item11600 >= 1
+block job >= 460 && job < 470 && Leak1Item_11600 >= 1
 
 	#泪瘪 扁促妨!\n磊匙啊 啊瘤绊 乐绰 扒 11600拱绊扁啊 酒囱啊?\n\n且 娟扁啊 乐绰单, 弊芭, 唱茄抛 剧焊窍瘤 臼摆唱ˉ.
 	Window 10798,OK,CANCEL
 
 	# --- OK狼 版快 --- #
 		Window_OK
-		KillLeak1Item11600
+		KillLeak1Item 11600
 		AddGold10
 		#傣盒俊 混疽绢! 捞吧肺 荐揪啊 栏胶措绰 裁阑 救 毫档 蹬.\n翠肥肺 10GOLD临霸!
 		Window 10797,NEXT

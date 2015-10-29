@@ -25,16 +25,16 @@
 	#八流牢丛牢啊.\n「412八」阑 父甸绢 林菌栏搁 窍匙.\n荤肥绰 惦灰 窍瘤!
 	Window 10886,OK,CANCEL
 
-	Window_OK Item412 == 0
+	Window_OK Item_412 == 0
 	#父甸绢柳 八篮 馆靛矫 唱俊霸 迫酒林矫霸.
 	EndWindow 10871,OK,CANCEL
 
-	Window_OK Item412 >= 1
+	Window_OK Item_412 >= 1
 	#坷坷, 芭扁俊 乐绰 巴篮 「412八」!\n咯扁 100GOLD乐匙. \n弊巴阑 唱俊霸 迫瘤 臼摆唱?
 	Window 10884,OK,NO
 	
 	Window_OK
-	KillItem412
+	KillItem 412
 	AddGold 100
 	#绊缚匙. 肚 何殴窍瘤.
 	EndWindow 10885
@@ -49,16 +49,16 @@
 	#档尝流牢丛牢啊.\n「1212档尝」甫 父甸绢 林菌栏搁 窍匙.\n荤肥绰 惦灰 窍瘤!
 	Window 10883,OK,CANCEL
 
-	Window_OK Item1212 == 0
+	Window_OK Item_1212 == 0
 	#父甸绢柳 档尝绰 馆靛矫 唱俊霸 迫酒林矫霸.
 	EndWindow 10871,OK,CANCEL
 
-	Window_OK Item1212 >= 1
+	Window_OK Item_1212 >= 1
 	#坷坷, 芭扁俊 乐绰 巴篮 「1212档尝」！\n咯扁 100GOLD乐匙.\n弊巴阑 唱俊霸 迫瘤 臼摆唱?
 	Window 10882,YES,NO
 	
 	Window_YES
-	KillItem1212
+	KillItem 1212
 	AddGold 100
 	#绊缚匙. 肚 何殴窍瘤.
 	EndWindow 10885
@@ -73,5 +73,5 @@
 	#芒流牢丛牢啊.\n「1612芒」阑 父甸绢 林菌栏搁 窍匙.\n荤肥绰 惦灰 窍瘤!
 	Window 10881,OK,CANCEL
 
-	Window_OK Item1612 == 0
+	Window_OK Item_1612 == 0
 	#父甸绢柳 芒

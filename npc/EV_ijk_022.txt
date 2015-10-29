@@ -135,7 +135,7 @@
 	Window 10858,YES,NO
 	
 	Window_YES
-	KillItem5212
+	KillItem 5212
 	AddGold 100
 	#绊缚匙. 肚 何殴窍瘤.
 	EndWindow 10885

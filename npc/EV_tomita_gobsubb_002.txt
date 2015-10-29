@@ -13,7 +13,7 @@ block Item_607922 >= 1
 	Window 6470002,NEXT
 	Window 6470003,NEXT
 	Window 6470004,NEXT
-	Window6470005,OK
+	Window 6470005,OK
 
 		Window_OK Item_607922 >= 1 && ItemSpace >= 1
 			KillItemAll 607922

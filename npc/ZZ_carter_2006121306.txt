@@ -1,9 +1,0 @@
-#卡特编写2006.12.05，QQ：88621517
-
-########## 当物品栏小于1个空位##
-block ItemSpace < 1
-	EndWindow 10000
-	
-########## 当物品栏小于1个空位##
-block ItemSpace >= 1
-	EndWindow 120131
