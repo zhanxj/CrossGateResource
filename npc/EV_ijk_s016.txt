@@ -9,7 +9,7 @@ block Item18100 == 0 && Item18233 >= 1
 	Window 10556,YES,NO
 
 	# ------- WindowYES狼 版快 ------- #
-		WindowYES
+		Window_YES
 		KillItem 18233,1
 		GiveItem 18100
 		#酒酒, 绊付况, 老窜 柳沥灯绢. 弊繁单, 磊匙绰 矫访狼 悼奔俊 啊绰 扒啊? 弊烦, 捞吧
