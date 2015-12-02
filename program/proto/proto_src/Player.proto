@@ -1,0 +1,86 @@
+import "VO.proto";
+option java_package = "cg.base.io.proto";
+option java_outer_classname = "PlayerProtos";
+
+message REQUEST_PLAYER_CREATE
+{
+	required int32 roleId = 1;
+	required int32 colorId = 2;
+	required int32 eyeStyleId = 3;
+	required int32 mouthStyleId = 4;
+	required int32 hairStyleId = 5;
+	required int32 roleIndex = 6;
+	required string name = 7;
+	repeated int32 attributes = 8;
+	repeated int32 elements = 9;
+}
+
+message RESPONSE_PLAYER_CREATE
+{
+	required int32 instanceId = 1;
+}
+
+message REQUEST_PLAYER_DELETE
+{
+	required int32 roleId = 1;
+}
+
+message REQUEST_PLAYER_QUERY
+{
+	required int32 roleId = 1;
+}
+
+message REQUEST_PLAYER_LOGIN
+{
+	required int32 roleId = 1;
+	required int32 eyeShot = 2;
+	required int32 animationVersion = 3;
+	required int32 headVersion = 4;
+}
+
+message RESPONSE_PLAYER_LOGIN
+{
+	required VO_UNIT unitInfo = 1;
+	required int32 mapId = 2;
+}
+
+message VO_PLAYER_ANIMATION
+{
+	required int32 roleId = 1;
+	repeated int32 globalId = 2;
+	required int32 headGlobalId = 3;
+}
+
+message VO_PLAYER_ANIMATIONS
+{
+	repeated VO_PLAYER_ANIMATION animations = 1;
+}
+
+message RESPONSE_PLAYER_CREATE_INFO
+{
+	required int32 bp = 1;
+	required int32 pageMax = 2;
+	repeated VO_PLAYER_ANIMATIONS animations = 3;
+}
+
+message REQUEST_PLAYER_ANIMATION_INFO
+{
+	required int32 page = 1;
+}
+
+message VO_PLAYER_ANIMATION_INFO
+{
+	required int32 roleId = 1;
+	repeated int32 animationId2 = 2;
+	required int32 headId = 3;
+}
+
+message VO_PLAYER_ANIMATION_INFOS
+{
+	repeated VO_PLAYER_ANIMATION_INFO animationInfos = 1;
+}
+
+message RESPONSE_PLAYER_ANIMATION_INFO
+{
+	repeated VO_PLAYER_ANIMATION_INFOS animationInfos = 1;
+}

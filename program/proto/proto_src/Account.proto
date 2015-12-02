@@ -1,0 +1,68 @@
+option java_package = "cg.base.io.proto";
+option java_outer_classname = "AccountProtos";
+
+message REQUEST_ACCOUNT_REGISTER
+{
+	required string account = 1;
+	required string password = 2;
+}
+
+message REQUEST_ACCOUNT_LOGIN
+{
+	required string account = 1;
+	required string password = 2;
+}
+
+message VO_ACCOUNT_PLAYER_INFO
+{
+	required int32 instanceId = 1;
+	required string name = 2;
+	required int32 roleVersion = 3;
+	required int32 headVersion = 4;
+	repeated int32 animationGloabId = 5;
+	repeated int32 headGloabId = 6;
+	required int32 level = 7;
+	required int32 loginTimes = 8;
+	required int32 roleIndex = 9;
+	required string job = 10;
+}
+
+message REQUEST_ACCOUNT_ROLE_LIST
+{
+	required string key = 1;
+}
+
+message RESPONSE_ACCOUNT_ROLE_LIST
+{
+	repeated VO_ACCOUNT_PLAYER_INFO players = 1;
+}
+
+message VO_SERVER
+{
+	required string key = 1;
+	required string name = 2;
+	required string url = 3;
+}
+
+message RESPONSE_SERVER_LIST
+{
+	repeated VO_SERVER servers = 1;
+}
+
+message REQUEST_SERVER_SELECT
+{
+	required string key = 1;
+}
+
+message RESPONSE_SERVER_SELECT
+{
+	required string url = 1;
+	required string key = 2;
+}
+
+message REQUEST_ACCOUNT_CHANGE_PASSWORD
+{
+	required string account = 1;
+	required string oldPassword = 2;
+	required string newPassword = 3;
+}

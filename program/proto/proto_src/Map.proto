@@ -1,0 +1,68 @@
+import "VO.proto";
+option java_package = "cg.base.io.proto";
+option java_outer_classname = "MapProtos";
+
+message REQUEST_MAP_IN
+{
+	required int32 mapId = 1;
+	required int32 east = 2;
+	required int32 south = 3;
+}
+
+message RESPONSE_MAP_IN
+{
+	required int32 mapId = 1;
+	required int32 mapInstanceId = 2;
+	required string mapName = 3;
+	required int32 east = 4;
+	required int32 south = 5;
+	required int32 maxEast = 6;
+	required int32 maxSouth = 7;
+}
+
+message REQUEST_MAP_MOVE
+{
+	required int32 east = 1;
+	required int32 south = 2;
+	required bool needEast = 3;
+	required VO_MAP_AREA eastArea = 4;
+	required bool needSouth = 5;
+	required VO_MAP_AREA southArea = 6;
+	required int32 serial = 7;
+}
+
+message RESPONSE_MAP_MOVE
+{
+	required int32 serial = 1;
+	repeated VO_MAP_CELL mapCells = 2;
+}
+
+message VO_MAP_UNIT_EXTEND
+{
+	optional int32 ownerInstanceId = 1; // pet
+	optional int32 state = 2; // pet
+	optional string talkType = 3; // npc
+}
+
+message RESPONSE_MAP_UNIT_CREATE
+{
+	required VO_UNIT unitInfo = 1;
+}
+
+message RESPONSE_MAP_UNIT_MOVE
+{
+	required int32 unitType = 1;
+	required int32 instanceId = 2;
+	required int32 east = 3;
+	required int32 south = 4;
+}
+
+message RESPONSE_MAP_UNIT_REMOVE
+{
+	required int32 instanceId = 1;
+}
+
+message RESPONSE_MAP_CELLS
+{
+	repeated VO_MAP_CELL mapCells = 1;
+}

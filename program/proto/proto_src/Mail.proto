@@ -1,0 +1,17 @@
+import "VO.proto";
+option java_package = "cg.base.io.proto";
+option java_outer_classname = "MailProtos";
+
+message RESPONSE_MAIL_SEND
+{
+	required int32 type = 1;
+	required int32 status = 2;
+	required int32 sourceId = 3;
+	required int32 destId = 4;
+	required int32 lastTime = 5;
+	required string sourceName = 6;
+	required string title = 7;
+	required string content = 8;
+	repeated VO_ATTACHMENT attachments = 9;
+	repeated VO_PRICE prices = 10;
+}

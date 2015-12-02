@@ -1,0 +1,21 @@
+option java_package = "cg.base.io.proto";
+option java_outer_classname = "SkillProtos";
+
+message RESPONSE_DOUBLE_EXP_UPDATE
+{
+	required bool isDouble = 1;
+	required int32 time = 2;
+}
+
+message REQUEST_SKILL_USE
+{
+	required int32 skillCode = 1;
+	optional int32 targetId = 2;
+}
+
+message REQUEST_RECIPE
+{
+	required int32 recipeId = 1;
+	required int32 bagId = 2;
+	repeated int32 gridIds = 3;
+}

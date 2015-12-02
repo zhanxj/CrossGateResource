@@ -1,0 +1,186 @@
+option java_package = "cg.base.io.proto";
+option java_outer_classname = "MessageIdProto";
+
+enum MessageId
+{
+//----------------COMMON----------------
+	// @proto=Common
+	MI_REQUEST_HEART_BEAT = 1;
+	// @proto=Common
+	MI_RESPONSE_HEART_BEAT = 2;
+	// @proto=Common
+	MI_REQUEST_DISCONNECTED = 3;
+	
+	MI_RESPONSE_EXECUTE_OK = 4;
+	
+	MI_RESPONSE_EXECUTE_ERROR = 5;
+	
+	MI_REQUEST_PROXY_SESSION_DISCONNECT = 6;
+	
+	MI_REQUEST_PROXY_LOGIN = 8;
+	
+	MI_REQUEST_SERVER_REGISTER = 10;
+	
+	MI_REQUEST_SERVER_UNREGISTER = 12;
+	
+	MI_REQUEST_ACCOUNT_AUTHENTICATE = 14;
+	
+//----------------ACCOUNT----------------
+	
+	MI_REQUEST_ACCOUNT_REGISTER = 61;
+	// @proto=Account
+	MI_RESPONSE_ACCOUNT_REGISTER = 62;
+	
+	MI_REQUEST_ACCOUNT_LOGIN = 63;
+	// @proto=Account
+	MI_RESPONSE_ACCOUNT_LOGIN = 64;
+	// @proto=Account
+	MI_REQUEST_ACCOUNT_ROLE_LIST = 65;
+	
+	MI_RESPONSE_ACCOUNT_ROLE_LIST = 66;
+	// @proto=Account
+	MI_REQUEST_SERVER_LIST = 67;
+	
+	MI_RESPONSE_SERVER_LIST = 68;
+	
+	MI_REQUEST_SERVER_SELECT = 69;
+	
+	MI_RESPONSE_SERVER_SELECT = 70;
+	// @proto=Account
+	MI_REQUEST_ACCOUNT_LOGOUT = 71;
+	// @proto=Account
+	MI_RESPONSE_ACCOUNT_LOGOUT = 72;
+	
+	MI_REQUEST_ACCOUNT_CHANGE_PASSWORD = 73;
+	// @proto=Account
+	MI_RESPONSE_ACCOUNT_CHANGE_PASSWORD = 74;
+	
+//----------------PLAYER----------------
+	
+	MI_REQUEST_PLAYER_CREATE = 101;
+	
+	MI_RESPONSE_PLAYER_CREATE = 102;
+	
+	MI_REQUEST_PLAYER_DELETE = 103;
+	
+	MI_REQUEST_PLAYER_QUERY = 105;
+	// @proto=Account
+	MI_RESPONSE_PLAYER_QUERY = 106;
+	
+	MI_REQUEST_PLAYER_LOGIN = 107;
+	
+	MI_RESPONSE_PLAYER_LOGIN = 108;
+	// @proto=Account
+	MI_REQUEST_PLAYER_CREATE_INFO = 109;
+	
+	MI_RESPONSE_PLAYER_CREATE_INFO = 110;
+	
+	MI_REQUEST_PLAYER_ANIMATION_INFO = 111;
+	
+	MI_RESPONSE_PLAYER_ANIMATION_INFO = 112;
+	
+//----------------MAP----------------
+
+	MI_REQUEST_MAP_IN = 151;
+	
+	MI_RESPONSE_MAP_IN = 152;
+	
+	MI_REQUEST_MAP_MOVE = 153;
+	
+	MI_RESPONSE_MAP_MOVE = 154;
+	
+	MI_REQUEST_MAP_MOVE_FINISH = 155;
+	
+	MI_RESPONSE_MAP_UNIT_CREATE = 158;
+	
+	MI_RESPONSE_MAP_UNIT_MOVE = 160;
+	
+	MI_RESPONSE_MAP_UNIT_REMOVE = 162;
+	// @proto=Map
+	MI_REQUEST_MAP_CELLS = 163;
+	
+	MI_RESPONSE_MAP_CELLS = 164;
+	// @proto=Map
+	MI_REQUEST_MAP_LOAD_FINISH = 165;
+	// @proto=Map
+	MI_RESPONSE_MAP_LOAD_FINISH = 166;
+	
+//----------------BATTLE----------------
+	
+	MI_RESPONSE_BATTLE_ENTER = 202;
+	
+	MI_REQUEST_BATTLE_ATTACK = 203;
+	
+	MI_RESPONSE_BATTLE_ACTIONS = 206;
+	// @proto=Battle
+	MI_REQUEST_BATTLE_DEFEND = 207;
+	// @proto=Battle
+	MI_RESPONSE_BATTLE_WAIT_COMMAND = 210;
+	// @proto=Battle
+	MI_REQUEST_BATTLE_ANIMATION_FINISH = 211;
+	
+	MI_RESPONSE_BATTLE_FINISH = 214;
+	
+//----------------SCRIPT----------------
+	// @proto=Script
+	MI_RESPONSE_SCRIPT = 302;
+	
+	MI_REQUEST_SCRIPT_MUTUAL = 303;
+	// @proto=Script
+	MI_RESPONSE_SCRIPT_MUTUAL = 304;
+	// @proto=Script
+	MI_RESPONSE_SCRIPT_ERROR = 306;
+	
+	MI_RESPONSE_SCRIPT_CHANGE_PAL = 308;
+	
+//----------------CHAT----------------
+	
+	MI_REQUEST_CHAT = 351;
+	
+	MI_RESPONSE_CHAT = 352;
+	// @proto=Chat
+	MI_REQUEST_CHAT_JOIN = 353;
+	// @proto=Chat
+	MI_RESPONSE_CHAT_JOIN = 354;
+	// @proto=Chat
+	MI_REQUEST_CHAT_LEAVE = 355;
+	// @proto=Chat
+	MI_RESPONSE_CHAT_LEAVE = 356;
+	
+//----------------SKILL----------------
+	// @proto=Skill
+	MI_REQUEST_SKILL_USE = 401;
+	// @proto=Skill
+	MI_REQUEST_RECIPE = 403;
+	// @proto=Skill
+	MI_REQUEST_DOUBLE_EXP_BEGIN = 405;
+	// @proto=Skill
+	MI_REQUEST_DOUBLE_EXP_END = 407;
+	// @proto=Skill
+	MI_RESPONSE_DOUBLE_EXP_END = 408;
+	// @proto=Skill
+	MI_REQUEST_DOUBLE_EXP_UPDATE = 409;
+	
+	MI_RESPONSE_DOUBLE_EXP_UPDATE = 410;
+	// @proto=Skill
+	MI_REQUEST_SKILL_LEARN = 411;
+	// @proto=Skill
+	MI_RESPONSE_SKILL_LEARN = 412;
+	// @proto=Skill
+	MI_REQUEST_SKILL_UNLEARN = 413;
+	// @proto=Skill
+	MI_RESPONSE_SKILL_UNLEARN = 414;
+	
+//----------------MAIL----------------
+	// @proto=Mail
+	MI_REQUEST_MAIL_SEND = 451;
+	// @proto=Mail
+	MI_RESPONSE_MAIL_SEND = 452;
+	
+//----------------OPTIONS----------------
+	
+	MI_REQUEST_OPTIONS_SET = 501;
+	
+	MI_RESPONSE_OPTIONS_SET = 502;
+	
+}

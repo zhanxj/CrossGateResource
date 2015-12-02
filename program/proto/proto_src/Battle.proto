@@ -1,0 +1,63 @@
+import "VO.proto";
+option java_package = "cg.base.io.proto";
+option java_outer_classname = "BattleProtos";
+
+message VO_UNIT_BATTLE_INFO
+{
+	required VO_UNIT unitInfo = 1;
+	required int32 hpMax = 2;
+	required int32 hp = 3;
+	required int32 mpMax = 4;
+	required int32 mp = 5;
+	required int32 local = 6;
+	required bool isChallenger = 7;
+}
+
+message RESPONSE_BATTLE_ENTER
+{
+	required int32 battleId = 1;
+	repeated VO_UNIT_BATTLE_INFO teamA = 2;
+	repeated VO_UNIT_BATTLE_INFO teamB = 3;
+}
+
+message REQUEST_BATTLE_ATTACK
+{
+	required int32 targetId = 1;
+}
+
+message VO_BUFF_EFFECT_INFO
+{
+	required string tech = 1;
+	required int32 id = 2;
+	repeated VO_EFFECT_VALUE effectValues = 3;
+	optional bool finish = 4[default=false];
+}
+
+message VO_BATTLE_ACTION
+{
+	required int32 type = 1;
+	optional int32 skillType = 2;
+	optional int32 skillLevel = 3;
+	optional int32 skillId = 4;
+	required int32 sourceId = 5;
+	optional string tech = 6;
+	optional string message = 7;
+	repeated VO_BUFF_EFFECT_INFO buffEffects = 8;
+	repeated VO_ACTION_PROCESS actionProcesses = 9;
+}
+
+message RESPONSE_BATTLE_ACTIONS
+{
+	repeated VO_BATTLE_ACTION actions = 1;
+}
+
+message RESPONSE_BATTLE_FINISH
+{
+	required bool isWin = 1;
+	repeated VO_GAINS gains = 2;
+}
+
+message RESPONSE_BATTLE_WAIT_COMMAND
+{
+	required int32 actionCount = 1;
+}
