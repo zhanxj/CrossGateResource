@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<content>
+<chats>
     <chat id="0" name="gm" class="cg.logic.chat.GMChat" single="true" />
     <chat id="1" name="private" class="cg.logic.chat.PrivateChat" single="false" />
     <chat id="2" name="say" class="cg.logic.chat.SayChat" single="false" />
     <chat id="3" name="team" class="cg.logic.chat.BaseChat" single="false" />
-</content>
+</chats>
