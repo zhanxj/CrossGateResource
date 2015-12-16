@@ -68,11 +68,11 @@
     <processor name="TECH_RiderBreak" class="cg.logic.battle.skill.processor.TECH_RiderBreak" />
     <!-- <processor name="TECH_LvSet" class="cg.logic.battle.skill.processor.TECH_LvSet" /> -->
     
-    <passiveType type="TECH_StatusResistance" />
-    <passiveType type="TECH_Seal" />
-    <passiveType type="TECH_Breed" />
-    <passiveType type="TECH_Train" />
-    <passiveType type="TECH_Assassin" />
-    <passiveType type="TECH_DeadRun" />
-    <passiveType type="TECH_RiderPet" />
+    <passiveType>TECH_StatusResistance</passiveType>
+    <passiveType>TECH_Seal</passiveType>
+    <passiveType>TECH_Breed</passiveType>
+    <passiveType>TECH_Train</passiveType>
+    <passiveType>TECH_Assassin</passiveType>
+    <passiveType>TECH_DeadRun</passiveType>
+    <passiveType>TECH_RiderPet</passiveType>
 </processors>
