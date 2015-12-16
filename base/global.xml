@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root>
-    <file dir="enemy" />
-    <file dir="chat" />
-    <file dir="item" />
-    <file dir="job" />
-    <file dir="mapAssist" />
-    <file dir="msg" />
-    <file dir="npc" />
-    <file dir="npcAssist" />
-    <file dir="security" />
-    <file dir="skill" />
-    <file dir="time" />
-    <file dir="title" />
-    <file dir="data" />
+<options>
+    <file>enemy</file>
+    <file>chat</file>
+    <file>item</file>
+    <file>job</file>
+    <file>mapAssist</file>
+    <file>msg</file>
+    <file>npc</file>
+    <file>npcAssist</file>
+    <file>security</file>
+    <file>skill</file>
+    <file>time</file>
+    <file>title</file>
+    <file>data</file>
     
     <birthData unitType="5" hp="20" mp="20" attack="20" defend="20" agility="20" recover="100" mind="100" skillIds="73,74,150,160,170" birthBp="30" levelUpBp="4" />
     <birthData unitType="3" hp="34" mp="0" attack="0" defend="0" agility="0" recover="100" mind="100" skillIds="" birthBp="0" levelUpBp="1" />
@@ -150,4 +150,4 @@
     </option>
     
     <doubleExp dayTime="3600" refreshTime="06:00:00" limit="21600" />
-</root>
+</options>
