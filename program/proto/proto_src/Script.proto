@@ -4,7 +4,8 @@ option java_outer_classname = "ScriptProtos";
 message REQUEST_SCRIPT_MUTUAL
 {
 	required int32 dir = 1;
-	required int32 op = 2;
+	optional int32 op = 2[default=0];
+	optional string message = 3;
 }
 
 message RESPONSE_SCRIPT
