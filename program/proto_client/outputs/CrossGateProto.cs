@@ -8,7 +8,7 @@
 //------------------------------------------------------------------------------
 
 // Generated from: Account.proto
-namespace cg.base.io.proto
+namespace cg.ba.io.proto
 {
   [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"REQUEST_ACCOUNT_REGISTER")]
   public partial class REQUEST_ACCOUNT_REGISTER : global::ProtoBuf.IExtensible
@@ -295,7 +295,7 @@ namespace cg.base.io.proto
 }
 // Generated from: Battle.proto
 // Note: requires additional types generated from: VO.proto
-namespace cg.base.io.proto
+namespace cg.ba.io.proto
 {
   [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"VO_UNIT_BATTLE_INFO")]
   public partial class VO_UNIT_BATTLE_INFO : global::ProtoBuf.IExtensible
@@ -581,7 +581,7 @@ namespace cg.base.io.proto
   
 }
 // Generated from: Chat.proto
-namespace cg.base.io.proto
+namespace cg.ba.io.proto
 {
   [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"REQUEST_CHAT")]
   public partial class REQUEST_CHAT : global::ProtoBuf.IExtensible
@@ -696,7 +696,7 @@ namespace cg.base.io.proto
   
 }
 // Generated from: Common.proto
-namespace cg.base.io.proto
+namespace cg.ba.io.proto
 {
   [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"RESPONSE_EXECUTE_OK")]
   public partial class RESPONSE_EXECUTE_OK : global::ProtoBuf.IExtensible
@@ -756,7 +756,7 @@ namespace cg.base.io.proto
 }
 // Generated from: Mail.proto
 // Note: requires additional types generated from: VO.proto
-namespace cg.base.io.proto
+namespace cg.ba.io.proto
 {
   [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"RESPONSE_MAIL_SEND")]
   public partial class RESPONSE_MAIL_SEND : global::ProtoBuf.IExtensible
@@ -841,7 +841,7 @@ namespace cg.base.io.proto
 }
 // Generated from: Map.proto
 // Note: requires additional types generated from: VO.proto
-namespace cg.base.io.proto
+namespace cg.ba.io.proto
 {
   [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"REQUEST_MAP_IN")]
   public partial class REQUEST_MAP_IN : global::ProtoBuf.IExtensible
@@ -1141,7 +1141,7 @@ namespace cg.base.io.proto
   
 }
 // Generated from: MessageId.proto
-namespace cg.base.io.proto
+namespace cg.ba.io.proto
 {
     [global::ProtoBuf.ProtoContract(Name=@"MessageId")]
     public enum MessageId
@@ -1391,7 +1391,7 @@ namespace cg.base.io.proto
 }
 // Generated from: Option.proto
 // Note: requires additional types generated from: VO.proto
-namespace cg.base.io.proto
+namespace cg.ba.io.proto
 {
   [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"REQUEST_OPTIONS_SET")]
   public partial class REQUEST_OPTIONS_SET : global::ProtoBuf.IExtensible
@@ -1437,7 +1437,7 @@ namespace cg.base.io.proto
 }
 // Generated from: Player.proto
 // Note: requires additional types generated from: VO.proto
-namespace cg.base.io.proto
+namespace cg.ba.io.proto
 {
   [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"REQUEST_PLAYER_CREATE")]
   public partial class REQUEST_PLAYER_CREATE : global::ProtoBuf.IExtensible
@@ -1788,7 +1788,7 @@ namespace cg.base.io.proto
   
 }
 // Generated from: Script.proto
-namespace cg.base.io.proto
+namespace cg.ba.io.proto
 {
   [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"REQUEST_SCRIPT_MUTUAL")]
   public partial class REQUEST_SCRIPT_MUTUAL : global::ProtoBuf.IExtensible
@@ -1904,7 +1904,7 @@ namespace cg.base.io.proto
   
 }
 // Generated from: Server.proto
-namespace cg.base.io.proto
+namespace cg.ba.io.proto
 {
   [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"REQUEST_SERVER_REGISTER")]
   public partial class REQUEST_SERVER_REGISTER : global::ProtoBuf.IExtensible
@@ -1977,7 +1977,7 @@ namespace cg.base.io.proto
   
 }
 // Generated from: Skill.proto
-namespace cg.base.io.proto
+namespace cg.ba.io.proto
 {
   [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"RESPONSE_DOUBLE_EXP_UPDATE")]
   public partial class RESPONSE_DOUBLE_EXP_UPDATE : global::ProtoBuf.IExtensible
@@ -2061,7 +2061,7 @@ namespace cg.base.io.proto
   
 }
 // Generated from: VO.proto
-namespace cg.base.io.proto
+namespace cg.ba.io.proto
 {
   [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"VO_UNIT_BASE_INFO")]
   public partial class VO_UNIT_BASE_INFO : global::ProtoBuf.IExtensible
