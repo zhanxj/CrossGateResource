@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildCrossGateProto", "BuildCrossGateProto\BuildCrossGateProto.csproj", "{CC5D9BAB-77E9-4A3E-95B4-9C95D894503C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC5D9BAB-77E9-4A3E-95B4-9C95D894503C}.Debug|x86.ActiveCfg = Debug|x86
+		{CC5D9BAB-77E9-4A3E-95B4-9C95D894503C}.Debug|x86.Build.0 = Debug|x86
+		{CC5D9BAB-77E9-4A3E-95B4-9C95D894503C}.Release|x86.ActiveCfg = Release|x86
+		{CC5D9BAB-77E9-4A3E-95B4-9C95D894503C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal

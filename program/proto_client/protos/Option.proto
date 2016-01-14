@@ -1,0 +1,14 @@
+import "VO.proto";
+option java_package = "cg.base.io.proto";
+option java_outer_classname = "OptionProtos";
+
+message REQUEST_OPTIONS_SET
+{
+	required VO_OPTION option = 1;
+}
+
+message RESPONSE_OPTIONS_SET
+{
+	required VO_OPTION option = 1;
+	required string name = 2;
+}

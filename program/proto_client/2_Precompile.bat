@@ -1,0 +1,1 @@
+PrecompilePrj.exe TankModel.dll -o:ProtoSerializer.dll -t:com.fanxing.protos.ProtoSerializer

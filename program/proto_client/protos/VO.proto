@@ -1,0 +1,280 @@
+option java_package = "cg.base.io.proto";
+option java_outer_classname = "VOProtos";
+
+message VO_UNIT_BASE_INFO
+{
+	required int32 unitType = 1;
+	required int32 instanceId = 2;
+	required string name = 3;
+	required int32 faceModel = 4;
+	required int32 tempFaceModel = 5;
+}
+
+message VO_POSITION
+{
+	required int32 east = 1;
+	required int32 south = 2;
+	required int32 dir = 3;
+}
+
+message VO_UNIT_EXTEND_INFO
+{
+	optional int32 race = 1;
+	required int32 level = 2;
+	optional int32 exp = 3;
+}
+
+message VO_TITLE
+{
+	required int32 id = 1;
+	required string name = 2;
+}
+
+message VO_ATTRIBUTE
+{
+	required int32 type = 1;
+	required int32 value = 2;
+}
+
+message VO_ATTRIBUTES
+{
+	required string type = 1;
+	repeated VO_ATTRIBUTE attributes = 2;
+}
+
+message VO_ITEM_IDENTIFY
+{
+	required string description = 1;
+	required string rightButtonDescription = 2;
+	required int32 level = 3;
+	required bool canPostByPet = 4;
+	required bool canUseInBattle = 5;
+	required int32 type = 6;
+	optional bool doubleHand = 7[default = false];
+	repeated VO_ATTRIBUTES attributes = 8;
+	optional int32 magicAttack = 9;
+	repeated VO_ITEM_ELEMENT elements = 10;
+	optional int32 gemWeaponType = 11;
+	optional int32 gemArmorType = 12;
+}
+
+message VO_ITEM
+{
+	required int32 templateId = 1;
+	required string name = 2;
+	required int32 iconId = 3;
+	required int32 groupSize = 4;
+	required bool dropDispear = 5;
+	required bool logoutDispear = 6;
+	optional VO_ITEM_IDENTIFY identifyInfo = 7;
+}
+
+message VO_GRID
+{
+	required int32 id = 1;
+	required int32 size = 2;
+	optional VO_ITEM item = 3;
+	optional int32 count = 4;
+}
+
+message VO_BAG
+{
+	required int32 id = 1;
+	repeated VO_GRID grids = 2;
+}
+
+message VO_TITLES
+{
+	optional string guid = 1[default = ""];
+	optional string guidTitle = 2[default = ""];
+	optional string title = 3[default = ""];
+	required string signature = 4;
+}
+
+message VO_MATERIAL_INFO
+{
+	required int32 itemId = 1;
+	required int32 needAmount = 2;
+	required string identifyName = 3;
+}
+
+message VO_PRODUCE_SKILL_LEVEL
+{
+	required int32 producesId = 1;
+	required string name = 2;
+	required int32 itemId = 3;
+	required string identifyName = 4;
+	repeated VO_MATERIAL_INFO materials = 5;
+}
+
+message VO_SKILL_LEVEL
+{
+	required string name = 1;
+	required string description = 2;
+	required int32 costMp = 3;
+	required string techType = 4;
+	required int32 targetType = 5;
+	repeated VO_PRODUCE_SKILL_LEVEL skillLevelDatas = 6;
+}
+
+message VO_SKILL
+{
+	required int32 id = 1;
+	required int32 maxLevel = 2;
+	required string name = 3;
+	required string description = 4;
+	required int32 level = 5;
+	optional int32 exp = 6;
+	optional int32 nextLevelExp = 7;
+	required int32 useSpace = 8;
+	required int32 type = 9;
+	repeated VO_SKILL_LEVEL skills = 10;
+	optional int32 index = 11;
+}
+
+message VO_SKILL_SET
+{
+	repeated VO_SKILL baseSkills = 1;
+	required int32 max = 2;
+	repeated VO_SKILL skills = 3;
+}
+
+message VO_PET
+{
+	required VO_UNIT unitInfo = 1;
+}
+
+message VO_OPTION
+{
+	required string name = 1;
+	required int32 state = 2;
+	optional string value = 3;
+}
+
+message VO_MAP_AREA
+{
+	required int32 west = 1;
+	required int32 east = 2;
+	required int32 south = 3;
+	required int32 north = 4;
+}
+
+message VO_MAP_CELL
+{
+	required int32 east = 1;
+	required int32 south = 2;
+	required int32 imageGlobalId = 3;
+	required int32 mapObjectId = 4;
+	required int32 cellMark = 5;
+}
+
+message VO_UNIT
+{
+	required VO_UNIT_BASE_INFO baseInfo = 1; // 基础信息
+	optional VO_POSITION position = 2; // 地图位置信息[地图场景专有]
+	optional VO_TITLES headTitle = 3; // 头顶信息
+	optional VO_UNIT_EXTEND_INFO extendInfo = 4; // 扩展信息
+	optional int32 battleScore = 5; // 战绩[玩家角色专有]
+	optional bool battleLocal = 6; // 战斗时位置[玩家自己专有]
+	repeated VO_TITLE titles = 7; // 称号组
+	repeated int32 elements = 8 [packed=true]; // 元素属性组
+	repeated VO_ATTRIBUTES attributes = 9; // 属性组
+	optional int32 money = 10; // 游戏币[玩家自己专有]
+	repeated VO_BAG bags = 11; // 背包组[玩家自己专有]
+	optional string job = 12; // 职业[玩家自己专有]
+	optional VO_SKILL_SET skillSet = 13; // 技能组[玩家自己及其宠物专有]
+	repeated VO_OPTION options = 14; // 游戏选项组[玩家自己专有]
+	optional int32 state = 15; // 状态[玩家自己的宠物专有]
+	optional int32 loyal = 16; // 忠诚[玩家自己的宠物专有]
+	optional string talkType = 17; // 对话类型[NPC专有]
+	optional int32 index = 18; // 宠物在宠物栏的位置索引[宠物专有]
+	optional int32 ownerInstanceId = 19; // 主人实例id[宠物专有]
+	optional VO_PET_SET petSet = 20; // 宠物组[玩家自己专有]
+}
+
+message VO_PET_SET
+{
+	required int32 max = 1;
+	repeated VO_PET pets = 2;
+}
+
+message VO_GAIN
+{
+	optional int32 value = 1; // 奖励数值
+	optional string itemName = 2; // 奖励物品名称
+	optional int32 itemIconId = 3; // 奖励物品的图标id
+	optional int32 itemCount = 4; // 奖励物品数量
+}
+
+message VO_GAINS
+{
+	required string className = 1;
+	repeated VO_GAIN gains = 2;
+}
+
+message VO_ATTACHMENT
+{
+	optional int32 type = 1; // 奖励类型
+	optional int32 value = 2; // 奖励数值
+	optional VO_ITEM item = 3; // 奖励物品
+}
+
+message VO_ITEM_ELEMENT
+{
+	required int32 type = 1;
+	required int32 value = 2;
+}
+
+message VO_PRICE
+{
+	required string type = 1;
+	required int32 id = 2;
+	required int32 value = 3;
+}
+
+message VO_EFFECT_VALUE
+{
+	required int32 value = 1;
+	required int32 effectType = 2;
+	optional bool isCritical = 3[default=false];
+	optional string message = 4;
+}
+
+message VO_ACTION_PROCESS
+{
+	required int32 targetId = 1;
+	optional VO_ACTION_RESULT actionResult = 2;
+	optional VO_COUNTER counter = 3;
+	optional VO_GUARD guard = 4;
+	optional VO_ACTION_RESULT blood = 5;
+	optional VO_ACTION_PROCESS next = 6;
+}
+
+message VO_ACTION_RESULT
+{
+	optional string tech = 1;
+	optional VO_EFFECT_VALUE effectValue = 2;
+	optional VO_DIE_INFO dieInfo = 3;
+}
+
+message VO_DIE_INFO
+{
+	optional bool isFly = 1[default=false];
+	optional bool isDisappear = 2[default=false];
+	optional bool isSource = 3[default=false];
+	optional int32 injured = 4[default=0];
+	optional int32 soul = 5[default=0];
+}
+
+message VO_COUNTER
+{
+	optional string tech = 1;
+	required VO_ACTION_RESULT actionResult = 2;
+	optional VO_COUNTER counter = 3;
+}
+
+message VO_GUARD
+{
+	required string tech = 1;
+	required int32 spriteId = 2;
+}

@@ -1,0 +1,15 @@
+option java_package = "cg.base.io.proto";
+option java_outer_classname = "CommonProtos";
+
+message RESPONSE_EXECUTE_OK
+{
+	required int32 messageId = 1;
+	required string message = 2;
+}
+
+message RESPONSE_EXECUTE_ERROR
+{
+	required int32 messageId = 1;
+	required int32 errorCode = 2;
+	required string message = 3;
+}

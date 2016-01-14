@@ -1,0 +1,17 @@
+option java_package = "cg.base.io.proto";
+option java_outer_classname = "ServerProtos";
+
+message REQUEST_SERVER_REGISTER
+{
+	required string name = 1;
+	required int32 port = 2;
+}
+
+message REQUEST_ACCOUNT_AUTHENTICATE
+{
+	required string key = 1;
+	required string ip = 2;
+	required int32 accountId = 3;
+	required string account = 4;
+	required int32 imoney = 5;
+}
