@@ -30,7 +30,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="protobuf-net">
-      <HintPath>..\..\..\..\..\Prj\proto_tools\proto_net\CoreOnly\ios\protobuf-net.dll</HintPath>
+      <HintPath>..\..\proto_net\CoreOnly\ios\protobuf-net.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
