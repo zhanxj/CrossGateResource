@@ -1,0 +1,8 @@
+D:\file\workspace\CrossGateResource\program\proto_client\BuildCrossGateProto\BuildCrossGateProto\bin\Debug\BuildCrossGateProto.dll
+D:\file\workspace\CrossGateResource\program\proto_client\BuildCrossGateProto\BuildCrossGateProto\bin\Debug\BuildCrossGateProto.pdb
+D:\file\workspace\CrossGateResource\program\proto_client\BuildCrossGateProto\BuildCrossGateProto\bin\Debug\protobuf-net.dll
+D:\file\workspace\CrossGateResource\program\proto_client\BuildCrossGateProto\BuildCrossGateProto\bin\Debug\protobuf-net.pdb
+D:\file\workspace\CrossGateResource\program\proto_client\BuildCrossGateProto\BuildCrossGateProto\bin\Debug\protobuf-net.xml
+D:\file\workspace\CrossGateResource\program\proto_client\BuildCrossGateProto\BuildCrossGateProto\obj\Debug\BuildCrossGateProto.csprojResolveAssemblyReference.cache
+D:\file\workspace\CrossGateResource\program\proto_client\BuildCrossGateProto\BuildCrossGateProto\obj\Debug\BuildCrossGateProto.dll
+D:\file\workspace\CrossGateResource\program\proto_client\BuildCrossGateProto\BuildCrossGateProto\obj\Debug\BuildCrossGateProto.pdb

@@ -1,1 +1,1 @@
-PrecompilePrj.exe TankModel.dll -o:ProtoSerializer.dll -t:com.fanxing.protos.ProtoSerializer
+PrecompilePrj.exe BuildCrossGateProto.dll -o:ProtoSerializer.dll -t:cg.ba.io.proto.ProtoSerializer
